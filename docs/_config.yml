@@ -21,7 +21,7 @@
 title: Programming Essentials
 email: a.brooke@mmu.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a guide to programming essentials, utilising the Processing IDE. 
+  This site provides a reference and refresher course for programming essentials, utilising the Processing IDE. 
   
 domain: manmetgames.github.io/ProgrammingEssentials/       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://manmetgames.github.io/ProgrammingEssentials/ # the base hostname and protocol for your site, e.g. http://example.com
