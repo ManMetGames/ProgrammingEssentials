@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h2>Programming Reference Guide</h2>
+<ul>
+    <li>
+      <a href="https://www.w3schools.com">Processing IDE Basics</a>
+    </li>
+    <li>
+      <h1><a href="https://processing.org/reference/">Processing Reference</a></h1
+    </li>
+</ul>
+{% if site.posts.size > 0 %}
+<h2>Programming Course</h2>
+<ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>  
+    {% endfor %}
+</ul>
+{% endif %}
