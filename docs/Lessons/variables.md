@@ -72,7 +72,7 @@ We can use this same format to change the value of any variable, so if we wanted
 {% highlight java %}
 trueOrFalse = true; //sets the value of the "trueOrFalse" boolean variable to true
 {% endhighlight %}
-Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/variables_and_data_types">here</a>!
+Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/Data_Types">here</a>!
 
 <br>
 <h2>Bringing It All Together</h2>
