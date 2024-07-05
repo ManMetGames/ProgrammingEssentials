@@ -1,19 +1,19 @@
 class Snake{
-  float x;
-  float y;
+  int x;
+  int y;
   
-  Snake(float startX, float startY){
+  Snake(int startX, int startY){
     x = startX;
     y = startY;
   }
   
   void Move(){
-    x += 0.1f;
+    x += 3f;
   }
   
   void Draw(){
     fill(0,255,0);
-    rect(x*size,y*size,size,size);
+    rect(x,y,size,size);
   }
   
 }

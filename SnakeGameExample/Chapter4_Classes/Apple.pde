@@ -1,15 +1,15 @@
 class Apple{
-  float x;
-  float y;
+  int x;
+  int y;
   
-  Apple(float startX, float startY){
+  Apple(int startX, int startY){
     x = startX;
     y = startY;
   }
   
   void Draw(){
     fill(255,0,0);
-    rect(x*size,y*size,size,size);
+    rect(x,y,size,size);
   }
   
 }

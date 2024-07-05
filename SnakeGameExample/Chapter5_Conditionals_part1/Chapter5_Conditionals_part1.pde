@@ -5,8 +5,8 @@ Apple apple;
 void setup(){
   size(640,440);
   noStroke();
-  snake = new Snake(5,5);
-  apple = new Apple(10,5);
+  snake = new Snake(200,200);
+  apple = new Apple(400,200);
 }
 
 void draw(){
@@ -14,7 +14,7 @@ void draw(){
     snake.Move();
     
     if(snake.x == apple.x && snake.y == apple.y){
-      apple = new Apple((int)random(0,15),(int)random(0,10));
+      apple = new Apple((int)random(0,15)*size,(int)random(0,10)*size);
     }
       
     background(50);

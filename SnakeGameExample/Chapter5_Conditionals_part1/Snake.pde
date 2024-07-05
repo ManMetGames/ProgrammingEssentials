@@ -1,12 +1,13 @@
 class Snake{
   int x;
   int y;
-  int dx = 1;
+  int dx = 0;
   int dy = 0;
   
   Snake(int startX, int startY){
     x = startX;
     y = startY;
+    dx = size;
   }
   
   void Move(){
@@ -16,7 +17,7 @@ class Snake{
   
   void Draw(){
     fill(0,255,0);
-    rect(x*size,y*size,size,size);
+    rect(x,y,size,size);
   }
   
   

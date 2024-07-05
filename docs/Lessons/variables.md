@@ -32,13 +32,12 @@ This means we can create a variable to control the size of our rectangles!
 
 To use our variable, we first need to `declare` and `initialise` it.
 
-<h2>Declaring and Initialising A Variable</h2>
+<h2>Declaring A Variable</h2>
 Variables can hold numbers, letters, words, and much more, so when we create a variable, we have to tell the system what type of variable we'd like (what shape the space in memory is!).
 
-The main three `data types` that we'll be working with are `int`, `float` and `boolean`.
+The main two `data types` that we'll be working with for now are `int` and `boolean`.
 <ol>
 <li>`int` variables can hold whole numbers (integers), like 7, 413, 0 or -22.</li>
-<li>`float` variables can hold decimal numbers, like 0.021, 314.0, -419.6 or 3.14159.</li>
 <li>`boolean` variables can `true` or `false` values.</li>
 </ol>
 To tell the system what type we want to use, we `declare` the variable, using the format of:
@@ -48,30 +47,44 @@ So to create an int variable, we type `int`, followed by the name we'd like give
 int size; //Creates an integer variable called "size"
 {% endhighlight %}
 
-
-An example of creating a variable for our other common types is given below:
+<h2>Variable Names</h2>
+Variable names should be descriptive, but to the point. They also can't start with numbers, or contain spaces or punctuation. Because of this, for any variables we name with multiple words, we'll start each new word with a capital letter. An example of creating a variable for our other common type in this format is given below:
 {% highlight java %}
-float decimalNumber; //Creates a float variable called decimalNumber
+boolean trueOrFalse; //Creates a boolean variable called "trueOrFalse"
+{% endhighlight %}
+Variable names are also case-sensitive, so when referencing a variable you've already made, make sure it has any capital letters in the same places!
 
-boolean trueOrFalse; //Creates a boolean variable called trueOrFalse
+
+<h2>Initialising A Variable</h2>
+When you've declared a variable, you can initialise it, setting its starting value. This is done in the format of:
+
+<h1>NAME = VALUE;</h1>
+
+So to set our size value to 30, we can type the line:
+{% highlight java %}
+size = 30; //Sets the value of the size variable to 30
 {% endhighlight %}
 
-When you've declared a variable, you can initialise it, or set its value. This is done in the format of "name = value;", where name is the name of your variable, and value is the value you are telling the variable to hold.
-An example of how to set variable values for ints, floats and booleans is given below:
-
+We can use this same format to change the value of any variable, so if we wanted to change the value of a boolean, we would just type:
 {% highlight java %}
-wholeNumber = 3; //sets the value of the wholeNumber variable to 3
+trueOrFalse = true; //sets the value of the "trueOrFalse" boolean variable to true
+{% endhighlight %}
+Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/DataTypes">here</a>!
 
-decimalNumber = 7.5f; //sets the value of the decimalNumber variable to 7.5
-
-trueOrFalse = true; //sets the value of the trueOrFalse variable to true
+<h2>Bringing It All Together</h2>
+Declaring and initialising a variable can also be written all in one go, with the format:
+<h1>TYPE NAME = VALUE;</h1>
+So we can update our code making the size variable, to turn it into one line:
+{% highlight java %}
+int size = 30; //Creates the an integer variable called "size" and sets it immediately to 30
 {% endhighlight %}
 
-Declaring and initialising a variable can then be done all in one go, with the format: "datatype name = value;"
-
-
+And with that we have our space in memory, called "size", containing the number 30!
 <img src="../Images/size_variable.png" alt="Girl in a jacket" width="100" height="125">
 
+We can now use `size` in place of the 30s we were using for the size of our rectangles in the code from Chapter 1. If we decide that our rectangles should be 40 pixels wide, we can just change the line of code to set size to 40 instead.
+
+If you're unsure how to put this into practise, make sure to follow along with the video explanation below!
 
 <h2 id="video_explanation" >Video Explanation</h2>
 Watch the video below to get a short introduction to using variables.
@@ -79,11 +92,13 @@ Watch the video below to get a short introduction to using variables.
 
 
 <h2>Updating Snake</h2>
-Let's add some variables to the Snake project!
+Let's add some more variables to the Snake project!
 <h1>video here</h1>
 
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="Lessons/variables">What other data types are there?</a></h3></li>
-    <li><h3><a href="Lessons/variables">What makes a good variable name?</a></h3></li>
+    <li><h3><a href="../Extras/DataTypes">How do I store decimal numbers?</a></h3></li>
+    <li><h3><a href="../Extras/DataTypes">How do I store words numbers?</a></h3></li>
+    <li><h3><a href="./Classes">How do I store data together?</a></h3></li>
+    <li><h3><a href="../Extras/DataTypes">What other data types are there?</a></h3></li>
 </ul>

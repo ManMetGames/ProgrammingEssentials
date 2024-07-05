@@ -1,7 +1,7 @@
-float snakeX = 5;
-float snakeY = 5;
-float appleX = 10;
-float appleY = 5;
+int snakeX = 200;
+int snakeY = 200;
+int appleX = 400;
+int appleY = 200;
 int size = 40;
 
 void setup(){
@@ -10,7 +10,7 @@ void setup(){
 }
 
 void draw(){
-  snakeX += 0.1f;
+  snakeX += 3;
     
   background(50);
   DrawSnake();
@@ -19,10 +19,10 @@ void draw(){
 
 void DrawSnake(){
   fill(0,255,0);
-  rect(snakeX*size,snakeY*size,size,size);
+  rect(snakeX,snakeY,size,size);
 }
 
 void DrawApple(){
   fill(255,0,0);
-  rect(appleX*size, appleY*size, size, size);
+  rect(appleX, appleY, size, size);
 }

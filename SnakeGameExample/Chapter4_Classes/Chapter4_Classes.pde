@@ -5,8 +5,8 @@ Apple apple;
 void setup(){
   size(640,440);
   noStroke();
-  snake = new Snake(5,5);
-  apple = new Apple(10,5);
+  snake = new Snake(200,200);
+  apple = new Apple(400,200);
 }
 
 void draw(){

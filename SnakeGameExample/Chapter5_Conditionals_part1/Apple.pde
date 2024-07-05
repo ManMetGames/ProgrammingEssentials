@@ -9,7 +9,7 @@ class Apple{
   
   void Draw(){
     fill(255,0,0);
-    rect(x*size,y*size,size,size);
+    rect(x,y,size,size);
   }
   
 }
