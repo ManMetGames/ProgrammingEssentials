@@ -21,7 +21,7 @@ rect(400, 200, 30, 30);
 
 This means that if we wanted to change the size of the rectangles, we'd have to change the code in loads of different places.
 
-<h3><i>There must be a better way!</i></h3>
+<h4><i>There must be a better way!</i></h4>
 
 <h2>Storing Values in Variables</h2>
 A variable is a space in the computer's memory that we've given a name to, so we can refer back to it throughout our code. This means we can change the value stored in the variable, and the code won't need updating!
