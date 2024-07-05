@@ -1,10 +1,17 @@
+---
+layout: default
+render_with_liquid: false
+---
+
+
+{% raw %}
+
 <script>
 	function checkAnswer() {
 		const correctAnswer = "Paris";
 		const form = document.getElementById('quizForm');
 		const selectedAnswer = form.elements['answer'].value;
 		const resultElement = document.getElementById('result');
-
 		if (selectedAnswer) {
 			if (selectedAnswer === correctAnswer) {
 				resultElement.textContent = "Correct! The capital of France is Paris.";
@@ -19,3 +26,5 @@
 		}
 	}
 </script>
+
+{% endraw %}
