@@ -6,7 +6,7 @@ layout: default
 
 In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../QuickReference/variables">click here</a>.
 
-<b>Feel free to read along, or <a href="#video_explanation">click here</a> to skip straight to the video explanation below!</b>
+<p style="font-size:20px">Feel free to read along, or <a href="#video_explanation">click here</a> to skip straight to the video explanation below!</p>
 
 
 
@@ -23,7 +23,7 @@ rect(400, 200, 30, 30);
 
 This means that if we wanted to change the size of the rectangles, we'd have to change the code in four different places.
 
-<b><i>There must be a better way!</i></b>
+<p style="font-size:20px"><i>There must be a better way!</i></p>
 
 <br>
 <h2>Storing Values in Variables</h2>
@@ -38,10 +38,10 @@ To use our variable, we first need to `declare` and `initialise` it.
 Variables can hold numbers, letters, words, and much more, so when we create a variable, we have to tell the system what type of variable we'd like (what shape the space in memory is!).
 
 The main two `data types` that we'll be working with for now are `int` and `boolean`.
-<ol>
+<ul>
 <li>`int` variables can hold whole numbers (integers), like 7, 413, 0 or -22.</li>
 <li>`boolean` variables can `true` or `false` values.</li>
-</ol>
+</ul>
 To tell the system what type we want to use, we `declare` the variable, using the format of:
 <p style="font-size:30px">TYPE NAME;</p>
 So to create an int variable, we type `int`, followed by the name we'd like give it, which in this case is "size".
@@ -55,13 +55,13 @@ Variable names should be descriptive, but to the point. They also can't start wi
 {% highlight java %}
 boolean trueOrFalse; //Creates a boolean variable called "trueOrFalse"
 {% endhighlight %}
-Variable names are also case-sensitive, so when referencing a variable you've already made, make sure it has any capital letters in the same places!
+Variable names are also unique and case-sensitive, so when making a new variable, make sure it doesn't have the same name as one you've already made, and when referencing a variable you've already made, make sure it has any capital letters in the same places!
 
 <br>
 <h2>Initialising A Variable</h2>
 When you've declared a variable, you can initialise it, setting its starting value. This is done in the format of:
 
-<p style="font-size:30px">NAME = VALUE;</p>
+<p style="font-size:30px">`NAME = VALUE;`</p>
 
 So to set our size value to 30, we can type the line:
 {% highlight java %}
@@ -81,6 +81,16 @@ Declaring and initialising a variable can also be written all in one go, with th
 So we can update our code making the size variable, to turn it into one line:
 {% highlight java %}
 int size = 30; //Creates the an integer variable called "size" and sets it immediately to 30
+
+size(640,440);
+background(50);
+
+fill(0,255,0);
+rect(200,200,size,size);
+
+fill(255,0,0);
+rect(400, 200, size, size);
+
 {% endhighlight %}
 
 And with that we have our space in memory, called "size", containing the number 30!
@@ -91,6 +101,30 @@ We can now use `size` in place of the 30s we were using for the size of our rect
 
 <br>
 <h2>Changing Variable Values</h2>
+We've seen that we can set a variable using the `NAME = VALUE;` pattern, but we don't have to just pass in fixed numbers.
+It's often useful to increase or decrease a value, which we can do using the same pattern.
+
+If we do a calculation to figure out the `value`, it will be calculated before it is assigned to the variable, so if we wanted to increase our size variable by 5, after drawing one of the rectangles, we could use this line of code:
+{% highlight java %}
+size = size+5; //Takes the value from size, adds 5, then assigns the result into the size variable
+{% endhighlight %}
+
+The same can be done for decreasing values, multiplying or dividing.
+{% highlight java %}
+size = size-5; //Takes the value from size, adds 5, then assigns the result into the size variable
+size = size\*5; //Takes the value from size, multiplies it by 5, then assigns the result into the size variable
+size = size/5; //Takes the value from size, divides it by 5, then assigns the result into the size variable
+{% endhighlight %}
+
+<br>
+<h2Task</h2>
+In Processing, create an integer variable called x, and set it to 5. Divide x by 10, then print out the result.
+<ul>
+<li>What is printed out?</li>
+<li>Does it do what you expect?</li>
+</ul>
+
+Make sure to watch the video explanation below for an explanation of the chapter's content, and a solution to the task!
 
 <br>
 <h2 id="video_explanation" >Video Explanation</h2>
@@ -100,7 +134,7 @@ This video covers the content in this chapter, so make sure to watch along if yo
 
 <br>
 <h2>Quick check!</h2>
-Let's have a quick check that you've got it so far!
+Before you move on to the next chapter, let's have a quick check that you've got it so far!
 <div class="question1container" data-correct-answer="B">
     <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
     <form id="quizForm">
@@ -116,22 +150,22 @@ Let's have a quick check that you've got it so far!
     </form>
     <p id="result1" class="result1"></p>
 </div>
-<div class="question2container" data-correct-answer="B">
-    <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
+<div class="question2container" data-correct-answer="D">
+    <h3>We have already declared an integer variable called snakeY. Which of these lines of code would <b>not</b> cause an error?</h3>
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A">
-        <label for="option1">snakeX = 200;</label><br>
+        <label for="option1">snakey = 50;</label><br>
         <input type="radio" id="option2" name="answer" value="B">
-        <label for="option2">int snakeX = 200;</label><br>
+        <label for="option2">snakeY = 10</label><br>
         <input type="radio" id="option3" name="answer" value="C">
-        <label for="option3">int snake x = 200;</label><br>
+        <label for="option3">int snakeY = 50;</label><br>
         <input type="radio" id="option4" name="answer" value="D">
-        <label for="option4">int snakeX = 200</label><br><br>
+        <label for="option4">snakeY = -10;</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container', 'result2')">Submit</button>
     </form>
     <p id="result2" class="result2"></p>
 </div>
-<div class="question3container" data-correct-answer="B">
+<div class="question3container" data-correct-answer="A">
     <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A">
@@ -153,6 +187,11 @@ Let's add some more variables to the Snake project!
 
 
 <br>
+<h2>Summary</h2>
+And that's variables! You should now be ready to move on to Chapter 3, but feel free to explore some questions if you'd like to learn more, in the Explore section below!
+
+
+<br>
 <h2>Explore</h2>
 <ul>
     <li><h3><a href="../Extras/DataTypes">How do I store decimal numbers?</a></h3></li>
@@ -161,5 +200,9 @@ Let's add some more variables to the Snake project!
     <li><h3><a href="../Extras/DataTypes">What other data types are there?</a></h3></li>
 </ul>
 
+
+<br>
+<br>
+<br>
 
 	{% include quiz_script.html %}
