@@ -125,19 +125,24 @@ It's often useful to increase or decrease a value, which we can do using the sam
 
 If we do a calculation to figure out the `value`, it will be calculated before it is assigned to the variable, so if we wanted to increase our size variable by 5, after drawing one of the rectangles, we could use this line of code:
 {% highlight java %}
-size = size+5; //Takes the value from size, adds 5, then assigns the result into the size variable
+size = size+5;
+//Takes the value from size, adds 5,
+//then assigns the result back into the size variable
 {% endhighlight %}
 
 The same can be done for decreasing values, multiplying or dividing.
 {% highlight java %}
 size = size-5; 
-//Takes the value from size, adds 5, then assigns the result into the size variable
+//Takes the value from size, subtracts 5,
+//then assigns the result into the size variable
 
 size = size*5; 
-//Takes the value from size, multiplies it by 5, then assigns the result to size
+//Takes the value from size, multiplies it by 5,
+//then assigns the result into the size variable
 
 size = size/5; 
-//Takes the value from size, divides it by 5, then assigns the result to size
+//Takes the value from size, divides it by 5,
+//then assigns the result into the size variable
 {% endhighlight %}
 
 <br>
