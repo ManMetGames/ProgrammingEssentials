@@ -134,15 +134,15 @@ The same can be done for decreasing values, multiplying or dividing.
 {% highlight java %}
 size = size-5; 
 //Takes the value from size, subtracts 5,
-//then assigns the result into the size variable
+//then assigns the result back into the size variable
 
 size = size*5; 
 //Takes the value from size, multiplies it by 5,
-//then assigns the result into the size variable
+//then assigns the result back into the size variable
 
 size = size/5; 
 //Takes the value from size, divides it by 5,
-//then assigns the result into the size variable
+//then assigns the result back into the size variable
 {% endhighlight %}
 
 <br>
