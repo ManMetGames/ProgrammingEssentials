@@ -4,7 +4,7 @@ layout: default
 
 <h1>Chapter 2: Variables</h1>
 
-In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../Essentials/variables">click here</a>.
+In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../QuickReference/variables">click here</a>.
 
 <h3>Feel free to read along, or <a href="#video_explanation">click here</a> to skip straight to the video explanation below!</h3>
 
@@ -99,7 +99,7 @@ Let's add some more variables to the Snake project!
 <h2>Explore</h2>
 <ul>
     <li><h3><a href="../Extras/DataTypes">How do I store decimal numbers?</a></h3></li>
-    <li><h3><a href="../Extras/DataTypes">How do I store words numbers?</a></h3></li>
+    <li><h3><a href="../Extras/DataTypes">How do I store letters, words or sentences?</a></h3></li>
     <li><h3><a href="./Classes">How do I store data together?</a></h3></li>
     <li><h3><a href="../Extras/DataTypes">What other data types are there?</a></h3></li>
 </ul>
@@ -125,24 +125,5 @@ Let's add some more variables to the Snake project!
         </form>
         <p id="result" class="result"></p>
     </div>
-    <script>
-        function checkAnswer() {
-            const correctAnswer = "Paris";
-            const form = document.getElementById('quizForm');
-            const selectedAnswer = form.elements['answer'].value;
-            const resultElement = document.getElementById('result');
-            if (selectedAnswer) {
-                if (selectedAnswer === correctAnswer) {
-                    resultElement.textContent = "Correct! The capital of France is Paris.";
-                    resultElement.style.color = "green";
-                } else {
-                    resultElement.textContent = "Incorrect. The capital of France is Paris.";
-                    resultElement.style.color = "red";
-                }
-            } else {
-                resultElement.textContent = "Please select an answer.";
-                resultElement.style.color = "orange";
-            }
-        }
-    </script>
+	<script src="/assets/script.js"></script>
 {% endraw %}
