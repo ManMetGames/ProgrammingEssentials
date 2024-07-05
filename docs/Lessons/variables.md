@@ -46,14 +46,16 @@ To tell the system what type we want to use, we `declare` the variable, using th
 <p style="font-size:20px">TYPE NAME;</p>
 So to create an int variable, we type `int`, followed by the name we'd like give it, which in this case is "size".
 {% highlight java %}
-int size; //Creates an integer variable called "size"
+int size;
+//Creates an integer variable called "size"
 {% endhighlight %}
 
 <br>
 <h2>Variable Names</h2>
 Variable names should be descriptive, but to the point. They also can't start with numbers, or contain spaces or punctuation. Because of this, for any variables we name with multiple words, we'll start each new word with a capital letter. An example of creating a variable for our other common type in this format is given below:
 {% highlight java %}
-boolean trueOrFalse; //Creates a boolean variable called "trueOrFalse"
+boolean trueOrFalse;
+//Creates a boolean variable called "trueOrFalse"
 {% endhighlight %}
 Variable names are also unique and case-sensitive, so when making a new variable, make sure it doesn't have the same name as one you've already made, and when referencing a variable you've already made, make sure it has any capital letters in the same places!
 
@@ -65,12 +67,14 @@ When you've declared a variable, you can initialise it, setting its starting val
 
 So to set our size value to 30, we can type the line:
 {% highlight java %}
-size = 30; //Sets the value of the size variable to 30
+size = 30;
+//Sets the value of the size variable to 30
 {% endhighlight %}
 
 We can use this same format to change the value of any variable, so if we wanted to change the value of a boolean, we would just type:
 {% highlight java %}
-trueOrFalse = true; //sets the value of the "trueOrFalse" boolean variable to true
+trueOrFalse = true;
+//sets the value of the "trueOrFalse" boolean variable to true
 {% endhighlight %}
 Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/Data_Types">here</a>!
 
@@ -80,7 +84,8 @@ Declaring and initialising a variable can also be written all in one go, with th
 <p style="font-size:20px">TYPE NAME = VALUE;</p>
 So we can update our code making the size variable, to turn it into one line:
 {% highlight java %}
-int size = 30; //Creates the an integer variable called "size" and sets it immediately to 30
+int size = 30;
+//Creates the an integer variable called "size" and sets it immediately to 30
 
 size(640,440);
 background(50);
@@ -95,7 +100,7 @@ rect(400, 200, 30, 30);
 
 And with that we have our space in memory, called "size", containing the number 30!
 
-<img src="../Images/size_variable.png" alt="Girl in a jacket" width="100" height="125">
+<img src="../Images/size_variable.png" width="100" height="125">
 
 We can now use `size` in place of the 30s we were using for the size of our rectangles in the code from Chapter 1. If we decide that our rectangles should be 40 pixels wide, we can just change the line of code to set size to 40 instead.
 After that's done, your code should look like this!
@@ -125,9 +130,14 @@ size = size+5; //Takes the value from size, adds 5, then assigns the result into
 
 The same can be done for decreasing values, multiplying or dividing.
 {% highlight java %}
-size = size-5; //Takes the value from size, adds 5, then assigns the result into the size variable
-size = size*5; //Takes the value from size, multiplies it by 5, then assigns the result to size
-size = size/5; //Takes the value from size, divides it by 5, then assigns the result to size
+size = size-5; 
+//Takes the value from size, adds 5, then assigns the result into the size variable
+
+size = size*5; 
+//Takes the value from size, multiplies it by 5, then assigns the result to size
+
+size = size/5; 
+//Takes the value from size, divides it by 5, then assigns the result to size
 {% endhighlight %}
 
 <br>
