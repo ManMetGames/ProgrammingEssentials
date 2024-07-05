@@ -6,7 +6,7 @@ layout: default
 
 In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../Essentials/variables">click here</a>.
 
-<a href="#video_explanation"><h3>Feel free to read along, or click here to skip straight to the video explanation below!</h3></a>
+<h3>Feel free to read along, or <a href="#video_explanation">click here</a> to skip straight to the video explanation below!</h3>
 
 <h2>The Problem</h2>
 Looking back at the code from Chapter 1, we can see that there is a lot of repetition of the number 30, which we used as the size of the rectangles.
@@ -21,7 +21,7 @@ rect(400, 200, 30, 30);
 
 This means that if we wanted to change the size of the rectangles, we'd have to change the code in loads of different places.
 
-<h4><i>There must be a better way!</i></h4>
+<b><i>There must be a better way!</i></b>
 
 <h2>Storing Values in Variables</h2>
 A variable is a space in the computer's memory that we've given a name to, so we can refer back to it throughout our code. This means we can change the value stored in the variable, and the code won't need updating!
@@ -30,7 +30,7 @@ This means we can create a variable to control the size of our rectangles!
 
 To use our variable, we first need to `declare` and `initialise` it.
 
-<h3>Declaring A Variable</h3>
+<h2>Declaring A Variable</h2>
 Variables can hold numbers, letters, words, and much more, so when we create a variable, we have to tell the system what type of variable we'd like (what shape the space in memory is!).
 
 The main three `data types` that we'll be working with are `int`, `float` and `boolean`.
