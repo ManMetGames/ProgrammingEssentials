@@ -160,9 +160,9 @@ Before you move on to the next chapter, let's have a quick check that you've got
         <label for="option3">int snake x = 200;</label><br>
         <input type="radio" id="option4" name="answer" value="D">
         <label for="option4">int snakeX = 200</label><br><br>
-        <button type="button" onclick="checkAnswer('.question1container', 'result1')">Submit</button>
+        <button type="button" onclick="checkAnswer('.question1container', 'result1')">Submit</button><p id="result1" class="result1"></p>
     </form>
-    <p id="result1" class="result1"></p>
+    
 </div>
 <div class="question2container" data-correct-answer="D">
     <h3>We have already declared an integer variable called snakeY. Which of these lines of code would <b>not</b> cause an error?</h3>
@@ -175,9 +175,9 @@ Before you move on to the next chapter, let's have a quick check that you've got
         <label for="option3">int snakeY = 50;</label><br>
         <input type="radio" id="option4" name="answer" value="D">
         <label for="option4">snakeY = -10;</label><br><br>
-        <button type="button" onclick="checkAnswer('.question2container', 'result2')">Submit</button>
+        <button type="button" onclick="checkAnswer('.question2container', 'result2')">Submit</button><p id="result2" class="result2"></p>
     </form>
-    <p id="result2" class="result2"></p>
+    
 </div>
 <div class="question3container" data-correct-answer="A">
     <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
@@ -190,9 +190,9 @@ Before you move on to the next chapter, let's have a quick check that you've got
         <label for="option3">int snake x = 200;</label><br>
         <input type="radio" id="option4" name="answer" value="D">
         <label for="option4">int snakeX = 200</label><br><br>
-        <button type="button" onclick="checkAnswer('.question3container', 'result3')">Submit</button>
+        <button type="button" onclick="checkAnswer('.question3container', 'result3')">Submit</button><p id="result3" class="result3"></p>
     </form>
-    <p id="result3" class="result3"></p>
+    
 </div>
 
 <br>
