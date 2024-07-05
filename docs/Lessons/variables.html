@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h1>Chapter 2: Variables</h1>
+
+<h2>Quick Links</h2>
+<ul>
+    <li>
+      <h3><a href="https://www.w3schools.com">Variables cheat sheet</a></h3>
+    </li>
+    <li>
+      <h3><a href="https://processing.org/reference/">Processing Reference</a></h3>
+    </li>
+</ul>
+{% if site.posts.size > 0 %}
+<h2>Programming Course</h2>
+<ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>  
+    {% endfor %}
+</ul>
+{% endif %}
