@@ -127,4 +127,4 @@ Quiz test?
         </form>
         <p id="result" class="result"></p>
     </div>
-	{% include quiz_variables.html %}
+	
