@@ -36,11 +36,11 @@ To use our variable, we first need to `declare` and `initialise` it.
 Variables can hold numbers, letters, words, and much more, so when we create a variable, we have to tell the system what type of variable we'd like (what shape the space in memory is!).
 
 The main three `data types` that we'll be working with are `int`, `float` and `boolean`.
-<ul>
+
 <li>`int` variables can hold whole numbers (integers), like 7, 413, 0 or -22.</li>
 <li>`float` variables can hold decimal numbers, like 0.021, 314.0, -419.6 or 3.14159.</li>
 <li>`boolean` variables can `true` or `false` values.</li>
-</ul>
+
 To tell the system what type we want to use, we `declare` the variable, using the format of `type name;`.
 
 
