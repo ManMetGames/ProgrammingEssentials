@@ -80,6 +80,7 @@ int size = 30; //Creates the an integer variable called "size" and sets it immed
 {% endhighlight %}
 
 And with that we have our space in memory, called "size", containing the number 30!
+
 <img src="../Images/size_variable.png" alt="Girl in a jacket" width="100" height="125">
 
 We can now use `size` in place of the 30s we were using for the size of our rectangles in the code from Chapter 1. If we decide that our rectangles should be 40 pixels wide, we can just change the line of code to set size to 40 instead.
@@ -124,7 +125,6 @@ Let's add some more variables to the Snake project!
         </form>
         <p id="result" class="result"></p>
     </div>
-
     <script>
         function checkAnswer() {
             const correctAnswer = "Paris";
