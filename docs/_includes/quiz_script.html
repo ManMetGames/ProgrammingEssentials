@@ -1,11 +1,11 @@
 {% raw %}
 <script>
-    function checkAnswer(container) {
+    function checkAnswer(container, resultElementName) {
         const questionContainer = document.querySelector(container);
         const correctAnswer = questionContainer.getAttribute('data-correct-answer');
         const form = document.getElementById('quizForm');
         const selectedAnswer = form.elements['answer'].value;
-        const resultElement = document.getElementById('result');
+        const resultElement = document.getElementById(resultElementName);
         if (selectedAnswer) {
             if (selectedAnswer === correctAnswer) {
                 resultElement.textContent = "That's correct! Well done.";

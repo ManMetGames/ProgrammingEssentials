@@ -6,7 +6,7 @@ layout: default
 
 In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../QuickReference/variables">click here</a>.
 
-<h3>Feel free to read along, or <a href="#video_explanation">click here</a> to skip straight to the video explanation below!</h3>
+<b>Feel free to read along, or <a href="#video_explanation">click here</a> to skip straight to the video explanation below!</b>
 
 
 
@@ -41,7 +41,7 @@ The main two `data types` that we'll be working with for now are `int` and `bool
 <li>`boolean` variables can `true` or `false` values.</li>
 </ol>
 To tell the system what type we want to use, we `declare` the variable, using the format of:
-<h1>TYPE NAME;</h1>
+<p style="font-size:30px">TYPE NAME;</p>
 So to create an int variable, we type `int`, followed by the name we'd like give it, which in this case is "size".
 {% highlight java %}
 int size; //Creates an integer variable called "size"
@@ -120,41 +120,39 @@ Let's have a quick check that you've got it so far!
         <label for="option3">int snake x = 200;</label><br>
         <input type="radio" id="option4" name="answer" value="D">
         <label for="option4">int snakeX = 200</label><br><br>
-        <button type="button" onclick="checkAnswer('.question1container')">Submit</button>
+        <button type="button" onclick="checkAnswer('.question1container', 'result1')">Submit</button>
     </form>
-    <p id="result" class="result"></p>
+    <p id="result1" class="result1"></p>
 </div>
-
-<div class="question2container" data-correct-answer="C">
+<div class="question2container" data-correct-answer="B">
     <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A">
         <label for="option1">snakeX = 200;</label><br>
         <input type="radio" id="option2" name="answer" value="B">
-        <label for="option2">int snake x = 200;</label><br>
+        <label for="option2">int snakeX = 200;</label><br>
         <input type="radio" id="option3" name="answer" value="C">
-        <label for="option3">int snakeX = 200;</label><br>
+        <label for="option3">int snake x = 200;</label><br>
         <input type="radio" id="option4" name="answer" value="D">
         <label for="option4">int snakeX = 200</label><br><br>
-        <button type="button" onclick="checkAnswer('.question2container')">Submit</button>
+        <button type="button" onclick="checkAnswer('.question2container', 'result2')">Submit</button>
     </form>
-    <p id="result" class="result"></p>
+    <p id="result2" class="result2"></p>
 </div>
-
-<div class="question3container" data-correct-answer="C">
+<div class="question3container" data-correct-answer="B">
     <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A">
-        <label for="option1">snakeX = 200;</label>&ensp;
+        <label for="option1">snakeX = 200;</label><br>
         <input type="radio" id="option2" name="answer" value="B">
-        <label for="option2">int snake x = 200;</label>&ensp;
+        <label for="option2">int snakeX = 200;</label><br>
         <input type="radio" id="option3" name="answer" value="C">
-        <label for="option3">int snakeX = 200;</label>&ensp;
+        <label for="option3">int snake x = 200;</label><br>
         <input type="radio" id="option4" name="answer" value="D">
-        <label for="option4">int snakeX = 200</label>&ensp;<br>
-        <button type="button" onclick="checkAnswer('.question3container')">Submit</button>
+        <label for="option4">int snakeX = 200</label><br><br>
+        <button type="button" onclick="checkAnswer('.question3container', 'result3')">Submit</button>
     </form>
-    <p id="result" class="result"></p>
+    <p id="result3" class="result3"></p>
 </div>
 
 	{% include quiz_script.html %}
