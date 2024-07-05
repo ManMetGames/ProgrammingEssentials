@@ -6,7 +6,7 @@ layout: default
 
 In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../Essentials/variables">click here</a>.
 
-<h3>`Feel free to read along, or skip straight to the video explanation below!`</h3>
+<a href="#video_explanation"><h3>Feel free to read along, or click here to skip straight to the video explanation below!</h3></a>
 
 <h2>The Problem</h2>
 Looking back at the code from Chapter 1, we can see that there is a lot of repetition of the number 30, which we used as the size of the rectangles.
@@ -28,8 +28,6 @@ A variable is a space in the computer's memory that we've given a name to, so we
 
 This means we can create a variable to control the size of our rectangles!
 
-<img src="../Images/size_variable.png" alt="Girl in a jacket" width="100" height="125">
-
 To use our variable, we first need to `declare` and `initialise` it.
 
 <h3>Declaring A Variable</h3>
@@ -37,11 +35,15 @@ Variables can hold numbers, letters, words, and much more, so when we create a v
 
 The main three `data types` that we'll be working with are `int`, `float` and `boolean`.
 
-<li>`int` variables can hold whole numbers (integers), like 7, 413, 0 or -22.</li>
-<li>`float` variables can hold decimal numbers, like 0.021, 314.0, -419.6 or 3.14159.</li>
-<li>`boolean` variables can `true` or `false` values.</li>
+`int` variables can hold whole numbers (integers), like 7, 413, 0 or -22.
+`float` variables can hold decimal numbers, like 0.021, 314.0, -419.6 or 3.14159.
+`boolean` variables can `true` or `false` values.
 
 To tell the system what type we want to use, we `declare` the variable, using the format of `type name;`.
+
+
+<img src="../Images/size_variable.png" alt="Girl in a jacket" width="100" height="125">
+
 
 
 we need to choose an appropriate data type: `int` holds whole numbers, so we'll use that!
@@ -66,19 +68,26 @@ When you've declared a variable, you can initialise it, or set its value. This i
 An example of how to set variable values for ints, floats and booleans is given below:
 
 {% highlight java %}
-wholeNumber = 3;
-//the above line of code sets the wholeNumber variable to 3
+wholeNumber = 3; //sets the value of the wholeNumber variable to 3
 
-decimalNumber = 7.5f;
-//the above line of code sets the decimalNumber variable to 7.5
+decimalNumber = 7.5f; //sets the value of the decimalNumber variable to 7.5
 
-trueOrFalse = true;
-//the above line of code sets the trueOrFalse variable to true
+trueOrFalse = true; //sets the value of the trueOrFalse variable to true
 {% endhighlight %}
 
 Declaring and initialising a variable can then be done all in one go, with the format: "datatype name = value;"
 
+<h2 id="video_explanation" >Video Explanation</h2>
 Watch the video below to get a short introduction to using variables.
+<h1> video here </h1>
+
+
+<h2>Updating Snake</h2>
+Let's add some variables to the Snake project!
+<h1>video here</h1>
 
 <h2>Explore</h2>
-What other data types are there?
+<ul>
+    <li><h3><a href="Lessons/variables">What other data types are there?</a></h3></li>
+    <li><h3><a href="Lessons/variables">What makes a good variable name?</a></h3></li>
+</ul>
