@@ -85,6 +85,9 @@ And with that we have our space in memory, called "size", containing the number 
 
 We can now use `size` in place of the 30s we were using for the size of our rectangles in the code from Chapter 1. If we decide that our rectangles should be 40 pixels wide, we can just change the line of code to set size to 40 instead.
 
+<h2>Changing Variable Values</h2>
+
+
 If you're unsure how to put this into practise, make sure to follow along with the video explanation below!
 
 <h2 id="video_explanation" >Video Explanation</h2>
@@ -124,26 +127,4 @@ Let's add some more variables to the Snake project!
         </form>
         <p id="result" class="result"></p>
     </div>
-{% raw %}
-	<script>
-        function checkAnswer() {
-            const correctAnswer = "Paris";
-            const form = document.getElementById('quizForm');
-            const selectedAnswer = form.elements['answer'].value;
-            const resultElement = document.getElementById('result');
-
-            if (selectedAnswer) {
-                if (selectedAnswer === correctAnswer) {
-                    resultElement.textContent = "Correct! The capital of France is Paris.";
-                    resultElement.style.color = "green";
-                } else {
-                    resultElement.textContent = "Incorrect. The capital of France is Paris.";
-                    resultElement.style.color = "red";
-                }
-            } else {
-                resultElement.textContent = "Please select an answer.";
-                resultElement.style.color = "orange";
-            }
-        }
-    </script>
-{% endraw %}
+	{% include quiz_variables.html %}
