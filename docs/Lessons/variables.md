@@ -107,16 +107,18 @@ Let's add some more variables to the Snake project!
     <li><h3><a href="../Extras/DataTypes">What other data types are there?</a></h3></li>
 </ul>
 
-<div class="question-container" data-correct-answer="Paris">
-    <h2>What is the capital of France?</h2>
+<div class="question-container" data-correct-answer="int snakeX = 200;">
+<h2>Quick check!</h2>
+Let's have a quick check that you've got it so far!
+    <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="London">
+        <input type="radio" id="option1" name="answer" value="snakeX = 200;">
         <label for="option1">London</label><br>
-        <input type="radio" id="option2" name="answer" value="Berlin">
+        <input type="radio" id="option2" name="answer" value="int snakeX = 200;">
         <label for="option2">Berlin</label><br>
-        <input type="radio" id="option3" name="answer" value="Madrid">
+        <input type="radio" id="option3" name="answer" value="int snake x = 200;">
         <label for="option3">Madrid</label><br>
-        <input type="radio" id="option4" name="answer" value="Paris">
+        <input type="radio" id="option4" name="answer" value="int snakeX = 200">
         <label for="option4">Paris</label><br><br>
         <button type="button" onclick="checkAnswer()">Submit</button>
     </form>
