@@ -160,7 +160,7 @@ Before you move on to the next chapter, let's have a quick check that you've got
         <label for="option3">int snake x = 200;</label><br>
         <input type="radio" id="option4" name="answer" value="D">
         <label for="option4">int snakeX = 200</label><br><br>
-        <button type="button" onclick="checkAnswer('.question1container', 'result1')">Submit</button><p id="result1" class="result1"></p>
+        <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
     </form>
     
 </div>
@@ -175,22 +175,7 @@ Before you move on to the next chapter, let's have a quick check that you've got
         <label for="option3">int snakeY = 50;</label><br>
         <input type="radio" id="option4" name="answer" value="D">
         <label for="option4">snakeY = -10;</label><br><br>
-        <button type="button" onclick="checkAnswer('.question2container', 'result2')">Submit</button><p id="result2" class="result2"></p>
-    </form>
-    
-</div>
-<div class="question3container" data-correct-answer="A">
-    <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
-    <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A">
-        <label for="option1">snakeX = 200;</label><br>
-        <input type="radio" id="option2" name="answer" value="B">
-        <label for="option2">int snakeX = 200;</label><br>
-        <input type="radio" id="option3" name="answer" value="C">
-        <label for="option3">int snake x = 200;</label><br>
-        <input type="radio" id="option4" name="answer" value="D">
-        <label for="option4">int snakeX = 200</label><br><br>
-        <button type="button" onclick="checkAnswer('.question3container', 'result3')">Submit</button><p id="result3" class="result3"></p>
+        <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result"></p>
     </form>
     
 </div>
