@@ -1,7 +1,7 @@
 {% raw %}
 <script>
-    function checkAnswer() {
-        const questionContainer = document.querySelector('.question-container');
+    function checkAnswer(container) {
+        const questionContainer = document.querySelector(container);
         const correctAnswer = questionContainer.getAttribute('data-correct-answer');
         const form = document.getElementById('quizForm');
         const selectedAnswer = form.elements['answer'].value;
