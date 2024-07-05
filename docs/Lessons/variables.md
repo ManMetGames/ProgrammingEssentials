@@ -182,7 +182,7 @@ Before you move on to the next chapter, let's have a quick check that you've got
 
 <br>
 <h2>Snake Game: Part 2</h2>
-Let's add some more variables to the Snake project!
+Let's add some variables to the Snake project!
 
 
 <br>
