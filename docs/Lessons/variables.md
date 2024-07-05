@@ -25,6 +25,7 @@ This means that if we wanted to change the size of the rectangles, we'd have to 
 
 <b><i>There must be a better way!</i></b>
 
+<br>
 <h2>Storing Values in Variables</h2>
 A variable is a space in the computer's memory that we've given a name to, so we can refer back to it throughout our code. This means we can change the value stored in the variable, and the code won't need updating!
 
@@ -32,6 +33,7 @@ This means we can create a variable to control the size of our rectangles!
 
 To use our variable, we first need to `declare` and `initialise` it.
 
+<br>
 <h2>Declaring A Variable</h2>
 Variables can hold numbers, letters, words, and much more, so when we create a variable, we have to tell the system what type of variable we'd like (what shape the space in memory is!).
 
@@ -47,6 +49,7 @@ So to create an int variable, we type `int`, followed by the name we'd like give
 int size; //Creates an integer variable called "size"
 {% endhighlight %}
 
+<br>
 <h2>Variable Names</h2>
 Variable names should be descriptive, but to the point. They also can't start with numbers, or contain spaces or punctuation. Because of this, for any variables we name with multiple words, we'll start each new word with a capital letter. An example of creating a variable for our other common type in this format is given below:
 {% highlight java %}
@@ -54,11 +57,11 @@ boolean trueOrFalse; //Creates a boolean variable called "trueOrFalse"
 {% endhighlight %}
 Variable names are also case-sensitive, so when referencing a variable you've already made, make sure it has any capital letters in the same places!
 
-
+<br>
 <h2>Initialising A Variable</h2>
 When you've declared a variable, you can initialise it, setting its starting value. This is done in the format of:
 
-<h1>NAME = VALUE;</h1>
+<p style="font-size:30px">NAME = VALUE;</p>
 
 So to set our size value to 30, we can type the line:
 {% highlight java %}
@@ -71,6 +74,7 @@ trueOrFalse = true; //sets the value of the "trueOrFalse" boolean variable to tr
 {% endhighlight %}
 Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/DataTypes">here</a>!
 
+<br>
 <h2>Bringing It All Together</h2>
 Declaring and initialising a variable can also be written all in one go, with the format:
 <h1>TYPE NAME = VALUE;</h1>
@@ -85,28 +89,16 @@ And with that we have our space in memory, called "size", containing the number 
 
 We can now use `size` in place of the 30s we were using for the size of our rectangles in the code from Chapter 1. If we decide that our rectangles should be 40 pixels wide, we can just change the line of code to set size to 40 instead.
 
+<br>
 <h2>Changing Variable Values</h2>
 
-
-If you're unsure how to put this into practise, make sure to follow along with the video explanation below!
-
+<br>
 <h2 id="video_explanation" >Video Explanation</h2>
-Watch the video below to get a short introduction to using variables.
-<h1> video here </h1>
+This video covers the content in this chapter, so make sure to watch along if you're at all unsure.
 
 
-<h2>Updating Snake</h2>
-Let's add some more variables to the Snake project!
-<h1>video here</h1>
 
-<h2>Explore</h2>
-<ul>
-    <li><h3><a href="../Extras/DataTypes">How do I store decimal numbers?</a></h3></li>
-    <li><h3><a href="../Extras/DataTypes">How do I store letters, words or sentences?</a></h3></li>
-    <li><h3><a href="./Classes">How do I store data together?</a></h3></li>
-    <li><h3><a href="../Extras/DataTypes">What other data types are there?</a></h3></li>
-</ul>
-
+<br>
 <h2>Quick check!</h2>
 Let's have a quick check that you've got it so far!
 <div class="question1container" data-correct-answer="B">
@@ -154,5 +146,20 @@ Let's have a quick check that you've got it so far!
     </form>
     <p id="result3" class="result3"></p>
 </div>
+
+<br>
+<h2>Updating Snake</h2>
+Let's add some more variables to the Snake project!
+
+
+<br>
+<h2>Explore</h2>
+<ul>
+    <li><h3><a href="../Extras/DataTypes">How do I store decimal numbers?</a></h3></li>
+    <li><h3><a href="../Extras/DataTypes">How do I store letters, words or sentences?</a></h3></li>
+    <li><h3><a href="./Classes">How do I store data together?</a></h3></li>
+    <li><h3><a href="../Extras/DataTypes">What other data types are there?</a></h3></li>
+</ul>
+
 
 	{% include quiz_script.html %}
