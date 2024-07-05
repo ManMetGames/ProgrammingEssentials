@@ -3,9 +3,9 @@
     function checkAnswer(container) {
         const questionContainer = document.querySelector(container);
         const correctAnswer = questionContainer.getAttribute('data-correct-answer');
-        const form = questionContainer.getElementById('quizForm');
-        const selectedAnswer = form.elements['answer'].value;
-        const resultElement = questionContainer.getElementById('result');
+        const form = questionContainer.querySelector('#quizForm');
+        const selectedAnswer = form.elements['answer'] ? form.elements['answer'].value : null;
+		const resultElement = questionContainer.querySelector('#result');
         if (selectedAnswer) {
             if (selectedAnswer === correctAnswer) {
                 resultElement.textContent = "That's correct! Well done.";
@@ -14,10 +14,10 @@
                 resultElement.textContent = "That's not quite right, try again.";
                 resultElement.style.color = "red";
             }
-        } else {
-            resultElement.textContent = "Please select an answer.";
-            resultElement.style.color = "orange";
-        }
+        }else {
+			resultElement.textContent = "Please select an answer.";
+			resultElement.style.color = "orange";
+		}
     }
 </script>
 
