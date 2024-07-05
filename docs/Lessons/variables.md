@@ -102,3 +102,47 @@ Let's add some more variables to the Snake project!
     <li><h3><a href="./Classes">How do I store data together?</a></h3></li>
     <li><h3><a href="../Extras/DataTypes">What other data types are there?</a></h3></li>
 </ul>
+
+
+
+
+
+
+
+<div class="question-container">
+        <h2>What is the capital of France?</h2>
+        <form id="quizForm">
+            <input type="radio" id="option1" name="answer" value="London">
+            <label for="option1">London</label><br>
+            <input type="radio" id="option2" name="answer" value="Berlin">
+            <label for="option2">Berlin</label><br>
+            <input type="radio" id="option3" name="answer" value="Madrid">
+            <label for="option3">Madrid</label><br>
+            <input type="radio" id="option4" name="answer" value="Paris">
+            <label for="option4">Paris</label><br><br>
+            <button type="button" onclick="checkAnswer()">Submit</button>
+        </form>
+        <p id="result" class="result"></p>
+    </div>
+
+    <script>
+        function checkAnswer() {
+            const correctAnswer = "Paris";
+            const form = document.getElementById('quizForm');
+            const selectedAnswer = form.elements['answer'].value;
+            const resultElement = document.getElementById('result');
+
+            if (selectedAnswer) {
+                if (selectedAnswer === correctAnswer) {
+                    resultElement.textContent = "Correct! The capital of France is Paris.";
+                    resultElement.style.color = "green";
+                } else {
+                    resultElement.textContent = "Incorrect. The capital of France is Paris.";
+                    resultElement.style.color = "red";
+                }
+            } else {
+                resultElement.textContent = "Please select an answer.";
+                resultElement.style.color = "orange";
+            }
+        }
+    </script>
