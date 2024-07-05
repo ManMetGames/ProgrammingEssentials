@@ -131,7 +131,7 @@ size = size/5; //Takes the value from size, divides it by 5, then assigns the re
 {% endhighlight %}
 
 <br>
-<h2Task</h2>
+<h2>Quick Task</h2>
 In Processing, create an integer variable called x, and set it to 5. Divide x by 10, then print out the result.
 <ul>
 <li>What is printed out?</li>
