@@ -4,7 +4,7 @@ layout: default
 
 <h1>Chapter 2: Variables</h1>
 
-In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../Extras/variables_and_data_types">click here</a>.
+In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../QuickReference/variables_and_data_types">click here</a>.
 
 <p style="font-size:20px">Feel free to read along, or <a href="#video_explanation">click here</a> to skip straight to the video explanation below!</p>
 
@@ -202,7 +202,7 @@ Let's add some more variables to the Snake project!
 
 <br>
 <h2>Summary</h2>
-And that's variables! You should now be ready to move on to Chapter 3! Make sure to refer back to the <a href="../Extras/variables_and_data_types">quick reference for this chapter here</a>, and feel free to explore some questions if you'd like to learn more, in the Explore section below!
+And that's variables! You should now be ready to move on to Chapter 3! Make sure to refer back to the <a href="../QuickReference/variables_and_data_types">quick reference for this chapter here</a>, and feel free to explore some questions if you'd like to learn more, in the Explore section below!
 
 
 <br>
