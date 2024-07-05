@@ -39,11 +39,11 @@ Variables can hold numbers, letters, words, and much more, so when we create a v
 
 The main two `data types` that we'll be working with for now are `int` and `boolean`.
 <ul>
-<li>`int` variables can hold whole numbers (integers), like 7, 413, 0 or -22.</li>
-<li>`boolean` variables can `true` or `false` values.</li>
+<li><b>int</b> variables can hold whole numbers (integers), like 7, 413, 0 or -22.</li>
+<li><b>boolean</b> variables can `true` or `false` values.</li>
 </ul>
 To tell the system what type we want to use, we `declare` the variable, using the format of:
-<p style="font-size:30px">TYPE NAME;</p>
+<p style="font-size:20px">TYPE NAME;</p>
 So to create an int variable, we type `int`, followed by the name we'd like give it, which in this case is "size".
 {% highlight java %}
 int size; //Creates an integer variable called "size"
@@ -61,7 +61,7 @@ Variable names are also unique and case-sensitive, so when making a new variable
 <h2>Initialising A Variable</h2>
 When you've declared a variable, you can initialise it, setting its starting value. This is done in the format of:
 
-<p style="font-size:30px">`NAME = VALUE;`</p>
+<p style="font-size:20px">NAME = VALUE;</p>
 
 So to set our size value to 30, we can type the line:
 {% highlight java %}
@@ -77,10 +77,30 @@ Values for different datatypes are written out slightly differently, which you c
 <br>
 <h2>Bringing It All Together</h2>
 Declaring and initialising a variable can also be written all in one go, with the format:
-<p style="font-size:30px">TYPE NAME = VALUE;</p>
+<p style="font-size:20px">TYPE NAME = VALUE;</p>
 So we can update our code making the size variable, to turn it into one line:
 {% highlight java %}
 int size = 30; //Creates the an integer variable called "size" and sets it immediately to 30
+
+size(640,440);
+background(50);
+
+fill(0,255,0);
+rect(200, 200, 30, 30);
+
+fill(255,0,0);
+rect(400, 200, 30, 30);
+
+{% endhighlight %}
+
+And with that we have our space in memory, called "size", containing the number 30!
+
+<img src="../Images/size_variable.png" alt="Girl in a jacket" width="100" height="125">
+
+We can now use `size` in place of the 30s we were using for the size of our rectangles in the code from Chapter 1. If we decide that our rectangles should be 40 pixels wide, we can just change the line of code to set size to 40 instead.
+After that's done, your code should look like this!
+{% highlight java %}
+int size = 30;
 
 size(640,440);
 background(50);
@@ -92,12 +112,6 @@ fill(255,0,0);
 rect(400, 200, size, size);
 
 {% endhighlight %}
-
-And with that we have our space in memory, called "size", containing the number 30!
-
-<img src="../Images/size_variable.png" alt="Girl in a jacket" width="100" height="125">
-
-We can now use `size` in place of the 30s we were using for the size of our rectangles in the code from Chapter 1. If we decide that our rectangles should be 40 pixels wide, we can just change the line of code to set size to 40 instead.
 
 <br>
 <h2>Changing Variable Values</h2>
@@ -112,8 +126,8 @@ size = size+5; //Takes the value from size, adds 5, then assigns the result into
 The same can be done for decreasing values, multiplying or dividing.
 {% highlight java %}
 size = size-5; //Takes the value from size, adds 5, then assigns the result into the size variable
-size = size\*5; //Takes the value from size, multiplies it by 5, then assigns the result into the size variable
-size = size/5; //Takes the value from size, divides it by 5, then assigns the result into the size variable
+size = size*5; //Takes the value from size, multiplies it by 5, then assigns the result to size
+size = size/5; //Takes the value from size, divides it by 5, then assigns the result to size
 {% endhighlight %}
 
 <br>
