@@ -1,0 +1,24 @@
+{% raw %}
+<script>
+    function checkAnswer() {
+        const questionContainer = document.querySelector('.question-container');
+        const correctAnswer = questionContainer.getAttribute('data-correct-answer');
+        const form = document.getElementById('quizForm');
+        const selectedAnswer = form.elements['answer'].value;
+        const resultElement = document.getElementById('result');
+        if (selectedAnswer) {
+            if (selectedAnswer === correctAnswer) {
+                resultElement.textContent = "That's correct! Well done.";
+                resultElement.style.color = "green";
+            } else {
+                resultElement.textContent = "That's not quite right, try again.";
+                resultElement.style.color = "red";
+            }
+        } else {
+            resultElement.textContent = "Please select an answer.";
+            resultElement.style.color = "orange";
+        }
+    }
+</script>
+
+{% endraw %}
