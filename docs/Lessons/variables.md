@@ -196,7 +196,7 @@ Before you move on to the next chapter, let's have a quick check that you've got
 </div>
 
 <br>
-<h2>Updating Snake</h2>
+<h2>Snake Game: Part 2</h2>
 Let's add some more variables to the Snake project!
 
 
@@ -208,10 +208,10 @@ And that's variables! You should now be ready to move on to Chapter 3, but feel 
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/DataTypes">How do I store decimal numbers?</a></h3></li>
-    <li><h3><a href="../Extras/DataTypes">How do I store letters, words or sentences?</a></h3></li>
+    <li><h3><a href="../Extras/Data_Types">How do I store decimal numbers?</a></h3></li>
+    <li><h3><a href="../Extras/Data_Types">How do I store letters, words or sentences?</a></h3></li>
     <li><h3><a href="./Classes">How do I store data together?</a></h3></li>
-    <li><h3><a href="../Extras/DataTypes">What other data types are there?</a></h3></li>
+    <li><h3><a href="../Extras/Data_Types">What other data types are there?</a></h3></li>
 </ul>
 
 
