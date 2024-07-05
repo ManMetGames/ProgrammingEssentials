@@ -109,17 +109,17 @@ Let's add some more variables to the Snake project!
 
 <h2>Quick check!</h2>
 Let's have a quick check that you've got it so far!
-<div class="question1container" data-correct-answer="int snakeX = 200;">
+<div class="question1container" data-correct-answer="B">
     <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="snakeX = 200;">
-        <label for="option1">London</label><br>
-        <input type="radio" id="option2" name="answer" value="int snakeX = 200;">
-        <label for="option2">Berlin</label><br>
-        <input type="radio" id="option3" name="answer" value="int snake x = 200;">
-        <label for="option3">Madrid</label><br>
-        <input type="radio" id="option4" name="answer" value="int snakeX = 200">
-        <label for="option4">Paris</label><br><br>
+        <input type="radio" id="option1" name="answer" value="A">
+        <label for="option1">snakeX = 200;</label><br>
+        <input type="radio" id="option2" name="answer" value="B">
+        <label for="option2">int snakeX = 200;</label><br>
+        <input type="radio" id="option3" name="answer" value="C">
+        <label for="option3">int snake x = 200;</label><br>
+        <input type="radio" id="option4" name="answer" value="D">
+        <label for="option4">int snakeX = 200</label><br><br>
         <button type="button" onclick="checkAnswer('.question1container')">Submit</button>
     </form>
     <p id="result" class="result"></p>
