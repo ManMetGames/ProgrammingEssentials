@@ -109,9 +109,6 @@ Let's add some more variables to the Snake project!
 
 
 
-
-Quiz test?
-
 <div class="question-container">
         <h2>What is the capital of France?</h2>
         <form id="quizForm">
