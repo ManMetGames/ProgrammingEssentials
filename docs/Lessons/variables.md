@@ -27,7 +27,8 @@ This means that if we wanted to change the size of the rectangles, we'd have to 
 A variable is a space in the computer's memory that we've given a name to, so we can refer back to it throughout our code. This means we can change the value stored in the variable, and the code won't need updating!
 
 This means we can create a variable to control the size of our rectangles!
-<img src="../Images/size_variable.png" alt="Girl in a jacket" width="200" height="250">
+
+<img src="../Images/size_variable.png" alt="Girl in a jacket" width="100" height="125">
 
 To use our variable, we first need to `declare` and `initialise` it.
 
