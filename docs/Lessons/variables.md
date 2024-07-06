@@ -154,10 +154,12 @@ In Processing, create an integer variable called x, and set it to 5. Divide x by
 </ul>
 
 Make sure to watch the video below for an explanation on changing variable values , and a solution to the task!
-<video width="320" height="240" controls>
-  <source src="../Videos/InitialisingAndAssigningToVariables.mp4" type="video/mp4">
-  Your browser does not support the video playback.
-</video>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/InitialisingAndAssigningToVariables.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 
 <br>
