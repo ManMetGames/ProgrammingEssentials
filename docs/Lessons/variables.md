@@ -153,9 +153,9 @@ In Processing, create an integer variable called x, and set it to 5. Divide x by
 <li>Does it do what you expect?</li>
 </ul>
 
-Make sure to watch the video explanation below for an explanation on changing variable values , and a solution to the task!
+Make sure to watch the video below for an explanation on changing variable values , and a solution to the task!
 <video width="320" height="240" controls>
-  <source src="../Videos/Initialising and Assigning to Variables.mp4" type="video/mp4">
+  <source src="../Videos/InitialisingAndAssigningToVariables.mp4" type="video/mp4">
   Your browser does not support the video playback.
 </video>
 
