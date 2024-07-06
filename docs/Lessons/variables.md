@@ -105,6 +105,7 @@ Values for different datatypes are written out slightly differently, which you c
 <h2>Bringing It All Together</h2>
 Declaring and initialising a variable can also be written all in one go, with the format:
 <p style="font-size:20px">TYPE NAME = VALUE;</p>
+<blockquote>TYPE NAME = VALUE;</blockquote>
 So we can update our code making the size variable, to turn it into one line:
 {% highlight java %}
 int size = 30;
