@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<title>Getting Started</title>
 <h1>Chapter 1: Getting Started</h1>
 <p style="font-size:20px">
 In this chapter, we'll be covering how to get started using <a href="https://processing.org/">Processing</a>.
@@ -49,26 +48,42 @@ The code above makes use of a few things that we'll make a lot of use of.
 </blockquote>
 <br>
 <blockquote>
-Semi-colons; - Semi-colons tell a line of code that it is complete, there will be times when we don't need them, but we can worry about that later, for now- make sure to end each line of code with a semi-colon.
+Semi-colons; - Semi-colons tell a line of code that it is complete. There will be times when we don't need them, but we can worry about that later, for now- make sure to end each line of code with a semi-colon.
 </blockquote>
 <br>
 <blockquote>
-Methods()- size(200,300) and background(0), are examples of methods. Methods run code that has been written somewhere else.
+Methods() - size(200,300) and background(0), are examples of methods. Methods run code that has been written somewhere else.
 </blockquote>
 <br>
 
 We'll come back to methods in Chapter 3, so don't worry too much about them for now. These methods are also very Processing specific, but it's worthwhile understanding what each one does, and what each number we're putting inside the brackets means.
 
 `size(200,300);` - Runs code to set the size of the canvas. The two numbers inside the brackets are the width and height of the resulting canvas.
-IMAGE HERE
+
+<img src="../Images/size_method.png" width="100" height="125">
+
 Change the code, so that the size command uses 640 as the width, and 440 as the height. When you run the program, the canvas should be a fair bit bigger.
 
 `background(0);` - Runs code to fill the canvas with a colour, making a fresh background. The number inside the brackets is the colour of the background, where 0 is black, and 255 is white.
-IMAGE HERE
+
+<img src="../Images/size_method.png" width="100" height="125">
+
 Change the code, so that the colour value passed in to the background method is 50. When you run the program, the canvas should be dark grey instead of black.
 
 
 The official Processing reference goes into much more detail on the methods built into Processing, so make sure to check that out if you're interested. This course will use them sparingly, so don't feel like you have to learn them all.
+
+<h2>( New Bracket Unlocked! )</h2>
+<blockquote>
+There are a lot of brackets used in programming, so each time we cover a new type, we'll make sure to understand what they actually mean. Our first bracket type is the normal bracket, or "parentheses". When you need to pass information into something, this is when you'll need normal brackets. That's why when we wrote methods for setting the size and colour of the canvas in the previous example, we passed information into those methods, using normal brackets!
+</blockquote>
+
+
+
+
+
+
+
 
 
 <br>
