@@ -4,9 +4,11 @@ layout: default
 
 <h1>Chapter 2: Variables</h1>
 <p style="font-size:20px">
-In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../QuickReference/variables_and_data_types">click here</a>.
+In this chapter, we'll be covering how to create and use variables.
 <br>
-If you're already comfortable using variables <a href="#snake_video">click here</a> to skip straight to the video covering the next steps with the Snake Game!</p>
+For a quick reference, <a href="../QuickReference/variables_and_data_types">click here</a>.
+<br>
+Or if you're already comfortable using variables <a href="#snake_video">click here</a> to skip straight to the video covering the next steps with the Snake Game!</p>
 
 
 
