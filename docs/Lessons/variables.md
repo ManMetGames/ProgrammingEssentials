@@ -30,6 +30,12 @@ This means that if we wanted to change the size of the rectangles, we'd have to 
 A variable is a space in the computer's memory that we've given a name to, so we can refer back to it throughout our code. This means we can change the value stored in the variable, and the code won't need updating!
 
 This means we can create a variable to control the size of our rectangles!
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/WhyUseVariables.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 To use our variable, we first need to `declare` and `initialise` it.
 
@@ -59,6 +65,13 @@ boolean trueOrFalse;
 {% endhighlight %}
 Variable names are also unique and case-sensitive, so when making a new variable, make sure it doesn't have the same name as one you've already made, and when referencing a variable you've already made, make sure it has any capital letters in the same places!
 
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/DeclaringVariablesNamingAndDataTypes.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 <br>
 <h2>Initialising A Variable</h2>
 When you've declared a variable, you can initialise it, setting its starting value. This is done in the format of:
@@ -76,6 +89,14 @@ We can use this same format to change the value of any variable, so if we wanted
 trueOrFalse = true;
 //sets the value of the "trueOrFalse" boolean variable to true
 {% endhighlight %}
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/InitialisingAndAssigningToVariables.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/Data_Types">here</a>!
 
 <br>
@@ -145,8 +166,7 @@ size = size/5;
 //then assigns the result back into the size variable
 {% endhighlight %}
 
-<br>
-<h2>Quick Task</h2>
+<h3>Quick Task</h3>
 In Processing, create an integer variable called x, and set it to 5. Divide x by 10, then print out the result.
 <ul>
 <li>What is printed out?</li>
@@ -199,7 +219,12 @@ Before you move on to the next chapter, let's have a quick check that you've got
 <br>
 <h2 id="snake_video">Snake Game: Part 2</h2>
 Let's add some variables to the Snake project!
-
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/SnakeChapter2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 <br>
 <h2>Summary</h2>
