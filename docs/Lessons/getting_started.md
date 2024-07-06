@@ -1,31 +1,76 @@
 ---
 layout: default
 ---
-
-<h1>Chapter 2: Variables</h1>
+<title></title>
+<h1>Chapter 1: Getting Started</h1>
 <p style="font-size:20px">
-In this chapter, we'll be covering how to create and use variables.
+In this chapter, we'll be covering how to get started using <a href="https://processing.org/">Processing</a>.
 <br>
-For a quick reference, <a href="../QuickReference/variables_and_data_types">click here</a>.
+For a quick reference on the core Processing commands we'll be using, <a href="../QuickReference/processing">click here</a>.
 <br>
-Or if you're already comfortable using variables, <a href="#snake_video">click here</a> to skip straight to the video covering the next steps with the Snake Game!</p>
+Or if you're already comfortable using Processing, <a href="#snake_video">click here</a> to skip straight to the video covering the start of the Snake Game project we'll be making over the course of each chapter!</p>
 
 
 
-<h2>The Problem</h2>
-Looking back at the code from Chapter 1, we can see that there is a lot of repetition of the number 30, which we used as the size of the rectangles.
+<h2>Processing</h2>
+Processing is an integraded development environment (IDE) that allows us to write code in the Java programming language. It includes some custom functionality that means we can draw and animate to a canvas, and some things to make coding a little easier in places.
+
+To get started, you'll need to make sure you have Processing downloaded and running. If you don't already have Processing, follow the steps below, or watch along with the quick setup video!
+<ul>
+<li>Download the latest version of Processing <a href="https://processing.org/download">here</a></li>
+<li>Unzip the file you downloaded, and place the folder somewhere safe!</li>
+<li>Look inside the folders for Processing.exe and double click it.</li>
+</ul>
+
+<p style="font-size: 30px; text-align: right;">QUICK SETUP VIDEO HERE</p>
+
+<br>
+<h2>Using Processing</h2>
+Now that you've got Processing downloaded and running, give saving and loading a file a go, and hit play to see an empty project run! Watch the video below if you're unsure how to get started.
+<p style="font-size: 30px; text-align: right;">QUICK START VIDEO HERE</p>
+
+<br>
+<h2>Writing Code</h2>
+We're going to write some simple code to get used to using Processing, and build up the start of a simple game of Snake.
+Copy and paste the code below into Processing and run it.
 
 {% highlight java %}
-fill(0,255,0);
-rect(200,200,30,30);
+//setup
+size(640,440);
 
-fill(255,0,0);
-rect(400, 200, 30, 30);
+//draw background
+background(0);
 {% endhighlight %}
+This should create a canvas a little larger than you had before, with a black background.
+<br>
+Press the stop button back in Processing and the canvas should disappear.
+<br>
+The code above makes use of a few things that we'll make a lot of use of.
+<blockquote>
+//Comments - Using a double forward slash // on a line will allow you to write a comment from that point onwards. Comments won't be run as if they were code, and will mean you can look back at your code later and understand it more easily!
+</blockquote>
 
-This means that if we wanted to change the size of the rectangles, we'd have to change the code in four different places.
+<blockquote>
+Semi-colons; - Semi-colons tell a line of code that it is complete, there will be times when we don't need them, but we can worry about that later, for now- make sure to end each line of code with a semi-colon.
+</blockquote>
 
-<p style="font-size:20px"><i>There must be a better way!</i></p>
+<blockquote>
+Methods()- size(200,300) and background(0), are examples of methods. Methods run code that has been written somewhere else.
+</blockquote>
+
+We'll come back to methods in Chapter 3, so don't worry too much about them for now. These methods are also very Processing specific, but it's worthwhile understanding what each one does, and what each number we're putting inside the brackets means.
+
+`size(200,300);` - Runs code to set the size of the canvas. The two numbers inside the brackets are the width and height of the resulting canvas.
+IMAGE HERE
+Change the code, so that the size command uses 640 as the width, and 440 as the height. When you run the program, the canvas should be a fair bit bigger.
+
+`background(0);` - Runs code to fill the canvas with a colour, making a fresh background. The number inside the brackets is the colour of the background, where 0 is black, and 255 is white.
+IMAGE HERE
+Change the code, so that the colour value passed in to the background method is 50. When you run the program, the canvas should be dark grey instead of black.
+
+
+The official Processing reference goes into much more detail on the methods built into Processing, so make sure to check that out if you're interested. This course will use them sparingly, so don't feel like you have to learn them all.
+
 
 <br>
 <h2>Storing Values in Variables</h2>
@@ -255,7 +300,7 @@ And that's variables! You should now be ready to move on to Chapter 3! Make sure
     <li><h3><a href="../Extras/Data_Types">What other data types are there?</a></h3></li>
 </ul>
 
-<p style="font-size: 30px; text-align: right;"><a href="./methods">Chapter 3 >></a></p>
+<p style="font-size: 30px; text-align: right;"><a href="./variables">Chapter 2 >></a></p>
 
 <br>
 <br>
