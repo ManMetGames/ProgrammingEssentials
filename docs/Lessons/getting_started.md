@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<title></title>
+<title>Getting Started</title>
 <h1>Chapter 1: Getting Started</h1>
 <p style="font-size:20px">
 In this chapter, we'll be covering how to get started using <a href="https://processing.org/">Processing</a>.
@@ -9,8 +9,6 @@ In this chapter, we'll be covering how to get started using <a href="https://pro
 For a quick reference on the core Processing commands we'll be using, <a href="../QuickReference/processing">click here</a>.
 <br>
 Or if you're already comfortable using Processing, <a href="#snake_video">click here</a> to skip straight to the video covering the start of the Snake Game project we'll be making over the course of each chapter!</p>
-
-
 
 <h2>Processing</h2>
 Processing is an integraded development environment (IDE) that allows us to write code in the Java programming language. It includes some custom functionality that means we can draw and animate to a canvas, and some things to make coding a little easier in places.
@@ -36,7 +34,7 @@ Copy and paste the code below into Processing and run it.
 
 {% highlight java %}
 //setup
-size(640,440);
+size(200,300);
 
 //draw background
 background(0);
@@ -49,14 +47,15 @@ The code above makes use of a few things that we'll make a lot of use of.
 <blockquote>
 //Comments - Using a double forward slash // on a line will allow you to write a comment from that point onwards. Comments won't be run as if they were code, and will mean you can look back at your code later and understand it more easily!
 </blockquote>
-
+<br>
 <blockquote>
 Semi-colons; - Semi-colons tell a line of code that it is complete, there will be times when we don't need them, but we can worry about that later, for now- make sure to end each line of code with a semi-colon.
 </blockquote>
-
+<br>
 <blockquote>
 Methods()- size(200,300) and background(0), are examples of methods. Methods run code that has been written somewhere else.
 </blockquote>
+<br>
 
 We'll come back to methods in Chapter 3, so don't worry too much about them for now. These methods are also very Processing specific, but it's worthwhile understanding what each one does, and what each number we're putting inside the brackets means.
 
