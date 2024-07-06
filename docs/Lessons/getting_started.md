@@ -73,7 +73,7 @@ Change the code, so that the colour value passed in to the background method is 
 
 The official Processing reference goes into much more detail on the methods built into Processing, so make sure to check that out if you're interested. This course will use them sparingly, so don't feel like you have to learn them all.
 
-<h2><a>( New Bracket Unlocked! )</a></h2>
+<h2><a href="../Extras/Brackets">( New Bracket Unlocked! )</a></h2>
 <blockquote>
 There are a lot of brackets used in programming, so each time we cover a new type, we'll make sure to understand what they actually mean. Our first bracket type is the normal bracket, or "parentheses". When you need to pass information into something, this is when you'll need normal brackets. That's why when we wrote methods for setting the size and colour of the canvas in the previous example, we passed information into those methods, using normal brackets!
 To learn more, take a look at the quick reference page on brackets <a href="../Extras/Brackets">here</a>!
