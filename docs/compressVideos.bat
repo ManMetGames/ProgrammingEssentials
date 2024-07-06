@@ -1,0 +1,1 @@
+for f in rawVideos/*mp4; do ffmpeg -i "$f" "Videos/${f##*/}"; done
