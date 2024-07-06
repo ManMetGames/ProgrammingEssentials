@@ -4,10 +4,13 @@
         const questionContainer = document.querySelector(container);
         const correctAnswer = questionContainer.getAttribute('data-correct-answer');
         const form = questionContainer.querySelector('#quizForm');
-        const selectedAnswer = form.elements['answer'] ? form.elements['answer'].value : null;
-        const feedback = form.elements['answer'] ? form.elements['answer'].feedback : null;
-		const resultElement = questionContainer.querySelector('#result');
-        if (selectedAnswer) {
+        const selectedOption = form.querySelector('input[name="answer"]:checked');
+        const resultElement = questionContainer.querySelector('#result');
+
+        if (selectedOption) {
+            const selectedAnswer = selectedOption.value;
+            const feedback = selectedOption.getAttribute('data-feedback');
+            
             if (selectedAnswer === correctAnswer) {
                 resultElement.textContent = feedback;
                 resultElement.style.color = "green";
@@ -15,10 +18,10 @@
                 resultElement.textContent = feedback;
                 resultElement.style.color = "red";
             }
-        }else {
-			resultElement.textContent = "Please select an answer.";
-			resultElement.style.color = "orange";
-		}
+        } else {
+            resultElement.textContent = "Please select an answer.";
+            resultElement.style.color = "orange";
+        }
     }
 </script>
 
