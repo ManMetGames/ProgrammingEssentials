@@ -253,7 +253,7 @@ And that's variables! You should now be ready to move on to Chapter 3! Make sure
     <li><h3><a href="../Extras/Data_Types">What other data types are there?</a></h3></li>
 </ul>
 
-<p style="font-size:30px"><a href="./methods">>> Chapter 3 >></a></p>
+<p style="font-size: 30px; text-align: right;"><a href="./methods">Chapter 3 >></a></p>
 
 <br>
 <br>
