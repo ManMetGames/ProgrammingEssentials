@@ -36,7 +36,7 @@ This means we can create a variable to control the size of our rectangles!
     Your browser does not support the video tag.
   </video>
 </div>
-
+<br>
 To use our variable, we first need to `declare` and `initialise` it.
 
 <br>
@@ -188,15 +188,15 @@ Before you move on to the next chapter, let's have a quick check that you've got
 <div class="question1container" data-correct-answer="B">
     <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A">
+        <input type="radio" id="option1" name="answer" value="A" feedback="That's not quite right, this line of code doesn't declare the variable">
         <label for="option1">snakeX = 200;</label><br>
-        <input type="radio" id="option2" name="answer" value="B">
+        <input type="radio" id="option2" name="answer" value="B" feedback="That's correct, this line of code declares and initialises the variable correctly!">
         <label for="option2">int snakeX = 200;</label><br>
-        <input type="radio" id="option3" name="answer" value="C">
+        <input type="radio" id="option3" name="answer" value="C" feedback="That's not quite right, the variable name can't include a space!">
         <label for="option3">int snake x = 200;</label><br>
-        <input type="radio" id="option4" name="answer" value="D">
+        <input type="radio" id="option4" name="answer" value="D" feedback="That's not quite right, we're missing a semi-colon to complete the line!">
         <label for="option4">int snakeX = 200</label><br><br>
-        <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
+        <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result">  </p>
     </form>
     
 </div>
@@ -211,9 +211,23 @@ Before you move on to the next chapter, let's have a quick check that you've got
         <label for="option3">int snakeY = 50;</label><br>
         <input type="radio" id="option4" name="answer" value="D">
         <label for="option4">snakeY = -10;</label><br><br>
-        <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result"></p>
+        <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
-    
+</div>
+
+<div class="question3container" data-correct-answer="C">
+    <h3>The integer variable "appleX" is currently set to 50. Which line of code would add 10 to appleX?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A">
+        <label for="option1">int appleX = appleX + 10;</label><br>
+        <input type="radio" id="option2" name="answer" value="B">
+        <label for="option2">appleX = 60;</label><br>
+        <input type="radio" id="option3" name="answer" value="C">
+        <label for="option3">appleX = appleX + 10;</label><br>
+        <input type="radio" id="option4" name="answer" value="D">
+        <label for="option4">appleX + 10;</label><br><br>
+        <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
+    </form>
 </div>
 
 <br>
