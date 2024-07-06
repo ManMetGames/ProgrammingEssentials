@@ -6,7 +6,7 @@ layout: default
 
 In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../QuickReference/variables_and_data_types">click here</a>.
 
-<p style="font-size:20px">If you're already comfortable using variables <a href="#snake_video" style="color: blue; text-decoration: none; transition: color 0.3s ease, background-color 0.3s ease;">>click here</a> to skip straight to the video covering the next steps with the Snake Game!</p>
+<p style="font-size:20px">If you're already comfortable using variables <a href="#snake_video">>click here</a> to skip straight to the video covering the next steps with the Snake Game!</p>
 
 
 
