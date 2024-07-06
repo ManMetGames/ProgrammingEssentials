@@ -6,7 +6,7 @@ layout: default
 
 In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../QuickReference/variables_and_data_types">click here</a>.
 
-<p style="font-size:20px">Feel free to read along, or <a href="#video_explanation">click here</a> to skip straight to the video explanation below!</p>
+<p style="font-size:20px">If you're already comfortable using variables <a href="#snake_video">click here</a> to skip straight to the video covering the next steps with the Snake Game!</p>
 
 
 
@@ -153,12 +153,11 @@ In Processing, create an integer variable called x, and set it to 5. Divide x by
 <li>Does it do what you expect?</li>
 </ul>
 
-Make sure to watch the video explanation below for an explanation of the chapter's content, and a solution to the task!
-
-<br>
-<h2 id="video_explanation" >Video Explanation</h2>
-This video covers the content in this chapter, so make sure to watch along if you're at all unsure.
-
+Make sure to watch the video explanation below for an explanation on changing variable values , and a solution to the task!
+<video width="320" height="240" controls>
+  <source src="../Videos/Initialising and Assigning to Variables.mp4" type="video/mp4">
+  Your browser does not support the video playback.
+</video>
 
 
 <br>
@@ -196,7 +195,7 @@ Before you move on to the next chapter, let's have a quick check that you've got
 </div>
 
 <br>
-<h2>Snake Game: Part 2</h2>
+<h2 id="snake_video">Snake Game: Part 2</h2>
 Let's add some variables to the Snake project!
 
 
