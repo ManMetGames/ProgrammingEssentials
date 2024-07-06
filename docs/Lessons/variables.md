@@ -6,7 +6,7 @@ layout: default
 
 In this chapter, we'll be covering how to create and use variables. For a quick reference, <a href="../QuickReference/variables_and_data_types">click here</a>.
 
-<p style="font-size:20px">If you're already comfortable using variables <a href="#snake_video">click here</a> to skip straight to the video covering the next steps with the Snake Game!</p>
+<p style="font-size:20px">If you're already comfortable using variables <a href="#snake_video" style="color: blue; text-decoration: none; transition: color 0.3s ease, background-color 0.3s ease;">>click here</a> to skip straight to the video covering the next steps with the Snake Game!</p>
 
 
 
@@ -188,7 +188,7 @@ Before you move on to the next chapter, let's have a quick check that you've got
 <div class="question1container" data-correct-answer="B">
     <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this line of code doesn't declare the variable">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this line of code doesn't declare the variable!">
         <label for="option1">snakeX = 200;</label><br>
         <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct, this line of code declares and initialises the variable correctly!">
         <label for="option2">int snakeX = 200;</label><br>
@@ -202,28 +202,28 @@ Before you move on to the next chapter, let's have a quick check that you've got
 <div class="question2container" data-correct-answer="D">
     <h3>We have already declared an integer variable called snakeY. Which of these lines of code would <b>not</b> cause an error?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, the variable name isn't spelled correctly, variables names are case-sensitive!">
         <label for="option1">snakey = 50;</label><br>
-        <input type="radio" id="option2" name="answer" value="B">
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, we're missing a semi-colon to complete the line!">
         <label for="option2">snakeY = 10</label><br>
-        <input type="radio" id="option3" name="answer" value="C">
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, we can't re-declare the variable with 'int' if it already exists!">
         <label for="option3">int snakeY = 50;</label><br>
-        <input type="radio" id="option4" name="answer" value="D">
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct, we don't need to declare the variable as it already exists, and the value is assigned correctly!">
         <label for="option4">snakeY = -10;</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
 
 <div class="question3container" data-correct-answer="C">
-    <h3>The integer variable "appleX" is currently set to 50. Which line of code would add 10 to appleX?</h3>
+    <h3>The integer variable "appleX" is initialised with a value of 50. Which line of code would add 10 to appleX?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, we don't need to re-declare the variable with 'int'!">
         <label for="option1">int appleX = appleX + 10;</label><br>
-        <input type="radio" id="option2" name="answer" value="B">
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, if the value of appleX is changed before this line of code, setting it directly to 60 might not be the same as adding 10!">
         <label for="option2">appleX = 60;</label><br>
-        <input type="radio" id="option3" name="answer" value="C">
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! To make sure that 10 is added no matter the initial value of the variable, it is increased by adding 10 to its previous value!">
         <label for="option3">appleX = appleX + 10;</label><br>
-        <input type="radio" id="option4" name="answer" value="D">
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, whilst this would calculate the value of appleX + 10, it wouldn't do anything with that value, such as assigning it back to appleX!">
         <label for="option4">appleX + 10;</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
@@ -253,7 +253,7 @@ And that's variables! You should now be ready to move on to Chapter 3! Make sure
     <li><h3><a href="../Extras/Data_Types">What other data types are there?</a></h3></li>
 </ul>
 
-<p style="font-size:30px"><a href="#snake_video">>> Chapter 3 >></a></p>
+<p style="font-size:30px"><a href="./methods">>> Chapter 3 >></a></p>
 
 <br>
 <br>
