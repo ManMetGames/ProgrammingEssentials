@@ -118,8 +118,8 @@ Your program should look like this:
 
 </blockquote>
 
-
-<h3>Colour</h3>
+<br>
+<h2>Colour</h2>
 It would be nice to colour the rectangle green so that it fits the standard colour scheme of snake. To do this, just before the line of code where we draw the rectangle, on a new line, add the code below:
 {% highlight java %}
 fill(0,255,0);
