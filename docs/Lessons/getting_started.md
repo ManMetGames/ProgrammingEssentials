@@ -29,7 +29,7 @@ Now that you've got Processing downloaded and running, give saving and loading a
 <br>
 <h2>Writing Code</h2>
 We're going to write some simple code to get used to using Processing, and build up the start of a simple game of Snake.
-Copy and paste the code below into Processing and run it.
+Copy and paste the code below into Processing and run it by pressing the play button.
 
 {% highlight java %}
 //setup
@@ -62,12 +62,14 @@ We'll come back to methods in Chapter 3, so don't worry too much about them for 
 
 <img src="../Images/size_method.png" width="250" height="125">
 
+<h3>Quick Task</h3>
 Change the code, so that the size command uses 640 as the width, and 440 as the height. When you run the program, the canvas should be a fair bit bigger.
 
 `background(0);` - Runs code to fill the canvas with a colour, making a fresh background. The number inside the brackets is the colour of the background, where 0 is black, and 255 is white.
 
 <img src="../Images/size_method.png" width="250" height="125">
 
+<h3>Quick Task</h3>
 Change the code, so that the colour value passed in to the background method is 50. When you run the program, the canvas should be dark grey instead of black.
 
 
