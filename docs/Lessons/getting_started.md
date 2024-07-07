@@ -250,6 +250,22 @@ Before you move on, let's have a quick check that you've got everything so far!
 </div>
 
 <br>
+<h2>Printing to the Console</h2>
+It can sometimes be handy to print values to the console (the section at the bottom of the Processing window). To do this, we're going to use another method, called `println`, which is short for "print line". Paste the code below into Processing, and hit play.
+{% highlight java %}
+println(10);
+{% endhighlight %}
+<br>
+You should see that the number 10 has printed out in the console!
+
+<img src="../Images/positioned_rectangle.png" width="200" height="235">
+
+<h3>Careful!</h3>
+<blockquote>
+Don't forget, the println method is short for "print line", so the last two letters are LN, not IN.
+</blockquote>
+
+<br>
 <h2 id="snake_video">Snake Game: Part 1</h2>
 This video finishes up the first section of the snake game, adding an apple to the program using the fill and rect method calls.
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
