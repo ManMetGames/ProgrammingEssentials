@@ -260,7 +260,7 @@ println(10);
 You should see that the number 10 has printed out in the console!
 <br>
 
-<img src="../Images/positioned_rectangle.png" width="200" height="235">
+<img src="../Images/printing_10.png" width="200" height="235">
 
 <br>
 <h3>Careful!</h3>
