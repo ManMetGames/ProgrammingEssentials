@@ -30,7 +30,14 @@ To get started, you'll need to make sure you have Processing downloaded and runn
 <br>
 <h2>Using Processing</h2>
 Now that you've got Processing downloaded and running, give saving and loading a file a go, and hit play to see an empty project run! Watch the video below if you're unsure how to get started.
-<p style="font-size: 30px; text-align: right;">QUICK START VIDEO HERE</p>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/using_processing.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 <br>
 <h2>Writing Code</h2>
@@ -97,7 +104,7 @@ To learn more, take a look at the quick reference page on brackets <a href="../E
 <br>
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/using_processing.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/getting_started.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
