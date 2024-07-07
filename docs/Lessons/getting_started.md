@@ -75,7 +75,9 @@ We'll come back to methods in Chapter 3, so don't worry too much about them for 
 `size(200,300);` - Runs code to set the size of the canvas. The two numbers inside the brackets are the width and height of the resulting canvas.
 <br>
 <img src="../Images/size_method.png" width="250" height="125" style=" text-align: right;">
+<br>
 
+<br>
 <h3>Quick Task</h3>
 <blockquote>
 Change the code, so that the size command uses 640 as the width, and 440 as the height. When you run the program, the canvas should be a fair bit bigger.
@@ -87,6 +89,7 @@ Change the code, so that the size command uses 640 as the width, and 440 as the 
 <img src="../Images/background_method.png" width="250" height="125">
 <br>
 
+<br>
 <h3>Quick Task</h3>
 <blockquote>
 Change the code, so that the colour value passed in to the background method is 50. When you run the program, the canvas should be dark grey instead of black.
@@ -94,7 +97,7 @@ Change the code, so that the colour value passed in to the background method is 
 
 <br>
 The official Processing reference goes into much more detail on the methods built into Processing, so make sure to check that out if you're interested. This course will use them sparingly, so don't feel like you have to learn them all.
-
+<br>
 
 <br>
 <h2><a href="../Extras/Brackets">( New Bracket Unlocked! )</a></h2>
