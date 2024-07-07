@@ -67,7 +67,7 @@ Change the code, so that the size command uses 640 as the width, and 440 as the 
 
 `background(0);` - Runs code to fill the canvas with a colour, making a fresh background. The number inside the brackets is the colour of the background, where 0 is black, and 255 is white.
 
-<img src="../Images/size_method.png" width="250" height="125">
+<img src="../Images/background_method.png" width="250" height="125">
 
 <h3>Quick Task</h3>
 Change the code, so that the colour value passed in to the background method is 50. When you run the program, the canvas should be dark grey instead of black.
@@ -82,9 +82,26 @@ To learn more, take a look at the quick reference page on brackets <a href="../E
 </blockquote>
 
 
+<h2>Drawing Shapes</h3>
+Processing has methods for drawing many different shapes to the canvas, but we'll just be using rectangles to keep things simple.
 
+Paste the code below into your program, after the code you've already got, then hit play.
+{% highlight java %}
+//draw snake
+rect(0,0,60,30);
+{% endhighlight %}
 
+As the comment suggests, this is the start of drawing the snake in our snake game. You should see a rectangle drawn in the top left corner of the canvas.
+`rect` is another method, which this time takes four numbers as input, and draws a rectangle based on those numbers. The four numbers are the `x` and `y` coordinates of the top-left corner of the rectangle, and the `width` and `height` in pixels.
 
+This means that our rectangle was drawn with its top-left corner at the coordinates 0,0 and was drawn with a width of 60 pixels, and a height of 30 pixels.
+
+<img src="../Images/rect_method.png" width="350" height="250">
+
+<h3>Coordinates</h3>
+Based on where the rectangle was drawn, we can understand that an `x` and `y` position of 0,0 must be in the top-left corner of the canvas. When drawing shapes in Processing, it's important to remember that `x` values increase as we move `right` along the canvas, and `y` values increase as we move `down` the canvas, as shown in the image below.
+
+<img src="../Images/coordinateSytem.png" width="250" height="250">
 
 
 
@@ -311,10 +328,7 @@ And that's variables! You should now be ready to move on to Chapter 3! Make sure
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/Data_Types">How do I store decimal numbers?</a></h3></li>
-    <li><h3><a href="../Extras/Data_Types">How do I store letters, words or sentences?</a></h3></li>
-    <li><h3><a href="./Classes">How do I store data together?</a></h3></li>
-    <li><h3><a href="../Extras/Data_Types">What other data types are there?</a></h3></li>
+    <li><h3><a href="../Extras/Data_Types">Why do colour values go up to 255?</a></h3></li>
 </ul>
 
 <p style="font-size: 30px; text-align: right;"><a href="./variables">Chapter 2 >></a></p>
