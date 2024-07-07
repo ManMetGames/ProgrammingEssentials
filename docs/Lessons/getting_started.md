@@ -86,7 +86,7 @@ There are a lot of brackets used in programming, so each time we cover a new typ
 To learn more, take a look at the quick reference page on brackets <a href="../Extras/Brackets">here</a>!
 </blockquote>
 
-
+<br>
 <h2>Drawing Shapes</h2>
 Processing has methods for drawing many different shapes to the canvas, but we'll just be using rectangles to keep things simple.
 
@@ -114,7 +114,7 @@ Change the values in the rect command so that the rectangle is drawn at coordina
 
 Your program should look like this:
 
-<img src="../Images/positioned_rectangle.png" width="640" height="470">
+<img src="../Images/positioned_rectangle.png" width="320" height="235">
 
 </blockquote>
 
@@ -155,162 +155,11 @@ Using the colour picker above, have a look at the RGB values for black, white, a
 </ul>
 </blockquote>
 
-<br>
-<h2>Storing Values in Variables</h2>
-A variable is a space in the computer's memory that we've given a name to, so we can refer back to it throughout our code. This means we can change the value stored in the variable, and the code won't need updating!
-
-This means we can create a variable to control the size of our rectangles!
-<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/WhyUseVariables.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-<br>
-To use our variable, we first need to `declare` and `initialise` it.
-
-<br>
-<h2>Declaring A Variable</h2>
-Variables can hold numbers, letters, words, and much more, so when we create a variable, we have to tell the system what type of variable we'd like (what shape the space in memory is!).
-
-The main two `data types` that we'll be working with for now are `int` and `boolean`.
-<ul>
-<li><b>int</b> variables can hold whole numbers (integers), like 7, 413, 0 or -22.</li>
-<li><b>boolean</b> variables can `true` or `false` values.</li>
-</ul>
-To tell the system what type we want to use, we `declare` the variable, using the format of:
-<blockquote style="font-size:20px>TYPE NAME;</blockquote>
-So to create an int variable, we type `int`, followed by the name we'd like give it, which in this case is "size".
-{% highlight java %}
-int size;
-//Creates an integer variable called "size"
-{% endhighlight %}
-
-<br>
-<h2>Variable Names</h2>
-Variable names should be descriptive, but to the point. They also can't start with numbers, or contain spaces or punctuation. Because of this, for any variables we name with multiple words, we'll start each new word with a capital letter. An example of creating a variable for our other common type in this format is given below:
-{% highlight java %}
-boolean trueOrFalse;
-//Creates a boolean variable called "trueOrFalse"
-{% endhighlight %}
-Variable names are also unique and case-sensitive, so when making a new variable, make sure it doesn't have the same name as one you've already made, and when referencing a variable you've already made, make sure it has any capital letters in the same places!
-
-<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/DeclaringVariablesNamingAndDataTypes.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<br>
-<h2>Initialising A Variable</h2>
-When you've declared a variable, you can initialise it, setting its starting value. This is done in the format of:
-
-<blockquote style="font-size:20px>NAME = VALUE;</blockquote>
-
-So to set our size value to 30, we can type the line:
-{% highlight java %}
-size = 30;
-//Sets the value of the size variable to 30
-{% endhighlight %}
-
-We can use this same format to change the value of any variable, so if we wanted to change the value of a boolean, we would just type:
-{% highlight java %}
-trueOrFalse = true;
-//sets the value of the "trueOrFalse" boolean variable to true
-{% endhighlight %}
-
-<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/InitialisingAndAssigningToVariables.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/Data_Types">here</a>!
-
-<br>
-<h2>Bringing It All Together</h2>
-Declaring and initialising a variable can also be written all in one go, with the format:
-<blockquote style="font-size:20px>TYPE NAME = VALUE;</blockquote>
-So we can update our code making the size variable, to turn it into one line:
-{% highlight java %}
-int size = 30;
-//Creates the an integer variable called "size" and sets it immediately to 30
-
-size(640,440);
-background(50);
-
-fill(0,255,0);
-rect(200, 200, 30, 30);
-
-fill(255,0,0);
-rect(400, 200, 30, 30);
-
-{% endhighlight %}
-
-And with that we have our space in memory, called "size", containing the number 30!
-
-<img src="../Images/size_variable.png" width="100" height="125">
-
-We can now use `size` in place of the 30s we were using for the size of our rectangles in the code from Chapter 1. If we decide that our rectangles should be 40 pixels wide, we can just change the line of code to set size to 40 instead.
-After that's done, your code should look like this!
-{% highlight java %}
-int size = 30;
-
-size(640,440);
-background(50);
-
-fill(0,255,0);
-rect(200,200,size,size);
-
-fill(255,0,0);
-rect(400, 200, size, size);
-
-{% endhighlight %}
-
-<br>
-<h2>Changing Variable Values</h2>
-We've seen that we can set a variable using the `NAME = VALUE;` pattern, but we don't have to just pass in fixed numbers.
-It's often useful to increase or decrease a value, which we can do using the same pattern.
-
-If we do a calculation to figure out the `value`, it will be calculated before it is assigned to the variable, so if we wanted to increase our size variable by 5, after drawing one of the rectangles, we could use this line of code:
-{% highlight java %}
-size = size+5;
-//Takes the value from size, adds 5,
-//then assigns the result back into the size variable
-{% endhighlight %}
-
-The same can be done for decreasing values, multiplying or dividing.
-{% highlight java %}
-size = size-5; 
-//Takes the value from size, subtracts 5,
-//then assigns the result back into the size variable
-
-size = size*5; 
-//Takes the value from size, multiplies it by 5,
-//then assigns the result back into the size variable
-
-size = size/5; 
-//Takes the value from size, divides it by 5,
-//then assigns the result back into the size variable
-{% endhighlight %}
-
 <h3>Quick Task</h3>
-In Processing, create an integer variable called x, and set it to 5. Divide x by 10, then print out the result.
-<ul>
-<li>What is printed out?</li>
-<li>Does it do what you expect?</li>
-</ul>
-
-Make sure to watch the video below for an explanation on changing variable values , and a solution to the task!
-<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/InitialisingAndAssigningToVariables.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
+<blockquote>
+In snake, the player progresses by eating apples, so let's draw one!
+Add another rectangle with a width and height of 30 pixels, positioned at 400,200. Colour this red.
+</blockquote>
 
 <br>
 <h2>Quick check!</h2>
@@ -360,18 +209,18 @@ Before you move on to the next chapter, let's have a quick check that you've got
 </div>
 
 <br>
-<h2 id="snake_video">Snake Game: Part 2</h2>
-Let's add some variables to the Snake project!
+<h2 id="snake_video">Snake Game: Part 1</h2>
+This video applies all of the content covered in this chapter, going from no code to two coloured rectangles on a canvas.
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/SnakeChapter2.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/SnakeChapter1.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
 
 <br>
 <h2>Summary</h2>
-And that's variables! You should now be ready to move on to Chapter 3! Make sure to refer back to the <a href="../QuickReference/variables_and_data_types">quick reference for this chapter here</a>, and feel free to explore some questions if you'd like to learn more, in the Explore section below!
+And that's us started! You should now be ready to move on to Chapter 2! Make sure to refer back to the <a href="../QuickReference/processing">quick reference for this chapter here</a>, and feel free to explore some questions if you'd like to learn more, in the Explore section below!
 
 
 <br>
