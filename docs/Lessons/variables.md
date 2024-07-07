@@ -13,12 +13,14 @@ Or if you're already comfortable using variables, <a href="#snake_video">click h
 
 
 <h2>The Problem</h2>
-Looking back at the code from Chapter 1, we can see that there is a lot of repetition of the number 30, which we used as the size of the rectangles.
+Looking back at some of the code from Chapter 1, we can see that there is a lot of repetition of the number 30, which we used as the size of the rectangles.
 
 {% highlight java %}
+//draw snake
 fill(0,255,0);
 rect(200,200,30,30);
 
+//draw apple
 fill(255,0,0);
 rect(400, 200, 30, 30);
 {% endhighlight %}
@@ -188,7 +190,7 @@ Make sure to watch the video below for an explanation on changing variable value
 
 <br>
 <h2>Quick check!</h2>
-Before you move on to the next chapter, let's have a quick check that you've got it so far!
+Before you move on, let's have a quick check that you've got everything so far!
 <div class="question1container" data-correct-answer="B">
     <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
     <form id="quizForm">

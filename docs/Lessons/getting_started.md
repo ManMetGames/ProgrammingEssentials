@@ -86,6 +86,9 @@ There are a lot of brackets used in programming, so each time we cover a new typ
 To learn more, take a look at the quick reference page on brackets <a href="../Extras/Brackets">here</a>!
 </blockquote>
 
+
+<p style="font-size: 30px; text-align: right;">STARTING A PROCESSING PROJECT VIDEO HERE</p>
+
 <br>
 <h2>Drawing Shapes</h2>
 Processing has methods for drawing many different shapes to the canvas, but we'll just be using rectangles to keep things simple.
@@ -117,6 +120,10 @@ Your program should look like this:
 <img src="../Images/positioned_rectangle.png" width="320" height="235">
 
 </blockquote>
+
+
+<p style="font-size: 30px; text-align: right;">COORDINATES VIDEO HERE</p>
+
 
 <br>
 <h2>Colour</h2>
@@ -155,6 +162,8 @@ Using the colour picker above, have a look at the RGB values for black, white, a
 </ul>
 </blockquote>
 
+<p style="font-size: 30px; text-align: right;">COLOURS VIDEO HERE</p>
+
 <h3>Quick Task</h3>
 <blockquote>
 In snake, the player progresses by eating apples, so let's draw one!
@@ -163,47 +172,47 @@ Add another rectangle with a width and height of 30 pixels, positioned at 400,20
 
 <br>
 <h2>Quick check!</h2>
-Before you move on to the next chapter, let's have a quick check that you've got it so far!
+Before you move on, let's have a quick check that you've got everything so far!
 <div class="question1container" data-correct-answer="B">
-    <h3>Which is the correct line of code to declare and initialise a variable holding a value of 200?</h3>
+    <h3>Which of the following lines of code would set the size of the canvas, with a width of 500, and a height of 300?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this line of code doesn't declare the variable!">
-        <label for="option1">snakeX = 200;</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct, this line of code declares and initialises the variable correctly!">
-        <label for="option2">int snakeX = 200;</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, the variable name can't include a space!">
-        <label for="option3">int snake x = 200;</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, we're missing a semi-colon to complete the line!">
-        <label for="option4">int snakeX = 200</label><br><br>
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this line of code has got the width and height the wrong way round!">
+        <label for="option1">size(300,500);</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, this line of code doesn't only passes in one value!">
+        <label for="option2">size(300);</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this isn't how we tell a method to run.">
+        <label for="option3">size = (500,300);</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct! This line of code would correctly set the size of the canvas, with a width of 500 and a height of 300.">
+        <label for="option4">size(500,300);</label><br><br>
         <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
     </form>
 </div>
 <div class="question2container" data-correct-answer="D">
-    <h3>We have already declared an integer variable called snakeY. Which of these lines of code would <b>not</b> cause an error?</h3>
+    <h3>How would you write a single line comment in Java?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, the variable name isn't spelled correctly, variables names are case-sensitive!">
-        <label for="option1">snakey = 50;</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, we're missing a semi-colon to complete the line!">
-        <label for="option2">snakeY = 10</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, we can't re-declare the variable with 'int' if it already exists!">
-        <label for="option3">int snakeY = 50;</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct, we don't need to declare the variable as it already exists, and the value is assigned correctly!">
-        <label for="option4">snakeY = -10;</label><br><br>
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! A double forward slash at any point will turn the rest of the line into a comment that won't be run as code.">
+        <label for="option1">//Like this</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="Technically this would work, but it's not quite right, as you don't need to use four forward slashes!">
+        <label for="option2">////Like this</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="Technically this would work, but that's because wrapping text in /* */ is the format for a multi-line comment!">
+        <label for="option3">/*Like this*/</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="Technically this would work, but it's not quite right, as you don't need to close your comment with forward slashes!">
+        <label for="option4">//Like this//</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
 
-<div class="question3container" data-correct-answer="C">
-    <h3>The integer variable "appleX" is initialised with a value of 50. Which line of code would add 10 to appleX?</h3>
+<div class="question3container" data-correct-answer="B">
+    <h3>What are round brackets (like these) generally used for when programming?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, we don't need to re-declare the variable with 'int'!">
-        <label for="option1">int appleX = appleX + 10;</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, if the value of appleX is changed before this line of code, setting it directly to 60 might not be the same as adding 10!">
-        <label for="option2">appleX = 60;</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! To make sure that 10 is added no matter the initial value of the variable, it is increased by adding 10 to its previous value!">
-        <label for="option3">appleX = appleX + 10;</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, whilst this would calculate the value of appleX + 10, it wouldn't do anything with that value, such as assigning it back to appleX!">
-        <label for="option4">appleX + 10;</label><br><br>
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, although adding additional information in the same way that you do in writing is quite close!">
+        <label for="option1">Referencing the author</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! Round brackets are generally used to pass information into a method (or similar!).">
+        <label for="option2">Passing information</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, whilst we did use the size method, which did have round brackets, theyre used in many more places than that!">
+        <label for="option3">Setting the size of the canvas</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, we've not covered getting information from elsewhere yet!">
+        <label for="option4">Getting information</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
