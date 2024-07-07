@@ -258,9 +258,10 @@ It can sometimes be handy to print values to the console (the section at the bot
 println(10);
 {% endhighlight %}
 You should see that the number 10 has printed out in the console!
+<br>
 
 <img src="../Images/printing_10.png" width="200" height="235">
-
+<br>
 
 <br>
 <h3>Careful!</h3>
