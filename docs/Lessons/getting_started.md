@@ -18,7 +18,6 @@ To get started, you'll need to make sure you have Processing downloaded and runn
 <li>Look inside the folders for Processing.exe and double click it.</li>
 </ul>
 
-
 <br>
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
@@ -95,6 +94,7 @@ Change the code, so that the colour value passed in to the background method is 
 <br>
 The official Processing reference goes into much more detail on the methods built into Processing, so make sure to check that out if you're interested. This course will use them sparingly, so don't feel like you have to learn them all.
 
+<br>
 <h2><a href="../Extras/Brackets">( New Bracket Unlocked! )</a></h2>
 <blockquote>
 There are a lot of brackets used in programming, so each time we cover a new type, we'll make sure to understand what they actually mean. Our first bracket type is the round bracket. When you need to `pass information` into something, this is when you'll need round brackets (like this!). That's why when we wrote methods for setting the size and colour of the canvas in the previous example, we passed information into those methods, using round brackets!
