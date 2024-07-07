@@ -252,14 +252,17 @@ Before you move on, let's have a quick check that you've got everything so far!
 <br>
 <h2>Printing to the Console</h2>
 It can sometimes be handy to print values to the console (the section at the bottom of the Processing window). To do this, we're going to use another method, called `println`, which is short for "print line". Paste the code below into Processing, and hit play.
+<br>
 {% highlight java %}
 println(10);
 {% endhighlight %}
 <br>
 You should see that the number 10 has printed out in the console!
+<br>
 
 <img src="../Images/positioned_rectangle.png" width="200" height="235">
 
+<br>
 <h3>Careful!</h3>
 <blockquote>
 Don't forget, the println method is short for "print line", so the last two letters are LN, not IN.
