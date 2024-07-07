@@ -132,6 +132,7 @@ This means that our rectangle was drawn with its top-left corner at the coordina
 Based on where the rectangle was drawn, we can understand that an `x` and `y` position of 0,0 must be in the top-left corner of the canvas. When drawing shapes in Processing, it's important to remember that `x` values increase as we move `right` along the canvas, and `y` values increase as we move `down` the canvas, as shown in the image below.
 
 <img src="../Images/coordinateSystem.png" width="250" height="250">
+<br>
 
 <h3>Quick Task</h3>
 <blockquote>
@@ -177,8 +178,10 @@ The `fill` method takes three values, these are the `red`, `green` and `blue` va
 Just like before, each colour value can be between 0 and 255, representing how strong each colour channel is. This means that when we enter 0 for red, 255 for green, and 0 for blue, we're telling the system that the fill colour should be all green, with no other colour.
 
 Have a play about with the colour picker at the link below to see how to create some different colours using RGB, or choose a new colour for your snake.
+<br>
 
 <a href="https://rgbcolorpicker.com/" target="_blank" rel="noopener noreferrer">RGB Colour Picker (Opens in new tab)</a>
+<br>
 
 <h3>Quick Task</h3>
 <blockquote>
@@ -195,6 +198,7 @@ Using the colour picker above, have a look at the RGB values for black, white, a
     Your browser does not support the video tag.
   </video>
 </div>
+<br>
 
 <h3>Quick Task</h3>
 <blockquote>
