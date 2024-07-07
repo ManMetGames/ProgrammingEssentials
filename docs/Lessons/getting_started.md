@@ -149,9 +149,9 @@ The `fill` method takes three values, these are the `red`, `green` and `blue` va
 
 Just like before, each colour value can be between 0 and 255, representing how strong each colour channel is. This means that when we enter 0 for red, 255 for green, and 0 for blue, we're telling the system that the fill colour should be all green, with no other colour.
 
-Have a play about with the colour picker below to see how to create some different colours, or choose a new colour for your snake.
+Have a play about with the colour picker at the link below to see how to create some different colours using RGB, or choose a new colour for your snake.
 
-<iframe src="https://rgbcolorpicker.com/" width="600" height="600" style="border: none;"></iframe>
+<a href="https://rgbcolorpicker.com/" target="_blank" rel="noopener noreferrer">RGB Colour Picker (Opens in new tab)</a>
 
 <h3>Quick Task</h3>
 <blockquote>
