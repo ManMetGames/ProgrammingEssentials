@@ -53,7 +53,7 @@ The main two `data types` that we'll be working with for now are `int` and `bool
 <li><b>boolean</b> variables can `true` or `false` values.</li>
 </ul>
 To tell the system what type we want to use, we `declare` the variable, using the format of:
-<blockquote style="font-size:20px>TYPE NAME;</blockquote>
+<blockquote style="font-size:20px">TYPE NAME;</blockquote><br>
 So to create an int variable, we type `int`, followed by the name we'd like give it, which in this case is "size".
 {% highlight java %}
 int size;
@@ -80,7 +80,7 @@ Variable names are also unique and case-sensitive, so when making a new variable
 <h2>Initialising A Variable</h2>
 When you've declared a variable, you can initialise it, setting its starting value. This is done in the format of:
 
-<blockquote style="font-size:20px">NAME = VALUE;</blockquote>
+<blockquote style="font-size:20px">NAME = VALUE;</blockquote><br>
 
 So to set our size value to 30, we can type the line:
 {% highlight java %}
@@ -106,7 +106,7 @@ Values for different datatypes are written out slightly differently, which you c
 <br>
 <h2>Bringing It All Together</h2>
 Declaring and initialising a variable can also be written all in one go, with the format:
-<blockquote style="font-size:20px">TYPE NAME = VALUE;</blockquote>
+<blockquote style="font-size:20px">TYPE NAME = VALUE;</blockquote><br>
 So we can update our code making the size variable, to turn it into one line:
 {% highlight java %}
 int size = 30;
