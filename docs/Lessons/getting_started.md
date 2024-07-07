@@ -73,7 +73,7 @@ Methods() - size(200,300) and background(0), are examples of methods. Methods ru
 We'll come back to methods in Chapter 3, so don't worry too much about them for now. These methods are also very Processing specific, but it's worthwhile understanding what each one does, and what each number we're putting inside the brackets means.
 
 `size(200,300);` - Runs code to set the size of the canvas. The two numbers inside the brackets are the width and height of the resulting canvas.
-
+<br>
 <img src="../Images/size_method.png" width="250" height="125" style=" text-align: right;">
 
 <h3>Quick Task</h3>
@@ -83,8 +83,9 @@ Change the code, so that the size command uses 640 as the width, and 440 as the 
 
 <br>
 `background(0);` - Runs code to fill the canvas with a colour, making a fresh background. The number inside the brackets is the colour of the background, where 0 is black, and 255 is white.
-
+<br>
 <img src="../Images/background_method.png" width="250" height="125">
+<br>
 
 <h3>Quick Task</h3>
 <blockquote>
@@ -93,6 +94,7 @@ Change the code, so that the colour value passed in to the background method is 
 
 <br>
 The official Processing reference goes into much more detail on the methods built into Processing, so make sure to check that out if you're interested. This course will use them sparingly, so don't feel like you have to learn them all.
+
 
 <br>
 <h2><a href="../Extras/Brackets">( New Bracket Unlocked! )</a></h2>
