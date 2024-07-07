@@ -60,7 +60,7 @@ We'll come back to methods in Chapter 3, so don't worry too much about them for 
 
 `size(200,300);` - Runs code to set the size of the canvas. The two numbers inside the brackets are the width and height of the resulting canvas.
 
-<img src="../Images/size_method.png" width="250" height="125">
+<img src="../Images/size_method.png" width="250" height="125" style=" text-align: right;">
 
 <h3>Quick Task</h3>
 <blockquote>
