@@ -151,8 +151,7 @@ Just like before, each colour value can be between 0 and 255, representing how s
 
 Have a play about with the colour picker below to see how to create some different colours, or choose a new colour for your snake.
 
-<label for="colorpicker">Click here to find some good RGB values:</label>
-<input type="color" id="colorpicker" value="#00ff00">
+<iframe src="https://www.w3schools.com/colors/colors_picker.asp" width="300" height="300" style="border: none;"></iframe>
 
 <h3>Quick Task</h3>
 <blockquote>
@@ -187,7 +186,7 @@ Before you move on, let's have a quick check that you've got everything so far!
         <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
     </form>
 </div>
-<div class="question2container" data-correct-answer="D">
+<div class="question2container" data-correct-answer="A">
     <h3>How would you write a single line comment in Java?</h3>
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! A double forward slash at any point will turn the rest of the line into a comment that won't be run as code.">
