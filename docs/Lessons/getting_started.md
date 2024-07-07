@@ -67,7 +67,7 @@ We'll come back to methods in Chapter 3, so don't worry too much about them for 
 Change the code, so that the size command uses 640 as the width, and 440 as the height. When you run the program, the canvas should be a fair bit bigger.
 </blockquote>
 
-
+<br>
 `background(0);` - Runs code to fill the canvas with a colour, making a fresh background. The number inside the brackets is the colour of the background, where 0 is black, and 255 is white.
 
 <img src="../Images/background_method.png" width="250" height="125">
@@ -77,16 +77,17 @@ Change the code, so that the size command uses 640 as the width, and 440 as the 
 Change the code, so that the colour value passed in to the background method is 50. When you run the program, the canvas should be dark grey instead of black.
 </blockquote>
 
+<br>
 The official Processing reference goes into much more detail on the methods built into Processing, so make sure to check that out if you're interested. This course will use them sparingly, so don't feel like you have to learn them all.
 
 <h2><a href="../Extras/Brackets">( New Bracket Unlocked! )</a></h2>
 <blockquote>
-There are a lot of brackets used in programming, so each time we cover a new type, we'll make sure to understand what they actually mean. Our first bracket type is the normal bracket, or "parentheses". When you need to pass information into something, this is when you'll need normal brackets. That's why when we wrote methods for setting the size and colour of the canvas in the previous example, we passed information into those methods, using normal brackets!
+There are a lot of brackets used in programming, so each time we cover a new type, we'll make sure to understand what they actually mean. Our first bracket type is the round bracket. When you need to `pass information` into something, this is when you'll need round brackets (like this!). That's why when we wrote methods for setting the size and colour of the canvas in the previous example, we passed information into those methods, using round brackets!
 To learn more, take a look at the quick reference page on brackets <a href="../Extras/Brackets">here</a>!
 </blockquote>
 
 
-<h2>Drawing Shapes</h3>
+<h2>Drawing Shapes</h2>
 Processing has methods for drawing many different shapes to the canvas, but we'll just be using rectangles to keep things simple.
 
 Paste the code below into your program, after the code you've already got, then hit play.
@@ -100,12 +101,12 @@ As the comment suggests, this is the start of drawing the snake in our snake gam
 
 This means that our rectangle was drawn with its top-left corner at the coordinates 0,0 and was drawn with a width of 60 pixels, and a height of 30 pixels.
 
-<img src="../Images/rect_method.png" width="350" height="250">
+<img src="../Images/rect_method.png" width="350" height="125">
 
 <h3>Coordinates</h3>
 Based on where the rectangle was drawn, we can understand that an `x` and `y` position of 0,0 must be in the top-left corner of the canvas. When drawing shapes in Processing, it's important to remember that `x` values increase as we move `right` along the canvas, and `y` values increase as we move `down` the canvas, as shown in the image below.
 
-<img src="../Images/coordinateSytem.png" width="250" height="250">
+<img src="../Images/coordinateSystem.png" width="250" height="250">
 
 <h3>Quick Task</h3>
 <blockquote>
@@ -116,6 +117,7 @@ Your program should look like this:
 <img src="../Images/positioned_rectangle.png" width="640" height="470">
 
 </blockquote>
+
 
 <h3>Colour</h3>
 It would be nice to colour the rectangle green so that it fits the standard colour scheme of snake. To do this, just before the line of code where we draw the rectangle, on a new line, add the code below:
