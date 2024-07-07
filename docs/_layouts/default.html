@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<style>
+    <style>
         #nav-container {
             display: flex;
             align-items: flex-start; /* Align items at the top */
@@ -22,7 +22,12 @@
         }
 
         #nav-image {
-            flex: 0 0 50%; /* Prevent image from stretching */
+            flex: 0 0 50%; /* Take up 50% of the container's width */
+        }
+
+        #nav-image img {
+            width: 100%; /* Ensure the image takes up 100% of the container */
+            height: auto; /* Maintain the aspect ratio */
         }
     </style>
     {% include head-custom.html %}
@@ -47,11 +52,11 @@
                 <hr>
             </div>
             <div id="nav-image">
-                <img src="{{ site.baseurl }}/Images/Manchester_Met_Spades.png">
+                <img src="{{ site.baseurl }}/Images/Manchester_Met_Spades.png" alt="Image">
             </div>
         </div>
         {{ content }}
-    </section>
+      </section>
 
     </div>
   </body>
