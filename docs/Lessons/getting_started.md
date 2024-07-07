@@ -151,7 +151,7 @@ Just like before, each colour value can be between 0 and 255, representing how s
 
 Have a play about with the colour picker below to see how to create some different colours, or choose a new colour for your snake.
 
-<iframe src="https://rgbcolorpicker.com/"></iframe>
+<iframe src="https://rgbcolorpicker.com/" width="600" height="600" style="border: none;"></iframe>
 
 <h3>Quick Task</h3>
 <blockquote>
@@ -172,7 +172,7 @@ Add another rectangle with a width and height of 30 pixels, positioned at 400,20
 <br>
 <h2>Quick check!</h2>
 Before you move on, let's have a quick check that you've got everything so far!
-<div class="question1container" data-correct-answer="B">
+<div class="question1container" data-correct-answer="D">
     <h3>Which of the following lines of code would set the size of the canvas, with a width of 500, and a height of 300?</h3>
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this line of code has got the width and height the wrong way round!">
