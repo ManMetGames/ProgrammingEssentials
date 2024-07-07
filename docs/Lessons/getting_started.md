@@ -151,7 +151,7 @@ Just like before, each colour value can be between 0 and 255, representing how s
 
 Have a play about with the colour picker below to see how to create some different colours, or choose a new colour for your snake.
 
-<iframe src="https://www.w3schools.com/colors/colors_picker.asp" width="300" height="300" style="border: none;"></iframe>
+<iframe src="https://rgbcolorpicker.com/"></iframe>
 
 <h3>Quick Task</h3>
 <blockquote>
