@@ -137,6 +137,7 @@ Based on where the rectangle was drawn, we can understand that an `x` and `y` po
 <img src="../Images/coordinateSystem.png" width="250" height="250">
 <br>
 
+<br>
 <h3>Quick Task</h3>
 <blockquote>
 Change the values in the rect command so that the rectangle is drawn at coordinates 200,200 with a width and height of 30 pixels.

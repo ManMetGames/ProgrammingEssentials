@@ -8,13 +8,23 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<style>
+        #nav-container {
+            display: flex;
+            align-items: flex-start; /* Align items at the top */
+        }
+
+        #nav-title {
+            flex: 1; /* Allow the text to take up available space */
+            text-align: left; /* Align text to the left */
+        }
+
+        #nav-image {
+            flex: 0 0 auto; /* Prevent image from stretching */
+            margin-left: 20px; /* Add space between text and image */
+        }
+    </style>
     {% include head-custom.html %}
   </head>
   <body>
@@ -30,15 +40,18 @@
     <div class="wrapper">
 
       <section>
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
+        <div id="nav-container">
+            <div id="nav-title">
+                <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                <p>{{ site.description | default: site.github.project_tagline }}</p>
+                <hr>
+            </div>
+            <div id="nav-image">
+                <img src="{{ site.baseurl }}/Images/printing_10.png" alt="Description of image">
+            </div>
         </div>
-
         {{ content }}
-
-      </section>
+    </section>
 
     </div>
   </body>
