@@ -169,11 +169,13 @@ size = size/5;
 {% endhighlight %}
 
 <h3>Quick Task</h3>
+<blockquote>
 In Processing, create an integer variable called x, and set it to 5. Divide x by 10, then print out the result.
 <ul>
 <li>What is printed out?</li>
 <li>Does it do what you expect?</li>
 </ul>
+</blockquote>
 
 Make sure to watch the video below for an explanation on changing variable values , and a solution to the task!
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">

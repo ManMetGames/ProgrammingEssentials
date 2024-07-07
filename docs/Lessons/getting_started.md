@@ -63,15 +63,19 @@ We'll come back to methods in Chapter 3, so don't worry too much about them for 
 <img src="../Images/size_method.png" width="250" height="125">
 
 <h3>Quick Task</h3>
+<blockquote>
 Change the code, so that the size command uses 640 as the width, and 440 as the height. When you run the program, the canvas should be a fair bit bigger.
+</blockquote>
+
 
 `background(0);` - Runs code to fill the canvas with a colour, making a fresh background. The number inside the brackets is the colour of the background, where 0 is black, and 255 is white.
 
 <img src="../Images/background_method.png" width="250" height="125">
 
 <h3>Quick Task</h3>
+<blockquote>
 Change the code, so that the colour value passed in to the background method is 50. When you run the program, the canvas should be dark grey instead of black.
-
+</blockquote>
 
 The official Processing reference goes into much more detail on the methods built into Processing, so make sure to check that out if you're interested. This course will use them sparingly, so don't feel like you have to learn them all.
 
@@ -103,8 +107,51 @@ Based on where the rectangle was drawn, we can understand that an `x` and `y` po
 
 <img src="../Images/coordinateSytem.png" width="250" height="250">
 
+<h3>Quick Task</h3>
+<blockquote>
+Change the values in the rect command so that the rectangle is drawn at coordinates 200,200 with a width and height of 30 pixels.
 
+Your program should look like this:
 
+<img src="../Images/positioned_rectangle.png" width="640" height="470">
+
+</blockquote>
+
+<h3>Colour</h3>
+It would be nice to colour the rectangle green so that it fits the standard colour scheme of snake. To do this, just before the line of code where we draw the rectangle, on a new line, add the code below:
+{% highlight java %}
+fill(0,255,0);
+{% endhighlight %}
+
+All of your code together, should look like this:
+{% highlight java %}
+//setup
+size(200,300);
+
+//draw background
+background(0);
+
+//draw snake
+fill(0, 255,0);
+rect(200,200,30,30);
+{% endhighlight %}
+
+The `fill` method takes three values, these are the `red`, `green` and `blue` values, or `RGB` values.
+
+Just like before, each colour value can be between 0 and 255, representing how strong each colour channel is. This means that when we enter 0 for red, 255 for green, and 0 for blue, we're telling the system that the fill colour should be all green, with no other colour.
+
+Have a play about with the colour picker below to see how to create some different colours, or choose a new colour for your snake.
+
+<label for="colorpicker">Click here to find some good RGB values:</label>
+<input type="color" id="colorpicker" value="#00ff00">
+
+<h3>Quick Task</h3>
+<blockquote>
+Using the colour picker above, have a look at the RGB values for black, white, and some different shades of grey.
+<ul>
+<li>Why might the background method allow you to only provide one number?</li>
+</ul>
+</blockquote>
 
 <br>
 <h2>Storing Values in Variables</h2>
