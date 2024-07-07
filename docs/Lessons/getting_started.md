@@ -6,8 +6,7 @@ layout: default
 In this chapter, we'll be covering how to get started using <a href="https://processing.org/">Processing</a>.
 <br>
 For a quick reference on the core Processing commands we'll be using, <a href="../QuickReference/processing">click here</a>.
-<br>
-Or if you're already comfortable using Processing, <a href="#snake_video">click here</a> to skip straight to the video covering the start of the Snake Game project we'll be making over the course of each chapter!</p>
+
 
 <h2>Processing</h2>
 Processing is an integraded development environment (IDE) that allows us to write code in the Java programming language. It includes some custom functionality that means we can draw and animate to a canvas, and some things to make coding a little easier in places.
@@ -19,7 +18,14 @@ To get started, you'll need to make sure you have Processing downloaded and runn
 <li>Look inside the folders for Processing.exe and double click it.</li>
 </ul>
 
-<p style="font-size: 30px; text-align: right;">QUICK SETUP VIDEO HERE</p>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/downloading_processing.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 <br>
 <h2>Using Processing</h2>
@@ -37,6 +43,8 @@ size(200,300);
 
 //draw background
 background(0);
+
+println(10);
 {% endhighlight %}
 This should create a canvas a little larger than you had before, with a black background.
 <br>
@@ -86,8 +94,13 @@ There are a lot of brackets used in programming, so each time we cover a new typ
 To learn more, take a look at the quick reference page on brackets <a href="../Extras/Brackets">here</a>!
 </blockquote>
 
-
-<p style="font-size: 30px; text-align: right;">STARTING A PROCESSING PROJECT VIDEO HERE</p>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/using_processing.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 <br>
 <h2>Drawing Shapes</h2>
@@ -121,8 +134,13 @@ Your program should look like this:
 
 </blockquote>
 
-
-<p style="font-size: 30px; text-align: right;">COORDINATES VIDEO HERE</p>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/drawing_shapes.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 
 <br>
@@ -161,7 +179,13 @@ Using the colour picker above, have a look at the RGB values for black, white, a
 </ul>
 </blockquote>
 
-<p style="font-size: 30px; text-align: right;">COLOURS VIDEO HERE</p>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/colours.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 <h3>Quick Task</h3>
 <blockquote>
@@ -218,7 +242,7 @@ Before you move on, let's have a quick check that you've got everything so far!
 
 <br>
 <h2 id="snake_video">Snake Game: Part 1</h2>
-This video applies all of the content covered in this chapter, going from no code to two coloured rectangles on a canvas.
+This video finishes up the first section of the snake game, adding an apple to the program using the fill and rect method calls.
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
     <source src="{{ site.baseurl }}/Videos/SnakeChapter1.mp4" type="video/mp4">
