@@ -252,15 +252,15 @@ Before you move on, let's have a quick check that you've got everything so far!
 <br>
 <h2>Printing to the Console</h2>
 It can sometimes be handy to print values to the console (the section at the bottom of the Processing window). To do this, we're going to use another method, called `println`, which is short for "print line". Paste the code below into Processing, and hit play.
+
 <br>
 {% highlight java %}
 println(10);
 {% endhighlight %}
-<br>
 You should see that the number 10 has printed out in the console!
-<br>
 
 <img src="../Images/printing_10.png" width="200" height="235">
+
 
 <br>
 <h3>Careful!</h3>
@@ -268,6 +268,7 @@ You should see that the number 10 has printed out in the console!
 Don't forget, the println method is short for "print line", so the last two letters are LN, not IN.
 </blockquote>
 
+<br>
 <br>
 <h2 id="snake_video">Snake Game: Part 1</h2>
 This video finishes up the first section of the snake game, adding an apple to the program using the fill and rect method calls.
