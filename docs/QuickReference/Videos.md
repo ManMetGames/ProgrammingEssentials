@@ -163,23 +163,120 @@ For more information, click on the name of a video to see it in context.
 
 <br>
 <h2>Chapter 2: Variables</h2>
+For more information, click on the name of a video to see it in context.
+
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/WhyUseVariables.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/variables#storing_variables">Storing Values in Variables</a></h3>
+		<ul>
+			<li>What a variable is</li>
+			<li>Why variables are useful</li>
+		</ul>
+	</div>
+</div>
+<br>
+
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/DeclaringVariablesNamingAndDataTypes.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/variables#declaring_a_variable">Declaring A Variable</a></h3>
+		<ul>
+			<li>Declaring a variable</li>
+			<li>Data types</li>
+			<li>Variable name limitations and conventions</li>
+		</ul>
+		
+	</div>
+</div>
+<br>
+
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/downloading_processing.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/getting_started#processing">Processing</a></h3>
+		<ul>
+			<li>Downloading Processing</li>
+			<li>Running Processing</li>
+		</ul>
+		
+	</div>
+</div>
+<br>
+
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/downloading_processing.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/getting_started#processing">Processing</a></h3>
+		<ul>
+			<li>Downloading Processing</li>
+			<li>Running Processing</li>
+		</ul>
+		
+	</div>
+</div>
+<br>
+
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/downloading_processing.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/getting_started#processing">Processing</a></h3>
+		<ul>
+			<li>Downloading Processing</li>
+			<li>Running Processing</li>
+		</ul>
+		
+	</div>
+</div>
+<br>
 
 <br>
 <h2>Chapter 3: Methods</h2>
+For more information, click on the name of a video to see it in context.
 
 <br>
 <h2>Chapter 4: Classes</h2>
+For more information, click on the name of a video to see it in context.
 
 <br>
 <h2>Chapter 5: Conditionals</h2>
+For more information, click on the name of a video to see it in context.
 
 <br>
 <h2>Chapter 6: Arrays</h2>
+For more information, click on the name of a video to see it in context.
 
 <br>
 <h2>Chapter 7: Loops</h2>
+For more information, click on the name of a video to see it in context.
 
 <br>
 <h2>Chapter 8: ArrayLists</h2>
+For more information, click on the name of a video to see it in context.
 
 

@@ -30,7 +30,7 @@ This means that if we wanted to change the size of the rectangles, we'd have to 
 <p style="font-size:20px"><i>There must be a better way!</i></p>
 
 <br>
-<h2>Storing Values in Variables</h2>
+<h2 id="storing_variables">Storing Values in Variables</h2>
 A variable is a space in the computer's memory that we've given a name to, so we can refer back to it throughout our code. This means we can change the value stored in the variable, and the code won't need updating!
 
 This means we can create a variable to control the size of our rectangles!
