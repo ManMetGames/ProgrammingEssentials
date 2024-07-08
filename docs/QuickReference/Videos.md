@@ -218,7 +218,6 @@ For more information, click on the name of a video to see it in context.
 		
 	</div>
 </div>
-<br>
 
 <br>
 <div class="vid-container">
