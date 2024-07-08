@@ -8,7 +8,7 @@ In this chapter, we'll be covering how to get started using <a href="https://pro
 For a quick reference on the core Processing commands we'll be using, <a href="../QuickReference/processing">click here</a>.
 
 
-<h2>Processing</h2>
+<h2 id="processing">Processing</h2>
 Processing is an integraded development environment (IDE) that allows us to write code in the Java programming language. It includes some custom functionality that means we can draw and animate to a canvas, and some things to make coding a little easier in places.
 
 To get started, you'll need to make sure you have Processing downloaded and running. If you don't already have Processing, follow the steps below, or watch along with the quick setup video!
@@ -27,7 +27,7 @@ To get started, you'll need to make sure you have Processing downloaded and runn
 </div>
 
 <br>
-<h2>Using Processing</h2>
+<h2 id="using_processing">Using Processing</h2>
 Now that you've got Processing downloaded and running, give saving and loading a file a go, and hit play to see an empty project run! Watch the video below if you're unsure how to get started.
 
 <br>
@@ -39,7 +39,7 @@ Now that you've got Processing downloaded and running, give saving and loading a
 </div>
 
 <br>
-<h2>Writing Code</h2>
+<h2 id="writing_code">Writing Code</h2>
 We're going to write some simple code to get used to using Processing, and build up the start of a simple game of Snake.
 Copy and paste the code below into Processing and run it by pressing the play button.
 
@@ -115,7 +115,7 @@ To learn more, take a look at the quick reference page on brackets <a href="../E
 </div>
 
 <br>
-<h2>Drawing Shapes</h2>
+<h2 id="drawing_shapes">Drawing Shapes</h2>
 Processing has methods for drawing many different shapes to the canvas, but we'll just be using rectangles to keep things simple.
 
 Paste the code below into your program, after the code you've already got, then hit play.
@@ -158,7 +158,7 @@ Your program should look like this:
 
 
 <br>
-<h2>Colour</h2>
+<h2 id="colour">Colour</h2>
 It would be nice to colour the rectangle green so that it fits the standard colour scheme of snake. To do this, just before the line of code where we draw the rectangle, on a new line, add the code below:
 {% highlight java %}
 fill(0,255,0);
@@ -211,6 +211,42 @@ Add another rectangle with a width and height of 30 pixels, positioned at 400,20
 </blockquote>
 
 <br>
+<h2 id="printing_to_the_console">Printing to the Console</h2>
+It can sometimes be handy to print values to the console (the section at the bottom of the Processing window). To do this, we're going to use another method, called `println`, which is short for "print line". Paste the code below into Processing, and hit play.
+
+<br>
+{% highlight java %}
+println(10);
+{% endhighlight %}
+You should see that the number 10 has printed out in the console!
+<br>
+
+<img src="../Images/printing_10.png" width="200" height="235">
+<br>
+
+If we want to print words out to the console, we just need to put the words inside quotation marks, "like this". Try out the code below!
+
+<br>
+{% highlight java %}
+println("Hello, World!");
+{% endhighlight %}
+<br>
+
+<br>
+<h3>Careful!</h3>
+<blockquote>
+Don't forget, the println method is short for "print line", so the last two letters are LN, not IN.
+</blockquote>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/printing_to_the_console.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<br>
 <h2>Quick check!</h2>
 Before you move on, let's have a quick check that you've got everything so far!
 <div class="question1container" data-correct-answer="D">
@@ -257,25 +293,20 @@ Before you move on, let's have a quick check that you've got everything so far!
     </form>
 </div>
 
-<br>
-<h2>Printing to the Console</h2>
-It can sometimes be handy to print values to the console (the section at the bottom of the Processing window). To do this, we're going to use another method, called `println`, which is short for "print line". Paste the code below into Processing, and hit play.
-
-<br>
-{% highlight java %}
-println(10);
-{% endhighlight %}
-You should see that the number 10 has printed out in the console!
-<br>
-
-<img src="../Images/printing_10.png" width="200" height="235">
-<br>
-
-<br>
-<h3>Careful!</h3>
-<blockquote>
-Don't forget, the println method is short for "print line", so the last two letters are LN, not IN.
-</blockquote>
+<div class="question4container" data-correct-answer="A">
+    <h3>Which of the following lines of code would print the word `apple` to the console?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! We've wrapped the word in quotation marks and printed it using the println method call correctly!">
+        <label for="option1">println("apple");</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, this line of code has misspelled the println command, swapping the L for an I!">
+        <label for="option2">printIn("apple");</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this line of code has wrapped the word apple inside apostrophes!">
+        <label for="option3">println('apple');</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, this line of code has misspelled the println command, swapping the L for the number 1!">
+        <label for="option4">print1n("apple");</label><br><br>
+        <button type="button" onclick="checkAnswer('.question4container')">Submit</button><p id="result" class="result"></p>
+    </form>
+</div>
 
 <br>
 <br>

@@ -35,7 +35,7 @@ This is the home for all of the videos throughout the Programming Essentials cou
 
 <br>
 <h2>Chapter 1: Getting Started</h2>
-<a>To see these videos in context, <a href="{{ site.baseurl }}Lessons/getting_started">click here</a> to go to Chapter 1.
+To see these videos in context, <a href="{{ site.baseurl }}Lessons/getting_started">click here</a> to go to Chapter 1.
 
 <div class="vid-container">
 	<div class="vid-video">
@@ -45,7 +45,7 @@ This is the home for all of the videos throughout the Programming Essentials cou
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3>Processing</h3>
+		<a href="{{ site.baseurl }}Lessons/getting_started#processing><h3>Processing</h3></a>
 		<ul>
 			<li>Downloading Processing</li>
 			<li>Running Processing</li>
@@ -122,6 +122,24 @@ This is the home for all of the videos throughout the Programming Essentials cou
 		<ul>
 			<li>Filling shapes with colour</li>
 			<li>Getting the RGB values for a colour</li>
+		</ul>
+		
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/printing_to_the_console.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3>Printing to the Console</h3>
+		<ul>
+			<li>The console</li>
+			<li>Printing numbers to the console</li>
+			<li>Printing words to the console</li>
 		</ul>
 		
 	</div>
