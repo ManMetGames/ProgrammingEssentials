@@ -35,7 +35,7 @@ This is the home for all of the videos throughout the Programming Essentials cou
 
 <br>
 <h2>Chapter 1: Getting Started</h2>
-To see these videos in context, <a href="{{ site.baseurl }}Lessons/getting_started">click here</a> to go to Chapter 1.
+For more information, click on the name of a video to see it in context.
 
 <div class="vid-container">
 	<div class="vid-video">
@@ -62,7 +62,7 @@ To see these videos in context, <a href="{{ site.baseurl }}Lessons/getting_start
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3>Using Processing</h3>
+		<h3><a href="{{ site.baseurl }}Lessons/getting_started#using_processing">Using Processing</a></h3>
 		<ul>
 			<li>Processing layout</li>
 			<li>Running and stopping your code</li>
@@ -80,7 +80,7 @@ To see these videos in context, <a href="{{ site.baseurl }}Lessons/getting_start
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3>Writing Code</h3>
+		<h3><a href="{{ site.baseurl }}Lessons/getting_started#writing_code">Writing Code</a></h3>
 		<ul>
 			<li>How to write a comment</li>
 			<li>Calling a method</li>
@@ -101,7 +101,7 @@ To see these videos in context, <a href="{{ site.baseurl }}Lessons/getting_start
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3>Drawing Shapes</h3>
+		<h3><a href="{{ site.baseurl }}Lessons/getting_started#drawing_shapes">Drawing Shapes</a></h3>
 		<ul>
 			<li>Drawing a rectangle</li>
 			<li>Coordinates</li>
@@ -118,7 +118,7 @@ To see these videos in context, <a href="{{ site.baseurl }}Lessons/getting_start
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3>Colour</h3>
+		<h3><a href="{{ site.baseurl }}Lessons/getting_started#colour">Colour</a></h3>
 		<ul>
 			<li>Filling shapes with colour</li>
 			<li>Getting the RGB values for a colour</li>
@@ -135,7 +135,7 @@ To see these videos in context, <a href="{{ site.baseurl }}Lessons/getting_start
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3>Printing to the Console</h3>
+		<h3><a href="{{ site.baseurl }}Lessons/getting_started#printing_to_the_console">Printing to the Console</a></h3>
 		<ul>
 			<li>The console</li>
 			<li>Printing numbers to the console</li>
@@ -153,7 +153,7 @@ To see these videos in context, <a href="{{ site.baseurl }}Lessons/getting_start
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3>Snake Game: Part 1</h3>
+		<h3><a href="{{ site.baseurl }}Lessons/getting_started#snake_video">Snake Game: Part 1</a></h3>
 		<ul>
 			<li>Finishing the first part of the Snake game example</li>
 		</ul>
