@@ -45,7 +45,7 @@ To see these videos in context, <a href="{{ site.baseurl }}Lessons/getting_start
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3><a href="{{ site.baseurl }}Lessons/getting_started#processing>Processing</a></h3>
+		<h3><a href="{{ site.baseurl }}Lessons/getting_started#processing">Processing</a></h3>
 		<ul>
 			<li>Downloading Processing</li>
 			<li>Running Processing</li>
