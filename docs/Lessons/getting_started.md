@@ -66,7 +66,7 @@ Semi-colons; - Semi-colons tell a line of code that it is complete. There will b
 </blockquote>
 <br>
 <blockquote>
-Methods() - size(200,300) and background(0), are examples of method calls. Methods are blocks of code that have been defined elswhere, and calling a method runs this code. The size and background methods are built into Processing.
+Method Calls() - size(200,300) and background(0), are examples of calls to methods. Methods are blocks of code that have been defined elswhere, and calling a method runs this code. The size and background methods are built into Processing.
 </blockquote>
 <br>
 
