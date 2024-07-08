@@ -204,51 +204,34 @@ For more information, click on the name of a video to see it in context.
 <div class="vid-container">
 	<div class="vid-video">
 		<video width="100%" controls>
-			<source src="{{ site.baseurl }}Videos/downloading_processing.mp4" type="video/mp4">
+			<source src="{{ site.baseurl }}Videos/InitialisingAndAssigningToVariables.mp4" type="video/mp4">
 			Your browser does not support the video tag.
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3><a href="{{ site.baseurl }}Lessons/getting_started#processing">Processing</a></h3>
+		<h3><a href="{{ site.baseurl }}Lessons/variables#initialising_a_variable">Initialising A Variable and Changing Variable Values</a></h3>
 		<ul>
-			<li>Downloading Processing</li>
-			<li>Running Processing</li>
+			<li>Initialising variables</li>
+			<li>Assigning values to variables</li>
+			<li>Calculations with variables</li>
 		</ul>
 		
 	</div>
 </div>
 <br>
 
-<div class="vid-container">
-	<div class="vid-video">
-		<video width="100%" controls>
-			<source src="{{ site.baseurl }}Videos/downloading_processing.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-	</div>
-	<div class="vid-content">
-		<h3><a href="{{ site.baseurl }}Lessons/getting_started#processing">Processing</a></h3>
-		<ul>
-			<li>Downloading Processing</li>
-			<li>Running Processing</li>
-		</ul>
-		
-	</div>
-</div>
 <br>
-
 <div class="vid-container">
 	<div class="vid-video">
 		<video width="100%" controls>
-			<source src="{{ site.baseurl }}Videos/downloading_processing.mp4" type="video/mp4">
+			<source src="{{ site.baseurl }}Videos/SnakeChapter2.mp4" type="video/mp4">
 			Your browser does not support the video tag.
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3><a href="{{ site.baseurl }}Lessons/getting_started#processing">Processing</a></h3>
+		<h3><a href="{{ site.baseurl }}Lessons/variables#snake_video">Snake Game: Part 2</a></h3>
 		<ul>
-			<li>Downloading Processing</li>
-			<li>Running Processing</li>
+			<li>Finishing up the second part of the Snake game example</li>
 		</ul>
 		
 	</div>

@@ -44,7 +44,7 @@ This means we can create a variable to control the size of our rectangles!
 To use our variable, we first need to `declare` and `initialise` it.
 
 <br>
-<h2>Declaring A Variable</h2>
+<h2  id="declaring_a_variable">Declaring A Variable</h2>
 Variables can hold numbers, letters, words, and much more, so when we create a variable, we have to tell the system what type of variable we'd like (what shape the space in memory is!).
 
 The main two `data types` that we'll be working with for now are `int` and `boolean`.
@@ -61,7 +61,7 @@ int size;
 {% endhighlight %}
 
 <br>
-<h2>Variable Names</h2>
+<h3>Variable Names</h3>
 Variable names should be descriptive, but to the point. They also can't start with numbers, or contain spaces or punctuation. Because of this, for any variables we name with multiple words, we'll start each new word with a capital letter. An example of creating a variable for our other common type in this format is given below:
 {% highlight java %}
 boolean trueOrFalse;
@@ -77,7 +77,7 @@ Variable names are also unique and case-sensitive, so when making a new variable
 </div>
 
 <br>
-<h2>Initialising A Variable</h2>
+<h2 id="initialising_a_variable">Initialising A Variable</h2>
 When you've declared a variable, you can initialise it, setting its starting value. This is done in the format of:
 
 <blockquote style="font-size:20px">NAME = VALUE;</blockquote><br>
@@ -94,17 +94,9 @@ trueOrFalse = true;
 //sets the value of the "trueOrFalse" boolean variable to true
 {% endhighlight %}
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/InitialisingAndAssigningToVariables.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/Data_Types">here</a>!
 
 <br>
-<h2>Bringing It All Together</h2>
+<h3>Bringing It All Together</h3>
 Declaring and initialising a variable can also be written all in one go, with the format:
 <blockquote style="font-size:20px">TYPE NAME = VALUE;</blockquote><br>
 So we can update our code making the size variable, to turn it into one line:
@@ -170,16 +162,7 @@ size = size/5;
 //then assigns the result back into the size variable
 {% endhighlight %}
 
-<h3>Quick Task</h3>
-<blockquote>
-In Processing, create an integer variable called x, and set it to 5. Divide x by 10, then print out the result.
-<ul>
-<li>What is printed out?</li>
-<li>Does it do what you expect?</li>
-</ul>
-</blockquote>
 
-Make sure to watch the video below for an explanation on changing variable values , and a solution to the task!
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
     <source src="{{ site.baseurl }}/Videos/InitialisingAndAssigningToVariables.mp4" type="video/mp4">
@@ -187,6 +170,7 @@ Make sure to watch the video below for an explanation on changing variable value
   </video>
 </div>
 
+Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/Data_Types">here</a>!
 
 <br>
 <h2>Quick check!</h2>
