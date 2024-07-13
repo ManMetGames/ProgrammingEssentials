@@ -33,7 +33,8 @@ TYPE NAME(){<br>
 </blockquote><br>
 
 As well as running code, methods can return data back to where they are called from, which is why we need to include a `type` as well as a `name` for the method. 
-As the draw method doesn’t need to return data (we’re just using it to run code!) we need to tell the method that it doesn’t have a return type. To do this, we use a return type of `void`, which means "nothing".<br>
+As the draw method doesn’t need to return data (we’re just using it to run code!) we need to tell the method that it doesn’t have a return type. To do this, we use a return type of `void`, which means "nothing".
+<br>
 
 
 As an example, copy and paste the code below <b>into a new project</b>.
@@ -43,13 +44,13 @@ As an example, copy and paste the code below <b>into a new project</b>.
 int x = 0;
 
 void draw(){
-	println(x);
-	x = x+1;
+  println(x);
+  x = x+1;
 }
 {% endhighlight %}
 
 When you hit play, you should see numbers printing out into the console, increasing from zero.
-
+<br>
 
 <br>
 <h2><a href="../Extras/Brackets">{ New Bracket Unlocked! }</a></h2>
@@ -73,7 +74,7 @@ Add in the code below, in-between the declaration of the x variable, and void dr
 
 {% highlight java %}
 void setup(){
-	size(640,440);
+  size(640,440);
 }
 {% endhighlight %}
 
@@ -83,6 +84,7 @@ The setup method will be called automatically by Processing, at the very start o
 <br>
 
 The order of your methods isn't actually important, as the flow of code we discussed in Chapter 1 is actually only important when we're inside a method. By convention however, it's best to have your variable declarations up at the top, followed by your methods.
+<br>
 
 <br>
 <h2 id="calling_your_own_methods">Calling Your Own Methods</h2>
@@ -184,8 +186,8 @@ Methods are useful for when we want to bundle code together, so that we can run 
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/Data_Types">How do I store decimal numbers?</a></h3></li>
-    <li><h3><a href="../Extras/Data_Types">How do I store letters, words or sentences?</a></h3></li>
+    <li><h3><a href="../Extras/Parameter_Passing">How do I pass information into a method?</a></h3></li>
+    <li><h3><a href="../Extras/Functions">How do return information from a method?</a></h3></li>
     <li><h3><a href="./Classes">How do I store data together?</a></h3></li>
     <li><h3><a href="../Extras/Data_Types">What other data types are there?</a></h3></li>
 </ul>
