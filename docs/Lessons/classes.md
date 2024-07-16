@@ -71,7 +71,8 @@ This should include the snakeX and snakeY variables, and the DrawSnake and MoveS
 </blockquote>
 
 
-<h2>Initialising Class Objects</h2>
+<br>
+<h2 id="initialising_class_objects">Initialising Class Objects</h2>
 Now that we have a snake class, this can act as the template for a snake object. To create one of these, we need to create a snake object in the same way that we created int variables earlier.
 
 <blockquote style="font-size:20px">
@@ -130,7 +131,8 @@ Go through your code and rename variables such as snakeX and snakeY to x and y. 
 You can also rename your DrawSnake and MoveSnake methods to Draw and Move, and the same for the DrawApple method in the Apple class. This will mean that wherever you’re using those variables and method names you’ll need to make sure the names match!
 </blockquote>
 
-<h2>Constructors</h2>
+<br>
+<h2 id="constructors">Constructors</h2>
 When creating a new apple, it would be useful to define where it should be created instead of using the default values.
 
 For this, we could set up its *x* and *y* values after we’ve created it, but remembering to have to do that every time wouldn’t be ideal.
@@ -174,7 +176,8 @@ Running the program should now show the apple in a different starting position, 
 <p style="font-size:20px"><i>There must be a better way!</i></p>
 
 
-<h2>Passing Parameters</h2>
+<br>
+<h2 id="passing_parameters">Passing Parameters</h2>
 It would be good if we could pass information into the constructor, in exactly the same way that we pass values in to the `background`, `size`, `rect` or `println` methods. To do this, we need to declare local variables called “parameters” inside the round brackets of our constructor (we can do exactly this for other methods too!) and make use of the variables, as if they already had values in them. When we call the constructor by initialising the object, we’ll then need to pass in matching information (of the right type!) to create the object.
 
 
@@ -206,6 +209,68 @@ Create a constructor for the snake class that takes in values that can be stored
 </blockquote>
 
 When we run the code, we should see that the program looks largely the same as it did at the beginning of this chapter, but our code is now much more split up, making the main tab a lot cleaner.
+
+
+<br>
+<h2 id="adding_randomness">Adding Randomness</h2>
+Having the apple in our snake game spawn in the same place every time isn't very useful, so let's add some randomness.
+
+In Processing we can do this by making use of the `random` function. We'll cover functions more in the future, but they are ultimately just methods that return a value. In this case, we can pass in an upper and lower bound, and the random function will return a random value within these bounds.
+
+<H2>IMAGE HERE</H2>
+
+As a test, paste the code below into your setup method:
+{% highlight java %}
+println( random(0,100) );
+{% endhighlight %}
+<br>
+
+Running your code multiple times should put different numbers between 0 and 100 in the console!
+
+<h3>Note</h3>
+<blockquote>Whilst the random function is a method call, in the above example, it's being used inside the print method because it returns a value. This means that it doesn't need another semicolon, as it's already inside a line with an instruction that ends with a semicolon!</blockquote>
+
+<h3>Casting</h3>
+You may have noticed that the numbers returned by the random function aren't whole numbers. This is a problem, as if we want to pass random numbers into the constructor for the apple, they need to be integers to match the constructor parameters. Thankfully, we can convert numbers with decimal numbers into integers, using a technique called "casting". To cast a number to an integer, we just need to put "(int)" in-front of it.
+
+As a test, change the previous test code in your setup method to include the (int) like this:
+{% highlight java %}
+println( (int) random(0,100) );
+{% endhighlight %}
+<br>
+
+Running the program should now mean that the number printing out in the console is a whole number!
+
+<h3>Putting It Together</h3>
+As we don't just want to spawn our apple in a random position when the program starts (but also when it gets eaten later!), we can make a method called "RespawnApple" that re-creates the apple object at a random location, and use that in the setup method for now.
+
+Paste the code below into your main tab, below all of your other code:
+{% highlight java %}
+void RespawnApple(){
+  apple = new Apple(400,200);
+}
+{% endhighlight %}
+<br>
+
+Note how we're not declaring a new type for the apple variable, because we aren't creating it at this point, we're only assigning a new value into it. This is exactly the same as saying x = 3, instead of int x = 3, when just wanting to update the value.
+
+<li>Add in a call to RespawnApple in the setup method, somewhere after the size method call.</li>
+
+We can now replace the 400 and 200 with some maths, so make sure we have a random number for each that conforms to the spacing we want in the snake game. To do this, we're going to make use of some in-built variables called "width" and "height", which store the width and height of the canvas in pixels. We're going to divide the canvas up based on the size command, so that the apple conforms to a grid of possible positions, randomise the position within that grid, then multiply by size to get back to our original coordinate system.
+Replace the line of code inside the RespawnApple method with the following code:
+
+{% highlight java %}
+int gridWidth = width/size;
+int gridHeight = height/size;
+int gridX = (int)random(0,gridWidth);
+int gridY = (int)random(0,gridHeight);
+apple = new Apple(gridX*size,gridY*size);
+{% endhighlight %}
+<br>
+
+You don't need to understand this code fully to continue, but it would be good to understand it so that you can build up code like this on your own. Make sure to watch the video below to follow along with how it was constructed if you're unsure.
+
+If you've added in the method call correctly, you should now see that every time we restart the game, the apple starts in a random location.
 
 
 <h2>Quick check!</h2>
@@ -245,7 +310,7 @@ Before you move on, let's have a quick check that you've got everything so far!
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! The constructor is a method that uses the class name as the return type, and doesn't include a custom name.">
         <label for="option1">Animal(){ }</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, like other methods, a constructor defines scope for code that should be run, but the definition itself doesn't run like the lines inside it, so it doesn't need a semi-colon at the end!">
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, like other methods, a constructor defines scope for code that should be run, but the definition itself doesn't run like the lines inside it, so it doesn't need a semicolon at the end!">
         <label for="option2">Animal(){ };</label><br>
         <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, like other methods, a constructor needs round brackets for passing in information should we choose to add that in.">
         <label for="option3">Animal{ }</label><br>

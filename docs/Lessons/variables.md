@@ -184,7 +184,7 @@ Before you move on, let's have a quick check that you've got everything so far!
         <label for="option2">int snakeX = 200;</label><br>
         <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, the variable name can't include a space!">
         <label for="option3">int snake x = 200;</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, we're missing a semi-colon to complete the line!">
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, we're missing a semicolon to complete the line!">
         <label for="option4">int snakeX = 200</label><br><br>
         <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
     </form>
@@ -194,7 +194,7 @@ Before you move on, let's have a quick check that you've got everything so far!
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, the variable name isn't spelled correctly, variables names are case-sensitive!">
         <label for="option1">snakey = 50;</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, we're missing a semi-colon to complete the line!">
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, we're missing a semicolon to complete the line!">
         <label for="option2">snakeY = 10</label><br>
         <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, we can't re-declare the variable with 'int' if it already exists!">
         <label for="option3">int snakeY = 50;</label><br>

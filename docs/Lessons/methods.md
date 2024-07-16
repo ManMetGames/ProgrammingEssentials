@@ -66,6 +66,9 @@ When you hit play, you should see numbers printing out into the console, increas
 <h2><a href="../Extras/Brackets">{ New Bracket Unlocked! }</a></h2>
 <blockquote>
 Curly brackets are used when we’re grouping code together in something called “scope”. In the example above, the draw method groups together the two lines of code printing out x and increasing its value, so that we know what code should be run when it is called. Variables created inside curly brackets can't be accessed from outside of them, as they would be "out of scope".
+
+By convention, everything inside a pair of curly brackets should be indented using the tab key. To do this automatically, in Processing, press Ctrl and T.
+
 To learn more, take a look at the quick reference page on brackets <a href="../Extras/Brackets">here</a>!
 </blockquote>
 
@@ -95,7 +98,7 @@ The setup method will be called automatically by Processing, at the very start o
 
 <h3>A Few Notes</h3>
 <ul>
-<li>You may have noticed that we're now starting to write lines of code that don't have semi-colons at the end. As a rule, semi-colons are only needed at the end of lines that are instructions, as they terminate the line, and tell the computer to run the line of code. As method declarations are just setting up code to be run later, they themselves don't need semi-colons, only the lines inside of them that contain instructions to be run later do!</li>
+<li>You may have noticed that we're now starting to write lines of code that don't have semicolons at the end. As a rule, semicolons are only needed at the end of lines that are instructions, as they terminate the line, and tell the computer to run the line of code. As method declarations are just setting up code to be run later, they themselves don't need semicolons, only the lines inside of them that contain instructions to be run later do!</li>
 
 <li>The order of your methods isn't actually important, as the flow of code we discussed in Chapter 1 is actually only important when we're inside a method. By convention however, it's best to have your variable declarations up at the top, followed by your methods.</li>
 </ul>

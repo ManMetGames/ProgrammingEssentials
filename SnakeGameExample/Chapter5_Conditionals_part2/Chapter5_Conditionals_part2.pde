@@ -1,12 +1,13 @@
 int size = 40;
-Snake snake;
+Snake snake = new Snake(5,5);
 Apple apple;
 
 void setup(){
   size(640,440);
   noStroke();
-  snake = new Snake(5,5);
   RespawnApple();
+  
+  println( (int) random(0,100) );
 }
 
 void draw(){
@@ -34,27 +35,32 @@ void draw(){
     snake.Draw();
     apple.Draw();
   }
+  
+  if(keyPressed){
+    if(key=='a'){
+      snake.dx = -1;
+      snake.dy = 0;
+    }
+    else if(key=='d'){
+      snake.dx = 1;
+      snake.dy = 0;
+    }
+    else if(key=='w'){
+      snake.dx = 0;
+      snake.dy = -1;
+    }
+    else if(key=='s'){
+      snake.dx = 0;
+      snake.dy = 1;
+    }
+  }
 }
 
-void keyPressed(){
-  if(key=='a'){
-    snake.dx = -1;
-    snake.dy = 0;
-  }
-  else if(key=='d'){
-    snake.dx = 1;
-    snake.dy = 0;
-  }
-  else if(key=='w'){
-    snake.dx = 0;
-    snake.dy = -1;
-  }
-  else if(key=='s'){
-    snake.dx = 0;
-    snake.dy = 1;
-  }
-}
 
 void RespawnApple(){
-  apple = new Apple((int)random(0,15),(int)random(0,10));
+int gridWidth = width/size
+int gridHeight = height/size;
+int gridX = (int)random(0,gridWidth);
+int gridY = (int)random(0,gridHeight);
+apple = new Apple(gridX,gridY);
 }

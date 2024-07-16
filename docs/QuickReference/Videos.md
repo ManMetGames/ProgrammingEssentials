@@ -86,7 +86,7 @@ For more information, click on the name of a video to see it in context.
 			<li>Calling a method</li>
 			<li>Setting the size of the canvas</li>
 			<li>Filling the background with a colour</li>
-			<li>Semi-colons</li>
+			<li>Semicolons</li>
 			<li>Round brackets</li>
 		</ul>
 		

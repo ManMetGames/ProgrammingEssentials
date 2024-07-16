@@ -62,7 +62,7 @@ The code above makes use of a few things that we'll make a lot of use of.
 </blockquote>
 <br>
 <blockquote>
-Semi-colons; - Semi-colons tell a line of code that it is complete. There will be times when we don't need them, but we can worry about that later, for now- make sure to end each line of code with a semi-colon.
+Semicolons; - Semicolons tell a line of code that it is complete. There will be times when we don't need them, but we can worry about that later, for now- make sure to end each line of code with a semicolon.
 </blockquote>
 <br>
 <blockquote>
