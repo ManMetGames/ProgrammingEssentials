@@ -2,11 +2,11 @@ class Snake{
   int dx = 1;
   int dy = 0;
   
-  SnakeSegment[] segments = new SnakeSegment[3];
+  SnakeSegment[] segments = new SnakeSegment[10];
   
   Snake(int startX, int startY){
     for(int i = 0; i < segments.length; i++){    
-      segments[i] = new SnakeSegment(startX-i,startY);
+      segments[i] = new SnakeSegment(startX,startY);
     }
   }
   

@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<h1>Chapter 5: Conditionals</h1>
+<h1>Chapter 9: Functions</h1>
 <p style="font-size:20px">
-In this chapter, we'll be covering how to create and use conditions to control the flow of code at runtime.
+In this chapter, we'll be covering how to loop over sections of code so that we can repeat instructions.
 <br>
-For a quick reference, <a href="../QuickReference/conditionals">click here</a>.
+For a quick reference, <a href="../QuickReference/loops">click here</a>.
 <br>
 
 <h2>The Problem</h2>
@@ -83,7 +83,7 @@ Change the if statement to reflect the example code below:
 
 {% highlight java %}
 if(keyPressed){
-  if(key=='w'){
+  if(key==’w’){
     snake.movementX = 0;
     snake.movementY = -1;
   }
@@ -112,23 +112,23 @@ When writing out char values, we enclose the character in `single quotation mark
 </ul>
 </blockquote>
 
-So, all together, the new if statement is testing if the value of the key variable is equal to the value of  'w', which will be the case when we press the 'w' key.
+So, all together, the new if statement is testing if the value of the key variable is equal to the value of  ‘w’, which will be the case when we press the ‘w’ key.
 
-When you run the program now, the snake should only begin moving upwards when you press the 'w' key, and other keys should not do this.
+When you run the program now, the snake should only begin moving upwards when you press the ‘w’ key, and other keys should not do this.
 
 
-We can now add another if statement, inside the keyPressed check, but outside the 'w' check, to test if the player is pressing the 's' key to move downwards.
+We can now add another if statement, inside the keyPressed check, but outside the ‘w’ check, to test if the player is pressing the ‘s’ key to move downwards.
 
 
 Edit your code to reflect the code below:
 
 {% highlight java %}
 if(keyPressed){
-  if(key=='w'){
+  if(key==’w’){
     snake.movementX = 0;
     snake.movementY = -1;
   }
-  if(key=='s'){
+  if(key==’s’){
     snake.movementX = 0; 
     snake.movementY = 1;
   }
@@ -140,7 +140,7 @@ We should now be able to move up and down in the program using the `w` and `s` k
 
 <h3>Task</h3>
 <blockquote>
-Add two more if statements to change the movement variable to 1 and -1, depending on whether the 'a' or 'd' key is pressed. Remember to also make sure the movementY variable is set to 0, as we don’t want the snake to move diagonally.
+Add two more if statements to change the movement variable to 1 and -1, depending on whether the ‘a’ or ‘d’ key is pressed. Remember to also make sure the movementY variable is set to 0, as we don’t want the snake to move diagonally.
 
 If you're unsure how to get this working, watch the video below, but make sure to re-cover this chapter to make sure you understand how to use if statements.
 </blockquote>
@@ -198,7 +198,7 @@ Let's actually put some of these comparison and logical operators into practice!
 It’s worthwhile noting that upper- and lower-case letters are technically different characters, so if you have CapsLock turned on when playing the game, the ‘w’ check will fail, as you’ll actually be putting ‘W’ into the key variable, so to add more resilience, feel free to adapt your code to include the upper-case version of each direction key as below:
 
 {% highlight java %}
-if(key=='w' || key=='W')
+if(key==’w’ || key==’W’)
 {% endhighlight %}
 <br>
 
@@ -288,8 +288,6 @@ println("x is greater than 2");
 In this example, we can now see that we've snuck in another if statement, that flows off of an else, meaning it will only run if the previous statement was unsuccessful.
 You can continue this pattern as many times as you'd like, with more `else if` statements in between the opening `if` and closing `else` (but make sure there's only one `else` on its own for each `if`!).
 
-You can also have an `if` and `else if`, without following it with an `else`, it isn't a requirement!
-
 <H2>VIDEO HERE</H2>
 
 <br>
@@ -348,53 +346,7 @@ Watch the video below if you're not sure if you've got this quite right!
 
 <H2>VIDEO HERE</H2>
 
-<br>
-<h2>Quick check!</h2>
-Before you move on, let's have a quick check that you've got everything so far!
-<div class="question1container" data-correct-answer="C">
-    <h3>Which of the following lines of code correctly tests if a variable called x is greater than or equal to 10?</h3>
-    <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this if statement is missing round brackets, remember the condition we're testing is the information we're passing in.">
-        <label for="option1">if x >= 10</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="This is technically correct, although the readability of the code would definitely be improved by using the greater than equal to operator, rather than testing if x is not less than 10!">
-        <label for="option2">if( !(x < 10) ){</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! This line makes proper use of the appropriate brackets and correctly tests if x is greater tha or equal to 10.">
-        <label for="option3">if( x >= 10 ){</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, the symbols in the greater than or equal to operator are backwards, remember that it's greater than > or equal to =, so its >=.">
-        <label for="option4">if( x => 10 ){</label><br><br>
-        <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
-    </form>
-</div>
 
-<div class="question2container" data-correct-answer="B">
-    <h3>Which of the following lines of code would test if both variables A and B were false?</h3>
-    <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, whilst testing if B is equal to false is good, we can't test both A and B together like this! This would instead check if A was true and B was false.">
-        <label for="option1">if( A && B == false ){</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! We are quite literally checking if A is not true, and if B is not true. We could also have written if(! (A || B) ) to test if A or B were true, and inverted it with the NOT!">
-        <label for="option2">if( !A && !B ){</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this would test if A and B are both true, and then inverted this using the NOT. Which would return true in cases where one of A and B are true but not both, which isn't what we want!">
-        <label for="option3">if( !( A && B ) ){</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right! It's definitely possible to write the same condition in multiple ways, but the above answers aren't quite logically the same!">
-        <label for="option4">All of the above</label><br><br>
-        <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
-    </form>
-</div>
-
-<div class="question3container" data-correct-answer="C">
-    <h3>Which of the following statements is correct?</h3>
-    <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! Although isn't the only correct answer!">
-        <label for="option1">You can follow an if statement with as many else if statements as you'd like</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! Although isn't the only correct answer!">
-        <label for="option2">You can only have one else statement following an if statement, without starting a new if statement</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! Although isn't the only correct answer!">
-        <label for="option3">An else if statement will not run if the previous condition was met, even if its condition would be true</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct! All of the above statements are true of if statements!">
-        <label for="option4">All of the above</label><br><br>
-        <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
-    </form>
-</div>
 
 <br>
 <h2 id="snake_video">Snake Game: Part 5</h2>
@@ -414,10 +366,10 @@ This chapter covers the use of if statements to test conditions, which is a real
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/Switch_Statements">To run different code when a variable is set to different values do I have to use loads of if/else statements?</a></h3></li>
+    <li><h3><a href="../Extras/Switch_Statements">To run different code when a variable is set to different values do I have to use a massive set of if/else statements?</a></h3></li>
 </ul>
 
-<p style="font-size: 30px; text-align: right;"><a href="./arrays">Chapter 6 >></a></p>
+<p style="font-size: 30px; text-align: right;"><a href="./???">Chapter 10 >></a></p>
 
 <br>
 <br>
