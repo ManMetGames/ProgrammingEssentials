@@ -8,6 +8,7 @@ In this chapter, we'll be covering how to loop over sections of code so that we 
 <br>
 For a quick reference, <a href="../QuickReference/loops">click here</a>.
 <br>
+</p>
 
 <h2>The Problem</h2>
 You may have realised that there’s quite a lot of repetition in the code we added in the last chapter, with only minor changes at each step. If we wanted to make our snake ten segments long for example, we’d be duplicating code in the draw and move methods seven more times, which isn’t ideal!

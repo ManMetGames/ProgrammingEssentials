@@ -7,7 +7,7 @@ layout: default
 In this chapter, we'll be covering how to create and use conditions to control the flow of code at runtime.
 <br>
 For a quick reference, <a href="../QuickReference/conditionals">click here</a>.
-<br>
+<br></p>
 
 <h2>The Problem</h2>
 At this point, you may be wondering when our program is really going to start looking like Snake. In this chapter we’ll be adding controls, the blocky movement, wrapping around the edges and collisions, and turning our animation into a game!

@@ -6,7 +6,7 @@ layout: default
 <p style="font-size:20px">This chapter covers how to make use of arrays to store a list of objects.
 <br>
 For a quick reference, <a href="../QuickReference/loops">click here</a>.
-<br>
+<br></p>
 
 
 The next step we need to take in making Snake, is actually turning the snake into… a snake.

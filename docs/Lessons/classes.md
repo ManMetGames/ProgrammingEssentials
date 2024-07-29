@@ -7,7 +7,7 @@ layout: default
 In this chapter, we'll be covering how to create and use our classes to package together related variables and methods.
 <br>
 For a quick reference, <a href="../QuickReference/classes">click here</a>.
-<br>
+<br></p>
 
 <h2>The Problem</h2>
 We now have multiple method calls and variables relating to the snake and the apple, and any more variables relating to extending the snake and changing the position of each segment are going to end up making the main flow of code harder and hard to read.

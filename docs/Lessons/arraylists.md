@@ -7,7 +7,7 @@ layout: default
 In this chapter, we'll be covering how to use ArrayLists to dynamically change the size.
 <br>
 For a quick reference, <a href="../QuickReference/arraylists">click here</a>.
-<br>
+<br></p>
 
 The Snake game is definitely coming together! But we’re missing a key element that makes the game what it is: the snake doesn’t grow!
 

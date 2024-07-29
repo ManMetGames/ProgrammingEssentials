@@ -8,8 +8,8 @@ In this chapter, we'll be covering how to create and use variables.
 <br>
 For a quick reference, <a href="../QuickReference/variables_and_data_types">click here</a>.
 <br>
-Or if you're already comfortable using variables, <a href="#snake_video">click here</a> to skip straight to the video covering the next steps with the Snake Game!</p>
-
+Or if you're already comfortable using variables, <a href="#snake_video">click here</a> to skip straight to the video covering the next steps with the Snake Game!
+<br></p>
 
 
 <h2>The Problem</h2>

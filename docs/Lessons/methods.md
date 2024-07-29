@@ -8,6 +8,7 @@ In this chapter, we'll be covering how to create and use our own methods.
 <br>
 For a quick reference, <a href="../QuickReference/methods">click here</a>.
 <br>
+</p>
 
 
 

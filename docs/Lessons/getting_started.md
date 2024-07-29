@@ -6,7 +6,7 @@ layout: default
 In this chapter, we'll be covering how to get started using <a href="https://processing.org/">Processing</a>.
 <br>
 For a quick reference on the core Processing commands we'll be using, <a href="../QuickReference/processing">click here</a>.
-
+<br></p>
 
 <h2 id="processing">Processing</h2>
 Processing is an integraded development environment (IDE) that allows us to write code in the Java programming language. It includes some custom functionality that means we can draw and animate to a canvas, and some things to make coding a little easier in places.
