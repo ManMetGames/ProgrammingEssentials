@@ -49,15 +49,15 @@ New tabs are simply for readability, as the code will be treated like it is all 
 
 In the new file, copy and paste the code below:<br>
 {% highlight java %}
-class Snake{<br>
-//class variables and methods here<br>
+class Snake{
+//class variables and methods here
 }
 {% endhighlight %}
 
 This follows a structure of:
 <blockquote style="font-size:20px">
-class TYPE{<br>
-  //class variables and methods here<br>
+class TYPE{
+  //class variables and methods here
 }
 </blockquote>
 - where the type is the name of the class.
@@ -264,7 +264,11 @@ int gridWidth = width/size;
 int gridHeight = height/size;
 int gridX = (int)random(0,gridWidth);
 int gridY = (int)random(0,gridHeight);
-apple = new Apple(gridX*size,gridY*size);
+
+int finalX = gridX * size;
+int finalY = gridY * size;
+
+apple = new Apple(finalX,finalY);
 {% endhighlight %}
 <br>
 

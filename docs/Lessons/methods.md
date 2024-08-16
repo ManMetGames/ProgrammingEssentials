@@ -63,6 +63,8 @@ void draw(){
 When you hit play, you should see numbers printing out into the console, increasing from zero.
 <br>
 
+VIDEO HERE
+
 <br>
 <h2><a href="../Extras/Brackets">{ New Bracket Unlocked! }</a></h2>
 <blockquote>
@@ -72,6 +74,8 @@ By convention, everything inside a pair of curly brackets should be indented usi
 
 To learn more, take a look at the quick reference page on brackets <a href="../Extras/Brackets">here</a>!
 </blockquote>
+
+VIDEO HERE
 
 <br>
 <h2  id="void_setup">void setup</h2>
@@ -104,6 +108,9 @@ The setup method will be called automatically by Processing, at the very start o
 <li>The order of your methods isn't actually important, as the flow of code we discussed in Chapter 1 is actually only important when we're inside a method. By convention however, it's best to have your variable declarations up at the top, followed by your methods.</li>
 </ul>
 <br>
+
+VIDEO HERE
+
 
 <br>
 <h2 id="calling_your_own_methods">Calling Your Own Methods</h2>
@@ -182,7 +189,7 @@ When we run our code, there still isn’t any movement, because we’re not upda
 <br>
 
 We could just add some code to our DrawSnake method, but we’ll want to make the movement more complicated in the future, as ultimately, moving the snake isn’t drawing the snake (methods should do one thing really well!).
-Just before the draw snake comment, add the line of code below:<br>
+Just before the draw snake method call in the draw method, add the line of code below:<br>
 
 {% highlight java %}
 snakeX = snakeX + 1;

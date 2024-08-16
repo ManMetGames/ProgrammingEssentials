@@ -7,4 +7,8 @@ class SnakeSegment{
     y = startY;
   }
   
+  void Draw(){
+    fill(0,255,0);
+    rect(x*size,y*size,size,size);
+  }
 }

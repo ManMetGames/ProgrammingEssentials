@@ -119,7 +119,7 @@ void Move(){
 
 <br>
 <h2 id="snake_video">Snake Game: Part 8</h2>
-To finish off this chapter, let’s make the snake grow by leveraging the power of ArrayLists to make the Snake actually grow!
+To finish off this chapter, let’s make the snake grow by leveraging the power of ArrayLists to make the Snake actually grow! We'll also add some code to make the snake crash into itself, so that we can fail the game, by adding a hasCrashed variable, and a ResetGame method!
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
     <source src="{{ site.baseurl }}/Videos/SnakeChapter8.mp4" type="video/mp4">

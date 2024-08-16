@@ -5,6 +5,7 @@ class Snake{
   ArrayList<SnakeSegment> segments = new ArrayList<SnakeSegment>();
   
   Snake(int startX, int startY){
+    segments.add(new SnakeHead(startX,startY));
     for(int i = 0; i < 3; i++){    
       segments.add(new SnakeSegment(startX,startY));
     }
@@ -21,9 +22,8 @@ class Snake{
   }
   
   void Draw(){
-    fill(0,255,0);
     for(SnakeSegment s : segments){    
-      rect(s.x*size,s.y*size,size,size);
+      s.Draw();
     }
   }
   

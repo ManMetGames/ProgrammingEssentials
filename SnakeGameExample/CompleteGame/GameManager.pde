@@ -22,11 +22,12 @@ class GameManager {
         snake.Grow();
       }
 
-      if (GetFreePositions().size()==0) {
-        //win
-        ResetGame();
-      } else if (snake.hasCrashed) {
+      if (snake.hasCrashed) {
         //lose
+        ResetGame();
+      }
+      else if (GetFreePositions().size()==0) {
+        //win
         ResetGame();
       }
     }
