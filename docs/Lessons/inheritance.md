@@ -117,6 +117,8 @@ In this video we’ll be re-covering the content from this chapter, all the work
 <h2>Summary</h2>
 We're now done with the Snake game! There are more things we could change, so feel free to be creative with your game. Change the colours, add more apples, add more players, add a score indicator, anything you'd like! And make sure to look back through the additional pages you might have missed throughout the course below!
 
+If you're unsure where to get started adding new features, or how to get back on track when there's errors in your code, make sure to continue on to chapters 11 and 12!
+
 
 <br>
 <h2>Explore</h2>
@@ -124,7 +126,7 @@ We're now done with the Snake game! There are more things we could change, so fe
 
 </ul>
 
-<p style="font-size: 30px; text-align: right;"><a href="{{ site.baseurl }}">Home >></a></p>
+<p style="font-size: 30px; text-align: right;"><a href="./implementing_a_feature">Chapter 11 >></a></p>
 
 <br>
 <br>
