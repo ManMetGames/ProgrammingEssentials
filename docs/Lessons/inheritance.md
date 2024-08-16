@@ -6,7 +6,7 @@ layout: default
 <p style="font-size:20px">
 At this point, the Snake game is functionally complete, but we can use some more programming techniques to improve the code, whilst learning how to use them!
 <br>
-For a quick reference, <a href="../QuickReference/classes">click here</a>.
+For a quick reference, <a href="../QuickReference/inheritance">click here</a>.
 <br></p>
 
 <h2>The Problem</h2>
@@ -108,7 +108,7 @@ Make sure to follow along with the video below if you’re stuck!
 In this video we’ll be re-covering the content from this chapter, all the work is done!
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/SnakeChapter4.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/SnakeChapter10.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>

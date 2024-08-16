@@ -5,7 +5,7 @@ layout: default
 <h1>Chapter 6: Arrays</h1>
 <p style="font-size:20px">This chapter covers how to make use of arrays to store a list of objects.
 <br>
-For a quick reference, <a href="../QuickReference/loops">click here</a>.
+For a quick reference, <a href="../QuickReference/arrays">click here</a>.
 <br></p>
 
 
