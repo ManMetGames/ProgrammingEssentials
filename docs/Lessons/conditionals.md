@@ -414,7 +414,7 @@ This chapter covers the use of if statements to test conditions, which is a real
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/Switch_Statements">To run different code when a variable is set to different values do I have to use loads of if/else statements?</a></h3></li>
+    <li><h3><a href="../Extras/Switch_Statements_and_Enums">To run different code when a variable is set to different values do I have to use loads of if/else statements?</a></h3></li>
 </ul>
 
 <p style="font-size: 30px; text-align: right;"><a href="./arrays">Chapter 6 >></a></p>

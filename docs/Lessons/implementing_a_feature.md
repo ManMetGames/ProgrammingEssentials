@@ -87,8 +87,7 @@ Expanding our outline with a breakdown may look like this:
         <li>As we want the ball to bounce and change how much it moves by each frame, the y should change based on a variable, which we can call speedY.</li>
         <li>In the Move method, we should add gravity to the speedY variable.
         <li>To see this happen over time, the Move method should be called every frame in the main void draw.</li>
-    <br>
-    </ul>
+    <br></ul>
 </li>
 <li>When the ball touches the bottom of the screen, it should bounce back up
 <ul>

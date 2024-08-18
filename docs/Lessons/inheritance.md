@@ -123,7 +123,7 @@ If you're unsure where to get started adding new features, or how to get back on
 <br>
 <h2>Explore</h2>
 <ul>
-
+    <li><h3><a href="../Extras/Abstract_Classes">How do I stop myself from creating instances of a parent class?</a></h3></li>
 </ul>
 
 <p style="font-size: 30px; text-align: right;"><a href="./implementing_a_feature">Chapter 11 >></a></p>

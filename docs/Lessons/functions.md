@@ -369,7 +369,7 @@ This chapter covers the use of if statements to test conditions, which is a real
     <li><h3><a href="../Extras/Switch_Statements">To run different code when a variable is set to different values do I have to use a massive set of if/else statements?</a></h3></li>
 </ul>
 
-<p style="font-size: 30px; text-align: right;"><a href="./???">Chapter 10 >></a></p>
+<p style="font-size: 30px; text-align: right;"><a href="./inheritance">Chapter 10 >></a></p>
 
 <br>
 <br>

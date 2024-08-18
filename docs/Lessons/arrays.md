@@ -197,7 +197,7 @@ By completing this chapter, you should have got in some practice using arrays, r
     <li><h3><a href="../Extras/Switch_Statements">To run different code when a variable is set to different values do I have to use a massive set of if/else statements?</a></h3></li>
 </ul>
 
-<p style="font-size: 30px; text-align: right;"><a href="./loops">Chapter 7 >></a></p>
+<p style="font-size: 30px; text-align: right;"><a href="./Loops">Chapter 7 >></a></p>
 
 <br>
 <br>
