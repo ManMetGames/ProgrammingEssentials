@@ -330,6 +330,15 @@ And that's us started! You should now be ready to move on to Chapter 2! Make sur
     <li><h3><a href="../Extras/Data_Types">Why do colour values go up to 255?</a></h3></li>
 </ul>
 
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=eG1rFRHOnqr2_k7q&t=887">Downloading Processing</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=I6N-xEoogS8rEr6k&t=1055">Drawing with code</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=F1g9Vkxesxap7ZNT&t=2360">Saving your work</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=BiAwOxhUJhz7EvZG&t=2463">Comments</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=Ny06ca4DmfUWfpXK&t=2679">Colour</a></h3></li>
+</ul>
+
 <p style="font-size: 30px; text-align: right;"><a href="./variables">Chapter 2 >></a></p>
 
 <br>

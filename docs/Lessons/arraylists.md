@@ -66,7 +66,7 @@ In our case, the segments list contains SnakeSegment objects, so we can either c
 Change the for loop in the Snake class constructor to match the code below:
 
 {% highlight java %}
-for(int i = 0; i < 3; i++){    
+for(int i = 0; i < 3; i=i+1){    
       segments.add(new SnakeSegment(startX,startY));
     }
 {% endhighlight %}
@@ -81,7 +81,7 @@ We’ve now changed the code so that the loop will run three times, each time ad
 <h2  id="accessing_the_size_of_an_arraylist">Accessing the Size of an ArrayList</h2>
 In the Snake’s Move method, we were using the length variable that belongs to arrays to loop through from the end of the array, but now that we’re using an ArrayList, we don’t have direct access to this variable. Instead, we can make use of a function called size, which can be used in place of segments.length. Because size is a function, which is a type of method, don’t forget to add in the round brackets required by methods. The first line of the for loop should now look like this:
 {% highlight java %}
-    for(int i = segments.size()-1; i > 0; i--){
+    for(int i = segments.size()-1; i > 0; i=i-1){
 {% endhighlight %}
 <br>
 
@@ -100,7 +100,7 @@ In the Move method in the Snake class, for example, we can no longer use segment
 
 {% highlight java %}
 void Move(){
-    for(int i = segments.size()-1; i > 0; i--){
+    for(int i = segments.size()-1; i > 0; i=i-1){
       segments.get(i).x = segments.get(i-1).x;
       segments.get(i).y = segments.get(i-1).y;
     }
@@ -119,7 +119,7 @@ void Move(){
 
 <br>
 <h2 id="snake_video">Snake Game: Part 8</h2>
-To finish off this chapter, let’s make the snake grow by leveraging the power of ArrayLists to make the Snake actually grow! We'll also add some code to make the snake crash into itself, so that we can fail the game, by adding a hasCrashed variable, and a ResetGame method!
+To finish off this chapter, let’s make the snake grow by leveraging the power of ArrayLists to make the Snake actually grow! We'll also add some code to make the snake crash into itself, so that we can fail the game by adding a hasCrashed variable!
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
     <source src="{{ site.baseurl }}/Videos/SnakeChapter8.mp4" type="video/mp4">

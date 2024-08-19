@@ -4,353 +4,183 @@ layout: default
 
 <h1>Chapter 9: Functions</h1>
 <p style="font-size:20px">
-In this chapter, we'll be covering how to loop over sections of code so that we can repeat instructions.
+In this chapter, we'll be covering how to return information from a method to allow us to reuse complex calculations.
 <br>
-For a quick reference, <a href="../QuickReference/loops">click here</a>.
+For a quick reference, <a href="../QuickReference/functions">click here</a>.
 <br></p>
 
-<h2>The Problem</h2>
-At this point, you may be wondering when our program is really going to start looking like Snake. In this chapter we’ll be adding controls, the blocky movement, wrapping around the edges and collisions, and turning our animation into a game!
+We’re close to the Snake game being complete, but we need to two more key things: A way to win, and a way to respawn the apple in positions that the snake isn’t in. 
 
-To do this, we need to check whether certain things have happened. 
+For both of these, we need to be able to test if a position contains any part of the snake. If we can test all possible spaces and see that there’s no free spaces left, then the player has won. And if we can test to see which spaces are free, we can select one at random, and place the apple there, instead of placing it anywhere!
 
-As an example, lets consider the movement of the snake. The snake currently moves on its own, in a single direction. To change this, we need to check if the player has pressed a key on the keyboard, and change the snake’s movement accordingly.
+These both rely on information that we’ll need to calculate in the same way, but they’re used for very different purposes. We could calculate whether the snake is in each position both times separately, but we’d be repeating code, which is never the answer!
 
-First of all, we’ll need to add some variables to actually allow us the change the direction that the snake is moving in.
+<p style="font-size:20px"><i>There must be a better way!</i></p>
+
+To test whether a position has a snake segment in it, we could make use of a method that takes in the position we’d like to check, and returns true or false, based on whether there is or isn’t any part of its body in that position. When returning a value from a method, we call it a “function”.
+
+<h2 id="creating_a_function">Creating a Function</h2>
+Functions are simply methods that have a return type that isn’t void, and therefore return a value of the appropriate type back to where they’ve been called from.
+
+To create a function, we make use of the same approach we used to create a normal method, but the type of the method can be a normal data type, or even a class type!
+
+To actually return the value, we then need to include the “return” keyword at the end of the code to be run, followed by the value we’re passing back.
+
+As an example, open a new project, and copy and paste in the code below:<br>
+{% highlight java %}
+void setup(){
+  println(SquareOf(3));
+}
+
+int SquareOf(int number){
+  int answer = number * number;
+  return answer;
+}
+{% endhighlight %}
+
+<br>
+In the above example, we’re using the in-built setup method, to call the print method, which prints out the value returned by a custom function, called SquareOf. The SquareOf function takes in a starting number as the information passed in to the round brackets, creates a local variable called answer (into which it assigns the number multiplied by itself, squaring it!), and then returns the value of this variable.
+
+In this case, the “return” keyword is followed by the “answer” variable, which importantly is the same type as the return type for the function itself.
+
+When using the function, we just do a normal method call, using this as if it were a value of the type that will be returned, which in this case again is int.
+
+<h1>IMAGE HERE</h1>
+
+Running the code in the example should output the number 9 into the console, as we’ve passed the number 3 to the SquareOf function, which will square it, returning 9, to be printed out using println.
+
+<h2 id="putting_it_into_practice">Putting it into Practice</h2>
+Back in the Snake project, we’re going to write a function that returns true or false, whether there is a segment of the snake that is in a specific position, which we can then make use of later!
+
+First of all, let’s fill out the method declaration formula to declare the function. As before this is:
+<blockquote style="font-size:20px">
+TYPE NAME(){<br>
+//CODE<br>
+}<br>
+</blockquote><br>
+We want to make a function called HasSegmentAt, of type boolean, so we can write:<br>
+{% highlight java %}
+boolean HasSegmentAt(){
+//code
+}
+{% endhighlight %}
+
+<br>
+We want to pass in information about the position we’re testing, so we should include some x and y parameters as below:<br>
+{% highlight java %}
+boolean HasSegmentAt( int x, int y ){
+{% endhighlight %}
+
+<br>
+The code as it stands will be giving you errors, because the function doesn’t return a value. To fix this, let’s add in a line returning “false”, which can be our fallback for if we never find a place that does overlap with the x and y that gets passed in.
+
+So far, the function should look like this:<br>
+{% highlight java %}
+boolean HasSegmentAt( int x, int y ){
+return false;
+}
+{% endhighlight %}
+
+<br>
+We can now make use of the function, so that when we add more code to it, we can see when it’s working correctly.
+
+Add the following line of code into your Snake’s Move method:<br>
+{% highlight java %}
+println( HasSegmentAt( 0, 0 ) );
+{% endhighlight %}
+
+We should now be able to move the snake through the top left of the screen, and see the value printed out turn true (once we’ve completed the code inside the function!). As we’re currently returning false no matter where the snake is, we should see “false” printed repeatedly to the console.
 
 <h3>Task</h3>
-<blockquote>
-In the Snake class, add two new variables called movementX and movementY. Declare and initialise both, with movementX starting at 1, and movementY starting at 0.
+<blockquote>Ahead of the line of code where we return false in the HasSegmentAt function, loop through each SnakeSegment, testing if its x is equal to the passed in x variable, AND testing if its y is equal to the passed in y variable. If both of these are true, return “true” from inside the loop, and the function will stop where it is, and jump immediately back to where it gets called from!</blockquote>
 
-Down in the Snake class’s Move method, we can then base the movement off of these new variables, rather than hardcoded numbers. Instead of just adding 1 to the value of the snake’s x variable, change the code to instead add movementX to the x, and movementY to the y.
+See if you can write this yourself, and follow along with the video below to make sure you’ve got it!
 
-If you're unsure how to get going with this, make sure to watch through the video below!
-</blockquote>
+<h1>VIDEO HERE</h1>
 
-Running the code should still result in the snake moving right across the canvas, but we can now change the variables to control this movement! 
+You should now be able to move the snake through the top left corner of the canvas, during which the console should print out “true”.
 
-To test this out, change the starting value of the movementX variable to 0, and the movementY variable to 1.
-When we run the program, we should now see that the snake moves down, without us having actually changed the code in the Move method at all!
+Once you’re happy that this works, remove the line of code printing out the value of HasSegmentAt(0,0).
 
-<H2>VIDEO HERE</H2>
+<h2 id="tying_it_all_together">Tying It All Together</h2>
+This section ties together a lot of the content we’ve made use of over the course so far, so make sure to give it a go, looking back on the previous chapters as required.
 
+We’re going to create a new class to store position data, and write a function that returns all of the spaces that are empty. This can then be used when we’re testing to see if there’s no spaces left (to check if we’ve won!) and in the RespawnApple method to select a random empty space to respawn the apple at.
 
-<br>
-<h2  id="if_statements">If Statements</h2>
-But we want to change these values on the fly! So back in the draw method in the main tab, copy and paste in the code below:
-
-{% highlight java %}
-if(false){
-  snake.movementX = 0;
-  snake.movementY = -1;
-}
-{% endhighlight %}
-<br>
-
-
-This block of code makes use of a few things we’ve seen before, and a new element called the `if statement`!
-<li>If statements will run code based on whether a condition returns true.</li>
-
-In the example above, we can see that once again we are making use of both round and curly brackets, to take in information, and to bundle together the code that will run when the condition is met. 
-
-Inside the round brackets, the information we pass in needs to be equal to `true` or `false`, and in this case, we’re directly passing in `false`.
-
-When we run the code, we should see that the snake moves as it did before, because the code bundled together isn’t being run, as the condition (the value inside the round brackets) is never equal to true.
-
-<li>Change the “false” to “true” and run the code again.</li>
-
-This time you should see that the snake immediately begins to move up the screen. In this case, the information we passed in was evaluated as `true`, so the code inside the curly brackets setting the movementY to move the snake upwards was run.
-
-
-To move this a little closer to controls for our game, change the `true` value to `keyPressed`.
-
-
-keyPressed is a boolean (`true`/`false`) variable that is built-in to Processing, meaning we don’t have to `declare` or `initialise` it, just like with the setup and draw methods. 
-
-
-<li>Processing controls the value in <b><i>keyPressed</i></b> for us, and will set it to true when the player is pressing any key, and false when they aren’t.</li>
-
-If we run the program, we should now see that the snake moves as normal, and then moves up as soon as a key is pressed (you may have to click into the canvas window before keyboard controls work).
-
-<H2>VIDEO HERE</H2>
-
-
-<br>
-<h2  id="testing_equality">Testing Equality ==</h2>
-This is a good start, but we don’t just want to check if a key has been pressed, we want to test if a specific key has been pressed, and move accordingly.
-
-Change the if statement to reflect the example code below:
-
-{% highlight java %}
-if(keyPressed){
-  if(key==’w’){
-    snake.movementX = 0;
-    snake.movementY = -1;
-  }
-}
-{% endhighlight %}
-<br>
-
-In the code above, we’ve `nested` a new if statement inside the previous one, moving the code that ran before inside of it.
-
-
-Inside the round brackets of our nested if statement, we now have a few move new elements. First of all, we have `key`, which is another built-in variable, that will store the most recently pressed key as a char variable. 
-
-<blockquote>
+When breaking this problem down, we can imagine that we need to:
 <ul>
-<li>A char is the data type for variables that are single characters (letters, numbers, punctuation, etc).</li>
+    <li>Create a list to store free positions</li>
+    <li>Loop through every position the snake could be in.</li>
+    <li>Add the position to the list if the snake does not have a segment there</li>
+    <li>Return the free position list</li>
 </ul>
-</blockquote>
-
-
-When writing out char values, we enclose the character in `single quotation marks`, just like we have for the ‘w’ after the double equals. The double equals is also new and doesn’t mean assign like the single equals we used when changing variable values did.
-
-<blockquote>
-<ul>
-	<li>A double equals (==) is used to test if two things are equal</li>
-	<li>A single equals (=) is used to assign a value to a variable</li>
-</ul>
-</blockquote>
-
-So, all together, the new if statement is testing if the value of the key variable is equal to the value of  ‘w’, which will be the case when we press the ‘w’ key.
-
-When you run the program now, the snake should only begin moving upwards when you press the ‘w’ key, and other keys should not do this.
-
-
-We can now add another if statement, inside the keyPressed check, but outside the ‘w’ check, to test if the player is pressing the ‘s’ key to move downwards.
-
-
-Edit your code to reflect the code below:
-
-{% highlight java %}
-if(keyPressed){
-  if(key==’w’){
-    snake.movementX = 0;
-    snake.movementY = -1;
-  }
-  if(key==’s’){
-    snake.movementX = 0; 
-    snake.movementY = 1;
-  }
-}
-{% endhighlight %}
-<br>
-
-We should now be able to move up and down in the program using the `w` and `s` keys.
 
 <h3>Task</h3>
-<blockquote>
-Add two more if statements to change the movement variable to 1 and -1, depending on whether the ‘a’ or ‘d’ key is pressed. Remember to also make sure the movementY variable is set to 0, as we don’t want the snake to move diagonally.
-
-If you're unsure how to get this working, watch the video below, but make sure to re-cover this chapter to make sure you understand how to use if statements.
+<blockquote>Follow along with the steps below, looking back over this chapter and previous chapters to apply the content we’ve covered so far!
+<ol>
+<li>Create a new class called “Position”</li>
+<li>Give the position class an x and y variable, and a constructor that sets their values</li>
+<li>Create a function in the main tab called GetFreePositions, with a return type of ArrayList&lt;Position>.</li>
+<li>Inside the GetFreePositions function, create a new ArrayList&lt;Position> object called freePositions.</li>
+<li>Return freePositions at the end of the function, giving yourself space to write some code to populate the list ahead of this.</li>
+<li>Create an int variable at the top of the main tab called gridWidth, and set this to 25.</li>
+<li>Create an int variable at the top of the main tab called gridHeight, and set this to 15.</li>
+<li>Inside the GetFreePositions function, where you left space, write a for loop that loops from 0 to less than the value of gridWidth, call the counter variable “x”.</li>
+<li>Inside the for loop, write another for loop, that loops from 0 to less than the value of gridHeight, call the counter variable “y”.</li>
+<li>Inside the second for loop, we’re now at the point where we can test if each space is in free. Create a new Position object called “space”, passing in x*size, y*size as the position.</li>
+<li>Write an if statement to test if the snake DOES NOT have a segment at the position of space.x, space.y.</li>
+<li>Inside the curly brackets of the if statement, add space to the freePositions list using the add method.</li>
+</ol>
 </blockquote>
 
-<H2>VIDEO HERE</H2>
+Your code should now appropriately loop through all of the possible grid locations that the snake could be at, and adds only those that the snake isn’t covering to the freePositions list, which then gets returned.
 
-<br>
-<h2  id="comparison_and_logical_operators">Comparison and Logical Operators</h2>
-Boolean and Logical Operators
-When passing information into our if statement, we might want to check if two things are both true at the same time, or if at least one of them is true. We might want to check if something is not true, or if a value is bigger or smaller than another, and not just exactly equal to it.
+If you’re really stuck, or think you’re done, follow along with the video below!
 
+<h1>VIDEO HERE</h1>
 
-In these cases, we need to make use of `Comparison operators` and `Logical Operators`.
+<h2 id="using_function_values">Using Function Values</h2>
+We can now make use of the GetFreePositions function when respawning the apple, and when checking if the game has been won.
 
-The table below lists common comparison and logical operators that you’ll probably want to refer back to when putting together if statements.
+To respawn the apple in a free position, we need to store the positions returned by the GetFreePositions function, then choose a random one, and place the apple appropriately.
 
-<table>
-<tbody>
-<tr><td>Name</td><td>Symbol</td><td>Example</td><td>Description</td></tr>
-<tr><td>Equal</td><td>==</td><td style="white-space: nowrap"> if( a == b ) </td><td>Checks if the value of variables a and b are equal to each other.</td></tr>
-<tr><td>Not</td><td>!</td><td style="white-space: nowrap"> if( !a ) </td><td>Checks if the value of variable a is false.</td></tr>
-<tr><td>Not Equal</td><td style="white-space: nowrap">!=</td><td> if( a != b ) </td><td>Checks if the value of variables a and b are not equal to each other.</td></tr>
-<tr><td>And</td><td>&&</td><td style="white-space: nowrap"> if( a && b ) </td><td>Checks if the value of variables a and b are both equal to true.</td></tr>
-<tr><td>Or</td><td>||</td><td style="white-space: nowrap"> if( a || b ) </td><td>Checks if the value of either variable a or b is true.</td></tr>
-<tr><td>Less than</td><td style="white-space: nowrap"> < </td><td> if( a < b ) </td><td>Checks if the value of variable a is less than the value of variable b.</td></tr>
-<tr><td>Greater than</td><td style="white-space: nowrap"> > </td><td> if( a > b ) </td><td>Checks if the value of variable a is greater than the value of variable b.</td></tr>
-<tr><td>Less than or equal to</td><td style="white-space: nowrap"> <= </td><td> if( a <= b ) </td><td>Checks if the value of variable a is less than or equal to the value of variable b.</td></tr>
-<tr><td>Greater than or equal to</td><td style="white-space: nowrap"> >= </td><td> if( a >= b ) </td><td>Checks if the value of variable a is greater than or equal to the value of variable b.</td></tr>
-</tbody>
-</table>
-
-If you want to, you can combine logical and comparison operations, making use of round brackets in the same way that you would in maths to calculate whether part of the calculation is true or false before continuing.
-
-
-The below code, for example, would check if only variable a is true, and that b and c are both false.
-
+Inside the RespawnApple method, paste the following code, replacing the code that was there before:<br>
 {% highlight java %}
-if( (a&&!(b||c))
+ArrayList<Position> freePositions = GetFreePositions();
+    if (freePositions.size()>0) {
+     int elementNumber = (int)random(0, freePositions.size());
+      Position selectedPosition = freePositions.get(elementNumber);
+      apple = new Apple(selectedPosition.x, selectedPosition.y);
+    }
 {% endhighlight %}
-<br>
-
-If you’re unsure how to pull this apart, try to take it step by step, as in the image below:
-
-IMAGE
-
-Building the checks inside if statements can be a little daunting, so if you’re unsure, try to write out in words what you actually want to happen, as above.
-
-<H2>VIDEO HERE</H2>
 
 <br>
-<h2  id="putting_it_into_practice">Putting It Into Practice</h2>
-Let's actually put some of these comparison and logical operators into practice!
+We should now be storing the result of the GetFreePositions function call directly into a new ArrayList of positions called “freePositions”. This is because even with complex return types, such as an ArrayList of Positions, we’re still just using the function call as a value, so assigning the value to a variable as normal is the same as it always was.
 
+We then test if the size of the ArrayList is greater than 0, so we know that there are any free positions.
 
-It’s worthwhile noting that upper- and lower-case letters are technically different characters, so if you have CapsLock turned on when playing the game, the ‘w’ check will fail, as you’ll actually be putting ‘W’ into the key variable, so to add more resilience, feel free to adapt your code to include the upper-case version of each direction key as below:
+We can then store a random number between 0 and the size of the array in an int variable called “elementNumber”, and use this number in the get method on the ArrayList, to get the element at that point in the array. This position is stored in a new Position variable called selectedPosition, which is then used when creating a new Apple object to be stored in the apple variable.
 
+Run your code, and you should see that the apple always respawns in a position that is freely available (it may take a while to test this!).
+
+Because there's now going to be multiple ways for the game to end (winning or losing), we can bundle up the code that respawned the apple and recreated the snake into a method in the main tab, called ResetGame.
+
+Finally, after the if statement testing whether the snake has crashed (in the main tab’s draw method), paste the following code:<br>
 {% highlight java %}
-if(key==’w’ || key==’W’)
+      else if (GetFreePositions().size()==0) {
+        //win
+        ResetGame();
+      }
 {% endhighlight %}
-<br>
-
-<h3>Important!</h3>
-Note how in the example above how we can’t just say `if ( key is equal to w OR W )`.
-
-We have to say `if ( key is equal to w OR key is equal to W )`. This is because the OR, AND and NOT operators only work with true or false values (because they're logical operators). So we first evaluate whether `key is equal to w`, and then evaluate whether `key is equal to W` is true or false. We can then use the OR, to return true or false overall, if one OR the other is true (OR both!).
-
-Each section needs to make sense as a true/false on its own.
-
-<h3>Task</h3>
-<blockquote>
-The next thing we need to add is the ability for the snake to wrap around the edges of the screen. To do this, we’re going to make more use of the "width" and "height" built-in variables, which hold the width and height of the canvas in pixels.
-See if you can write some more if statements in the Snake class's Move method, after the snake has moved, to fulfil the following requirements:
 
 <br>
-<ul>
-<li>If the snake’s x position is greater than or equal to “width”:<ul><li> The x position should be set to 0.</li></ul></li>
-</ul>
-
-<ul>
-<li>If the snake’s x position is less than 0:<ul><li> The x position should be set to “width-size”.</li></ul></li>
-</ul>
-
-<ul>
-<li>If the snake’s y position is greater than or equal to “height”:<ul><li> The y position should be set to 0.</li></ul></li>
-</ul>
-
-<ul>
-<li>If the snake’s y position is less than 0:<ul><li> The y position should be set to “height-size”.</li></ul></li>
-</ul>
-
-</blockquote>
-
-Again, if you're unsure how to get this working, make sure to follow along with the video below!
-
-<H2>VIDEO HERE</H2>
-
-<br>
-<h2  id="else_and_else_if">Else and Else If</h2>
-Sometimes we want to run one set of code if a condition has been met, and another set of code if it hasn't. In these cases, it can be useful to use an "else".
-
-Following an if statement's closing curly bracket, we can add an additional set of code to run in the case that the previous condition wasn't met. To do this, we simply write "else" followed by more curly brackets to define the scope of the else statement.
-
-In a new project, copy and paste the code below:
-
-{% highlight java %}
-int x = 1;
-
-if(x < 2){
-println("x is less than 2");
-}
-else{
-println("x is greater than 2");
-}
-{% endhighlight %}
-<br>
-
-We can see in the code above that the else statement doesn't need any additional round brackets, because we're not passing in a condition to check, we already know at that point in the code flow whether the previous condition was met or not, and if it wasn't then the code inside the curly brackets gets run.
-
-If you run the code, you should see that "x is less than 2" is printed to the console, because the value of x (1) is less than 2, and the code in the if statement got to run.
-
-<li>Change the code to set the value of x to 3.</li>
-
-When you now run the code, you should see that "x is greater than 2" is printed to the console, because the value of x (now 3) is NOT less than 2, so the code in the if statement never ran, so the code in the else statement ran instead.
-
-<h3>Else If</h3>
-You may have realised there's a problem with the code in the example above. If we set the value of x to be exactly 2, then it is still NOT less than 2, so the console print out reads "x is greater than 2", which is incorrect. In this case we want to add another check, in between the first check and the else statement.
-
-Update your code to reflect the changes below:
-
-{% highlight java %}
-int x = 1;
-
-if(x < 2){
-println("x is less than 2");
-}
-else if( x == 2){
-println("x is exactly 2");
-}
-else{
-println("x is greater than 2");
-}
-{% endhighlight %}
-<br>
-
-In this example, we can now see that we've snuck in another if statement, that flows off of an else, meaning it will only run if the previous statement was unsuccessful.
-You can continue this pattern as many times as you'd like, with more `else if` statements in between the opening `if` and closing `else` (but make sure there's only one `else` on its own for each `if`!).
-
-<H2>VIDEO HERE</H2>
-
-<br>
-<h2  id="modulus_operator">Modulus Operator</h2>
-If you've followed along with everything so far, you should be able to move the snake around the canvas, with it wrapping around the edges. This is great, but it's missing the classic blocky movement. We want to update the movement to look like this:
-<H2>GIF HERE</H2>
-
-To do this, we want to make the movements our snake makes bigger, but less frequent.
-Bigger movements is easier, so let's do that first!
-
-<h3>Task</h3>
-<blockquote>
-Each time the snake moves, instead of moving 1 pixel, we want it to move its full size, so in the Snake class, update the code that adds movementX and movementY to x and y, to instead add "movementX * size" to x, and "movementY * size" to y.
-</blockquote>
-
-If you run the code now, we should see that the snake moves *very* quickly, as each step its taking every frame is now much bigger.
-
-<h3>Modulus %</h3>
-To slow down the movement, we're going to make use of another in-built variable "frameCount", and a new operator called "Modulus", which you can think of as the "remainder operator".
-
-<li>Modulus can be used in the same way as +, -, * or /, as it is a mathematical operator.</li>
-<li>To use modulus, we use the % symbol.</li>
-<li>Modulus return the remainder of a division.</li>
-
-As an example, if we're working with  whole numbers, and we wanted to divide 11 by 5, we'd get 2, with a remainder of 1. Dividing 11 by 5 would give you the 2, and doing 11 modulus 5 would give you 1, as it returns only the remainder.
-
-We can test this simply in code by just printing the calculation results out directly:
-
-{% highlight java %}
-println(11/5);
-println(11%5);
-{% endhighlight %}
-<br>
-
-This can be useful in cases where we want to have something happen periodically, because we can check if a variable that gets updated every frame (frameCount!) is perfectly divisible my a number, and only if it is (when the remainder is 0) do we do the thing we want to happen periodically.
-
-If we want the snake to only move once every 15 frames for example, we can check that the remainder of frameCount modulus 15 is 0, and then run the movement code if this was true.
-
-In code, that would look like this:
-
-{% highlight java %}
-if(frameCount % 15 == 0){
-	//movement code here
-}
-{% endhighlight %}
-<br>
-
-<h3>Task</h3>
-<blockquote>
-Copy the above code into the top of the Snake class's Move method, and put the lines of code updating the x and y positions inside the curly brackets of the if statement.
-</blockquote>
-
-Running the code should now show the snake moving further, but less often, as we wanted!
-
-Watch the video below if you're not sure if you've got this quite right!
-
-<H2>VIDEO HERE</H2>
-
+In this example, we’re continuing the if, into an else if, which tests if there are no free positions left, by checking the size of the ArrayList returned by the GetFreePositions function, just as if it were any other ArrayList. If that is the case, we reset the game using the ResetGame method we just created.
+If you’re unsure how we arrived at this code, make sure to watch along with the video below!
 
 
 <br>
-<h2 id="snake_video">Snake Game: Part 5</h2>
-To finish up this chapter's work on the Snake game, we'll be adding collision between the snake and apple by comparing their positions using if statements.
+<h2 id="snake_video">Snake Game: Part 9</h2>
+In this video, we'll be going through the previous steps, adding a game win condition, and respawning the apple in a free position.
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
     <source src="{{ site.baseurl }}/Videos/SnakeChapter5.mp4" type="video/mp4">
@@ -360,7 +190,7 @@ To finish up this chapter's work on the Snake game, we'll be adding collision be
 
 <br>
 <h2>Summary</h2>
-This chapter covers the use of if statements to test conditions, which is a really vital aspect of all programming, as it allows us to control the flow of our code. Make sure to go back over the chapter if you're unsure at all on how to implement any of the content we've covered.
+In this chapter, we covered the use of methods that return a value to repeat complex calculations without repeating code.
 
 
 <br>

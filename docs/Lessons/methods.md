@@ -276,6 +276,14 @@ Methods are useful for when we want to bundle code together, so that we can run 
     <li><h3><a href="../Extras/Functions">How do return information from a method?</a></h3></li>
 </ul>
 
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=pYBtSPzcg6nuB3mV&t=3880">Program Flow, Setup and Draw</a></h3></li>
+</ul>
+
+    
+
 <p style="font-size: 30px; text-align: right;"><a href="./classes">Chapter 4 >></a></p>
 
 <br>

@@ -155,9 +155,8 @@ Our Draw Method for the snake would therefore include the following code:
 
 
 {% highlight java %}
-fill(0,255,0);
 for(SnakeSegment s : segments){    
-  rect(s.x*size,s.y*size,size,size);
+  s.Draw();
 }
 {% endhighlight %}
 

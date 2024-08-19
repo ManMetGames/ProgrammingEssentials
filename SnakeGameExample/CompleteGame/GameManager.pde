@@ -14,6 +14,12 @@ class GameManager {
   public void Update() {
     if (frameCount%10 == 0) {
       background(50);
+      if(snake.y==apple.y){
+        snake.nextDirection = Direction.RIGHT;
+      }else
+      {
+        snake.nextDirection = Direction.DOWN;
+      }
       snake.Move();
 
       snake.WrapRound(gridWidth, gridHeight);

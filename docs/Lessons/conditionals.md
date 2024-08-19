@@ -209,31 +209,6 @@ We have to say `if ( key is equal to w OR key is equal to W )`. This is because 
 
 Each section needs to make sense as a true/false on its own.
 
-<h3>Task</h3>
-<blockquote>
-The next thing we need to add is the ability for the snake to wrap around the edges of the screen. To do this, we’re going to make more use of the "width" and "height" built-in variables, which hold the width and height of the canvas in pixels.
-See if you can write some more if statements in the Snake class's Move method, after the snake has moved, to fulfil the following requirements:
-
-<br>
-<ul>
-<li>If the snake’s x position is greater than or equal to “width”:<ul><li> The x position should be set to 0.</li></ul></li>
-</ul>
-
-<ul>
-<li>If the snake’s x position is less than 0:<ul><li> The x position should be set to “width-size”.</li></ul></li>
-</ul>
-
-<ul>
-<li>If the snake’s y position is greater than or equal to “height”:<ul><li> The y position should be set to 0.</li></ul></li>
-</ul>
-
-<ul>
-<li>If the snake’s y position is less than 0:<ul><li> The y position should be set to “height-size”.</li></ul></li>
-</ul>
-
-</blockquote>
-
-Again, if you're unsure how to get this working, make sure to follow along with the video below!
 
 <H2>VIDEO HERE</H2>
 
@@ -397,8 +372,39 @@ Before you move on, let's have a quick check that you've got everything so far!
 </div>
 
 <br>
+
+<br>
 <h2 id="snake_video">Snake Game: Part 5</h2>
-To finish up this chapter's work on the Snake game, we'll be adding collision between the snake and apple by comparing their positions using if statements.
+To finish up the Snake game for this chapter, we're going to make the apple move when it the snake collides with it, and make the snake wrap around the screen.
+
+<h3>Task</h3>
+<blockquote>
+To make the snake wrap around the screen, we’re going to make more use of the "width" and "height" built-in variables, which hold the width and height of the canvas in pixels.
+See if you can write some more if statements in the Snake class's Move method, after the snake has moved, to fulfil the following requirements:
+
+<br>
+<ul>
+<li>If the snake’s x position is greater than or equal to “width”:<ul><li> The x position should be set to 0.</li></ul></li>
+</ul>
+
+<ul>
+<li>If the snake’s x position is less than 0:<ul><li> The x position should be set to “width-size”.</li></ul></li>
+</ul>
+
+<ul>
+<li>If the snake’s y position is greater than or equal to “height”:<ul><li> The y position should be set to 0.</li></ul></li>
+</ul>
+
+<ul>
+<li>If the snake’s y position is less than 0:<ul><li> The y position should be set to “height-size”.</li></ul></li>
+</ul>
+
+</blockquote>
+
+And finally, before watching the video below, see if you can make the apple respawn if its x and y positions are equal to the snake's x and y positions.
+
+Again, if you're unsure how to get this working, make sure to follow along with the video below!
+
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
     <source src="{{ site.baseurl }}/Videos/SnakeChapter5.mp4" type="video/mp4">
