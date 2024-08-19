@@ -45,9 +45,10 @@ In this case, the “return” keyword is followed by the “answer” variable,
 
 When using the function, we just do a normal method call, using this as if it were a value of the type that will be returned, which in this case again is int.
 
-<h1>IMAGE HERE</h1>
-
 Running the code in the example should output the number 9 into the console, as we’ve passed the number 3 to the SquareOf function, which will square it, returning 9, to be printed out using println.
+
+<h1>VIDEO HERE</h1>
+
 
 <h2 id="putting_it_into_practice">Putting it into Practice</h2>
 Back in the Snake project, we’re going to write a function that returns true or false, whether there is a segment of the snake that is in a specific position, which we can then make use of later!
@@ -141,6 +142,14 @@ If you’re really stuck, or think you’re done, follow along with the video be
 
 <h2 id="using_function_values">Using Function Values</h2>
 We can now make use of the GetFreePositions function when respawning the apple, and when checking if the game has been won.
+
+First, we need to make sure that the gridWidth and gridHeight variables are correct, so add the following code at the bottom of the main setup method:
+{% highlight java %}
+gridWidth = width/size;
+gridHeight = height/size;
+{% endhighlight %}
+<br>
+You may recognise this from the RespawnApple method, which we're now going to adapt!
 
 To respawn the apple in a free position, we need to store the positions returned by the GetFreePositions function, then choose a random one, and place the apple appropriately.
 
