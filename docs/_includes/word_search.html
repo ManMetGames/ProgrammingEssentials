@@ -1,0 +1,27 @@
+{% raw %}
+<script>
+    function highlight() {
+        // Get the search term and the content
+        const searchTerm = document.getElementById('search').value;
+        const contentElement = document.getElementById('content');
+        let content = contentElement.innerHTML;
+
+        // Clear previous highlights
+        content = content.replace(/<span class="highlight">(.*?)<\/span>/g, '$1');
+
+        // Regex to find the search term
+        const regex = new RegExp(searchTerm, 'gi');
+        const newContent = content.replace(regex, match => `<span class="highlight">${match}</span>`);
+
+        // Update the content with highlighted terms
+        contentElement.innerHTML = newContent;
+
+        // Scroll to the first highlighted match
+        const firstHighlight = document.querySelector('.highlight');
+        if (firstHighlight) {
+            firstHighlight.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+</script>
+
+{% endraw %}
