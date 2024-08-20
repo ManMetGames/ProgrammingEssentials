@@ -43,7 +43,7 @@ Using OOP, we can:
 </div>
 <br>
 
-<h2 id="creating_a_class">Creating A Class</h2>
+<h2 id="creating_a_class">Creating a Class</h2>
 
 To turn our snake and apple into objects, we first need to create a “class” for each one. A class is a template for the type of object that it defines, and this type can be used just like the types we used to create variables earlier! So let’s create a class to define what a snake **_is_**.
 
@@ -146,7 +146,7 @@ Because we created the snake object, we can now access the methods and variables
 </div>
 <br>
 
-<h3>Refactoring</h3>
+<h2 id="refactoring">Refactoring</h2>
 Now that we have all of the code for the apple and snake moved inside their classes, we can change the variable names to make them a little more straightforward. Editing your code to make it more readable and more performant is called refactoring, so let’s do that!
 
 <h3>Task</h3>
@@ -305,7 +305,7 @@ Running the program should now mean that the number printing out in the console 
 </div>
 <br>
 
-<h3>Putting It Together</h3>
+<h2 id="putting_it_together" >Putting It Together</h2>
 As we don't just want to spawn our apple in a random position when the program starts (but also when it gets eaten later!), we can make a method called "RespawnApple" that re-creates the apple object at a random location, and use that in the setup method for now.
 
 Paste the code below into your main tab, below all of your other code:

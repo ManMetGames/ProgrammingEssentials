@@ -12,7 +12,7 @@ Each chapter can be completed on its own, but each will make use of material fro
 <br>
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/introduction.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/Introduction.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
