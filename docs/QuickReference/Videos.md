@@ -31,8 +31,10 @@ layout: default
 This is the home for all of the videos throughout the Programming Essentials course. If you are unsure about how to apply any of the content listed here, make sure to re-cover the main chapters for further detail.
 
 <h1>Search and Highlight</h1>
-    <input type="text" id="search" placeholder="Type to search...">
-    <button onclick="highlight()">Search</button>
+<div>
+<input type="text" id="search" placeholder="Type to search...">
+<button onclick="highlight()">Search</button>
+</div>
 
 <br>
 <h2>Introduction</h2>
