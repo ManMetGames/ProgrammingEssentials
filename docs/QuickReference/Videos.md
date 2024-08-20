@@ -32,8 +32,10 @@ This is the home for all of the videos throughout the Programming Essentials cou
 
 <h1>Search and Highlight</h1>
 <div>
+<form>
 <input type="text" id="search" placeholder="Type to search...">
 <button onclick="highlight()">Search</button>
+</form>
 </div>
 
 <br>
