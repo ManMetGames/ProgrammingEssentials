@@ -37,7 +37,7 @@ This is the home for all of the videos throughout the Programming Essentials cou
 <button onclick="highlight()">Search</button>
 </form>
 </div>
-
+<div id="content">
 <br>
 <h2>Introduction</h2>
 
@@ -56,7 +56,6 @@ This is the home for all of the videos throughout the Programming Essentials cou
 	</div>
 </div>
 <br>
-
 <br>
 <h2>Chapter 1: Getting Started</h2>
 For more information, click on the name of a video to see it in context.
@@ -1105,6 +1104,6 @@ For more information, click on the name of a video to see it in context.
 <br>
 <br>
 <br>
-
+</div>
 
 	{% include word_search.html %}
