@@ -41,7 +41,7 @@ As an example, we might have similar code to before:<br>
 int[] numbers = new int[3];
 numbers[2] = 5;
 
-if ( numbers[2] > 3 ) {
+if ( numbers[2] > 3  {
     println("correct");
 }
 {% endhighlight %}

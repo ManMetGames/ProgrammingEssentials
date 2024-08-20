@@ -59,7 +59,6 @@ We could say that we want:
 <li>The ball should spawn in the middle of the screen</li>
 <li>The ball should have gravity, and drop towards the bottom of the screen</li>
 <li>When the ball touches the bottom of the screen, it should bounce back up</li>
-<li>The ball should slow down over time, as if it had air resistance</li>
 </ul>
 
 <h3>2. Breakdown</h3>
