@@ -942,11 +942,138 @@ For more information, click on the name of a video to see it in context.
 <h2>Chapter 10: Inheritance</h2>
 For more information, click on the name of a video to see it in context.
 <br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Inheritance.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/inheritance">Inheritance</a></h3>
+		<ul>
+            <li>Extending a class</li>
+            <li>Inheriting methods and variables from another class</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Polymorphism.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/inheritance#polymorphism">Polymorphism</a></h3>
+		<ul>
+            <li>Storing an object of a child class in a variable of a parent class type</li>
+            <li>Storing objects of multiple types in an ArrayList</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/OverridingFunctionality.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/inheritance#overriding_functionality">Overriding Functionality</a></h3>
+		<ul>
+            <li>Overriding methods and functions in a child class</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/SnakePart10.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/inheritance#snake_video">Snake Game: Part 10</a></h3>
+		<ul>
+            <li>Recap of inheritance, polymorphism and overriding</li>
+		</ul>
+	</div>
+</div>
+<br>
 <h2>Chapter 11: Implementing a Feature</h2>
 For more information, click on the name of a video to see it in context.
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/ImplementingAFeature.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/implementing_a_feature">Implementing a Feature</a></h3>
+		<ul>
+            <li>Outlining features</li>
+            <li>Breaking features down</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/TranslatingToCode.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/implementing_a_feature">Translating to Code</a></h3>
+		<ul>
+            <li>Translating a breakdown of features into code</li>
+		</ul>
+	</div>
+</div>
 <br>
 <h2>Chapter 12: Fixing Errors</h2>
 For more information, click on the name of a video to see it in context.
 <br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/FixingErrors.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/fixing_errors">Fixing Errors</a></h3>
+		<ul>
+            <li>Logical errors</li>
+            <li>Compiler errors</li>
+            <li>Runtime errors</li>
+		</ul>
+	</div>
+</div>
+<br>
 <h2>Conclusion</h2>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Conclusion.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/conclusion">Conclusion</a></h3>
+		<ul>
+            <li>Overview of progress</li>
+		</ul>
+	</div>
+</div>
+<br>
+<br>
 <br>
