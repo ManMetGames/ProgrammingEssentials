@@ -509,7 +509,126 @@ For more information, click on the name of a video to see it in context.
 <br>
 <h2>Chapter 5: Conditionals</h2>
 For more information, click on the name of a video to see it in context.
-
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Chapter4Summary.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/conditionals#snake_video">Snake Game: Part 4</a></h3>
+		<ul>
+            <li>Overview of using classes, constructors, parameter passing and randomness</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Chapter4Summary.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/conditionals#snake_video">Snake Game: Part 4</a></h3>
+		<ul>
+            <li>Overview of using classes, constructors, parameter passing and randomness</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Chapter4Summary.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/conditionals#snake_video">Snake Game: Part 4</a></h3>
+		<ul>
+            <li>Overview of using classes, constructors, parameter passing and randomness</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Chapter4Summary.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/conditionals#snake_video">Snake Game: Part 4</a></h3>
+		<ul>
+            <li>Overview of using classes, constructors, parameter passing and randomness</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Chapter4Summary.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/conditionals#snake_video">Snake Game: Part 4</a></h3>
+		<ul>
+            <li>Overview of using classes, constructors, parameter passing and randomness</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Chapter4Summary.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/conditionals#snake_video">Snake Game: Part 4</a></h3>
+		<ul>
+            <li>Overview of using classes, constructors, parameter passing and randomness</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Chapter4Summary.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/conditionals#snake_video">Snake Game: Part 4</a></h3>
+		<ul>
+            <li>Overview of using classes, constructors, parameter passing and randomness</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Chapter4Summary.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/conditionals#snake_video">Snake Game: Part 4</a></h3>
+		<ul>
+            <li>Overview of using classes, constructors, parameter passing and randomness</li>
+		</ul>
+	</div>
+</div>
 <br>
 <h2>Chapter 6: Arrays</h2>
 For more information, click on the name of a video to see it in context.
