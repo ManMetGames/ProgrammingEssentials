@@ -128,7 +128,7 @@ Note how in the example, the three spaces accessed are 0, 1, and 2. Arrays start
 Another important note is that when we create the array, we define its size there and then, so we can’t make it bigger or smaller without recreating the entire array.
 
 
-<h3>Task</h3>
+<h3 id="snake_array">Task</h3>
 <blockquote>
 Back in the Snake project, go to the Snake class, and create a new array of type SnakeSegment, called segments, by copying in the line of code below with your other variables:</blockquote>
 

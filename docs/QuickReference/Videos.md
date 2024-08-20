@@ -32,7 +32,6 @@ This is the home for all of the videos throughout the Programming Essentials cou
 
 <br>
 <h2>Introduction</h2>
-For more information, click on the name of a video to see it in context.
 
 <div class="vid-container">
 	<div class="vid-video">
@@ -632,7 +631,7 @@ For more information, click on the name of a video to see it in context.
 <div class="vid-container">
 	<div class="vid-video">
 		<video width="100%" controls>
-			<source src="{{ site.baseurl }}Videos/ChapterPart5.mp4" type="video/mp4">
+			<source src="{{ site.baseurl }}Videos/SnakePart5.mp4" type="video/mp4">
 			Your browser does not support the video tag.
 		</video>
 	</div>
@@ -647,13 +646,307 @@ For more information, click on the name of a video to see it in context.
 <br>
 <h2>Chapter 6: Arrays</h2>
 For more information, click on the name of a video to see it in context.
-
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/SnakeSegments.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/arrays">Preparation for Arrays</a></h3>
+		<ul>
+            <li>Creating a class to be used in an array</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Arrays.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/arrays#arrays">Arrays</a></h3>
+		<ul>
+            <li>Arrays</li>
+            <li>Storing values in a list</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/CreatingAnArray.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/arrays#snake_array">Creating an Array</a></h3>
+		<ul>
+            <li>Creating an Array</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/SnakePart6.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/arrays#snake_video">Snake Game: Part 6</a></h3>
+		<ul>
+            <li>Accessing elements of an array</li>
+            <li>Accessing methods and variables on an object in an array</li>
+            <li>Accessing the size of an array</li>
+            <li>Variables pointing to the same object</li>
+		</ul>
+	</div>
+</div>
 <br>
 <h2>Chapter 7: Loops</h2>
 For more information, click on the name of a video to see it in context.
-
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/WhileLoops.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/Loops#while_loops">While Loops</a></h3>
+		<ul>
+            <li>While loops</li>
+            <li>Repeating code</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/ForLoops.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/Loops#for_loops">For Loops</a></h3>
+		<ul>
+            <li>For loops</li>
+            <li>Repeating code a specific number of times</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/UsingAForLoop.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/Loops#putting_it_into_practice">Putting it into Practice</a></h3>
+		<ul>
+            <li>Using a for loop</li>
+            <li>Looping through an array</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/LoopingBackwards.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/Loops#looping_backwards_through_an_array">Looping Backwards Through an Array</a></h3>
+		<ul>
+            <li>Looping backwards through an array</li>
+            <li>Why looping backwards is useful</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/ForEachLoops.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/Loops#enhanced_for_loops">Enhanced For Loops</a></h3>
+		<ul>
+            <li>Looping through each item in an array</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/SnakePart7.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/Loops#snake_video">Snake Game: Part 7</a></h3>
+		<ul>
+            <li>Testing loop changes</li>
+		</ul>
+	</div>
+</div>
 <br>
 <h2>Chapter 8: ArrayLists</h2>
 For more information, click on the name of a video to see it in context.
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/CreatingAnArrayList.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/arraylists">Creating an ArrayList</a></h3>
+		<ul>
+            <li>Creating an ArrayList</li>
+            <li>Angle brackets</li>
+            <li>Generic types</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/AddingToAnArrayList.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/arraylists#adding_to_an_arraylist">Adding to an ArrayList</a></h3>
+		<ul>
+            <li>Adding objects to an ArrayList</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/AccessingElementsInAnArrayList.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/arraylists#accessing_elements_in_an_arraylist">Accessing Elements in an ArrayList</a></h3>
+		<ul>
+            <li>Accessing the size of an ArrayList</li>
+            <li>Accessing elements in an ArrayList</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/SnakePart8.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/arraylists#snake_video">Snake Game: Part 8</a></h3>
+		<ul>
+            <li>Making use of ArrayLists</li>
+		</ul>
+	</div>
+</div>
+<br>
 
-
+<h2>Chapter 9: Functions</h2>
+For more information, click on the name of a video to see it in context.
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Functions.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/functions">Functions</a></h3>
+		<ul>
+            <li>Returning a value from a method</li>
+            <li>The return keyword</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/WritingASimpleFunction.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/functions#putting_it_into_practice">Putting it into Practice</a></h3>
+		<ul>
+            <li>Writing a function</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/WritingAComplexFunction.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/functions#tying_it_all_together">Tying It All Together</a></h3>
+		<ul>
+            <li>Writing a more complex function</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/SnakePart9.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/functions#snake_video">Snake Game: Part 9</a></h3>
+		<ul>
+            <li>Selecting a random element from an ArrayList</li>
+		</ul>
+	</div>
+</div>
+<br>
+<h2>Chapter 10: Inheritance</h2>
+For more information, click on the name of a video to see it in context.
+<br>
+<h2>Chapter 11: Implementing a Feature</h2>
+For more information, click on the name of a video to see it in context.
+<br>
+<h2>Chapter 12: Fixing Errors</h2>
+For more information, click on the name of a video to see it in context.
+<br>
+<h2>Conclusion</h2>
+<br>
