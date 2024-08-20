@@ -48,6 +48,8 @@ This is the home for all of the videos throughout the Programming Essentials cou
 	</div>
 </div>
 <br>
+
+<br>
 <h2>Chapter 1: Getting Started</h2>
 For more information, click on the name of a video to see it in context.
 
@@ -167,6 +169,7 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
+<br>
 
 <br>
 <h2>Chapter 2: Variables</h2>
@@ -506,6 +509,8 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+<br>
 <h2>Chapter 5: Conditionals</h2>
 For more information, click on the name of a video to see it in context.
 <br>
@@ -644,6 +649,8 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+<br>
 <h2>Chapter 6: Arrays</h2>
 For more information, click on the name of a video to see it in context.
 <br>
@@ -710,6 +717,8 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
+<br>
+
 <br>
 <h2>Chapter 7: Loops</h2>
 For more information, click on the name of a video to see it in context.
@@ -808,6 +817,8 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+<br>
 <h2>Chapter 8: ArrayLists</h2>
 For more information, click on the name of a video to see it in context.
 <br>
@@ -875,6 +886,7 @@ For more information, click on the name of a video to see it in context.
 </div>
 <br>
 
+<br>
 <h2>Chapter 9: Functions</h2>
 For more information, click on the name of a video to see it in context.
 <br>
@@ -938,6 +950,8 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
+<br>
+
 <br>
 <h2>Chapter 10: Inheritance</h2>
 For more information, click on the name of a video to see it in context.
@@ -1004,6 +1018,8 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+<br>
 <h2>Chapter 11: Implementing a Feature</h2>
 For more information, click on the name of a video to see it in context.
 <br>
@@ -1038,6 +1054,8 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+<br>
 <h2>Chapter 12: Fixing Errors</h2>
 For more information, click on the name of a video to see it in context.
 <br>
@@ -1057,6 +1075,8 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
+<br>
+
 <br>
 <h2>Conclusion</h2>
 <br>
