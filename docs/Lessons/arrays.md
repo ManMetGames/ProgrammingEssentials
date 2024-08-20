@@ -39,7 +39,15 @@ This is a similar class to the Snake and Apple classes, with functionality to se
 
 We’re going to create multiple SnakeSegment objects to represent the snake’s body.
 
-<h2>VIDEO HERE</h2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/SnakeSegments.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2  id="the_problem">The Problem</h2>
@@ -105,7 +113,15 @@ Now that the array has been created, the next three lines in the example initial
 Accessing the elements in the array is done by using the square brackets and the number (or “index”) of the space you would like to access.
 
 Follow along with the video below if you're not following so far!
-<h2>VIDEO HERE</h2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/Arrays.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <h3>Important!</h3>
 Note how in the example, the three spaces accessed are 0, 1, and 2. Arrays start at 0, so the last element in the array is always at an index of one less than the size of the array. Be careful when accessing arrays, as trying to access a point in the array that doesn’t exist (less than 0, or greater than or equal to its size) will result in an error!
@@ -137,7 +153,15 @@ In this code, we are creating SnakeSegment objects as we usually would, and assi
 
 Because we’re now handling the position of our snake using the x and y of each segment, we can delete the x and y variables in the Snake class itself (this will cause errors but we’ll fix them!).
 
-<h2>VIDEO HERE</h2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/CreatingAnArray.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2  id="accessing_variables_and_methods_on_an_object_in_an_array">Accessing Variables and Methods on an Object in an Array</h2>
@@ -181,7 +205,7 @@ If you’re not quite sure how to get all of this working, make sure to follow a
 In this video we'll be completing the above tasks to make use of an array in the Snake game!
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/SnakeChapter6.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/SnakePart6.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>

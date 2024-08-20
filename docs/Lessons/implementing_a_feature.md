@@ -97,10 +97,26 @@ Expanding our outline with a breakdown may look like this:
 </li>
 </ul>
 
-<h3>Translate</h3>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/ImplementingAFeature.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
+
+<h3>3. Translate</h3>
 Finally, we can translate the breakdown into actual code, again, feel free to give this a go before following along with the video below!
 
-<h1>VIDEO HERE</h1>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/TranslatingToCode.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <br>

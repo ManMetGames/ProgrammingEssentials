@@ -21,6 +21,16 @@ At the moment, we'd have to run our program, stop it, change values, then play i
 
 <p style="font-size:20px"><i>There must be a better way!</i></p>
 
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/Chapter3Start.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
+
 In chapter 1 we briefly introduced the concept of method calls, where we run a “method” (a bundle of code) somewhere else, by using the name of the method, and round brackets.
 <br>
 
@@ -63,7 +73,15 @@ void draw(){
 When you hit play, you should see numbers printing out into the console, increasing from zero.
 <br>
 
-VIDEO HERE
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/voidDraw.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2><a href="../Extras/Brackets">{ New Bracket Unlocked! }</a></h2>
@@ -75,7 +93,15 @@ By convention, everything inside a pair of curly brackets should be indented usi
 To learn more, take a look at the quick reference page on brackets <a href="../Extras/Brackets">here</a>!
 </blockquote>
 
-VIDEO HERE
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/scope.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2  id="void_setup">void setup</h2>
@@ -109,7 +135,15 @@ The setup method will be called automatically by Processing, at the very start o
 </ul>
 <br>
 
-VIDEO HERE
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/voidSetup.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <br>
@@ -185,6 +219,15 @@ void draw(){
 Once you’re used to methods, this looks much easier to read and understand.
 <br>
 
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/CallingYourOwnMethods.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
+
 When we run our code, there still isn’t any movement, because we’re not updating the position of the snake or apple over time.
 <br>
 
@@ -203,6 +246,16 @@ When you run the code, you should now see that the snake moves across the screen
 As we want to make the snake's movement more complicated in the future, we can put the line of code above into a method called MoveSnake. Make the MoveSnake method, and add the method call in before DrawSnake in the draw method.
 
 </blockquote>
+
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/MovingTheSnake.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <br>
@@ -259,7 +312,7 @@ Before you move on, let's have a quick check that you've got everything so far!
 We've already covered the content in this video, but feel free to watch through what we've covered on methods as a reminder.
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/SnakeChapter3.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/Chapter3Wrapup.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>

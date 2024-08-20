@@ -13,6 +13,7 @@ void setup() {
   gridHeight = height/size;
 
   RespawnApple();
+  
 }
 
 void draw() {
@@ -28,9 +29,11 @@ void draw() {
       snake.Grow();
     }
     if (snake.hasCrashed) {
+      //game lost
       ResetGame();
     }
     else if(GetFreePositions().size()==0){
+      //game won
       ResetGame();
     }
   }

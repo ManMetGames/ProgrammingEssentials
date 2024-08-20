@@ -38,8 +38,14 @@ When we run the code now, the game should look exactly the same as it did before
 <h3>Task</h3>
 <blockquote>Adapt your code so that the SnakeSegment class also extends the Position class, and fills out the constructor.</blockquote>
 
-<h1>
-VIDEO HERE</h1>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/Inheritance.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <br>
@@ -72,9 +78,14 @@ The reason we’re able to do this is because again, we’re storing an object o
 
 Follow along with the video below if you get stuck, or need further explanation!
 
-<h1>
-VIDEO HERE
-</h1>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/Polymorphism.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <br>
@@ -101,14 +112,21 @@ Whilst we’ve overridden the method to change the colour, overridden methods an
 
 Make sure to follow along with the video below if you’re stuck! 
 
-<h1>VIDEO HERE</h1>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/OverridingFunctionality.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2 id="snake_video">Snake Game: Part 10</h2>
 In this video we’ll be re-covering the content from this chapter, all the work is done!
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/SnakeChapter10.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/SnakePart10.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>

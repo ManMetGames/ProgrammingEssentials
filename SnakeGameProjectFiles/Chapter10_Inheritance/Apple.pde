@@ -1,10 +1,7 @@
-class Apple {
-  int x = 400;
-  int y = 200;
-    
+class Apple extends Position{
+
   Apple(int startX, int startY){
-    x = startX;
-    y = startY;
+    super(startX, startY);
   }
   
   void Draw() {

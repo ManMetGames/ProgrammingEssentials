@@ -34,6 +34,15 @@ Using OOP, we can:
 <li>Tell the snake object to be drawn to the screen by calling a method in the snake class</li>
 </ul>
 
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/ObjectOrientedProgramming.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
+
 <h2 id="creating_a_class">Creating A Class</h2>
 
 To turn our snake and apple into objects, we first need to create a “class” for each one. A class is a template for the type of object that it defines, and this type can be used just like the types we used to create variables earlier! So let’s create a class to define what a snake **_is_**.
@@ -41,7 +50,7 @@ To turn our snake and apple into objects, we first need to create a “class” 
 <h3>New Class, New Tab</h3>
 To keep everything tidy, let’s create a new tab in Processing for each class we make. You can create a new tab by clicking the button here:
 
-IMAGE
+<img src="../Images/newTab.png">
 
 Select New Tab, then name the tab “**_Snake_**”
 
@@ -56,8 +65,8 @@ class Snake{
 
 This follows a structure of:
 <blockquote style="font-size:20px">
-class TYPE{
-  //class variables and methods here
+class TYPE{<br>
+  //class variables and methods here<br>
 }
 </blockquote>
 - where the type is the name of the class.
@@ -70,6 +79,14 @@ Move all of the code related to the snake inside the curly brackets in the snake
 This should include the snakeX and snakeY variables, and the DrawSnake and MoveSnake methods. This will cause errors in your main tab, but we’ll fix those soon!
 </blockquote>
 
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/CreatingAClass.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2 id="initialising_class_objects">Initialising Class Objects</h2>
@@ -120,6 +137,14 @@ Because we created the snake object, we can now access the methods and variables
 </ul>
 </blockquote>
 
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/CreatingAndAccessingObjects.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <h3>Refactoring</h3>
 Now that we have all of the code for the apple and snake moved inside their classes, we can change the variable names to make them a little more straightforward. Editing your code to make it more readable and more performant is called refactoring, so let’s do that!
@@ -130,6 +155,16 @@ Go through your code and rename variables such as snakeX and snakeY to x and y. 
 
 You can also rename your DrawSnake and MoveSnake methods to Draw and Move, and the same for the DrawApple method in the Apple class. This will mean that wherever you’re using those variables and method names you’ll need to make sure the names match!
 </blockquote>
+
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/RefactoringVariableNames.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2 id="constructors">Constructors</h2>
@@ -170,6 +205,16 @@ TYPE(){<br>
 <blockquote>
 Inside the curly brackets of the Apple constructor, add some code to change the x and y variables to 520, and 280.
 </blockquote>
+
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/Constructors.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 Running the program should now show the apple in a different starting position, but this still isn’t quite what we want. If we wanted the apple to spawn in a different starting position, we’d need to provide different numbers in the constructor, which again would just be hardcoding in values.
 
@@ -212,12 +257,21 @@ When we run the code, we should see that the program looks largely the same as i
 
 
 <br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/ParameterPassing.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
+
+<br>
 <h2 id="adding_randomness">Adding Randomness</h2>
 Having the apple in our snake game spawn in the same place every time isn't very useful, so let's add some randomness.
 
 In Processing we can do this by making use of the `random` function. We'll cover functions more in the future, but they are ultimately just methods that return a value. In this case, we can pass in an upper and lower bound, and the random function will return a random value within these bounds.
 
-<H2>IMAGE HERE</H2>
+<img src="../Images/random_method.png" width="250" height="125">
 
 As a test, paste the code below into your setup method:
 {% highlight java %}
@@ -240,6 +294,16 @@ println( (int) random(0,100) );
 <br>
 
 Running the program should now mean that the number printing out in the console is a whole number!
+
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/RandomAndCasting.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <h3>Putting It Together</h3>
 As we don't just want to spawn our apple in a random position when the program starts (but also when it gets eaten later!), we can make a method called "RespawnApple" that re-creates the apple object at a random location, and use that in the setup method for now.
@@ -276,6 +340,14 @@ You don't need to understand this code fully to continue, but it would be good t
 
 If you've added in the method call correctly, you should now see that every time we restart the game, the apple starts in a random location.
 
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/PlacingTheApple.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <h2>Quick check!</h2>
 Before you move on, let's have a quick check that you've got everything so far!
@@ -329,7 +401,7 @@ Before you move on, let's have a quick check that you've got everything so far!
 We've already covered the content in this video, but feel free to watch through what we've covered on methods as a reminder.
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/SnakeChapter4.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/Chapter4Summary.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>

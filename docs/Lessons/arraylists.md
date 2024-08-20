@@ -54,9 +54,16 @@ This is because we’re creating a new ArrayList object, that needs to be told w
 The final type of bracket we’ll be making use of is angle brackets! Angle brackets are used when declaring classes and methods that make use of “generics”, which means things like an ArrayList don’t need to know exactly what type of data they’ll be storing ahead of time. When using an ArrayList, this means that we use the angle brackets to pass in the type that will get used in the generic class, so passing in SnakeSegment in the previous example tells the ArrayList that we’d like to store SnakeSegments in the list!
 </blockquote>
 
-We’ll need to change how we initialise and use the elements in this array, so let’s do that!
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/CreatingAnArrayList.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
-<h2>VIDEO HERE</h2>
+We’ll need to change how we initialise and use the elements in this array, so let’s do that!
 
 <br>
 <h2  id="adding_to_an_arraylist">Adding to an ArrayList</h2>
@@ -74,7 +81,14 @@ for(int i = 0; i < 3; i=i+1){
 
 We’ve now changed the code so that the loop will run three times, each time adding a new snake segment object to the segments list.
 
-<h2>VIDEO HERE</h2>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/AddingToAnArrayList.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <br>
@@ -114,7 +128,14 @@ void Move(){
 <h3>Task</h3>
 <blockquote>Fix the final errors by updating the code in your main tab, to also make use of the “get” function, and follow along with the video below if you get stuck!</blockquote>
 
-<h2>VIDEO HERE</h2>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/AccessingElementsInAnArrayList.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <br>
@@ -122,7 +143,7 @@ void Move(){
 To finish off this chapter, let’s make the snake grow by leveraging the power of ArrayLists to make the Snake actually grow! We'll also add some code to make the snake crash into itself, so that we can fail the game by adding a hasCrashed variable!
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/SnakeChapter8.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/SnakePart8.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>

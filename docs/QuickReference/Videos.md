@@ -32,7 +32,22 @@ This is the home for all of the videos throughout the Programming Essentials cou
 
 <br>
 <h2>Introduction</h2>
+For more information, click on the name of a video to see it in context.
 
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/introduction.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/introduction">Course Overview</a></h3>
+		<ul>
+			<li>Course overview</li>
+		</ul>
+	</div>
+</div>
 <br>
 <h2>Chapter 1: Getting Started</h2>
 For more information, click on the name of a video to see it in context.
@@ -50,7 +65,6 @@ For more information, click on the name of a video to see it in context.
 			<li>Downloading Processing</li>
 			<li>Running Processing</li>
 		</ul>
-		
 	</div>
 </div>
 <br>
@@ -68,7 +82,6 @@ For more information, click on the name of a video to see it in context.
 			<li>Running and stopping your code</li>
 			<li>Saving and loading a file</li>
 		</ul>
-		
 	</div>
 </div>
 <br>
@@ -89,7 +102,6 @@ For more information, click on the name of a video to see it in context.
 			<li>Semicolons</li>
 			<li>Round brackets</li>
 		</ul>
-		
 	</div>
 </div>
 <br>
@@ -106,7 +118,6 @@ For more information, click on the name of a video to see it in context.
 			<li>Drawing a rectangle</li>
 			<li>Coordinates</li>
 		</ul>
-		
 	</div>
 </div>
 <br>
@@ -123,7 +134,6 @@ For more information, click on the name of a video to see it in context.
 			<li>Filling shapes with colour</li>
 			<li>Getting the RGB values for a colour</li>
 		</ul>
-		
 	</div>
 </div>
 <br>
@@ -141,7 +151,6 @@ For more information, click on the name of a video to see it in context.
 			<li>Printing numbers to the console</li>
 			<li>Printing words to the console</li>
 		</ul>
-		
 	</div>
 </div>
 <br>
@@ -157,7 +166,6 @@ For more information, click on the name of a video to see it in context.
 		<ul>
 			<li>Finishing the first part of the Snake game example</li>
 		</ul>
-		
 	</div>
 </div>
 
@@ -196,7 +204,6 @@ For more information, click on the name of a video to see it in context.
 			<li>Data types</li>
 			<li>Variable name limitations and conventions</li>
 		</ul>
-		
 	</div>
 </div>
 <br>
@@ -215,7 +222,6 @@ For more information, click on the name of a video to see it in context.
 			<li>Assigning values to variables</li>
 			<li>Calculations with variables</li>
 		</ul>
-		
 	</div>
 </div>
 
@@ -232,7 +238,6 @@ For more information, click on the name of a video to see it in context.
 		<ul>
 			<li>Finishing up the second part of the Snake game example</li>
 		</ul>
-		
 	</div>
 </div>
 <br>
@@ -240,6 +245,22 @@ For more information, click on the name of a video to see it in context.
 <br>
 <h2>Chapter 3: Methods</h2>
 For more information, click on the name of a video to see it in context.
+
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Chapter3Start.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/methods">Storing Values in Variables</a></h3>
+		<ul>
+            <li></li>
+		</ul>
+	</div>
+</div>
+<br>
 
 <br>
 <h2>Chapter 4: Classes</h2>

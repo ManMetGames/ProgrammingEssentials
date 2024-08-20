@@ -10,6 +10,7 @@ class Snake {
 
   Snake(int startX, int startY) {
 
+    segments.add( new SnakeHead(startX, startY) );
     for (int i = 0; i < 3; i = i+1) {
       segments.add( new SnakeSegment(startX, startY) );
     }

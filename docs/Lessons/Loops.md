@@ -37,7 +37,15 @@ This can cause issues, so make sure that the logic in your loop always allows fo
 
 In the example, the condition x<10 is true until x reaches a value of 10, which it does because on each “iteration” going through the loop, the value inside x is increased by 1.
 
-<H2>VIDEO HERE</H2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/WhileLoops.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 While loops are useful when we don’t know exactly how long we need to repeat something for, which isn’t the case in this example, so what might be a better option?
 
@@ -76,12 +84,19 @@ for(int i = 0; i < 10; i = i+1){
 
 The format of for loops can be a little tricky to remember at first, but it’s ultimately just remembering those three core parts of the loop, with a semicolon breaking up each one from the next, and that’s the information we’re passing in to the for loop round brackets.
 
-<h2>IMAGE HERE</h2>
 
 <h3>Important!</h3>
 The section of the for loop used for increasing the i variable is run **_AFTER_** the main block of code inside the curly brackets. This means that if we’re using i in this code, it may be one less than the number you might expect!
 
 
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/ForLoops.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2  id="putting_it_into_practice">Putting it into Practice</h2>
@@ -101,8 +116,14 @@ Thankfully arrays have a built-in variable called "length" that we can use for t
 
 Make sure to follow along in the video below to make sure you’ve got everything right!
 
-
-<H2>VIDEO HERE</H2>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/UsingAForLoop.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2  id="looping_backwards_through_an_array">Looping Backwards Through an Array</h2>
@@ -123,7 +144,15 @@ To move backwards through an array, we just need to set the starting value in th
 Make sure to follow along with the video below if you’re not sure how to get this working!
 
 
-<H2>VIDEO HERE</H2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/LoopingBackwards.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2  id="enhanced_for_loops">Enhanced For Loops</h2>
@@ -164,15 +193,21 @@ In this code, we’re access the position of each SnakeSegment in the segments l
 
 Watch along with the video below to make sure you understand how to use an enhanced for loop!
 
-
-<H2>VIDEO HERE</H2>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/ForEachLoops.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2 id="snake_video">Snake Game: Part 7</h2>
 To see why using loops is useful, we can test everything’s working by changing the initial size of our array to a larger number like 10. Try this out and you should see that the loops handle the additional elements of the array without any problems!
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/SnakeChapter7.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/SnakePart7.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>

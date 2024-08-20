@@ -80,6 +80,15 @@ A useful way to do this is by making use of the in-built debugger, where you can
 
 
 <br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/FixingErrors.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
+
+<br>
 <h2>Summary</h2>
 When writing code it's always going to be the case that we run into errors. By understanding what they are and how to find what's gone wrong, we can figure out how to fix them!
 

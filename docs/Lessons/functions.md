@@ -24,7 +24,7 @@ Functions are simply methods that have a return type that isn’t void, and ther
 
 To create a function, we make use of the same approach we used to create a normal method, but the type of the method can be a normal data type, or even a class type!
 
-To actually return the value, we then need to include the “return” keyword at the end of the code to be run, followed by the value we’re passing back.
+To actually return the value, we then need to include the “return” keyword at the end of the code to be run, followed by the value we’re passing back, which will exit the method immediately with the value.
 
 As an example, open a new project, and copy and paste in the code below:<br>
 {% highlight java %}
@@ -47,7 +47,14 @@ When using the function, we just do a normal method call, using this as if it we
 
 Running the code in the example should output the number 9 into the console, as we’ve passed the number 3 to the SquareOf function, which will square it, returning 9, to be printed out using println.
 
-<h1>VIDEO HERE</h1>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/Functions.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <h2 id="putting_it_into_practice">Putting it into Practice</h2>
@@ -97,7 +104,14 @@ We should now be able to move the snake through the top left of the screen, and 
 
 See if you can write this yourself, and follow along with the video below to make sure you’ve got it!
 
-<h1>VIDEO HERE</h1>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/WritingASimpleFunction.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 You should now be able to move the snake through the top left corner of the canvas, during which the console should print out “true”.
 
@@ -138,7 +152,14 @@ Your code should now appropriately loop through all of the possible grid locatio
 
 If you’re really stuck, or think you’re done, follow along with the video below!
 
-<h1>VIDEO HERE</h1>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/WritingAComplexFunction.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <h2 id="using_function_values">Using Function Values</h2>
 We can now make use of the GetFreePositions function when respawning the apple, and when checking if the game has been won.
@@ -192,7 +213,7 @@ If you’re unsure how we arrived at this code, make sure to watch along with th
 In this video, we'll be going through the previous steps, adding a game win condition, and respawning the apple in a free position.
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/SnakeChapter5.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/SnakePart9.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>

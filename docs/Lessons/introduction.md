@@ -8,7 +8,15 @@ This course acts as a refresher and entry level programme for the essentials you
 
 Each chapter can be completed on its own, but each will make use of material from the previous chapters, so make sure to go back if you're unsure how anything's been done!
 
-<h2>VIDEO HERE</h2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/introduction.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <br>

@@ -1,14 +1,11 @@
-class SnakeSegment{
-  int x;
-  int y;
+class SnakeSegment extends Position{
   
   SnakeSegment(int startX, int startY){
-    x = startX;
-    y = startY;
+    super(startX, startY);
   }
 
   void Draw(){
-    fill(0,255,0);
+    fill(0,200,0);
     rect(x,y,size,size);
   }
 

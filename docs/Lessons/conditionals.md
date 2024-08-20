@@ -32,7 +32,15 @@ Running the code should still result in the snake moving right across the canvas
 To test this out, change the starting value of the movementX variable to 0, and the movementY variable to 1.
 When we run the program, we should now see that the snake moves down, without us having actually changed the code in the Move method at all!
 
-<H2>VIDEO HERE</H2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/MovementVariables.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <br>
@@ -72,7 +80,15 @@ keyPressed is a boolean (`true`/`false`) variable that is built-in to Processing
 
 If we run the program, we should now see that the snake moves as normal, and then moves up as soon as a key is pressed (you may have to click into the canvas window before keyboard controls work).
 
-<H2>VIDEO HERE</H2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/IfStatements.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 
 <br>
@@ -145,7 +161,15 @@ Add two more if statements to change the movement variable to 1 and -1, dependin
 If you're unsure how to get this working, watch the video below, but make sure to re-cover this chapter to make sure you understand how to use if statements.
 </blockquote>
 
-<H2>VIDEO HERE</H2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/TestingEquality.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2  id="comparison_and_logical_operators">Comparison and Logical Operators</h2>
@@ -182,13 +206,18 @@ if( (a&&!(b||c))
 {% endhighlight %}
 <br>
 
-If you’re unsure how to pull this apart, try to take it step by step, as in the image below:
 
-IMAGE
+Building the checks inside if statements can be a little daunting, so if you’re unsure, make sure to follow along with the above example in the video below.
 
-Building the checks inside if statements can be a little daunting, so if you’re unsure, try to write out in words what you actually want to happen, as above.
 
-<H2>VIDEO HERE</H2>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/BooleanOperators.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2  id="putting_it_into_practice">Putting It Into Practice</h2>
@@ -210,7 +239,14 @@ We have to say `if ( key is equal to w OR key is equal to W )`. This is because 
 Each section needs to make sense as a true/false on its own.
 
 
-<H2>VIDEO HERE</H2>
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/LogicalOperators.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2  id="else_and_else_if">Else and Else If</h2>
@@ -265,14 +301,19 @@ You can continue this pattern as many times as you'd like, with more `else if` s
 
 You can also have an `if` and `else if`, without following it with an `else`, it isn't a requirement!
 
-<H2>VIDEO HERE</H2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/ElseAndElseIf.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2  id="modulus_operator">Modulus Operator</h2>
-If you've followed along with everything so far, you should be able to move the snake around the canvas, with it wrapping around the edges. This is great, but it's missing the classic blocky movement. We want to update the movement to look like this:
-<H2>GIF HERE</H2>
-
-To do this, we want to make the movements our snake makes bigger, but less frequent.
+If you've followed along with everything so far, you should be able to move the snake around the canvas, with it wrapping around the edges. This is great, but it's missing the classic blocky movement. We want to update the movement code to make the movements our snake makes bigger, but less frequent.
 Bigger movements is easier, so let's do that first!
 
 <h3>Task</h3>
@@ -321,7 +362,15 @@ Running the code should now show the snake moving further, but less often, as we
 
 Watch the video below if you're not sure if you've got this quite right!
 
-<H2>VIDEO HERE</H2>
+
+<br>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/Modulus.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<br>
 
 <br>
 <h2>Quick check!</h2>
@@ -407,7 +456,7 @@ Again, if you're unsure how to get this working, make sure to follow along with 
 
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
-    <source src="{{ site.baseurl }}/Videos/SnakeChapter5.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/Videos/SnakePart5.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
