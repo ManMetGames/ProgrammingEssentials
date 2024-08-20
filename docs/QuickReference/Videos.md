@@ -395,7 +395,8 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
-<br><div class="vid-container">
+<br>
+<div class="vid-container">
 	<div class="vid-video">
 		<video width="100%" controls>
 			<source src="{{ site.baseurl }}Videos/CreatingAndAccessingObjects.mp4" type="video/mp4">
@@ -410,7 +411,8 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
-<br><div class="vid-container">
+<br>
+<div class="vid-container">
 	<div class="vid-video">
 		<video width="100%" controls>
 			<source src="{{ site.baseurl }}Videos/RefactoringVariableNames.mp4" type="video/mp4">
@@ -424,7 +426,8 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
-<br><div class="vid-container">
+<br>
+<div class="vid-container">
 	<div class="vid-video">
 		<video width="100%" controls>
 			<source src="{{ site.baseurl }}Videos/Constructors.mp4" type="video/mp4">
@@ -439,7 +442,8 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
-<br><div class="vid-container">
+<br>
+<div class="vid-container">
 	<div class="vid-video">
 		<video width="100%" controls>
 			<source src="{{ site.baseurl }}Videos/ParameterPassing.mp4" type="video/mp4">
@@ -454,7 +458,8 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
-<br><div class="vid-container">
+<br>
+<div class="vid-container">
 	<div class="vid-video">
 		<video width="100%" controls>
 			<source src="{{ site.baseurl }}Videos/RandomAndCasting.mp4" type="video/mp4">
@@ -470,7 +475,8 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
-<br><div class="vid-container">
+<br>
+<div class="vid-container">
 	<div class="vid-video">
 		<video width="100%" controls>
 			<source src="{{ site.baseurl }}Videos/PlacingTheApple.mp4" type="video/mp4">
@@ -485,7 +491,8 @@ For more information, click on the name of a video to see it in context.
 		</ul>
 	</div>
 </div>
-<br><div class="vid-container">
+<br>
+<div class="vid-container">
 	<div class="vid-video">
 		<video width="100%" controls>
 			<source src="{{ site.baseurl }}Videos/Chapter4Summary.mp4" type="video/mp4">
