@@ -254,9 +254,107 @@ For more information, click on the name of a video to see it in context.
 		</video>
 	</div>
 	<div class="vid-content">
-		<h3><a href="{{ site.baseurl }}Lessons/methods">Storing Values in Variables</a></h3>
+		<h3><a href="{{ site.baseurl }}Lessons/methods">The Problem</a></h3>
 		<ul>
-            <li></li>
+            <li>Why methods are useful</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/voidDraw.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/methods#void_draw">void draw</a></h3>
+		<ul>
+            <li>Writing a method</li>
+            <li>Repeating code over time</li>
+            <li>Animating</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/scope.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/methods#curly_brackets">Scope</a></h3>
+		<ul>
+            <li>Curly brackets</li>
+            <li>Code blocks</li>
+            <li>Scope</li>
+            <li>Variables with the same name</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/voidSetup.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/methods#void_setup">void Setup</a></h3>
+		<ul>
+            <li>Setting initial variable values</li>
+            <li>Global variables</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/CallingYourOwnMethods.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/methods#calling_your_own_methods">Calling Your Own Methods</a></h3>
+		<ul>
+            <li>Writing a custom method</li>
+            <li>Calling a custom method</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/MovingTheSnake.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/methods#calling_your_own_methods">Changing Variables Over Time</a></h3>
+		<ul>
+            <li>Changing variables over time</li>
+            <li>Moving an object</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}Videos/Chapter3Wrapup.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Lessons/methods#snake_video">Snake Game: Part 3</a></h3>
+		<ul>
+            <li>Overview of creating and using methods</li>
 		</ul>
 	</div>
 </div>

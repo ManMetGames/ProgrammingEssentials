@@ -84,7 +84,7 @@ When you hit play, you should see numbers printing out into the console, increas
 <br>
 
 <br>
-<h2><a href="../Extras/Brackets">{ New Bracket Unlocked! }</a></h2>
+<h2 id="curly_brackets"><a href="../Extras/Brackets">{ New Bracket Unlocked! }</a></h2>
 <blockquote>
 Curly brackets are used when we’re grouping code together in something called “scope”. In the example above, the draw method groups together the two lines of code printing out x and increasing its value, so that we know what code should be run when it is called. Variables created inside curly brackets can't be accessed from outside of them, as they would be "out of scope".
 
