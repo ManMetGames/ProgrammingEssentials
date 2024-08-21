@@ -52,7 +52,7 @@ TYPE NAME(){<br>
 }
 </blockquote><br>
 
-As well as running code, methods can return data back to where they are called from, which is why we need to include a `type` as well as a `name` for the method. This is commonly called the "return type" of the method, which we'll cover more in Chapter 5.
+As well as running code, methods can return data back to where they are called from, which is why we need to include a `type` as well as a `name` for the method. This is commonly called the "return type" of the method, which we'll cover more in a future chapter!
 
 As the draw method doesn’t need to return data (we’re just using it to run code!) we need to tell the method that it doesn’t have a return type. To do this, we use a return type of `void`, which means "nothing".
 <br>
@@ -276,17 +276,17 @@ Before you move on, let's have a quick check that you've got everything so far!
     </form>
 </div>
 
-<div class="question2container" data-correct-answer="D">
+<div class="question2container" data-correct-answer="C">
     <h3>Which format is correct for declaring an empty method?</h3>
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this line of code doesn't declare what return type the method will have!">
         <label for="option1">NAME(){}</label><br>
         <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, methods need round brackets so that they can take in informations!">
-        <label for="option2">NAME TYPE{}</label><br>
+        <label for="option2">TYPE NAME{}</label><br>
         <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! Method declarations need a return type, name, round brackets to take in information, and curly brackets defining the scope for the code the method should run.">
-        <label for="option3">NAME TYPE(){}</label><br>
+        <label for="option3">TYPE NAME(){}</label><br>
         <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, whilst method declarations do need round brackets so that they can take in information, the second pair of brackets should be curly brackets, to define the scope of the code that the method will run.">
-        <label for="option4">NAME TYPE()()</label><br><br>
+        <label for="option4">TYPE NAME()()</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
@@ -321,18 +321,25 @@ We've already covered the content in this video, but feel free to watch through 
 <h2>Summary</h2>
 Methods are useful for when we want to bundle code together, so that we can run it from elsewhere in our program! You should now be ready to move on to Chapter 4! Make sure to refer back to the <a href="../QuickReference/methods">quick reference for this chapter here</a>, and feel free to explore some questions if you'd like to learn more, in the Explore section below!
 
+<h2>Extension Task</h2>
+<blockquote>
+Create a new method called DrawBackground! Move the background command into this method, and call DrawBackground at the start of the draw method.<br>
+Inside the DrawBackground method you can now make the background more complex!<br>
+Try adding more shapes or use the <a href="https://processing.org/reference/text_.html" target="_blank">text</a> command to write SNAKE at the top of the canvas!
+</blockquote>
 
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/Parameter_Passing">How do I pass information into a method?</a></h3></li>
-    <li><h3><a href="../Extras/Functions">How do return information from a method?</a></h3></li>
+    <li><h3><a href="./classes#passing_parameters">How do I pass information into a method?</a></h3></li>
+    <li><h3><a href="./Functions">How do return information from a method?</a></h3></li>
 </ul>
 
 
 <h2>More Help</h2>
 <ul>
     <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=pYBtSPzcg6nuB3mV&t=3880">Program Flow, Setup and Draw</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=wxK2gXITObzdD5uf&t=13429">Creating methods (refered to here as "functions")</a></h3></li>
 </ul>
 
     

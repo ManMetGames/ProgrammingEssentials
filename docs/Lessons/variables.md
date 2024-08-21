@@ -170,7 +170,7 @@ size = size/5;
   </video>
 </div>
 
-Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/Data_Types">here</a>!
+Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/Data_Types" target="_blank">here</a>!
 
 <br>
 <h2>Quick check!</h2>
@@ -245,7 +245,7 @@ Make sure to not change the values stored in appleX and appleY at the top of you
 <ul>
     <li><h3><a href="../Extras/Data_Types" target="_blank">How do I store decimal numbers?</a></h3></li>
     <li><h3><a href="../Extras/Data_Types" target="_blank">How do I store letters, words or sentences?</a></h3></li>
-    <li><h3><a href="./Classes" target="_blank">How do I store data together?</a></h3></li>
+    <li><h3><a href="./classes" target="_blank">How do I store data together?</a></h3></li>
     <li><h3><a href="../Extras/Data_Types" target="_blank">What other data types are there?</a></h3></li>
 </ul>
 
