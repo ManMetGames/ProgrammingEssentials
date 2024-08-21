@@ -422,6 +422,7 @@ When we cover the code for eating the apple, make sure to add in some similar co
 <ul>
     <li><h3><a href="./arrays">How do I store multiple of the same type of object?</a></h3></li>
     <li><h3><a href="./inheritance">How do I create multiple similar classes without loads of repetition?</a></h3></li>
+    <li><h3><a href="https://www.youtube.com/watch?v=Fj-cmQ55J5Y" target="_blank">What if I don't initialise an object variable?</a></h3></li>
 </ul>
 
 

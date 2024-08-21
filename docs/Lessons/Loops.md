@@ -6,7 +6,7 @@ layout: default
 <p style="font-size:20px">
 In this chapter, we'll be covering how to loop over sections of code so that we can repeat instructions.
 <br>
-For a quick reference, <a href="../QuickReference/loops">click here</a>.
+For a quick reference, <a href="../QuickReference/Loops">click here</a>.
 <br>
 </p>
 
@@ -228,7 +228,7 @@ Before you move on, let's have a quick check that you've got everything so far!
         <label for="option2">The incrementation step in a for loop happens before any of the code is run.</label><br>
         <input type="radio" id="option3" name="answer" value="C" data-feedback="Correct! An enhanced for loop can only be used in cases where you're not changing the array that you're looping over, only working with the items in the array! But this isn't the only correct answer...">
         <label for="option3">When using an enhanced for loop, you can freely change the size of the array you are looping over.</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct! ">
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct! Select each other option to see why they're wrong!">
         <label for="option4">All of the above.</label><br><br>
         <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
     </form>
@@ -251,7 +251,6 @@ Before you move on, let's have a quick check that you've got everything so far!
 
 <div class="question3container" data-correct-answer="C">
     <h3>What would the value of the variable sum be after the following code has run?<br>
-
 Feel free to use Processing to figure this out!</h3>
 <blockquote>
 int sum = 0;<br>

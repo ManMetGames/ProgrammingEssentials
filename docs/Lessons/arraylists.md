@@ -147,17 +147,83 @@ To finish off this chapter, let’s make the snake grow by leveraging the power 
     Your browser does not support the video tag.
   </video>
 </div>
+<br>
+
+<h2>Quick check!</h2>
+Before you move on, let's have a quick check that you've got everything so far!
+<div class="question1container" data-correct-answer="B">
+    <h3>Which of the following is not a method that can be accessed on an ArrayList?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, the add method is used to add new elements to an ArrayList!">
+        <label for="option1">add();</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! length is a variable accessible on Arrays, the number of elements in an ArrayList is accessed using the size method!">
+        <label for="option2">length();</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, the remove method is used to remove elements from an ArrayList!">
+        <label for="option3">remove();</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, the size method is used to get the number of elements in an ArrayList!">
+        <label for="option4">size();</label><br><br>
+        <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
+    </form>
+</div>
+
+<div class="question2container" data-correct-answer="D">
+    <h3>Which of the following is true about Arrays, but false about ArrayLists?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, both Arrays and ArrayLists can store objects!">
+        <label for="option1">They can store objects.</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, both Arrays and ArrayLists can be iterated through using an enhanced for loop!">
+        <label for="option2">They can be iterated through using an enhanced for loop.</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, both Arrays and ArrayLists allow element access using an element number, using square brackets for Arrays, and .get for ArrayLists!">
+        <label for="option3">They allow elements to be accessed via an element number.</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct! The size of an Array cannot be changed without recreating it completely, whereas ArrayLists allow you to add and remove elements freely!">
+        <label for="option4">Their size cannot be increased/decreased freely.</label><br><br>
+        <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
+    </form>
+</div>
+
+<div class="question3container" data-correct-answer="C">
+    <h3>Which of the following lines of code correctly creates an ArrayList of type Ball?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, we need to tell the ArrayList what type of object it will store using angle brackets!">
+        <label for="option1">ArrayList ballList = new ArrayList();</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, we need to tell the ArrayList what type of object it will store using angle brackets!">
+        <label for="option2">ArrayList(Ball) ballList = new ArrayList(Ball);</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! This line of code correctly creates an ArrayList of Ball objects!">
+        <label for="option3">ArrayList&lt;Ball> ballList = new ArrayList&lt;Ball>();</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, the variable initialisation is using the format used to create Arrays!">
+        <label for="option4">ArrayList&lt;Ball> ballList = new Ball[3];</label><br><br>
+        <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
+    </form>
+</div>
+<br>
 
 <br>
 <h2>Summary</h2>
 This chapter covers the use of ArrayLists. Make sure to go back over the chapter if you're unsure at all on how to implement any of the content we've covered.
 
 
+<h2>Extension Task</h2>
+You don't need to complete this to move on, but feel free to be get creative!
+<blockquote>
+Follow along with <a href="https://www.youtube.com/watch?v=vdgiqMkFygc&list=PLRqwX-V7Uu6Z9hI4mSgx2FlE5w8zvjmEy" target="_blank">The Nature of Code Parts 4.1 to 4.4</a> to add a particle system to your game!<br>
+This could follow the snake around, or you could spawn particles whenever an apple gets eaten!<br>
+Try making the particle system in a new processing sketch, then move the code across when you've got things working!
+</blockquote>
+
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/Switch_Statements">To run different code when a variable is set to different values do I have to use a massive set of if/else statements?</a></h3></li>
+    <li><h3><a href="https://www.youtube.com/watch?v=IsdZKG9wyBc" target="_blank">How do I remove elements from an ArrayList?</a></h3></li>
+    <li><h3><a href="https://youtu.be/IsdZKG9wyBc?si=0jyd7Vgm6s1t0aDx&t=465" target="_blank">How do I remove elements from an ArrayList whilst looping through them?</a></h3></li>
 </ul>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://www.youtube.com/watch?v=HnSJZ4qTcwY" target="_blank">ArrayList overview</a></h3></li>
+</ul>
+<br>
+
 
 <p style="font-size: 30px; text-align: right;"><a href="./functions">Chapter 9 >></a></p>
 
