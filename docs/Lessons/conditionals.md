@@ -466,11 +466,29 @@ Again, if you're unsure how to get this working, make sure to follow along with 
 This chapter covers the use of if statements to test conditions, which is a really vital aspect of all programming, as it allows us to control the flow of our code. Make sure to go back over the chapter if you're unsure at all on how to implement any of the content we've covered.
 
 
+<h2>Extension Task</h2>
+You don't need to complete this to move on, but feel free to be get creative!
+<blockquote>
+Create a new integer variable called "score", that you increase by 1 whenever the snake eats the apple!<br>
+Use the <a href="https://processing.org/reference/text_.html" target="_blank">text</a> command to display this somewhere on the screen!<br>
+If the player's score is greater than 10, change the fill of the text to a different colour using the fill command!<br>
+Feel free to add more conditions that change the colours further, or change the colour of the snake, or the apple, based on the score!
+</blockquote>
+
 <br>
 <h2>Explore</h2>
 <ul>
     <li><h3><a href="../Extras/Switch_Statements_and_Enums">To run different code when a variable is set to different values do I have to use loads of if/else statements?</a></h3></li>
 </ul>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=GeCVwZW_atz-fZy4&t=7368" target="_blank">Conditional statements</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=mFjp2IhkwFgY2Z1q&t=7830" target="_blank">Else</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=VexMzMIKd2eTuC76&t=8311" target="_blank">Logical operators</a></h3></li>
+</ul>
+<br>
 
 <p style="font-size: 30px; text-align: right;"><a href="./arrays">Chapter 6 >></a></p>
 
