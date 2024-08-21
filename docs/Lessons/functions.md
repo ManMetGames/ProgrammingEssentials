@@ -101,7 +101,7 @@ We should now be able to move the snake through the top left of the screen, and 
 
 <h3>Task</h3>
 <blockquote>Ahead of the line of code where we return false in the HasSegmentAt function, loop through each SnakeSegment, testing if its x is equal to the passed in x variable, AND testing if its y is equal to the passed in y variable. If both of these are true, return “true” from inside the loop, and the function will stop where it is, and jump immediately back to where it gets called from!</blockquote>
-
+<br>
 See if you can write this yourself, and follow along with the video below to make sure you’ve got it!
 
 <br>
@@ -117,6 +117,7 @@ You should now be able to move the snake through the top left corner of the canv
 
 Once you’re happy that this works, remove the line of code printing out the value of HasSegmentAt(0,0).
 
+<br>
 <h2 id="tying_it_all_together">Tying It All Together</h2>
 This section ties together a lot of the content we’ve made use of over the course so far, so make sure to give it a go, looking back on the previous chapters as required.
 
@@ -218,16 +219,63 @@ In this video, we'll be going through the previous steps, adding a game win cond
   </video>
 </div>
 
+
+<h2>Quick check!</h2>
+Before you move on, let's have a quick check that you've got everything so far!
+<div class="question1container" data-correct-answer="A">
+    <h3>Which of the following correctly declares a method called Test, that returns 0?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! The return type and value are both integers!">
+        <label for="option1">int Test(){ return 0; }</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, the function name and return type are the wrong way round!">
+        <label for="option2">Test int(){ return 0; }</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, we don't need two return types! int is correct, but we don't need void!">
+        <label for="option3">void int Test(){ return 0; }</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, when returning from a function we need to include a value, which in this case should be 0!">
+        <label for="option4">int Test(){ return; }</label><br><br>
+        <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
+    </form>
+</div>
+
+<div class="question2container" data-correct-answer="B">
+    <h3>What return type is used for functions that do not return a value? (a method!)</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this would be the return type for an integer variable!">
+        <label for="option1">int</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! Void is used when we don't want to return information from a method!">
+        <label for="option2">void</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this would be the return type for a boolean variable!">
+        <label for="option3">boolean</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, none isn't a variable type!">
+        <label for="option4">none</label><br><br>
+        <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
+    </form>
+</div>
+<br>
+
 <br>
 <h2>Summary</h2>
 In this chapter, we covered the use of methods that return a value to repeat complex calculations without repeating code.
 
 
-<br>
-<h2>Explore</h2>
+<h2>Extension Task</h2>
+You don't need to complete this to move on, but feel free to be give these a go!
+<blockquote>
+To practice using functions to return data to meet certain criteria, have a go at the following exercises!
 <ul>
-    <li><h3><a href="../Extras/Switch_Statements">To run different code when a variable is set to different values do I have to use a massive set of if/else statements?</a></h3></li>
+<li><a href="https://codingbat.com/prob/p187868" target="_blank">CodingBat: sleepIn</a></li>
+<li><a href="https://codingbat.com/prob/p154485" target="_blank">CodingBat: sumDouble</a></li>
+<li><a href="https://codingbat.com/prob/p140449" target="_blank">CodingBat: parrotTrouble</a></li>
+<li><a href="https://codingbat.com/prob/p182873" target="_blank">CodingBat: makes10</a></li>
 </ul>
+</blockquote>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=shIgzkyvAGeN3PtJ&t=14221" target="_blank">Return types</a></h3></li>
+</ul>
+<br>
 
 <p style="font-size: 30px; text-align: right;"><a href="./inheritance">Chapter 10 >></a></p>
 

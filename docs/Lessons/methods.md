@@ -335,6 +335,7 @@ Try adding more shapes or use the <a href="https://processing.org/reference/text
 <ul>
     <li><h3><a href="./classes#passing_parameters">How do I pass information into a method?</a></h3></li>
     <li><h3><a href="./functions">How do return information from a method?</a></h3></li>
+    <li><h3><a href="https://processing.org/examples/recursion.html" target="_blank">Can a method call itself?</a></h3></li>
 </ul>
 
 
