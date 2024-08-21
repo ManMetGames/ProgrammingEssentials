@@ -268,7 +268,7 @@ By completing this chapter, you should have got in some practice using arrays, r
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be get creative!
 <blockquote>
-In the snake's Draw method, add code to access the position of the first element in the segments array to draw eyes on the snake using the <a href="https://processing.org/reference/circle_.html" target="_blank">circle</a> command! 
+In the snake's Draw method, add code to access the position of the first element in the segments array to draw eyes on the snake using the <a href="https://processing.org/reference/circle_.html" target="_blank">circle</a> command!<br>
 </blockquote>
 
 <br>

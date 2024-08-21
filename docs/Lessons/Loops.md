@@ -110,13 +110,14 @@ In the Snake class constructor, write a for loop following the example above. Th
 <br>
 Once that’s done, delete the old code used to initialise the array elements, and we should be good!
 </blockquote>
+<br>
+
 A small change we can make to our code at this point to make it more expandible, is to change the 3 used in the for loop to a variable that holds the size of the array, so if we change that in the future, we don’t have to edit our code!
 
 Thankfully arrays have a built-in variable called "length" that we can use for this purpose, so replace the 3 in the for loop with "segments.length".
 
 Make sure to follow along in the video below to make sure you’ve got everything right!
 
-<br>
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
     <source src="{{ site.baseurl }}/Videos/UsingAForLoop.mp4" type="video/mp4">
@@ -141,6 +142,7 @@ To move backwards through an array, we just need to set the starting value in th
 <li>And finally, the counter variable should be set to its previous value minus 1.</li>
 </blockquote>
 
+<br>
 Make sure to follow along with the video below if you’re not sure how to get this working!
 
 
@@ -175,7 +177,9 @@ for(SnakeSegment s : segments){
 
 This can be separated into four parts, which read as: “`For each SnakeSegment` `that we’ll call "s"` `in` `segments`”, the breakdown of which is shown below:
 
-<h2>IMAGE HERE</h2>
+
+<img src="../Images/for_each_loop.png" width="500" height="180">
+<br>
 
 Because we’re referring to each SnakeSegment as "s", we can then write code that makes use of this variable, as if it was each element of the segments array!
 
@@ -213,15 +217,89 @@ To see why using loops is useful, we can test everything’s working by changing
 </div>
 
 <br>
+<h2>Quick check!</h2>
+Before you move on, let's have a quick check that you've got everything so far!
+<div class="question1container" data-correct-answer="D">
+    <h3>Which of the following statements is incorrect?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="Correct! A while loop won't run at all if the condition isn't met immediately! But this isn't the only correct answer...">
+        <label for="option1">If the condition in a while loop is not met immediately it will still run once.</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="Correct! The incrementation step in a for loop happens after the code block is run! But this isn't the only correct answer...">
+        <label for="option2">The incrementation step in a for loop happens before any of the code is run.</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="Correct! An enhanced for loop can only be used in cases where you're not changing the array that you're looping over, only working with the items in the array! But this isn't the only correct answer...">
+        <label for="option3">When using an enhanced for loop, you can freely change the size of the array you are looping over.</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct! ">
+        <label for="option4">All of the above.</label><br><br>
+        <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
+    </form>
+</div>
+
+<div class="question2container" data-correct-answer="B">
+    <h3>Which of these for loops is formatted correctly to run 100 times?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, the variable i isn't initialised as it's missing the int type!">
+        <label for="option1">for(i = 0; i<100; i=i+1){ //code }</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! This for loop is formatted correctly!">
+        <label for="option2">for(int i = 0; i<100; i=i+1){ //code }</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this loop would run 101 times, because it starts at 0, and runs up to and including 100, because the loop condition uses <= instead of just <!">
+        <label for="option3">for(int i = 0; i<=100; i=i+1){ //code }</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right! The for loop only needs a semicolon between its three sections, not including the end!">
+        <label for="option4">for(int i = 0; i<100; i=i+1;){ //code }</label><br><br>
+        <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
+    </form>
+</div>
+
+<div class="question3container" data-correct-answer="C">
+    <h3>What would the value of the variable sum be after the following code has run?<br>
+
+Feel free to use Processing to figure this out!</h3>
+<blockquote>
+int sum = 0;<br>
+for(int i = 1; i <= 3; i=i+1){<br>
+	sum = sum+i;<br>
+}
+</blockquote>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, feel free to try out the code in Processing, and print out the value of sum at the end!">
+        <label for="option1">0</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, feel free to try out the code in Processing, and print out the value of sum at the end!">
+        <label for="option2">3</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! The loop runs three times, and after each adds the value of i to sum, forming 0+1+2+3, which is 6!">
+        <label for="option3">6</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, feel free to try out the code in Processing, and print out the value of sum at the end!">
+        <label for="option4">10</label><br><br>
+        <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
+    </form>
+</div>
+<br>
+
+<br>
 <h2>Summary</h2>
 This chapter covers the use of three different types of loops. Make sure to go back over the chapter if you're unsure at all on how to implement any of the content we've covered.
 
 
+<h2>Extension Task</h2>
+You don't need to complete this to move on, but feel free to be get creative!
+<blockquote>
+Adapt your background code to include a checkerboard using the size variable, and two for loops, <a href="https://youtu.be/4JzDttgdILQ?si=YYYouyZvJypIgFSZ&t=11088" target="_blank">one inside the other</a>!
+</blockquote>
+
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/Switch_Statements">To run different code when a variable is set to different values do I have to use a massive set of if/else statements?</a></h3></li>
+    <li><h3><a href="https://www.javatpoint.com/java-do-while-loop" target="_blank">What if I want to make sure that my code runs at least once, and then loops if a condition is met?</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=YYYouyZvJypIgFSZ&t=11088" target="_blank">What if I want to loop over something multiple times?</a></h3></li>
 </ul>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=soV2gWpxjH3w9lfB&t=10195" target="_blank">While loops</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=Efxv5Zb0-mKBmiwa&t=10811" target="_blank">For loops</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=3nkEAQP3S8aB-rYU&t=17661" target="_blank">Enhanced for loops</a></h3></li>
+</ul>
+<br>
+
 
 <p style="font-size: 30px; text-align: right;"><a href="./arraylists">Chapter 8 >></a></p>
 
