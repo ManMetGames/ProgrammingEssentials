@@ -3,7 +3,7 @@ layout: default
 ---
 <h1>Chapter 1: Getting Started</h1>
 <p style="font-size:20px">
-In this chapter, we'll be covering how to get started using <a href="https://processing.org/">Processing</a>.
+In this chapter, we'll be covering how to get started using <a href="https://processing.org/" target="_blank">Processing</a>.
 <br>
 For a quick reference on the core Processing commands we'll be using, <a href="../QuickReference/processing">click here</a>.
 <br></p>
@@ -13,7 +13,7 @@ Processing is an integraded development environment (IDE) that allows us to writ
 
 To get started, you'll need to make sure you have Processing downloaded and running. If you don't already have Processing, follow the steps below, or watch along with the quick setup video!
 <ul>
-<li>Download the latest version of Processing <a href="https://processing.org/download">here</a></li>
+<li>Download the latest version of Processing <a href="https://processing.org/download" target="_blank">here</a></li>
 <li>Unzip the file you downloaded, and place the folder somewhere safe!</li>
 <li>Look inside the folders for Processing.exe and double click it.</li>
 </ul>
@@ -103,7 +103,6 @@ The official Processing reference goes into much more detail on the methods buil
 <h2><a href="../Extras/Brackets">( New Bracket Unlocked! )</a></h2>
 <blockquote>
 There are a lot of brackets used in programming, so each time we cover a new type, we'll make sure to understand what they actually mean. Our first bracket type is the round bracket. When you need to `pass information` into something, this is when you'll need round brackets (like this!). That's why when we wrote methods for setting the size and colour of the canvas in the previous example, we passed information into those methods, using round brackets!
-To learn more, take a look at the quick reference page on brackets <a href="../Extras/Brackets">here</a>!
 </blockquote>
 
 <br>
