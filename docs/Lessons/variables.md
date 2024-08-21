@@ -234,6 +234,7 @@ Let's add some variables to the Snake project!
 And that's variables! You should now be ready to move on to Chapter 3! Make sure to refer back to the <a href="../QuickReference/variables_and_data_types">quick reference for this chapter here</a>, and feel free to explore some questions if you'd like to learn more, in the Explore section below!
 
 <h2>Extension Task</h2>
+You don't need to complete this to move on, but feel free to be get creative!
 <blockquote>Make the apple look how you'd like it to!<br>
 Feel free to use more <a href="https://processing.org/reference/rect_.html" target="_blank">rect</a> commands, or take a look at the <a href="https://processing.org/reference/ellipse_.html" target="_blank">ellipse</a> and <a href="https://processing.org/reference/line_.html" target="_blank">line</a> commands to add circles and lines!<br>
 Make sure to not change the values stored in appleX and appleY at the top of your program, as we'll need those later, so only add or subtract from those when you're drawing a shape, like this:<br>

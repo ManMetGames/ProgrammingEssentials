@@ -188,8 +188,8 @@ By default, the constructor will just create the object, but we can define custo
 
 To create a custom constructor for the Apple class, paste the code below inside the class.<br>
 {% highlight java %}
-Apple(){<br>
-//object setup code here<br>
+Apple(){
+//object setup code here
 }
 {% endhighlight %}
 
@@ -201,6 +201,7 @@ TYPE(){<br>
 }
 </blockquote>
 
+<br>
 <h3>Task</h3>
 <blockquote>
 Inside the curly brackets of the Apple constructor, add some code to change the x and y variables to 520, and 280.
@@ -252,11 +253,9 @@ Apple apple = new Apple(400,200);
 <blockquote>
 Create a constructor for the snake class that takes in values that can be stored in the x and y variables.
 </blockquote>
-
+<br>
 When we run the code, we should see that the program looks largely the same as it did at the beginning of this chapter, but our code is now much more split up, making the main tab a lot cleaner.
 
-
-<br>
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <video width="600" controls style="max-width: 100%;">
     <source src="{{ site.baseurl }}/Videos/ParameterPassing.mp4" type="video/mp4">
@@ -284,6 +283,7 @@ Running your code multiple times should put different numbers between 0 and 100 
 <h3>Note</h3>
 <blockquote>Whilst the random function is a method call, in the above example, it's being used inside the print method because it returns a value. This means that it doesn't need another semicolon, as it's already inside a line with an instruction that ends with a semicolon!</blockquote>
 
+<br>
 <h3>Casting</h3>
 You may have noticed that the numbers returned by the random function aren't whole numbers. This is a problem, as if we want to pass random numbers into the constructor for the apple, they need to be integers to match the constructor parameters. Thankfully, we can convert numbers with decimal numbers into integers, using a technique called "casting". To cast a number to an integer, we just need to put "(int)" in-front of it.
 
@@ -291,7 +291,6 @@ As a test, change the previous test code in your setup method to include the (in
 {% highlight java %}
 println( (int) random(0,100) );
 {% endhighlight %}
-<br>
 
 Running the program should now mean that the number printing out in the console is a whole number!
 
@@ -334,7 +333,6 @@ int finalY = gridY * size;
 
 apple = new Apple(finalX,finalY);
 {% endhighlight %}
-<br>
 
 You don't need to understand this code fully to continue, but it would be good to understand it so that you can build up code like this on your own. Make sure to watch the video below to follow along with how it was constructed if you're unsure.
 
@@ -391,7 +389,7 @@ Before you move on, let's have a quick check that you've got everything so far!
         <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, like other methods, a constructor needs round brackets for passing in information should we choose to add that in.">
         <label for="option3">Animal{ }</label><br>
         <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, because this is the constructor, we don't need to give it a custom name.">
-        <label for="option4">Animal aninal(){}</label><br><br>
+        <label for="option4">Animal animal(){}</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
@@ -411,11 +409,26 @@ We've already covered the content in this video, but feel free to watch through 
 This chapter covers the start of using classes in object-oriented programming. This is a really common place for people to become less confident with their programming skills, but it’s vital for all of the cool stuff you’ll be doing in the coming chapters, so make sure you really understand what we’ve covered before moving on!
 
 
+<h2>Extension Task</h2>
+You don't need to complete this to move on, but feel free to be get creative!
+<blockquote>
+Create a class for a Trap object, that the player has to avoid!<br>
+This will be very similar to the Apple class, but you should change the code in its Draw method to make it look like something you'd want to avoid!<br>
+When we cover the code for eating the apple, make sure to add in some similar code that restarts the game if the snake runs into the trap! At that point you could also make the trap move whenever the apple gets eaten!
+</blockquote>
 
 <br>
 <h2>Explore</h2>
 <ul>
+    <li><h3><a href="./arrays">How do I store multiple of the same type of object?</a></h3></li>
+    <li><h3><a href="./inheritance">How do I create multiple similar classes without loads of repetition?</a></h3></li>
+</ul>
 
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=93lcy8rAmxH__UnH&t=14550" target="_blank">Classes and objects</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=E5-XeYLItVJFNJ-z&t=15920" target="_blank">Constructor arguments</a></h3></li>
 </ul>
 
 <p style="font-size: 30px; text-align: right;"><a href="./conditionals">Chapter 5 >></a></p>

@@ -322,8 +322,10 @@ We've already covered the content in this video, but feel free to watch through 
 Methods are useful for when we want to bundle code together, so that we can run it from elsewhere in our program! You should now be ready to move on to Chapter 4! Make sure to refer back to the <a href="../QuickReference/methods">quick reference for this chapter here</a>, and feel free to explore some questions if you'd like to learn more, in the Explore section below!
 
 <h2>Extension Task</h2>
+You don't need to complete this to move on, but feel free to be get creative!
 <blockquote>
-Create a new method called DrawBackground! Move the background command into this method, and call DrawBackground at the start of the draw method.<br>
+Create a new method called DrawBackground!<br>
+Move the background command into this method, and call DrawBackground at the start of the draw method.<br>
 Inside the DrawBackground method you can now make the background more complex!<br>
 Try adding more shapes or use the <a href="https://processing.org/reference/text_.html" target="_blank">text</a> command to write SNAKE at the top of the canvas!
 </blockquote>
@@ -332,14 +334,14 @@ Try adding more shapes or use the <a href="https://processing.org/reference/text
 <h2>Explore</h2>
 <ul>
     <li><h3><a href="./classes#passing_parameters">How do I pass information into a method?</a></h3></li>
-    <li><h3><a href="./Functions">How do return information from a method?</a></h3></li>
+    <li><h3><a href="./functions">How do return information from a method?</a></h3></li>
 </ul>
 
 
 <h2>More Help</h2>
 <ul>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=pYBtSPzcg6nuB3mV&t=3880">Program Flow, Setup and Draw</a></h3></li>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=wxK2gXITObzdD5uf&t=13429">Creating methods (refered to here as "functions")</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=pYBtSPzcg6nuB3mV&t=3880" target="_blank">Program Flow, Setup and Draw</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=wxK2gXITObzdD5uf&t=13429" target="_blank">Creating methods (refered to here as "functions")</a></h3></li>
 </ul>
 
     
