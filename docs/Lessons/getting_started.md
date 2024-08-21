@@ -211,9 +211,7 @@ Add another rectangle with a width and height of 30 pixels, positioned at 400,20
 
 <br>
 <h2 id="printing_to_the_console">Printing to the Console</h2>
-It can sometimes be handy to print values to the console (the section at the bottom of the Processing window). To do this, we're going to use another method, called `println`, which is short for "print line". Paste the code below into Processing, and hit play.
-
-<br>
+It can sometimes be handy to print values to the console (the section at the bottom of the Processing window). To do this, we're going to use another method, called `println`, which is short for "print line". Paste the code below into Processing, and hit play.<br>
 {% highlight java %}
 println(10);
 {% endhighlight %}
@@ -223,9 +221,7 @@ You should see that the number 10 has printed out in the console!
 <img src="../Images/printing_10.png" width="200" height="235">
 <br>
 
-If we want to print words out to the console, we just need to put the words inside quotation marks, "like this". Try out the code below!
-
-<br>
+If we want to print words out to the console, we just need to put the words inside quotation marks, "like this". Try out the code below!<br>
 {% highlight java %}
 println("Hello, World!");
 {% endhighlight %}
@@ -320,22 +316,27 @@ This video finishes up the first section of the snake game, adding an apple to t
 
 <br>
 <h2>Summary</h2>
-And that's us started! You should now be ready to move on to Chapter 2! Make sure to refer back to the <a href="../QuickReference/processing">quick reference for this chapter here</a>, and feel free to explore some questions if you'd like to learn more, in the Explore section below!
+And that's us started! You should now be ready to move on to Chapter 2! Make sure to refer back to the <a href="../QuickReference/processing">quick reference for this chapter here</a>, and make sure to give the extension task below a go! 
 
+If you need more help, or would like to explore further, make sure to follow the links below too!
+
+<h2>Extension Task</h2>
+<blockquote>If you haven't already, change the colour of the background, snake and apple using the <a href="https://processing.org/reference/background_.html" target="_blank">background</a> and <a href="https://processing.org/reference/fill_.html" target="_blank">fill</a> commands. Feel free to also remove the "noStroke" command, and change the outline colour of the snake and apple using the <a href="https://processing.org/reference/stroke_.html" target="_blank">stroke</a> command, which works in the same way as fill!</blockquote>
 
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/Data_Types">Why do colour values go up to 255?</a></h3></li>
+    <li><h3><a href="../Extras/Data_Types#byte" target="_blank">Why do colour values go up to 255?</a></h3></li>
 </ul>
+<br>
 
 <h2>More Help</h2>
 <ul>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=eG1rFRHOnqr2_k7q&t=887">Downloading Processing</a></h3></li>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=I6N-xEoogS8rEr6k&t=1055">Drawing with code</a></h3></li>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=F1g9Vkxesxap7ZNT&t=2360">Saving your work</a></h3></li>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=BiAwOxhUJhz7EvZG&t=2463">Comments</a></h3></li>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=Ny06ca4DmfUWfpXK&t=2679">Colour</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=eG1rFRHOnqr2_k7q&t=887" target="_blank">Downloading Processing</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=I6N-xEoogS8rEr6k&t=1055" target="_blank">Drawing with code</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=F1g9Vkxesxap7ZNT&t=2360" target="_blank">Saving your work</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=BiAwOxhUJhz7EvZG&t=2463" target="_blank">Comments</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=Ny06ca4DmfUWfpXK&t=2679" target="_blank">Colour</a></h3></li>
 </ul>
 
 <p style="font-size: 30px; text-align: right;"><a href="./variables">Chapter 2 >></a></p>
