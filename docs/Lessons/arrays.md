@@ -215,11 +215,28 @@ In this video we'll be completing the above tasks to make use of an array in the
 By completing this chapter, you should have got in some practice using arrays, ready for looking at how we can loop through them in the next chapter!
 
 
+<h2>Extension Task</h2>
+You don't need to complete this to move on, but feel free to be get creative!
+<blockquote>
+Create a new integer variable called "score", that you increase by 1 whenever the snake eats the apple!<br>
+Use the <a href="https://processing.org/reference/text_.html" target="_blank">text</a> command to display this somewhere on the screen!<br>
+If the player's score is greater than 10, change the fill of the text to a different colour using the fill command!<br>
+Feel free to add more conditions that change the colours further, or change the colour of the snake, or the apple, based on the score!
+</blockquote>
+
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/Switch_Statements">To run different code when a variable is set to different values do I have to use a massive set of if/else statements?</a></h3></li>
+    <li><h3><a href="./Loops">How do I loop through the elements in an array?</a></h3></li>
+    <li><h3><a href="./arraylists">How do I resize a list at runtime?</a></h3></li>
 </ul>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://www.youtube.com/watch?v=47JBVxCWXJA" target="_blank">An intro to arrays</a></h3></li>
+</ul>
+<br>
 
 <p style="font-size: 30px; text-align: right;"><a href="./Loops">Chapter 7 >></a></p>
 

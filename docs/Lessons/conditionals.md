@@ -405,7 +405,7 @@ Before you move on, let's have a quick check that you've got everything so far!
     </form>
 </div>
 
-<div class="question3container" data-correct-answer="C">
+<div class="question3container" data-correct-answer="D">
     <h3>Which of the following statements is correct?</h3>
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! Although isn't the only correct answer!">
