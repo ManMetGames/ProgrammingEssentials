@@ -176,7 +176,7 @@ In the Snake class’s Draw method, call each segment’s Draw method, by access
 If you’re not quite sure how to get this working, follow along with the video in the next section!
 </blockquote>
 
-
+<br>
 <h3>Accessing Variables</h3>
 We can also access variables on objects in an array as we usually would with a normal variable.
 Instead of assigning values to the old x and y variables in the Snake’s Move method, we instead want to move the head of the snake. To do this, update the code to change the x and y variables for the first element, by assigning new values to segments[0].x and segments[0].y.
@@ -268,10 +268,7 @@ By completing this chapter, you should have got in some practice using arrays, r
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be get creative!
 <blockquote>
-Create a new integer variable called "score", that you increase by 1 whenever the snake eats the apple!<br>
-Use the <a href="https://processing.org/reference/text_.html" target="_blank">text</a> command to display this somewhere on the screen!<br>
-If the player's score is greater than 10, change the fill of the text to a different colour using the fill command!<br>
-Feel free to add more conditions that change the colours further, or change the colour of the snake, or the apple, based on the score!
+In the snake's Draw method, add code to access the position of the first element in the segments array to draw eyes on the snake using the <a href="https://processing.org/reference/circle_.html" target="_blank">circle</a> command! 
 </blockquote>
 
 <br>
