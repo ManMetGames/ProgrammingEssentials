@@ -210,6 +210,56 @@ In this video we'll be completing the above tasks to make use of an array in the
   </video>
 </div>
 
+
+<br>
+<h2>Quick check!</h2>
+Before you move on, let's have a quick check that you've got everything so far!
+<div class="question1container" data-correct-answer="C">
+    <h3>The last element in an array called numberList is numberList[9], how many elements are there in the list?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="This isn't quite right, we can figure out how big the size of the array is because we know that the last element is numberList[9].">
+        <label for="option1">It's impossible to know</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="This isn't quite right! Don't forget, arrays start at 0, so element 9 isn't actually the 9th element!">
+        <label for="option2">9</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! Arrays start at 0, so numberList[9] being the last element means there's 10 elements in total!">
+        <label for="option3">10</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, if numberList[9] is the last element of the array, then the array must have been created with a size much closer to 9!">
+        <label for="option4">The maximum size an array can be.</label><br><br>
+        <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
+    </form>
+</div>
+
+<div class="question2container" data-correct-answer="A">
+    <h3>Which line of code would correctly create an array of boolean variables, with a size of 20?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct, this line both declares and initialises the array correctly using square brackets in the correct places!">
+        <label for="option1">boolean[] list = new boolean[20];</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, the array declaration is missing square brackets, and the initialisation is using round brackets instead of square brackets!">
+        <label for="option2">boolean list = new boolean(20);</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, The initialisation is correct, but the array is declared without square brackets, so this would just be a single boolean variable!">
+        <label for="option3">boolean list = new boolean[20];</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right! Even though booleans aren't class objects, an array is, so it gets initialised using the new keyword!">
+        <label for="option4">boolean[] list = boolean[20];</label><br><br>
+        <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
+    </form>
+</div>
+
+<div class="question3container" data-correct-answer="D">
+    <h3>A program has a class called Ball. Three ball objects are stored in an array called ballList. Each ball has an x and y variable. Which of the following lines of code would not give an error?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, ballList only has three elements and ballList[3] would be the fourth element!">
+        <label for="option1">ball[3].x = 100;</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, when accessing an array we use square brackets!">
+        <label for="option2">ball(2).x = 50;</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, the x variable is part of the Ball class, so to access it we need to use the . accessor!">
+        <label for="option3">ball[2] = x;</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct! This line accesses a reasonable point in the array and accesses the x variable correctly!">
+        <label for="option4">ball[2].x = 100;</label><br><br>
+        <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
+    </form>
+</div>
+<br>
+
 <br>
 <h2>Summary</h2>
 By completing this chapter, you should have got in some practice using arrays, ready for looking at how we can loop through them in the next chapter!
