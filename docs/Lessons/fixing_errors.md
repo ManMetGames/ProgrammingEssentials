@@ -99,7 +99,7 @@ For a list of common errors and what they mean, make sure to look at the <a href
 
 <h2>More Help</h2>
 <ul>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=BWjd9GVJ7mPTdG6E&t=2547">An intro to errors</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=BWjd9GVJ7mPTdG6E&t=2547" target="_blank">An intro to errors</a></h3></li>
 </ul>
 
 <p style="font-size: 30px; text-align: right;"><a href="./conclusion">Conclusion >></a></p>

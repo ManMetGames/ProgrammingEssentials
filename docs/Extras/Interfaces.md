@@ -85,5 +85,23 @@ We should now be able to eat cake using the same method that we use to eat carro
 
 
 
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/Interfaces.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-This page is still waiting on content! Feel free to learn more about interfaces <a href="https://www.youtube.com/watch?v=GhslBwrRsnw"> here</a> and <a href="https://processing.org/reference/implements.html"> here</a>!
+<br>
+
+
+<br>
+<h2>Summary</h2>
+Interfaces allow us to create variables for types unrelated by inheritance, and work with them in the knowledge that they contain relevant methods.
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://www.youtube.com/watch?v=GhslBwrRsnw" target="_blank">Java interfaces</a></h3></li>
+    <li><h3><a href="https://processing.org/reference/implements.html" target="_blank">Processing interface documentation</a></h3></li>
+</ul>
+<br>
