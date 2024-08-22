@@ -5,7 +5,9 @@ layout: default
 <h1>Chapter 12: Fixing Errors</h1>
 <p style="font-size:20px">
 In this chapter, we'll be looking at what to do to fix errors in your code!
-</p>
+<br>
+For a quick reference for common errors, <a href="../QuickReference/fixing_errors">click here</a>.
+<br></p>
 
 <h2 id="types_of_error">Types of Error</h2>
 As a bit of background, it's good to know about the types of error you'll run into, of which there are three main types:
@@ -92,7 +94,7 @@ A useful way to do this is by making use of the in-built debugger, where you can
 <h2>Summary</h2>
 When writing code it's always going to be the case that we run into errors. By understanding what they are and how to find what's gone wrong, we can figure out how to fix them!
 
-For a list of common errors and what they mean, make sure to look at the <a href="../QuickReference/errors">quick reference here</a>!
+For a list of common errors and what they mean, make sure to look at the <a href="../QuickReference/fixing_errors">quick reference here</a>!
 
 
 <h2>More Help</h2>

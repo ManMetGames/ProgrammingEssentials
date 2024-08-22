@@ -5,7 +5,9 @@ layout: default
 <h1>Chapter 11: Implementing a Feature</h1>
 <p style="font-size:20px">
 In this chapter, we'll be taking a step back, and considering how to implement practically any feature, using the building blocks we've learned over the course!
-</p>
+<br>
+For a quick reference, <a href="../QuickReference/implementing_a_feature">click here</a>.
+<br></p>
 
 <h2>The Problem</h2>
 So far, whenever you've added a new feature to the snake game, you may have been okay following along with the guide, or watching along with the video, but thought "how would I do this myself?", which is a perfectly normal question to have. The answer comes from both practice, and breaking down problems.
@@ -125,6 +127,7 @@ Breaking down problems into code is a clear example of a skill related to coding
 
 In the next chapter, we'll be looking at what to do when things go wrong!
 
+
 <br>
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be get creative!
@@ -132,6 +135,7 @@ You don't need to complete this to move on, but feel free to be get creative!
 Implement a new feature to the snake game!<br>
 This could be anything, a new type of apple, a second player, a menu or game over screen, anything!
 </blockquote>
+
 
 <h2>More Help</h2>
 <ul>
