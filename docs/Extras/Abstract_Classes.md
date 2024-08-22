@@ -4,10 +4,14 @@ layout: default
 
 <H1>Extras: Abstract Classes</H1>
 When making use of inheritance, sometimes we might want to define a type that itself should never be created.
-For example, we might want to make an Enemy class, with child classes for a Zombie and Skeleton.<br>
-<h1>IMAGE HERE</h1>
+For example, we might want to make an Enemy class, with child classes for a Zombie and Spider.<br>
+
+<img src="../Images/abstract_enemy.png" width="250" height="125">
+
+
+
 <br>
-In this scenario, we can create Zombie objects and Skeleton objects, but we can also create Enemy objects, which doesn’t make as much sense. What is an enemy, if it isn’t one of its child class objects?
+In this scenario, we can create Zombie objects and Spider objects, but we can also create Enemy objects, which doesn’t make as much sense. What is an enemy, if it isn’t one of its child class objects?
 In these circumstances we can use an “abstract” class.
 
 Copy and paste the code below into a blank Processing project:<br>
@@ -24,20 +28,20 @@ class Zombie extends Enemy{
   }
 }
 
-class Skeleton extends Enemy{
+class Spider extends Enemy{
   void Attack(){
-    println("a skeleton is attacking");
+    println("a spider is attacking");
   }
 }
 
 void setup(){
-  Enemy enemy = new Skeleton();
+  Enemy enemy = new Spider();
   enemy.Attack();
 }
 {% endhighlight %}
 
 
-When you run the program, you should see that the console prints out "a skeleton is attacking". This is because we’re making use of polymorphism, to store a skeleton object in an enemy variable (which is fine because the Skeleton class extends the Enemy class).<br>
+When you run the program, you should see that the console prints out "a spider is attacking". This is because we’re making use of polymorphism, to store a spider object in an enemy variable (which is fine because the Spider class extends the Enemy class).<br>
 But with the code as it currently is, we could change the line of code where we create the enemy variable to the line below:<br>
 {% highlight java %}
 Enemy enemy = new Enemy();
@@ -61,21 +65,21 @@ When creating an abstract class, we put the abstract keyword ahead of the class 
 
 Because the class is abstract, the method declarations inside it now act as a promise that all classes extending it will have methods with these names (and the related parameters).
 
-To fix the code, change the enemy variable back to a Skeleton.
+To fix the code, change the enemy variable back to a Spider.
 
 <h2 id="creating_an_abstract_class">Extending an Abstract Class</h2>
-Now, if we want to extend the Enemy class, we need to make sure that we keep the promises made by it being abstract. Paste the following code at the bottom of your program to add a Spider class:<br>
+Now, if we want to extend the Enemy class, we need to make sure that we keep the promises made by it being abstract. Paste the following code at the bottom of your program to add a Skeleton class:<br>
 {% highlight java %}
-class Spider extends Enemy {
+class Skeleton extends Enemy {
 }
 {% endhighlight %}<br>
 
-This should cause an **error**! We’ve extended from the Enemy class but we’ve not written an Attack method, which is promised in the Enemy class!
+This should cause an **error**! We’ve extended from the Enemy class, but we’ve not written an Attack method, which is promised in the Enemy class!
 
 To fix this, inside the curly brackets of the Enemy class, add the following code:<br>
 {% highlight java %}
 void Attack() {
-    println("a spider is attacking");
+    println("a skeleton is attacking");
 }
 {% endhighlight %}
 
@@ -86,8 +90,5 @@ The program should now run happily!
 <h2>Summary</h2>
 Abstraction offers us a way to define whether we want a class to not be creatable, so that we can have parent classes that don’t have to fill out all of the functionality that their child classes should contain, making our code more robust for extending it in the future!
 
-<h2>Extra Task</h2>
-<blockquote>
-</blockquote>
 
 

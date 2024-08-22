@@ -86,8 +86,10 @@ It's then worth mentioning Strings. In some languages Strings are treated as pri
 {% highlight java %}
 String stringVariable = "test";
 {% endhighlight %}
-<br>
+
 Because they're class objects, String is spelled with a capital letter in Java, and the equality operator (==) won't work (you'll have to use the <a href="https://processing.org/reference/String_equals_.html">.equals</a> method instead).
+
+<br>
 
 <h2 id="quick_reference">Primitive Types Quick Reference</h2>
 All of the Java primitive data types can be seen below. The most common ones you will need to use are boolean, int and float!
