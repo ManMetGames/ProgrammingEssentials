@@ -28,6 +28,8 @@ The next measurement of memory size is a byte! A byte is made up of eight bits, 
 byte byteVariable = 127;
 {% endhighlight %}
 <br>
+As a point of interest, remapping a bytes range to 0-255 highlights some places where this data type is used! Colours for example are commonly stored using bytes for each colour channel, so that's why RGB values go up to 255!
+
 
 <h2>Short</h2>
 Doubling the memory of a byte then makes a short, which means we can represent any number that is up to 16 digits in binary! This means the short data type can store whole numbers between -32,768 and 32,767. This again makes them useful for memory efficient variables that can store fairly small numbers!
@@ -85,6 +87,7 @@ It's then worth mentioning Strings. In some languages Strings are treated as pri
 String stringVariable = "test";
 {% endhighlight %}
 <br>
+Because they're class objects, String is spelled with a capital letter in Java, and the equality operator (==) won't work (you'll have to use the <a href="https://processing.org/reference/String_equals_.html">.equals</a> method instead).
 
 <h2 id="quick_reference">Primitive Types Quick Reference</h2>
 All of the Java primitive data types can be seen below. The most common ones you will need to use are boolean, int and float!
@@ -98,30 +101,3 @@ float	4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal d
 double	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
 boolean	1 bit	Stores true or false values
 char	2 bytes	Stores a single character/letter or ASCII values
-
-
-
-
-
-
-
-
-
-
-The most common primitive types are:
-<ul>
-<li>boolean</li>
-<li>int</li>
-<li>float</li>
-</ul>
-
-<h2>Boolean Variables</h2>
-Boolean variables store 
-
-
-
-
-
-RGB values are generally denoted using byte variables, which is why they go up to 255
-
-String
