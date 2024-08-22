@@ -29,6 +29,53 @@ layout: default
 
 This is the quick reference page for conditionals, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/conditionals">Conditionals chapter</a>.
 
+<h2>Take Away Info</h2>
+<ul>
+<li>Classes are used to group together related methods and variables.</li>
+</ul>
+
+<h2>Class and Object code</h2>
+{% highlight java %}
+
+boolean a = true;
+boolean b = false;
+
+int c = 5;
+int d = 10;
+
+if( a ){
+    //code in here will run because a is true
+}
+
+if( a && b ){
+    //code in here will not run because b is false
+}
+
+if( c < d ){
+    //code here will run because c is less than d
+}
+
+
+
+{% endhighlight %}
+
+<h2>Relational and Logical Operators</h2>
+<table>
+<tbody>
+<tr><td>Name</td><td>Symbol</td><td>Example</td><td>Description</td></tr>
+<tr><td>Equal</td><td>==</td><td style="white-space: nowrap"> if( a == b ) </td><td>Checks if the value of variables a and b are equal to each other.</td></tr>
+<tr><td>Not</td><td>!</td><td style="white-space: nowrap"> if( !a ) </td><td>Checks if the value of variable a is false.</td></tr>
+<tr><td>Not Equal</td><td style="white-space: nowrap">!=</td><td> if( a != b ) </td><td>Checks if the value of variables a and b are not equal to each other.</td></tr>
+<tr><td>And</td><td>&&</td><td style="white-space: nowrap"> if( a && b ) </td><td>Checks if the value of variables a and b are both equal to true.</td></tr>
+<tr><td>Or</td><td>||</td><td style="white-space: nowrap"> if( a || b ) </td><td>Checks if the value of either variable a or b is true.</td></tr>
+<tr><td>Less than</td><td style="white-space: nowrap"> < </td><td> if( a < b ) </td><td>Checks if the value of variable a is less than the value of variable b.</td></tr>
+<tr><td>Greater than</td><td style="white-space: nowrap"> > </td><td> if( a > b ) </td><td>Checks if the value of variable a is greater than the value of variable b.</td></tr>
+<tr><td>Less than or equal to</td><td style="white-space: nowrap"> <= </td><td> if( a <= b ) </td><td>Checks if the value of variable a is less than or equal to the value of variable b.</td></tr>
+<tr><td>Greater than or equal to</td><td style="white-space: nowrap"> >= </td><td> if( a >= b ) </td><td>Checks if the value of variable a is greater than or equal to the value of variable b.</td></tr>
+</tbody>
+</table>
+
+<br>
 <h2>Chapter 5: Conditionals - Videos</h2>
 For more information, click on the name of a video to see it in context.
 <br>
