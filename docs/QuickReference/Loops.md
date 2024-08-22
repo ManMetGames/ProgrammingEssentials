@@ -29,6 +29,42 @@ layout: default
 
 This is the quick reference page for loops, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/loops">Loops chapter</a>.
 
+<h2>Take Away Info</h2>
+<ul>
+<li>While loops will run code until their condition is false.</li>
+<li>For loops formalise the creation of a counter variable, the looping condition and incrementation of the counter.</li>
+<li>You can loop backwards through a for loop, which can be useful when removing from an ArrayList.</li>
+<li>An enhanced for loop makes it easier to loop through items in an Array or ArrayList.</li>
+</ul>
+
+
+<h2>Array Code</h2>
+{% highlight java %}
+
+int w = 0; //counter variable
+//loops until the condition in the brackets is false
+while(w < 10){ //looping condition
+    println(w); //code to loop
+    w = w+1; //counter incrementation
+}
+
+//for loop folds together the counter variable,
+//looping condition and counter incrementation
+for(int i = 0; i < 10; i=i+1){
+    println(i); //code to loop
+}
+
+int[] intArray = new int[3];
+//enhanced for loop acts as a "for each" loop
+//for each int we'll call "a" in the intArray list
+for(int a : intArray){
+    println(a); //code to loop
+}
+
+{% endhighlight %}
+
+
+<br>
 <h2>Chapter 7: Loops - Videos</h2>
 For more information, click on the name of a video to see it in context.
 <br>
