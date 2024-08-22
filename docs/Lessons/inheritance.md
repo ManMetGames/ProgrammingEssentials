@@ -131,6 +131,56 @@ In this video we’ll be re-covering the content from this chapter, all the work
   </video>
 </div>
 
+
+<br>
+<h2>Quick check!</h2>
+Before you move on, let's have a quick check that you've got everything so far!
+<div class="question1container" data-correct-answer="D">
+    <h3>What does inheritance allow us to do?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, inheriting from a class also copies all of its variables!">
+        <label for="option1">Copy methods to new classes but not variables.</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="This is correct, but inheriting also allows us to do other things!">
+        <label for="option2">Copy methods and variables to new classes.</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, inheriting from a class also copies all of its methods and functions!">
+        <label for="option3">Copy variables to new classes but not methods.</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct! Inheriting from a class essentially copies all of the methods and variables into the new class definition, and allows for polymorphism!">
+        <label for="option4">Copy methods and variables to new classes and allow for polymorphism.</label><br><br>
+        <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
+    </form>
+</div>
+
+<div class="question2container" data-correct-answer="B">
+    <h3>Which of the following is true?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, a class can be extended from as many times as you'd like!">
+        <label for="option1">Classes can only be extended by one other class.</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! All classes in Java already extend from the Object class! This means all class objects can access methods such as toString, or can be stored in a list of Object variables!">
+        <label for="option2">All classes in Java already extend from the Object class.</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, objects of a child class can be stored in variables of a class type that they extend from! This is polymorphism!">
+        <label for="option3">Objects of a child class can only be stored in variables of that child class.</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, a child class can have methods with the same name as its parent class so that it can override the functionality of the parent class.">
+        <label for="option4">A child class cannot have methods with the same names as methods in the parent class.</label><br><br>
+        <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
+    </form>
+</div>
+
+<div class="question3container" data-correct-answer="A">
+    <h3>What is the correct way to call a parent class constructor method?</h3>
+    <form id="quizForm">
+        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! This would correctly call the parent class constructor, make sure to only do this in the child class constructor!">
+        <label for="option1">super();</label><br>
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, this would call a method called setup from the parent class if it existed!">
+        <label for="option2">super.setup();</label><br>
+        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this would call a method called constructor from the parent class if it existed!">
+        <label for="option3">super.constructor();</label><br>
+        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, whilst we refer to it as a parent class, the way to access the parent class is with the keyword super!">
+        <label for="option4">parent();</label><br><br>
+        <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
+    </form>
+</div>
+
+
 <br>
 <h2>Summary</h2>
 We're now done with the Snake game! There are more things we could change, so feel free to be creative with your game. Change the colours, add more apples, add more players, add a score indicator, anything you'd like! And make sure to look back through the additional pages you might have missed throughout the course below!
@@ -138,11 +188,31 @@ We're now done with the Snake game! There are more things we could change, so fe
 If you're unsure where to get started adding new features, or how to get back on track when there's errors in your code, make sure to continue on to chapters 11 and 12!
 
 
+<h2>Extension Task</h2>
+You don't need to complete this to move on, but feel free to be get creative!
+<blockquote>
+Create a child class of SnakeSegment called SnakeTail!<br>
+You can then add this to the end of the snake when it is first created!<br>
+Make the snakes tail look however you would like!<br>
+When growing the snake, you'll need to insert a new normal SnakeSegment object in the middle of the body instead of at the end, by including the place in the list you would like to insert it to in the ArrayList add method, like this:<br>
+segments.add(3,newSegment); // inserts the object "newSegment" at position 3 in the ArrayList!
+</blockquote>
+
 <br>
 <h2>Explore</h2>
 <ul>
-    <li><h3><a href="../Extras/Abstract_Classes">How do I stop myself from creating instances of a parent class?</a></h3></li>
+     <li><h3><a href="../Extras/Abstract_Classes">How do I stop myself from creating instances of a parent class?</a></h3></li>
+     <li><h3><a href="../Extras/Interfaces">Can I use polymorphism without inheritance? (for classes that have some similarities but not a parent-child relationship!)</a></h3></li>
 </ul>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/e6eXD8DHc_A?si=Y-UBwsA5TuFIKfWY&t=209" target="_blank">Inheritance overview</a></h3></li>
+    <li><h3><a href="https://www.youtube.com/watch?v=WCgo3sDFLVQ" target="_blank">Inheritance example</a></h3></li>
+    <li><h3><a href="https://www.youtube.com/watch?v=qqYOYIVrso0" target="_blank">Polymorphism</a></h3></li>
+</ul>
+<br>
 
 <p style="font-size: 30px; text-align: right;"><a href="./implementing_a_feature">Chapter 11 >></a></p>
 

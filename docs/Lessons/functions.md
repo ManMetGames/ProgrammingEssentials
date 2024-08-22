@@ -219,7 +219,7 @@ In this video, we'll be going through the previous steps, adding a game win cond
   </video>
 </div>
 
-
+<br>
 <h2>Quick check!</h2>
 Before you move on, let's have a quick check that you've got everything so far!
 <div class="question1container" data-correct-answer="A">
