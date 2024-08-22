@@ -29,59 +29,47 @@ class Zombie extends Enemy{
 }
 
 class Spider extends Enemy{
-  void Attack(){
-    println("a spider is attacking");
-  }
 }
 
 void setup(){
-  Enemy enemy = new Spider();
+  Enemy enemy = new Zombie();
   enemy.Attack();
 }
 {% endhighlight %}
 
 
-When you run the program, you should see that the console prints out "a spider is attacking". This is because we’re making use of polymorphism, to store a spider object in an enemy variable (which is fine because the Spider class extends the Enemy class).<br>
+When you run the program, you should see that the console prints out "a zombie is attacking". This is because we’re making use of polymorphism, to store a zombie object in an enemy variable (which is fine because the Zombie class extends the Enemy class).<br>
 But with the code as it currently is, we could change the line of code where we create the enemy variable to the line below:<br>
 {% highlight java %}
 Enemy enemy = new Enemy();
 {% endhighlight %}<br>
 
-If we run the program with this change, we should see that the console prints out "a generic enemy is attacking". The code runs perfectly, but what is a generic enemy? What does it look like? How does it attack? We’ve created an object of a class that we only ever wanted to use as a parent class.
+If we run the program with this change, we should see that the console prints out "a generic enemy is attacking". The code runs perfectly, but what is a generic enemy? What does it look like? How does it attack? We’ve created an object of a class that we only ever wanted to use as a parent class to define similar functionality.
 
 This is where abstraction comes in!
 
 <h2 id="creating_an_abstract_class">Creating an Abstract Class</h2>
-Edit the Enemy class to reflect the changes below:<br>
+Add the word "abstract" in front of the Enemy class declaration like below:<br>
 {% highlight java %}
 abstract class Enemy {
-  void Attack();
-}
 {% endhighlight %}<br>
 
 You should now see that the line of code where we try to create the enemy object is giving us an error. This is because we’re trying to create an object from a class that we’ve marked as abstract, which means we only ever want to be able to create objects of classes that extend it.
 
-When creating an abstract class, we put the abstract keyword ahead of the class definition. Any methods inside the class then end after the round brackets with a semicolon, instead of with curly brackets and code. This is because we’re defining what methods we want inside classes that extend the class, but not actually writing the code to be executed, as we never want to actually create an object of this type.
+To fix the code, change the enemy variable to a Spider.
 
-Because the class is abstract, the method declarations inside it now act as a promise that all classes extending it will have methods with these names (and the related parameters).
-
-To fix the code, change the enemy variable back to a Spider.
-
-<h2 id="creating_an_abstract_class">Extending an Abstract Class</h2>
-Now, if we want to extend the Enemy class, we need to make sure that we keep the promises made by it being abstract. Paste the following code at the bottom of your program to add a Skeleton class:<br>
+<h2>Abstract Methods</h2>
+If we run the program again, we should see that the spider object will fall back on the abstract class Attack method, meaning we get "a generic enemy is attacking" again in the console. But what if we decided that all enemies should have an attack, but they should always have to override the Attack method, and never rely on the generic one that the Enemy class currently has?<br>
+This is where abstract methods come in!<br>
+Similarly to abstract classes, we can tell a method that it is also abstract, meaning child classes will have to override it, as it can't be called, in the same way that an object can't be created from an abstract class.<br>
+To make the Attack method abstract, we can again just add the abstract keyword in-front of it:<br>
 {% highlight java %}
-class Skeleton extends Enemy {
-}
+abstract void Attack(){
 {% endhighlight %}<br>
+This will give us an error, because the Spider class isn't overriding the Attack method!
 
-This should cause an **error**! We’ve extended from the Enemy class, but we’ve not written an Attack method, which is promised in the Enemy class!
-
-To fix this, inside the curly brackets of the Enemy class, add the following code:<br>
-{% highlight java %}
-void Attack() {
-    println("a skeleton is attacking");
-}
-{% endhighlight %}
+<h3>Task</h3>
+<blockquote>Override the Attack method in the Spider class, so that it prints out "a spider is attacking"</blockquote><br>
 
 The program should now run happily!
 
