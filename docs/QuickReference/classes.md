@@ -29,6 +29,39 @@ layout: default
 
 This is the quick reference page for classes, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/classes">Classes chapter</a>.
 
+<h2>Take Away Info</h2>
+<ul>
+<li>Classes are used to group together related methods and variables.</li>
+<li>These are then used as templates to make objects of that type.</li>
+<li>Objects of the same type can have different values in their variables.</li>
+<li>Constructors are special methods that don't have a name, and run when an object is created.</li>
+</ul>
+
+<h2>Class and Object code</h2>
+{% highlight java %}
+
+Cat cat; // Class names are used as variable types
+
+void setup(){
+    cat = new Cat(); // creates a new object
+    cat.Move(); // . is used to access methods and variables on an object
+}
+
+class Cat{
+    int whiskerCount = 10; //classes can store variables
+
+    Cat(){ //methods of the class type without a name are constructors
+        //code here will run when the object is created
+    }
+
+    void Move(){ // classes can have methods in them
+        //code
+    }
+}
+
+{% endhighlight %}
+
+<br>
 <h2>Chapter 4: Classes - Videos</h2>
 For more information, click on the name of a video to see it in context.
 <br>

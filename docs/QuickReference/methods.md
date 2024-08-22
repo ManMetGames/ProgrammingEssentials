@@ -47,7 +47,7 @@ This is the quick reference page for methods, if you're unsure how to apply the 
 
 void setup(){
     //code here to run once at the beginning
-}
+}//curly brackets enclose the code!
 
 void draw(){
     //code here to run every frame
