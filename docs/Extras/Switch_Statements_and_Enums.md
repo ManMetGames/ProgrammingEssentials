@@ -178,7 +178,7 @@ In this extra section, we've covered switch statements and enumerated types, loo
 <blockquote>To apply switch statements and enums to the Snake game, feel free to make an enum for UP, DOWN, LEFT and RIGHT, and add a variable called direction to the Snake class, which controls which way the snake is moving. You can then update this instead of changing the direction variables independently when a key is pressed!
 </blockquote>
 
-
+<br>
 <h2>More Help</h2>
 <ul>
     <li><h3><a href="https://processing.org/reference/switch.html" target="_blank">Processing switch statement documentation</a></h3></li>
