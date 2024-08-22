@@ -29,6 +29,30 @@ layout: default
 
 This is the quick reference page for Arrays, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/arrays">Arrays chapter</a>.
 
+<h2>Take Away Info</h2>
+<ul>
+<li>Arrays store variables in a list.</li>
+<li>They can store simple variables or class objects.</li>
+<li>Arrays start at 0, so the final element is one less than the size.</li>
+<li>They are created and accessed using square brackets as below.</li>
+</ul>
+
+
+<h2>Array Code</h2>
+{% highlight java %}
+
+int[] intArray; // declares an int array
+
+intArray = new intArray[3]; //initialises an int array with three elements
+
+intArray[2] = 10; //elements of the array are accessed using square brackets
+
+println( intArray.length );// .length returns the number of elements
+
+{% endhighlight %}
+
+
+<br>
 <h2>Chapter 6: Arrays - Videos</h2>
 For more information, click on the name of a video to see it in context.
 <br>

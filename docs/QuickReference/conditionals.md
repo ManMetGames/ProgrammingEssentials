@@ -31,33 +31,11 @@ This is the quick reference page for conditionals, if you're unsure how to apply
 
 <h2>Take Away Info</h2>
 <ul>
-<li>Classes are used to group together related methods and variables.</li>
+<li>If statements are used to control the flow of code.</li>
+<li>If the condition inside the brackets of an if statement equates to true, then the code inside the curly brackets will run.</li>
+<li>You can follow an if statement with else if statements to test their conditions only if the previous if statement failed.</li>
+<li>You can follow an if statement with an else statement to run that code if the previous condition failed.</li>
 </ul>
-
-<h2>Class and Object code</h2>
-{% highlight java %}
-
-boolean a = true;
-boolean b = false;
-
-int c = 5;
-int d = 10;
-
-if( a ){
-    //code in here will run because a is true
-}
-
-if( a && b ){
-    //code in here will not run because b is false
-}
-
-if( c < d ){
-    //code here will run because c is less than d
-}
-
-
-
-{% endhighlight %}
 
 <h2>Relational and Logical Operators</h2>
 <table>
@@ -74,6 +52,37 @@ if( c < d ){
 <tr><td>Greater than or equal to</td><td style="white-space: nowrap"> >= </td><td> if( a >= b ) </td><td>Checks if the value of variable a is greater than or equal to the value of variable b.</td></tr>
 </tbody>
 </table>
+
+<h2>Class and Object Code</h2>
+{% highlight java %}
+
+boolean a = true;
+boolean b = false;
+
+int c = 5;
+int d = 10;
+
+if( a ){
+    //code in here will run because a is true
+}
+
+if( a && b ){
+    //code in here will not run because b is false
+}
+
+if( c > d ){
+    //code here will not run because c is less not than d
+}
+else if ( c == D ){
+    //code here will not run because c is not equal to d
+}
+else{
+    //code here will run because the previous conditions were not met
+}
+
+
+{% endhighlight %}
+
 
 <br>
 <h2>Chapter 5: Conditionals - Videos</h2>
