@@ -29,6 +29,47 @@ layout: default
 
 This is the quick reference page for variables, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/getting_started">Getting Started chapter</a>.
 
+<h2>Take Away Info</h2>
+<ul>
+<li>Round brackets are used to pass information into methods.</li>
+<li>Code executes from top to bottom.</li>
+<li>In Processing y values increase as you move down the canvas.</li>
+<li>Colours are represented using numbers between 0 and 255.</li>
+</ul>
+
+<h2>Processing Commands</h2>
+{% highlight java %}
+//comments are written using a double forward slash
+
+size(500,500); //sets the width and height of the canvas
+
+background(0); // fills background in greyscale
+background(255, 0, 0); // fills background in using RGB values
+
+fill(50); // sets shape fill colour in greyscale
+fill(255,0,0); // sets shape fill colour using RGB values
+
+rect(10,20,30,40); //draws a rectangle to the canvas
+//the above rectangle has an x of 10, y of 20, width of 30 and height of 40
+
+
+println(10); //prints to the console
+println("hello"); //words have to be put in quotation marks
+
+
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+<br>
+
 <h2>Chapter 1: Getting Started - Videos</h2>
 For more information, click on the name of a video to see it in context.
 
