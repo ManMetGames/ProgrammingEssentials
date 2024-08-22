@@ -125,6 +125,28 @@ Breaking down problems into code is a clear example of a skill related to coding
 
 In the next chapter, we'll be looking at what to do when things go wrong!
 
+<br>
+<h2>Extension Task</h2>
+You don't need to complete this to move on, but feel free to be get creative!
+<blockquote>
+Implement a new feature to the snake game!<br>
+This could be anything, a new type of apple, a second player, a menu or game over screen, anything!
+</blockquote>
+
+<br>
+<h2>Explore</h2>
+<ul>
+     <li><h3><a href="../Extras/Abstract_Classes">How do I stop myself from creating instances of a parent class?</a></h3></li>
+     <li><h3><a href="../Extras/Interfaces">Can I use polymorphism without inheritance? (for classes that have some similarities but not a parent-child relationship!)</a></h3></li>
+</ul>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://www.youtube.com/watch?v=UiYXwUg23Yw" target="_blank">How To Think Like A Programmer - Learn To Solve Problems!</a></h3></li>
+</ul>
+<br>
+
 <p style="font-size: 30px; text-align: right;"><a href="./fixing_errors">Chapter 12 >></a></p>
 
 <br>
