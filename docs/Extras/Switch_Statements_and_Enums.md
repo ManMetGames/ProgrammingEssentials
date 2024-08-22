@@ -93,7 +93,14 @@ Paste in the following code below the other cases:<br>
 If you change the starting value of sceneID to a number not covered by the cases, you should now see that “titlescreen” is printed to the console!
 Follow along with the video below if you’re lost!
 
-<h1>VIDEO HERE</h1>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/SwitchStatements.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<br>
 
 <br>
 <h2 id="another_problem">Another Problem...</h2>
@@ -151,7 +158,16 @@ case MAIN_MENU:
 {% endhighlight %}<br>
 
 
-<h1>VIDEO HERE</h1>
+
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/Enums.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<br>
 
 
 <br>
@@ -161,5 +177,13 @@ In this extra section, we've covered switch statements and enumerated types, loo
 <h2>Extension Task</h2>
 <blockquote>To apply switch statements and enums to the Snake game, feel free to make an enum for UP, DOWN, LEFT and RIGHT, and add a variable called direction to the Snake class, which controls which way the snake is moving. You can then update this instead of changing the direction variables independently when a key is pressed!
 </blockquote>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://processing.org/reference/switch.html" target="_blank">Processing switch statement documentation</a></h3></li>
+    <li><h3><a href="https://www.w3schools.com/java/java_enums.asp" target="_blank">Enum example</a></h3></li>
+</ul>
+<br>
 
 

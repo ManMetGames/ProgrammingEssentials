@@ -92,9 +92,7 @@ Abstraction offers us a way to define whether we want a class to not be creatabl
 
 <h2>More Help</h2>
 <ul>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=GeCVwZW_atz-fZy4&t=7368" target="_blank">Conditional statements</a></h3></li>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=mFjp2IhkwFgY2Z1q&t=7830" target="_blank">Else</a></h3></li>
-    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=VexMzMIKd2eTuC76&t=8311" target="_blank">Logical operators</a></h3></li>
+    <li><h3><a href="https://www.w3schools.com/java/java_abstract.asp" target="_blank">Abstraction example</a></h3></li>
 </ul>
 <br>
 
