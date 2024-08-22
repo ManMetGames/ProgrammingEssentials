@@ -217,6 +217,7 @@ Try making the particle system in a new processing sketch, then move the code ac
     <li><h3><a href="https://youtu.be/IsdZKG9wyBc?si=0jyd7Vgm6s1t0aDx&t=465" target="_blank">How do I remove elements from an ArrayList whilst looping through them?</a></h3></li>
     <li><h3><a href="../QuickReference/arraylists" target="_blank">How do I check if my ArrayList contains a specific value?</a></h3></li>
     <li><h3><a href="../QuickReference/arraylists" target="_blank">How do I clear all of the elements from my ArrayList?</a></h3></li>
+    <li><h3><a href="https://www.youtube.com/watch?v=K1iu1kXkVoA" target="_blank">How do I make my own class using generics?</a></h3></li>
 </ul>
 
 
