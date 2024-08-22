@@ -94,3 +94,11 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/e6eXD8DHc_A?si=Y-UBwsA5TuFIKfWY&t=209" target="_blank">Inheritance overview</a></h3></li>
+    <li><h3><a href="https://www.youtube.com/watch?v=WCgo3sDFLVQ" target="_blank">Inheritance example</a></h3></li>
+    <li><h3><a href="https://www.youtube.com/watch?v=qqYOYIVrso0" target="_blank">Polymorphism</a></h3></li>
+</ul>
+<br>

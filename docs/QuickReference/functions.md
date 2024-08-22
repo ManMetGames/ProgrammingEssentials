@@ -93,3 +93,9 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=shIgzkyvAGeN3PtJ&t=14221" target="_blank">Return types</a></h3></li>
+</ul>
+<br>

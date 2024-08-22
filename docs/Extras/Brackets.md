@@ -18,6 +18,11 @@ void HelloWorld(){
 {% endhighlight %}
 <br>
 It's important to note that even though the HelloWorld method above doesn't take in any information, it still needs round brackets to tell the system that it doesn't need anything!
+<br>
+It's also worth mentioning that round brackets can also be used as they are in maths, to calculate part of an equation before continuing, as in the example below!<br>
+<blockquote>
+int a = (10 + 4) / 7;
+</blockquote>
 
 <br>
 <h2>Curly Brackets { }</h2>
@@ -58,7 +63,6 @@ numbers[2] = 30;
 
 println(numbers[1]);
 {% endhighlight %}
-<br>
 
 
 <br>
@@ -68,12 +72,10 @@ Angle brackets are used when declaring classes and methods that make use of “g
 As an example, we can see that the code below is taking in a class type called Fruit:<br>
 {% highlight java %}
 ArrayList<Fruit> fruitList = new ArrrayList<Fruit>();
-{% endhighlight %}
-<br>
-
+{% endhighlight %}<br>
 To learn more about generics, <a href="https://www.youtube.com/watch?v=K1iu1kXkVoA" target="_blank">click here</a>!
 
-
+<br>
 <h2>More Help</h2>
 <ul>
     <li><h3><a href="https://www.lenovo.com/gb/en/glossary/bracket/" target="_blank">Brackets in computing</a></h3></li>

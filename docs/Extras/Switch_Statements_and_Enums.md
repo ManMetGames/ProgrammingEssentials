@@ -95,7 +95,7 @@ Follow along with the video below if you’re lost!
 
 <h1>VIDEO HERE</h1>
 
-
+<br>
 <h2 id="another_problem">Another Problem...</h2>
 Using a switch statement in the right place is generally more readable, and much more efficient, as the program doesn’t need to test each case.<br>
 
@@ -158,7 +158,7 @@ case MAIN_MENU:
 <h2>Summary</h2>
 In this extra section, we've covered switch statements and enumerated types, looking at how we can use both to make our code more readable. Feel free to refer back to this page, or the quick reference when using either in the future!
 
-<h2>Extra Task</h2>
+<h2>Extension Task</h2>
 <blockquote>To apply switch statements and enums to the Snake game, feel free to make an enum for UP, DOWN, LEFT and RIGHT, and add a variable called direction to the Snake class, which controls which way the snake is moving. You can then update this instead of changing the direction variables independently when a key is pressed!
 </blockquote>
 

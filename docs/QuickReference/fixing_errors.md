@@ -49,3 +49,8 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=BWjd9GVJ7mPTdG6E&t=2547">An intro to errors</a></h3></li>
+</ul>

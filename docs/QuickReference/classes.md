@@ -176,3 +176,10 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=93lcy8rAmxH__UnH&t=14550" target="_blank">Classes and objects</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=E5-XeYLItVJFNJ-z&t=15920" target="_blank">Constructor arguments</a></h3></li>
+</ul>

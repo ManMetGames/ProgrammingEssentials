@@ -126,3 +126,11 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=soV2gWpxjH3w9lfB&t=10195" target="_blank">While loops</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=Efxv5Zb0-mKBmiwa&t=10811" target="_blank">For loops</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=3nkEAQP3S8aB-rYU&t=17661" target="_blank">Enhanced for loops</a></h3></li>
+</ul>
+<br>

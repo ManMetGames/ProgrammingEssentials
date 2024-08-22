@@ -101,3 +101,10 @@ For more information, click on the name of a video to see it in context.
 </div>
 <br>
 
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=Lj1PhCENLOHp-hHm&t=5372" target="_blank">Variables overview</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=6GeIFBgfElHpCeqU&t=5501" target="_blank">Creating variables</a></h3></li>
+
+</ul>

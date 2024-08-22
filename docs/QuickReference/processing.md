@@ -149,3 +149,12 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=eG1rFRHOnqr2_k7q&t=887" target="_blank">Downloading Processing</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=I6N-xEoogS8rEr6k&t=1055" target="_blank">Drawing with code</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=F1g9Vkxesxap7ZNT&t=2360" target="_blank">Saving your work</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=BiAwOxhUJhz7EvZG&t=2463" target="_blank">Comments</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=Ny06ca4DmfUWfpXK&t=2679" target="_blank">Colour</a></h3></li>
+</ul>

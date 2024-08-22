@@ -96,3 +96,10 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://www.youtube.com/watch?v=47JBVxCWXJA" target="_blank">An intro to arrays</a></h3></li>
+</ul>
+<br>

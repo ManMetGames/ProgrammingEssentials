@@ -145,3 +145,11 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=pYBtSPzcg6nuB3mV&t=3880" target="_blank">Program Flow, Setup and Draw</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=wxK2gXITObzdD5uf&t=13429" target="_blank">Creating methods (referred to here as "functions")</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=KNaF5qm6Qg7TOSqD&t=10670" target="_blank">Scope (in more complex examples!)</a></h3></li>
+</ul>

@@ -63,3 +63,10 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://www.youtube.com/watch?v=UiYXwUg23Yw" target="_blank">How To Think Like A Programmer - Learn To Solve Problems!</a></h3></li>
+</ul>
+<br>
