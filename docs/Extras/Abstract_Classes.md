@@ -75,11 +75,26 @@ This will give us an error, because the Spider class isn't overriding the Move m
 
 The program should now run happily!
 
-<h1>VIDEO HERE</h1>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <video width="600" controls style="max-width: 100%;">
+    <source src="{{ site.baseurl }}/Videos/Abstraction.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<br>
 
 <br>
 <h2>Summary</h2>
 Abstraction offers us a way to define whether we want a class to not be creatable, so that we can have parent classes that don’t have to fill out all of the functionality that their child classes should contain, making our code more robust for extending it in the future!
 
 
+<h2>More Help</h2>
+<ul>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=GeCVwZW_atz-fZy4&t=7368" target="_blank">Conditional statements</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=mFjp2IhkwFgY2Z1q&t=7830" target="_blank">Else</a></h3></li>
+    <li><h3><a href="https://youtu.be/4JzDttgdILQ?si=VexMzMIKd2eTuC76&t=8311" target="_blank">Logical operators</a></h3></li>
+</ul>
+<br>
 
