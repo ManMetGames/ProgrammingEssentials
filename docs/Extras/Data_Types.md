@@ -92,12 +92,22 @@ Because they're class objects, String is spelled with a capital letter in Java, 
 <h2 id="quick_reference">Primitive Types Quick Reference</h2>
 All of the Java primitive data types can be seen below. The most common ones you will need to use are boolean, int and float!
 
-Data Type	Size	Description
-byte	1 byte	Stores whole numbers from -128 to 127
-short	2 bytes	Stores whole numbers from -32,768 to 32,767
-int	4 bytes	Stores whole numbers from -2,147,483,648 to 2,147,483,647
-long	8 bytes	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-float	4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
-double	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
-boolean	1 bit	Stores true or false values
-char	2 bytes	Stores a single character/letter or ASCII values
+
+<table>
+<tbody>
+<tr><td>Data Type</td><td>Description</td></tr>
+<tr><td>boolean</td><td>Stores true or false values</td></tr>
+<tr><td>byte</td><td>Stores whole numbers from -128 to 127</td></tr>
+<tr><td>short</td><td>Stores whole numbers from -32,768 to 32,767</td></tr>
+<tr><td>int</td><td>Stores whole numbers from -2,147,483,648 to 2,147,483,647</td></tr>
+<tr><td>long</td><td>Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807</td></tr>
+<tr><td>float</td><td>Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits</td></tr>
+<tr><td>double</td><td>Stores fractional numbers. Sufficient for storing 15 decimal digits</td></tr>
+<tr><td>char</td><td>Stores a single character/letter or ASCII values</td></tr>
+</tbody>
+</table>
+
+
+<br>
+<br>
+<br>
