@@ -133,14 +133,6 @@ Implement a new feature to the snake game!<br>
 This could be anything, a new type of apple, a second player, a menu or game over screen, anything!
 </blockquote>
 
-<br>
-<h2>Explore</h2>
-<ul>
-     <li><h3><a href="../Extras/Abstract_Classes">How do I stop myself from creating instances of a parent class?</a></h3></li>
-     <li><h3><a href="../Extras/Interfaces">Can I use polymorphism without inheritance? (for classes that have some similarities but not a parent-child relationship!)</a></h3></li>
-</ul>
-
-
 <h2>More Help</h2>
 <ul>
     <li><h3><a href="https://www.youtube.com/watch?v=UiYXwUg23Yw" target="_blank">How To Think Like A Programmer - Learn To Solve Problems!</a></h3></li>
