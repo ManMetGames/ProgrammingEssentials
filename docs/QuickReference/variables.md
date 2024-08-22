@@ -46,7 +46,10 @@ boolean booleanVariable = true; // booleans store true/false values
 
 int intVariable = 10; // ints store whole numbers
 
-float floatVariable = 7.5f; // floats store decimal numbers, values of which need an f on the end
+float floatVariable = 7.5f; // floats store decimal numbers
+//float values need an f on the end
+
+String stringVariable = "hello"; //strings store words and sentences
 
 {% endhighlight %}
 

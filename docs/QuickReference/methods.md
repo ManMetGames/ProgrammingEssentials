@@ -31,22 +31,32 @@ This is the quick reference page for methods, if you're unsure how to apply the 
 
 <h2>Take Away Info</h2>
 <ul>
-<li>Variables store data in the computer's memory.</li>
-<li>Storing values we want to change in a variable means we can use the variable name in place of the value.</li>
-<li>A variable must know what type of data it stores.</li>
-<li>Variables must be declared (created) in the format of "TYPE NAME;" before they can be used.</li>
-<li>Variables must also be initialised in the format of "NAME = VALUE;" before they can be used.</li>
-<li>Variables can be declared and initialised all together as "TYPE NAME = VALUE;", examples of this are shown below.</li>
+<li>Methods group together lines of code to be run from elsewhere in the program.</li>
+<li>Code still goes from top to bottom, but code that does something has to live inside methods.</li>
+<li>Methods can be called using their name, followed by round brackets like this();</li>
+<li>Methods are created using the format of TYPE NAME(){ }</li>
+<li>A method that doesn't return anything has a type of "void".</li>
+<li>Code to setup variables should be placed in "void setup" which will run at the start of the program on its own.</li>
+<li>Code that needs to be repeated every frame should be put in "void draw".</li>
+<li>Your own methods won't run on their own, so you need to call them from setup or draw!</li>
+<li>Variable declarations should be outside of methods if you want to access the variable from anywhere.</li>
 </ul>
 
-<h2>Common Variable Declarations</h2>
+<h2>Method Declarations</h2>
 {% highlight java %}
 
-boolean booleanVariable = true; // booleans store true/false values
+void setup(){
+    //code here to run once at the beginning
+}
 
-int intVariable = 10; // ints store whole numbers
+void draw(){
+    //code here to run every frame
+    myFunction(); //calls a custom function below
+}
 
-float floatVariable = 7.5f; // floats store decimal numbers, values of which need an f on the end
+void myFunction(){
+    //custom code here
+}
 
 {% endhighlight %}
 
