@@ -27,7 +27,7 @@ layout: default
     </style>
 <h1>Quick Reference: Processing</h1>
 
-This is the quick reference page for variables, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/getting_started">Getting Started chapter</a>.
+This is the quick reference page for getting started with Processing, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/getting_started">Getting Started chapter</a>.
 
 <h2>Take Away Info</h2>
 <ul>
@@ -37,7 +37,7 @@ This is the quick reference page for variables, if you're unsure how to apply th
 <li>Colours are represented using numbers between 0 and 255.</li>
 </ul>
 
-<h2>Processing Commands</h2>
+<h2>Common Processing Commands</h2>
 {% highlight java %}
 //comments are written using a double forward slash
 
@@ -59,12 +59,6 @@ println("hello"); //words have to be put in quotation marks
 
 
 {% endhighlight %}
-
-
-
-
-
-
 
 
 

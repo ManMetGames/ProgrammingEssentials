@@ -27,7 +27,7 @@ layout: default
     </style>
 <h1>Quick Reference: ArrayLists</h1>
 
-This is the quick reference page for variables, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/arraylists">ArrayLists chapter</a>.
+This is the quick reference page for ArrayLists, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/arraylists">ArrayLists chapter</a>.
 
 <h2>Chapter 8: ArrayLists - Videos</h2>
 For more information, click on the name of a video to see it in context.

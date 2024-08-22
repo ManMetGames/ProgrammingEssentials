@@ -27,7 +27,7 @@ layout: default
     </style>
 <h1>Quick Reference: Inheritance</h1>
 
-This is the quick reference page for variables, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/inheritance">Inheritance chapter</a>.
+This is the quick reference page for inheritance, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/inheritance">Inheritance chapter</a>.
 
 <h2>Chapter 10: Inheritance - Videos</h2>
 For more information, click on the name of a video to see it in context.

@@ -27,8 +27,30 @@ layout: default
     </style>
 <h1>Quick Reference: Methods</h1>
 
-This is the quick reference page for variables, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/methods">Methods chapter</a>.
+This is the quick reference page for methods, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/methods">Methods chapter</a>.
 
+<h2>Take Away Info</h2>
+<ul>
+<li>Variables store data in the computer's memory.</li>
+<li>Storing values we want to change in a variable means we can use the variable name in place of the value.</li>
+<li>A variable must know what type of data it stores.</li>
+<li>Variables must be declared (created) in the format of "TYPE NAME;" before they can be used.</li>
+<li>Variables must also be initialised in the format of "NAME = VALUE;" before they can be used.</li>
+<li>Variables can be declared and initialised all together as "TYPE NAME = VALUE;", examples of this are shown below.</li>
+</ul>
+
+<h2>Common Variable Declarations</h2>
+{% highlight java %}
+
+boolean booleanVariable = true; // booleans store true/false values
+
+int intVariable = 10; // ints store whole numbers
+
+float floatVariable = 7.5f; // floats store decimal numbers, values of which need an f on the end
+
+{% endhighlight %}
+
+<br>
 <h2>Chapter 3: Methods - Videos</h2>
 For more information, click on the name of a video to see it in context.
 

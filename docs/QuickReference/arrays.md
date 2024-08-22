@@ -27,7 +27,7 @@ layout: default
     </style>
 <h1>Quick Reference: Arrays</h1>
 
-This is the quick reference page for variables, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/arrays">Arrays chapter</a>.
+This is the quick reference page for Arrays, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/arrays">Arrays chapter</a>.
 
 <h2>Chapter 6: Arrays - Videos</h2>
 For more information, click on the name of a video to see it in context.
