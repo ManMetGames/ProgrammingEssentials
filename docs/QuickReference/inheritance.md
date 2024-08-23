@@ -29,6 +29,54 @@ layout: default
 
 This is the quick reference page for inheritance, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/inheritance">Inheritance chapter</a>.
 
+<h2>Take Away Info</h2>
+<ul>
+<li>Inheritance is used to copy variables and methods from one class to another.</li>
+<li>The inheriting class is called the "child" class, and the class it inherited from is called its "parent", or "super" class.</li>
+<li>Because the system then knows that objects made from a child class must have all of the methods that the parent class had, they can be stored in variables of the parent type.</li>
+<li>This means we can do things like make a list of a parent type, and store different child type objects inside it, as below.</li>
+<li>Storing objects in variables of a parent type is called polymorphism.</li>
+</ul>
+
+
+<h2>Inheriting Classes</h2>
+{% highlight java %}
+class Animal{ //the parent class defines some functionality
+    void MakeNoise(){
+        println("bark");
+    }
+}
+
+class Dog extends Animal{ //the extends keyword is used to inherit from Animal
+    //this class automatically inherits the MakeNoise method
+}
+
+class Cat extends Animal{
+    //this class overrides the MakeNoise method by having a method with the same name and parameters
+    void MakeNoise(){
+        println("meow"); //when a cat object is asked to MakeNoise it will run this method instead
+    }
+}
+
+void setup(){
+
+    //cats and dogs inherit from Animal so they can be stored in Animal variables
+    Animal dog = new Dog();
+    Animal cat = new Cat();
+    
+    //this includes storing them in an Animal list
+    ArrayList<Animal> animals = new ArrayList<Animal>();
+    animals.add(dog);
+    animals.add(cat);
+    
+    for(Animal a : animals){
+        a.MakeNoise();
+    }
+}
+{% endhighlight %}
+
+
+<br>
 <h2>Chapter 10: Inheritance - Videos</h2>
 For more information, click on the name of a video to see it in context.
 <br>
