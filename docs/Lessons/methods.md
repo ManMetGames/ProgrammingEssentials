@@ -179,8 +179,15 @@ void draw(){
   rect(appleX,appleY,size,size);
 }
 {% endhighlight %}
-Create a new method called DrawSnake that has a return type of void, this can be placed somewhere at the bottom of the code for now. Move the lines of code that draw the snake inside the curly brackets of the DrawSnake method. Where you moved the code from, we’ll need to call the DrawSnake method, which we can do as we did for all of the other method calls:
-
+<br>
+<h3>Task</h3>
+<blockquote>
+<ul>
+<li>Create a new method called DrawSnake that has a return type of void, this can be placed somewhere at the bottom of the code for now.</li>
+<li>Move the lines of code that draw the snake inside the curly brackets of the DrawSnake method.</li>
+<li>Where you moved the code from, we’ll need to call the DrawSnake method, which we can do as we did for all of the other method calls:</li>
+</ul>
+</blockquote>
 {% highlight java %}
 DrawSnake();
 {% endhighlight %}
