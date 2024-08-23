@@ -38,7 +38,7 @@ This is the quick reference page for loops, if you're unsure how to apply the co
 </ul>
 
 
-<h2>Array Code</h2>
+<h2>Loops</h2>
 {% highlight java %}
 
 int w = 0; //counter variable
