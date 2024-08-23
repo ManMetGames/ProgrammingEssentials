@@ -124,8 +124,9 @@ Finally, we can translate the breakdown into actual code, again, feel free to gi
 <br>
 <h2>Summary</h2>
 Breaking down problems into code is a clear example of a skill related to coding that comes with practice, over just knowing the building blocks or "syntax". To become a better programmer, make sure to practice implementing features, by creating small programs with minimal functionality!
-
+<br>
 In the next chapter, we'll be looking at what to do when things go wrong!
+
 
 <br>
 <h2>Project Files</h2>
