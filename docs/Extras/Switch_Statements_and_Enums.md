@@ -174,6 +174,11 @@ case MAIN_MENU:
 <h2>Summary</h2>
 In this extra section, we've covered switch statements and enumerated types, looking at how we can use both to make our code more readable. Feel free to refer back to this page, or the quick reference when using either in the future!
 
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this extras page, <a href="{{ site.baseurl }}/ProcessingFiles/Extras/SwitchStatementsAndEnums.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
+
 <h2>Extension Task</h2>
 <blockquote>To apply switch statements and enums to the Snake game, feel free to make an enum for UP, DOWN, LEFT and RIGHT, and add a variable called direction to the Snake class, which controls which way the snake is moving. You can then update this instead of changing the direction variables independently when a key is pressed!
 </blockquote>

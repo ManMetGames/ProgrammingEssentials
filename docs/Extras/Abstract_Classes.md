@@ -89,6 +89,10 @@ The program should now run happily!
 <h2>Summary</h2>
 Abstraction offers us a way to define whether we want a class to not be creatable, so that we can have parent classes that don’t have to fill out all of the functionality that their child classes should contain, making our code more robust for extending it in the future!
 
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this extras page, <a href="{{ site.baseurl }}/ProcessingFiles/Extras/AbstractClass.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
 
 <h2>More Help</h2>
 <ul>

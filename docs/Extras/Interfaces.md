@@ -99,6 +99,11 @@ We should now be able to eat cake using the same method that we use to eat carro
 <h2>Summary</h2>
 Interfaces allow us to create variables for types unrelated by inheritance, and work with them in the knowledge that they contain relevant methods.
 
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this extras page, <a href="{{ site.baseurl }}/ProcessingFiles/Extras/Interfaces.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
+
 <h2>More Help</h2>
 <ul>
     <li><h3><a href="https://www.youtube.com/watch?v=GhslBwrRsnw" target="_blank">Java interfaces</a></h3></li>
