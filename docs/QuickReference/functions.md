@@ -29,6 +29,48 @@ layout: default
 
 This is the quick reference page for functions, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/functions">Functions chapter</a>.
 
+<h2>Take Away Info</h2>
+<ul>
+<li>Functions are just methods that return data.</li>
+<li>They do this by specifying a return type that isn't void, then using the return keyword to return a value.</li>
+<li>The return type can be any type of variable, such as a class object, number or word.</li>
+</ul>
+
+
+<h2>Function Examples</h2>
+{% highlight java %}
+//return type replaces void
+int intMultiply(int a, int b){
+    return a * b;
+    //functions return data using the return keyword
+}
+
+//functions can also call themselves, which is called "recursion"
+//this function will return the factorial of a number
+//the factorial of a number is found by multiplying it
+//by every number smaller than it
+//e.g. the factorial of 5 = 5*4*3*2*1
+int factorial(int a){
+    if(a > 1){
+        return a * factorial(a-1);
+    }
+    return a;
+    //functions can have multiple returns
+    //but as soon as the first one is found the function exits
+}
+
+void setup(){
+
+    //calling a function returns a value, so they can be used like values
+    println( intMultiply(5,3) );
+    
+    println( factorial(5) );
+
+}
+{% endhighlight %}
+
+
+<br>
 <h2>Chapter 9: Functions - Videos</h2>
 For more information, click on the name of a video to see it in context.
 <br>

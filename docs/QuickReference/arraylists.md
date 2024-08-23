@@ -31,10 +31,9 @@ This is the quick reference page for ArrayLists, if you're unsure how to apply t
 
 <h2>Take Away Info</h2>
 <ul>
-<li>While loops will run code until their condition is false.</li>
-<li>For loops formalise the creation of a counter variable, the looping condition and incrementation of the counter.</li>
-<li>You can loop backwards through a for loop, which can be useful when removing from an ArrayList.</li>
-<li>An enhanced for loop makes it easier to loop through items in an Array or ArrayList.</li>
+<li>ArrayLists are used to store objects, similar to arrays, but can change their size over time.</li>
+<li>When creating an ArrayList, you need to tell it what type of object it can store, using angle brackets.</li>
+<li>Adding to, removing from, and accessing an ArrayList is done with methods, as seen below.</li>
 </ul>
 
 

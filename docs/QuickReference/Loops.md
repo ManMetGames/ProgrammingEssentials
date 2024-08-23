@@ -27,7 +27,7 @@ layout: default
     </style>
 <h1>Quick Reference: Loops</h1>
 
-This is the quick reference page for loops, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/loops">Loops chapter</a>.
+This is the quick reference page for loops, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/Loops">Loops chapter</a>.
 
 <h2>Take Away Info</h2>
 <ul>
