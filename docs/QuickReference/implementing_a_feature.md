@@ -29,6 +29,17 @@ layout: default
 
 This is the quick reference page for implementing a feature, if you're unsure how to apply the content here, make sure to re-cover the <a href="../Lessons/implementing_a_feature">Implementing a Feature chapter</a>.
 
+<h2>Take Away Info</h2>
+<ul>
+<li>Solving problems is the most important skill you'll need to develop as a programmer.</li>
+<li>To implement a feature, treat it as a problem that needs to be broken down.</li>
+<li>To break down a problem, you first need to outline exactly what the problem is.</li>
+<li>You can then break down the outline itself, into smaller and smaller pieces.</li>
+<li>Eventually you'll be able to see a direct translation between each part and code.</li>
+</ul>
+
+
+<br>
 <h2>Chapter 11: Implementing a Feature - Videos</h2>
 For more information, click on the name of a video to see it in context.
 <br>
