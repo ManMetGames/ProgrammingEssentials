@@ -151,7 +151,7 @@ The setup method will be called automatically by Processing, at the very start o
 Methods like `draw` and `setup` are special cases, where Processing will actively call them for us, but that doesn’t mean we can’t create methods of our own. We could, for example, bundle up all of the code related to drawing the snake in our snake game, and have only a single line of code in the draw method to handle this.<br>
 
 
-Back in your snake project, bundle up the setup lines of code into a setup method, and the drawing code into a draw method. Your code should look something like this:
+**Back in your snake project**, bundle up the setup lines of code into a setup method, and the drawing code into a draw method. Your code should look something like this:
 
 {% highlight java %}
 int size = 40;
@@ -320,6 +320,11 @@ We've already covered the content in this video, but feel free to watch through 
 <br>
 <h2>Summary</h2>
 Methods are useful for when we want to bundle code together, so that we can run it from elsewhere in our program! You should now be ready to move on to Chapter 4! Make sure to refer back to the <a href="../QuickReference/methods">quick reference for this chapter here</a>, and feel free to explore some questions if you'd like to learn more, in the Explore section below!
+
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter3_Methods.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
 
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be get creative!

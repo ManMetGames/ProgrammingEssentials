@@ -49,8 +49,6 @@ size(200,300);
 
 //draw background
 background(0);
-
-println(10);
 {% endhighlight %}
 This should create a canvas a little larger than you had before, with a black background.
 <br>
@@ -320,8 +318,9 @@ And that's us started! You should now be ready to move on to Chapter 2! Make sur
 
 If you need more help, or would like to explore further, make sure to follow the links below too!
 
+<br>
 <h2>Project Files</h2>
-To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter1_Getting_Started.zip" target="_blank">click here</a>.
+To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter1_Getting_Started.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
 <br>
 
 <h2>Extension Task</h2>

@@ -276,6 +276,10 @@ for(int i = 1; i <= 3; i=i+1){<br>
 <h2>Summary</h2>
 This chapter covers the use of three different types of loops. Make sure to go back over the chapter if you're unsure at all on how to implement any of the content we've covered.
 
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter7_Loops.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
 
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be get creative!

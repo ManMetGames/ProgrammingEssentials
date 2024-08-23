@@ -202,6 +202,11 @@ Before you move on, let's have a quick check that you've got everything so far!
 This chapter covers the use of ArrayLists. Make sure to go back over the chapter if you're unsure at all on how to implement any of the content we've covered.
 
 
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter8_ArrayLists.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
+
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be get creative!
 <blockquote>

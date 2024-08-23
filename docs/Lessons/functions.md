@@ -257,6 +257,10 @@ Before you move on, let's have a quick check that you've got everything so far!
 <h2>Summary</h2>
 In this chapter, we covered the use of methods that return a value to repeat complex calculations without repeating code.
 
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter9_Functions.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
 
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be give these a go!

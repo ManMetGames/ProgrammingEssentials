@@ -127,6 +127,10 @@ Breaking down problems into code is a clear example of a skill related to coding
 
 In the next chapter, we'll be looking at what to do when things go wrong!
 
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter11_Implementing_A_Feature.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
 
 <br>
 <h2>Extension Task</h2>

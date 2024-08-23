@@ -408,6 +408,10 @@ We've already covered the content in this video, but feel free to watch through 
 <h2>Summary</h2>
 This chapter covers the start of using classes in object-oriented programming. This is a really common place for people to become less confident with their programming skills, but it’s vital for all of the cool stuff you’ll be doing in the coming chapters, so make sure you really understand what we’ve covered before moving on!
 
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter4_Classes.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
 
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be get creative!

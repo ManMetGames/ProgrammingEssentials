@@ -233,6 +233,11 @@ Let's add some variables to the Snake project!
 <h2>Summary</h2>
 And that's variables! You should now be ready to move on to Chapter 3! Make sure to refer back to the <a href="../QuickReference/variables_and_data_types">quick reference for this chapter here</a>, and feel free to explore some questions if you'd like to learn more, in the Explore section below!
 
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter2_Variables.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
+
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be get creative!
 <blockquote>Make the apple look how you'd like it to!<br>

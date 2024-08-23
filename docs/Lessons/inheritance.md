@@ -187,6 +187,10 @@ We're now done with the Snake game! There are more things we could change, so fe
 
 If you're unsure where to get started adding new features, or how to get back on track when there's errors in your code, make sure to continue on to chapters 11 and 12!
 
+<br>
+<h2>Project Files</h2>
+To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter10_Inheritance.zip" target="_blank">click here</a>. Make sure to extract the files from the zip before trying to open them!
+<br>
 
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be get creative!
