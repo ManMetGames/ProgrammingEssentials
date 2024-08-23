@@ -51,7 +51,7 @@ This is when you are using a method or function, and you're passing in the wrong
 <h3>Null Reference Exception</h3>
 Null is the empty value for class object variables. If you see this error, you're trying to do something like running a method on an object, but the object doesn't exist. Check through your code to make sure that you're creating the object properly.
 
-<h3>Class Not Found</h3>
+<h3>Class Does Not Exist</h3>
 This is when you've mistyped a class name!
 
 <h3>Function Does Not Exist</h3>

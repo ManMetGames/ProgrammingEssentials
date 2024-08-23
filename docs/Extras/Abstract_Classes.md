@@ -71,7 +71,7 @@ abstract void Move(){
 This will give us an error, because the Spider class isn't overriding the Move method!
 
 <h3>Task</h3>
-<blockquote>Override the Move method in the Spider class, so that it prints out "a spider crawls on the walls"</blockquote><br>
+<blockquote>Override the Move method in the Spider class, so that it prints out "a spider climbs the walls"</blockquote><br>
 
 The program should now run happily!
 

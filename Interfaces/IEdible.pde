@@ -1,3 +1,0 @@
-interface IEdible{
-  void BeEaten();
-}

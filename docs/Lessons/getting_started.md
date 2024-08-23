@@ -320,6 +320,10 @@ And that's us started! You should now be ready to move on to Chapter 2! Make sur
 
 If you need more help, or would like to explore further, make sure to follow the links below too!
 
+<h2>Project Files</h2>
+To download the completed project files for this chapter, <a href="{{ site.baseurl }}/ProcessingFiles/Chapter1_Getting_Started.zip" target="_blank">click here</a>.
+<br>
+
 <h2>Extension Task</h2>
 You don't need to complete this to move on, but feel free to be get creative!
 <blockquote>If you haven't already, change the colour of the background, snake and apple using the <a href="https://processing.org/reference/background_.html" target="_blank">background</a> and <a href="https://processing.org/reference/fill_.html" target="_blank">fill</a> commands. Feel free to also remove the "noStroke" command, and change the outline colour of the snake and apple using the <a href="https://processing.org/reference/stroke_.html" target="_blank">stroke</a> command, which works in the same way as fill!</blockquote>
