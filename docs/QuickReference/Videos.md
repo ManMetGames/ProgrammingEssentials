@@ -1094,5 +1094,80 @@ For more information, click on the name of a video to see it in context.
 	</div>
 </div>
 <br>
+
+
+<br>
+<h2>Extras</h2>
+For more information, click on the name of a video to see it in context.
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}/Videos/SwitchStatements.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Extras/Switch_Statements_and_Enums">Switch Statements</a></h3>
+		<ul>
+            <li>When to use switch statements</li>
+            <li>Switch cases</li>
+            <li>The break keyword</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}/Videos/Enums.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Extras/Switch_Statements_and_Enums">Enums</a></h3>
+		<ul>
+            <li>Creating an Enum</li>
+            <li>Using an Enum</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}/Videos/Abstraction.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Extras/Abstract_Classes">Abstract Classes</a></h3>
+		<ul>
+            <li>Abstract classes</li>
+            <li>Abstract methods</li>
+		</ul>
+	</div>
+</div>
+<br>
+<div class="vid-container">
+	<div class="vid-video">
+		<video width="100%" controls>
+			<source src="{{ site.baseurl }}/Videos/Interfaces.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="vid-content">
+		<h3><a href="{{ site.baseurl }}Extras/Inheritance">Interfaces</a></h3>
+		<ul>
+            <li>Implements keyword</li>
+		</ul>
+	</div>
+</div>
+<br>
+
+
+
+
+
 <br>
 <br>
