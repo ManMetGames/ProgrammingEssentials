@@ -216,7 +216,7 @@ In this video we'll be completing the above tasks to make use of an array in the
 Before you move on, let's have a quick check that you've got everything so far!
 <div class="question1container" data-correct-answer="C">
     <h3>The last element in an array called numberList is numberList[9], how many elements are there in the list?</h3>
-    <form id="quizForm">
+    <form id="quizForm1">
         <input type="radio" id="option1" name="answer" value="A" data-feedback="This isn't quite right, we can figure out how big the size of the array is because we know that the last element is numberList[9].">
         <label for="option1">It's impossible to know</label><br>
         <input type="radio" id="option2" name="answer" value="B" data-feedback="This isn't quite right! Don't forget, arrays start at 0, so element 9 isn't actually the 9th element!">
@@ -231,7 +231,7 @@ Before you move on, let's have a quick check that you've got everything so far!
 
 <div class="question2container" data-correct-answer="A">
     <h3>Which line of code would correctly create an array of boolean variables, with a size of 20?</h3>
-    <form id="quizForm">
+    <form id="quizForm2">
         <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct, this line both declares and initialises the array correctly using square brackets in the correct places!">
         <label for="option1">boolean[] list = new boolean[20];</label><br>
         <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, the array declaration is missing square brackets, and the initialisation is using round brackets instead of square brackets!">
@@ -246,7 +246,7 @@ Before you move on, let's have a quick check that you've got everything so far!
 
 <div class="question3container" data-correct-answer="D">
     <h3>A program has a class called Ball. Three ball objects are stored in an array called ballList. Each ball has an x and y variable. Which of the following lines of code would not give an error?</h3>
-    <form id="quizForm">
+    <form id="quizForm3">
         <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, ballList only has three elements and ballList[3] would be the fourth element!">
         <label for="option1">ball[3].x = 100;</label><br>
         <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, when accessing an array we use square brackets!">
