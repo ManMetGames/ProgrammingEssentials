@@ -169,14 +169,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question2container" data-correct-answer="D">
     <h3>Which of the following is true about Arrays, but false about ArrayLists?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, both Arrays and ArrayLists can store objects!">
-        <label for="option1">They can store objects.</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, both Arrays and ArrayLists can be iterated through using an enhanced for loop!">
-        <label for="option2">They can be iterated through using an enhanced for loop.</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, both Arrays and ArrayLists allow element access using an element number, using square brackets for Arrays, and .get for ArrayLists!">
-        <label for="option3">They allow elements to be accessed via an element number.</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct! The size of an Array cannot be changed without recreating it completely, whereas ArrayLists allow you to add and remove elements freely!">
-        <label for="option4">Their size cannot be increased/decreased freely.</label><br><br>
+        <input type="radio" id="option21" name="answer" value="A" data-feedback="That's not quite right, both Arrays and ArrayLists can store objects!">
+        <label for="option21">They can store objects.</label><br>
+        <input type="radio" id="option22" name="answer" value="B" data-feedback="That's not quite right, both Arrays and ArrayLists can be iterated through using an enhanced for loop!">
+        <label for="option22">They can be iterated through using an enhanced for loop.</label><br>
+        <input type="radio" id="option23" name="answer" value="C" data-feedback="That's not quite right, both Arrays and ArrayLists allow element access using an element number, using square brackets for Arrays, and .get for ArrayLists!">
+        <label for="option23">They allow elements to be accessed via an element number.</label><br>
+        <input type="radio" id="option24" name="answer" value="D" data-feedback="That's correct! The size of an Array cannot be changed without recreating it completely, whereas ArrayLists allow you to add and remove elements freely!">
+        <label for="option24">Their size cannot be increased/decreased freely.</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
@@ -184,14 +184,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question3container" data-correct-answer="C">
     <h3>Which of the following lines of code correctly creates an ArrayList of type Ball?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, we need to tell the ArrayList what type of object it will store using angle brackets!">
-        <label for="option1">ArrayList ballList = new ArrayList();</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, we need to tell the ArrayList what type of object it will store using angle brackets!">
-        <label for="option2">ArrayList(Ball) ballList = new ArrayList(Ball);</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! This line of code correctly creates an ArrayList of Ball objects!">
-        <label for="option3">ArrayList&lt;Ball> ballList = new ArrayList&lt;Ball>();</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, the variable initialisation is using the format used to create Arrays!">
-        <label for="option4">ArrayList&lt;Ball> ballList = new Ball[3];</label><br><br>
+        <input type="radio" id="option31" name="answer" value="A" data-feedback="That's not quite right, we need to tell the ArrayList what type of object it will store using angle brackets!">
+        <label for="option31">ArrayList ballList = new ArrayList();</label><br>
+        <input type="radio" id="option32" name="answer" value="B" data-feedback="That's not quite right, we need to tell the ArrayList what type of object it will store using angle brackets!">
+        <label for="option32">ArrayList(Ball) ballList = new ArrayList(Ball);</label><br>
+        <input type="radio" id="option33" name="answer" value="C" data-feedback="That's correct! This line of code correctly creates an ArrayList of Ball objects!">
+        <label for="option33">ArrayList&lt;Ball> ballList = new ArrayList&lt;Ball>();</label><br>
+        <input type="radio" id="option34" name="answer" value="D" data-feedback="That's not quite right, the variable initialisation is using the format used to create Arrays!">
+        <label for="option34">ArrayList&lt;Ball> ballList = new Ball[3];</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>

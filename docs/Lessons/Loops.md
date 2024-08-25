@@ -237,14 +237,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question2container" data-correct-answer="B">
     <h3>Which of these for loops is formatted correctly to run 100 times?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, the variable i isn't initialised as it's missing the int type!">
-        <label for="option1">for(i = 0; i<100; i=i+1){ //code }</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! This for loop is formatted correctly!">
-        <label for="option2">for(int i = 0; i<100; i=i+1){ //code }</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this loop would run 101 times, because it starts at 0, and runs up to and including 100, because the loop condition uses <= instead of just <!">
-        <label for="option3">for(int i = 0; i<=100; i=i+1){ //code }</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right! The for loop only needs a semicolon between its three sections, not including the end!">
-        <label for="option4">for(int i = 0; i<100; i=i+1;){ //code }</label><br><br>
+        <input type="radio" id="option21" name="answer" value="A" data-feedback="That's not quite right, the variable i isn't initialised as it's missing the int type!">
+        <label for="option21">for(i = 0; i<100; i=i+1){ //code }</label><br>
+        <input type="radio" id="option22" name="answer" value="B" data-feedback="That's correct! This for loop is formatted correctly!">
+        <label for="option22">for(int i = 0; i<100; i=i+1){ //code }</label><br>
+        <input type="radio" id="option23" name="answer" value="C" data-feedback="That's not quite right, this loop would run 101 times, because it starts at 0, and runs up to and including 100, because the loop condition uses <= instead of just <!">
+        <label for="option23">for(int i = 0; i<=100; i=i+1){ //code }</label><br>
+        <input type="radio" id="option24" name="answer" value="D" data-feedback="That's not quite right! The for loop only needs a semicolon between its three sections, not including the end!">
+        <label for="option24">for(int i = 0; i<100; i=i+1;){ //code }</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
@@ -259,14 +259,14 @@ for(int i = 1; i <= 3; i=i+1){<br>
 }
 </blockquote>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, feel free to try out the code in Processing, and print out the value of sum at the end!">
-        <label for="option1">0</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, feel free to try out the code in Processing, and print out the value of sum at the end!">
-        <label for="option2">3</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! The loop runs three times, and after each adds the value of i to sum, forming 0+1+2+3, which is 6!">
-        <label for="option3">6</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, feel free to try out the code in Processing, and print out the value of sum at the end!">
-        <label for="option4">10</label><br><br>
+        <input type="radio" id="option31" name="answer" value="A" data-feedback="That's not quite right, feel free to try out the code in Processing, and print out the value of sum at the end!">
+        <label for="option31">0</label><br>
+        <input type="radio" id="option32" name="answer" value="B" data-feedback="That's not quite right, feel free to try out the code in Processing, and print out the value of sum at the end!">
+        <label for="option32">3</label><br>
+        <input type="radio" id="option33" name="answer" value="C" data-feedback="That's correct! The loop runs three times, and after each adds the value of i to sum, forming 0+1+2+3, which is 6!">
+        <label for="option33">6</label><br>
+        <input type="radio" id="option34" name="answer" value="D" data-feedback="That's not quite right, feel free to try out the code in Processing, and print out the value of sum at the end!">
+        <label for="option34">10</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>

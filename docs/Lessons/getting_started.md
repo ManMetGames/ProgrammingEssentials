@@ -259,13 +259,13 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question2container" data-correct-answer="A">
     <h3>How would you write a single line comment in Java?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! A double forward slash at any point will turn the rest of the line into a comment that won't be run as code.">
-        <label for="option1">//Like this</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="Technically this would work, but it's not quite right, as you don't need to use four forward slashes!">
-        <label for="option2">////Like this</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="Technically this would work, but that's because wrapping text in /* */ is the format for a multi-line comment!">
-        <label for="option3">/*Like this*/</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="Technically this would work, but it's not quite right, as you don't need to close your comment with forward slashes!">
+        <input type="radio" id="option11" name="answer" value="A" data-feedback="That's correct! A double forward slash at any point will turn the rest of the line into a comment that won't be run as code.">
+        <label for="option11">//Like this</label><br>
+        <input type="radio" id="option12" name="answer" value="B" data-feedback="Technically this would work, but it's not quite right, as you don't need to use four forward slashes!">
+        <label for="option12">////Like this</label><br>
+        <input type="radio" id="option33" name="answer" value="C" data-feedback="Technically this would work, but that's because wrapping text in /* */ is the format for a multi-line comment!">
+        <label for="option13">/*Like this*/</label><br>
+        <input type="radio" id="option14" name="answer" value="D" data-feedback="Technically this would work, but it's not quite right, as you don't need to close your comment with forward slashes!">
         <label for="option4">//Like this//</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
@@ -274,14 +274,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question3container" data-correct-answer="B">
     <h3>What are round brackets (like these) generally used for when programming?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, although adding additional information in the same way that you do in writing is quite close!">
-        <label for="option1">Referencing the author</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! Round brackets are generally used to pass information into a method (or similar!).">
-        <label for="option2">Passing information</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, whilst we did use the size method, which did have round brackets, theyre used in many more places than that!">
-        <label for="option3">Setting the size of the canvas</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, we've not covered getting information from elsewhere yet!">
-        <label for="option4">Getting information</label><br><br>
+        <input type="radio" id="option21" name="answer" value="A" data-feedback="That's not quite right, although adding additional information in the same way that you do in writing is quite close!">
+        <label for="option21">Referencing the author</label><br>
+        <input type="radio" id="option22" name="answer" value="B" data-feedback="That's correct! Round brackets are generally used to pass information into a method (or similar!).">
+        <label for="option22">Passing information</label><br>
+        <input type="radio" id="option23" name="answer" value="C" data-feedback="That's not quite right, whilst we did use the size method, which did have round brackets, theyre used in many more places than that!">
+        <label for="option23">Setting the size of the canvas</label><br>
+        <input type="radio" id="option24" name="answer" value="D" data-feedback="That's not quite right, we've not covered getting information from elsewhere yet!">
+        <label for="option24">Getting information</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
@@ -289,14 +289,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question4container" data-correct-answer="A">
     <h3>Which of the following lines of code would print the word `apple` to the console?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! We've wrapped the word in quotation marks and printed it using the println method call correctly!">
-        <label for="option1">println("apple");</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, this line of code has misspelled the println command, swapping the L for an I!">
-        <label for="option2">printIn("apple");</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this line of code has wrapped the word apple inside apostrophes!">
-        <label for="option3">println('apple');</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, this line of code has misspelled the println command, swapping the L for the number 1!">
-        <label for="option4">print1n("apple");</label><br><br>
+        <input type="radio" id="option31" name="answer" value="A" data-feedback="That's correct! We've wrapped the word in quotation marks and printed it using the println method call correctly!">
+        <label for="option31">println("apple");</label><br>
+        <input type="radio" id="option32" name="answer" value="B" data-feedback="That's not quite right, this line of code has misspelled the println command, swapping the L for an I!">
+        <label for="option32">printIn("apple");</label><br>
+        <input type="radio" id="option33" name="answer" value="C" data-feedback="That's not quite right, this line of code has wrapped the word apple inside apostrophes!">
+        <label for="option33">println('apple');</label><br>
+        <input type="radio" id="option34" name="answer" value="D" data-feedback="That's not quite right, this line of code has misspelled the println command, swapping the L for the number 1!">
+        <label for="option34">print1n("apple");</label><br><br>
         <button type="button" onclick="checkAnswer('.question4container')">Submit</button><p id="result" class="result"></p>
     </form>
 </div>

@@ -225,14 +225,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question1container" data-correct-answer="A">
     <h3>Which of the following correctly declares a method called Test, that returns 0?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! The return type and value are both integers!">
-        <label for="option1">int Test(){ return 0; }</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, the function name and return type are the wrong way round!">
-        <label for="option2">Test int(){ return 0; }</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, we don't need two return types! int is correct, but we don't need void!">
-        <label for="option3">void int Test(){ return 0; }</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, when returning from a function we need to include a value, which in this case should be 0!">
-        <label for="option4">int Test(){ return; }</label><br><br>
+        <input type="radio" id="option21" name="answer" value="A" data-feedback="That's correct! The return type and value are both integers!">
+        <label for="option21">int Test(){ return 0; }</label><br>
+        <input type="radio" id="option22" name="answer" value="B" data-feedback="That's not quite right, the function name and return type are the wrong way round!">
+        <label for="option22">Test int(){ return 0; }</label><br>
+        <input type="radio" id="option23" name="answer" value="C" data-feedback="That's not quite right, we don't need two return types! int is correct, but we don't need void!">
+        <label for="option23">void int Test(){ return 0; }</label><br>
+        <input type="radio" id="option24" name="answer" value="D" data-feedback="That's not quite right, when returning from a function we need to include a value, which in this case should be 0!">
+        <label for="option24">int Test(){ return; }</label><br><br>
         <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
     </form>
 </div>
@@ -240,14 +240,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question2container" data-correct-answer="B">
     <h3>What return type is used for functions that do not return a value? (a method!)</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this would be the return type for an integer variable!">
-        <label for="option1">int</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! Void is used when we don't want to return information from a method!">
-        <label for="option2">void</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this would be the return type for a boolean variable!">
-        <label for="option3">boolean</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, none isn't a variable type!">
-        <label for="option4">none</label><br><br>
+        <input type="radio" id="option31" name="answer" value="A" data-feedback="That's not quite right, this would be the return type for an integer variable!">
+        <label for="option31">int</label><br>
+        <input type="radio" id="option32" name="answer" value="B" data-feedback="That's correct! Void is used when we don't want to return information from a method!">
+        <label for="option32">void</label><br>
+        <input type="radio" id="option33" name="answer" value="C" data-feedback="That's not quite right, this would be the return type for a boolean variable!">
+        <label for="option33">boolean</label><br>
+        <input type="radio" id="option34" name="answer" value="D" data-feedback="That's not quite right, none isn't a variable type!">
+        <label for="option34">none</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>

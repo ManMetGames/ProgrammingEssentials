@@ -393,14 +393,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question2container" data-correct-answer="B">
     <h3>Which of the following lines of code would test if both variables A and B were false?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, whilst testing if B is equal to false is good, we can't test both A and B together like this! This would instead check if A was true and B was false.">
-        <label for="option1">if( A && B == false ){</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! We are quite literally checking if A is not true, and if B is not true. We could also have written if(! (A || B) ) to test if A or B were true, and inverted it with the NOT!">
-        <label for="option2">if( !A && !B ){</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this would test if A and B are both true, and then inverted this using the NOT. Which would return true in cases where one of A and B are true but not both, which isn't what we want!">
-        <label for="option3">if( !( A && B ) ){</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right! It's definitely possible to write the same condition in multiple ways, but the above answers aren't quite logically the same!">
-        <label for="option4">All of the above</label><br><br>
+        <input type="radio" id="option21" name="answer" value="A" data-feedback="That's not quite right, whilst testing if B is equal to false is good, we can't test both A and B together like this! This would instead check if A was true and B was false.">
+        <label for="option21">if( A && B == false ){</label><br>
+        <input type="radio" id="option22" name="answer" value="B" data-feedback="That's correct! We are quite literally checking if A is not true, and if B is not true. We could also have written if(! (A || B) ) to test if A or B were true, and inverted it with the NOT!">
+        <label for="option22">if( !A && !B ){</label><br>
+        <input type="radio" id="option23" name="answer" value="C" data-feedback="That's not quite right, this would test if A and B are both true, and then inverted this using the NOT. Which would return true in cases where one of A and B are true but not both, which isn't what we want!">
+        <label for="option23">if( !( A && B ) ){</label><br>
+        <input type="radio" id="option24" name="answer" value="D" data-feedback="That's not quite right! It's definitely possible to write the same condition in multiple ways, but the above answers aren't quite logically the same!">
+        <label for="option24">All of the above</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
@@ -408,14 +408,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question3container" data-correct-answer="D">
     <h3>Which of the following statements is correct?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! Although isn't the only correct answer!">
-        <label for="option1">You can follow an if statement with as many else if statements as you'd like</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! Although isn't the only correct answer!">
-        <label for="option2">You can only have one else statement following an if statement, without starting a new if statement</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! Although isn't the only correct answer!">
-        <label for="option3">An else if statement will not run if the previous condition was met, even if its condition would be true</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's correct! All of the above statements are true of if statements!">
-        <label for="option4">All of the above</label><br><br>
+        <input type="radio" id="option31" name="answer" value="A" data-feedback="That's correct! Although isn't the only correct answer!">
+        <label for="option31">You can follow an if statement with as many else if statements as you'd like</label><br>
+        <input type="radio" id="option32" name="answer" value="B" data-feedback="That's correct! Although isn't the only correct answer!">
+        <label for="option32">You can only have one else statement following an if statement, without starting a new if statement</label><br>
+        <input type="radio" id="option33" name="answer" value="C" data-feedback="That's correct! Although isn't the only correct answer!">
+        <label for="option33">An else if statement will not run if the previous condition was met, even if its condition would be true</label><br>
+        <input type="radio" id="option34" name="answer" value="D" data-feedback="That's correct! All of the above statements are true of if statements!">
+        <label for="option34">All of the above</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>

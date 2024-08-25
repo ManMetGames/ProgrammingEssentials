@@ -153,14 +153,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question2container" data-correct-answer="B">
     <h3>Which of the following is true?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, a class can be extended from as many times as you'd like!">
-        <label for="option1">Classes can only be extended by one other class.</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! All classes in Java already extend from the Object class! This means all class objects can access methods such as toString, or can be stored in a list of Object variables!">
-        <label for="option2">All classes in Java already extend from the Object class.</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, objects of a child class can be stored in variables of a class type that they extend from! This is polymorphism!">
-        <label for="option3">Objects of a child class can only be stored in variables of that child class.</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, a child class can have methods with the same name as its parent class so that it can override the functionality of the parent class.">
-        <label for="option4">A child class cannot have methods with the same names as methods in the parent class.</label><br><br>
+        <input type="radio" id="option21" name="answer" value="A" data-feedback="That's not quite right, a class can be extended from as many times as you'd like!">
+        <label for="option21">Classes can only be extended by one other class.</label><br>
+        <input type="radio" id="option22" name="answer" value="B" data-feedback="That's correct! All classes in Java already extend from the Object class! This means all class objects can access methods such as toString, or can be stored in a list of Object variables!">
+        <label for="option22">All classes in Java already extend from the Object class.</label><br>
+        <input type="radio" id="option23" name="answer" value="C" data-feedback="That's not quite right, objects of a child class can be stored in variables of a class type that they extend from! This is polymorphism!">
+        <label for="option23">Objects of a child class can only be stored in variables of that child class.</label><br>
+        <input type="radio" id="option24" name="answer" value="D" data-feedback="That's not quite right, a child class can have methods with the same name as its parent class so that it can override the functionality of the parent class.">
+        <label for="option24">A child class cannot have methods with the same names as methods in the parent class.</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
@@ -168,14 +168,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question3container" data-correct-answer="A">
     <h3>What is the correct way to call a parent class constructor method?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! This would correctly call the parent class constructor, make sure to only do this in the child class constructor!">
-        <label for="option1">super();</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, this would call a method called setup from the parent class if it existed!">
-        <label for="option2">super.setup();</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this would call a method called constructor from the parent class if it existed!">
-        <label for="option3">super.constructor();</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, whilst we refer to it as a parent class, the way to access the parent class is with the keyword super!">
-        <label for="option4">parent();</label><br><br>
+        <input type="radio" id="option31" name="answer" value="A" data-feedback="That's correct! This would correctly call the parent class constructor, make sure to only do this in the child class constructor!">
+        <label for="option31">super();</label><br>
+        <input type="radio" id="option32" name="answer" value="B" data-feedback="That's not quite right, this would call a method called setup from the parent class if it existed!">
+        <label for="option32">super.setup();</label><br>
+        <input type="radio" id="option33" name="answer" value="C" data-feedback="That's not quite right, this would call a method called constructor from the parent class if it existed!">
+        <label for="option33">super.constructor();</label><br>
+        <input type="radio" id="option34" name="answer" value="D" data-feedback="That's not quite right, whilst we refer to it as a parent class, the way to access the parent class is with the keyword super!">
+        <label for="option34">parent();</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>

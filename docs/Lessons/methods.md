@@ -286,14 +286,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question2container" data-correct-answer="C">
     <h3>Which format is correct for declaring an empty method?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this line of code doesn't declare what return type the method will have!">
-        <label for="option1">NAME(){}</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, methods need round brackets so that they can take in informations!">
-        <label for="option2">TYPE NAME{}</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! Method declarations need a return type, name, round brackets to take in information, and curly brackets defining the scope for the code the method should run.">
-        <label for="option3">TYPE NAME(){}</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, whilst method declarations do need round brackets so that they can take in information, the second pair of brackets should be curly brackets, to define the scope of the code that the method will run.">
-        <label for="option4">TYPE NAME()()</label><br><br>
+        <input type="radio" id="option21" name="answer" value="A" data-feedback="That's not quite right, this line of code doesn't declare what return type the method will have!">
+        <label for="option21">NAME(){}</label><br>
+        <input type="radio" id="option22" name="answer" value="B" data-feedback="That's not quite right, methods need round brackets so that they can take in informations!">
+        <label for="option22">TYPE NAME{}</label><br>
+        <input type="radio" id="option23" name="answer" value="C" data-feedback="That's correct! Method declarations need a return type, name, round brackets to take in information, and curly brackets defining the scope for the code the method should run.">
+        <label for="option23">TYPE NAME(){}</label><br>
+        <input type="radio" id="option24" name="answer" value="D" data-feedback="That's not quite right, whilst method declarations do need round brackets so that they can take in information, the second pair of brackets should be curly brackets, to define the scope of the code that the method will run.">
+        <label for="option24">TYPE NAME()()</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
@@ -301,14 +301,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question3container" data-correct-answer="C">
     <h3>Which line of code correctly starts to declares a new method, called "PrintVersion", and doesn't return a value?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, the return type in the declaration should match the type name exactly, and in this case, void should be spelled with a lower-case V.">
-        <label for="option1">Void PrintVersion(){</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, the format of this line of code is good, but this method would need to return an integer variable, which we haven't covered yet!">
-        <label for="option2">int PrintVersion(){</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's correct! This line of code would be correct for the first line of a declaration for a method called PrintVersion, which doesn't return a value.">
-        <label for="option3">void PrintVersion(){</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, this line of code is missing the round brackets that methods need (even if they don't take in information!)">
-        <label for="option4">void PrintVersion{</label><br><br>
+        <input type="radio" id="option31" name="answer" value="A" data-feedback="That's not quite right, the return type in the declaration should match the type name exactly, and in this case, void should be spelled with a lower-case V.">
+        <label for="option31">Void PrintVersion(){</label><br>
+        <input type="radio" id="option32" name="answer" value="B" data-feedback="That's not quite right, the format of this line of code is good, but this method would need to return an integer variable, which we haven't covered yet!">
+        <label for="option32">int PrintVersion(){</label><br>
+        <input type="radio" id="option33" name="answer" value="C" data-feedback="That's correct! This line of code would be correct for the first line of a declaration for a method called PrintVersion, which doesn't return a value.">
+        <label for="option33">void PrintVersion(){</label><br>
+        <input type="radio" id="option34" name="answer" value="D" data-feedback="That's not quite right, this line of code is missing the round brackets that methods need (even if they don't take in information!)">
+        <label for="option34">void PrintVersion{</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>

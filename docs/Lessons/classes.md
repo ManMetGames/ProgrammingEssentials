@@ -367,14 +367,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question2container" data-correct-answer="B">
     <h3>Which of these lines of code would correctly create an empty class called "GameManager"?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, whilst a class definition can include methods to be run, the class itself doesn't run, so it doesn't need the round brackets for passing in information at this point!">
-        <label for="option1">class GameManager(){ }</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's correct! The class name is used with curly brackets to define the scope of the included variables and methods.">
-        <label for="option2">class GameManager{ }</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this is the part of the line of code that would create a new GameManager object, although this isn't being assigned to a variable, so it would be discarded.">
-        <label for="option3">new GameManager();</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, this is the line of code you would write to declare a new space in memory for a GameManager object, without initialising one.">
-        <label for="option4">GameManager gameManager;</label><br><br>
+        <input type="radio" id="option21" name="answer" value="A" data-feedback="That's not quite right, whilst a class definition can include methods to be run, the class itself doesn't run, so it doesn't need the round brackets for passing in information at this point!">
+        <label for="option21">class GameManager(){ }</label><br>
+        <input type="radio" id="option22" name="answer" value="B" data-feedback="That's correct! The class name is used with curly brackets to define the scope of the included variables and methods.">
+        <label for="option22">class GameManager{ }</label><br>
+        <input type="radio" id="option23" name="answer" value="C" data-feedback="That's not quite right, this is the part of the line of code that would create a new GameManager object, although this isn't being assigned to a variable, so it would be discarded.">
+        <label for="option23">new GameManager();</label><br>
+        <input type="radio" id="option24" name="answer" value="D" data-feedback="That's not quite right, this is the line of code you would write to declare a new space in memory for a GameManager object, without initialising one.">
+        <label for="option24">GameManager gameManager;</label><br><br>
         <button type="button" onclick="checkAnswer('.question2container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
@@ -382,14 +382,14 @@ Before you move on, let's have a quick check that you've got everything so far!
 <div class="question3container" data-correct-answer="A">
     <h3>Which line of code would create an empty constructor for a class called Animal?</h3>
     <form id="quizForm">
-        <input type="radio" id="option1" name="answer" value="A" data-feedback="That's correct! The constructor is a method that uses the class name as the return type, and doesn't include a custom name.">
-        <label for="option1">Animal(){ }</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, like other methods, a constructor defines scope for code that should be run, but the definition itself doesn't run like the lines inside it, so it doesn't need a semicolon at the end!">
-        <label for="option2">Animal(){ };</label><br>
-        <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, like other methods, a constructor needs round brackets for passing in information should we choose to add that in.">
-        <label for="option3">Animal{ }</label><br>
-        <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, because this is the constructor, we don't need to give it a custom name.">
-        <label for="option4">Animal animal(){}</label><br><br>
+        <input type="radio" id="option31" name="answer" value="A" data-feedback="That's correct! The constructor is a method that uses the class name as the return type, and doesn't include a custom name.">
+        <label for="option31">Animal(){ }</label><br>
+        <input type="radio" id="option32" name="answer" value="B" data-feedback="That's not quite right, like other methods, a constructor defines scope for code that should be run, but the definition itself doesn't run like the lines inside it, so it doesn't need a semicolon at the end!">
+        <label for="option32">Animal(){ };</label><br>
+        <input type="radio" id="option33" name="answer" value="C" data-feedback="That's not quite right, like other methods, a constructor needs round brackets for passing in information should we choose to add that in.">
+        <label for="option33">Animal{ }</label><br>
+        <input type="radio" id="option34" name="answer" value="D" data-feedback="That's not quite right, because this is the constructor, we don't need to give it a custom name.">
+        <label for="option34">Animal animal(){}</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>
