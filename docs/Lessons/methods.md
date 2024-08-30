@@ -105,11 +105,15 @@ To learn more, take a look at the quick reference page on brackets <a href="../E
 
 <br>
 <h2  id="void_setup">void setup</h2>
-Up until now, Processing has allowed us to write code outside of methods, but now that we’re using the draw method, we need to put any code that isn’t just variable declarations inside methods. So, anything where we’d like to run once at the start of the program (such as the size command) we need to put inside another method that Processing will call us, called “setup”.
+Up until now, Processing has allowed us to write code outside of methods, but now that we’re using the draw method, 
+we need to put any code that isn’t just variable declarations inside methods. So, any code we’d like to run once at the 
+start of the program (such as the size command) we need to put inside another method that Processing will call for us, 
+called “setup”.
 <br>
 
 
-This also means that whenever we want to assign a value to a variable, past initialisation, it has to be inside a method.
+This also means that whenever we want to assign a value to a variable, after it's been initialised, it has to be 
+inside a method.
 <br>
 
 
@@ -131,7 +135,7 @@ The setup method will be called automatically by Processing, at the very start o
 <ul>
 <li>You may have noticed that we're now starting to write lines of code that don't have semicolons at the end. As a rule, semicolons are only needed at the end of lines that are instructions, as they terminate the line, and tell the computer to run the line of code. As method declarations are just setting up code to be run later, they themselves don't need semicolons, only the lines inside of them that contain instructions to be run later do!</li>
 
-<li>The order of your methods isn't actually important, as the flow of code we discussed in Chapter 1 is actually only important when we're inside a method. By convention however, it's best to have your variable declarations up at the top, followed by your methods.</li>
+<li>The order of your methods isn't actually important, as the flow of code we discussed in Chapter 1 is only important when we're inside a method. By convention however, it's best to have your variable declarations up at the top, followed by your methods.</li>
 </ul>
 <br>
 
@@ -185,7 +189,7 @@ void draw(){
 <ul>
 <li>Create a new method called DrawSnake that has a return type of void, this can be placed somewhere at the bottom of the code for now.</li>
 <li>Move the lines of code that draw the snake inside the curly brackets of the DrawSnake method.</li>
-<li>Where you moved the code from, we’ll need to call the DrawSnake method, which we can do as we did for all of the other method calls:</li>
+<li>Where you moved the code from, we’ll need to call the DrawSnake method, which we can do as we did for all the other method calls:</li>
 </ul>
 </blockquote>
 {% highlight java %}
@@ -288,7 +292,7 @@ Before you move on, let's have a quick check that you've got everything so far!
     <form id="quizForm">
         <input type="radio" id="option21" name="answer" value="A" data-feedback="That's not quite right, this line of code doesn't declare what return type the method will have!">
         <label for="option21">NAME(){}</label><br>
-        <input type="radio" id="option22" name="answer" value="B" data-feedback="That's not quite right, methods need round brackets so that they can take in informations!">
+        <input type="radio" id="option22" name="answer" value="B" data-feedback="That's not quite right, methods need round brackets so that they can take in information!">
         <label for="option22">TYPE NAME{}</label><br>
         <input type="radio" id="option23" name="answer" value="C" data-feedback="That's correct! Method declarations need a return type, name, round brackets to take in information, and curly brackets defining the scope for the code the method should run.">
         <label for="option23">TYPE NAME(){}</label><br>
@@ -299,7 +303,7 @@ Before you move on, let's have a quick check that you've got everything so far!
 </div>
 
 <div class="question3container" data-correct-answer="C">
-    <h3>Which line of code correctly starts to declares a new method, called "PrintVersion", and doesn't return a value?</h3>
+    <h3>Which line of code correctly declares a new method, called "PrintVersion", which doesn't return a value?</h3>
     <form id="quizForm">
         <input type="radio" id="option31" name="answer" value="A" data-feedback="That's not quite right, the return type in the declaration should match the type name exactly, and in this case, void should be spelled with a lower-case V.">
         <label for="option31">Void PrintVersion(){</label><br>

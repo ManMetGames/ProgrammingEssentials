@@ -15,7 +15,7 @@ To get started, you'll need to make sure you have Processing downloaded and runn
 <ul>
 <li>Download the latest version of Processing <a href="https://processing.org/download" target="_blank">here</a></li>
 <li>Unzip the file you downloaded, and place the folder somewhere safe!</li>
-<li>Look inside the folders for Processing.exe and double click it.</li>
+<li>Look inside the folder for Processing.exe and double click it.</li>
 </ul>
 
 <br>
@@ -54,17 +54,19 @@ This should create a canvas a little larger than you had before, with a black ba
 <br>
 Press the stop button back in Processing and the canvas should disappear.
 <br>
-The code above makes use of a few things that we'll make a lot of use of.
+The code above makes use of a few things that we'll make a lot of use of:
 <blockquote>
 //Comments - Using a double forward slash // on a line will allow you to write a comment from that point onwards. Comments won't be run as if they were code, and will mean you can look back at your code later and understand it more easily!
 </blockquote>
 <br>
 <blockquote>
-Semicolons; - Semicolons tell a line of code that it is complete. There will be times when we don't need them, but we can worry about that later, for now- make sure to end each line of code with a semicolon.
+Semicolons; - Semicolons tell a line of code that it is complete. There will be times when we don't need them, but 
+we can worry about that later. For now, make sure to end each line of code with a semicolon.
 </blockquote>
 <br>
 <blockquote>
-Method Calls() - size(200,300) and background(0), are examples of calls to methods. Methods are blocks of code that have been defined elswhere, and calling a method runs this code. The size and background methods are built into Processing.
+Method Calls() - size(200,300) and background(0), are examples of calls to methods. Methods are blocks of code that 
+have been defined elsewhere, and calling a method runs this code. The size and background methods are built into Processing.
 </blockquote>
 <br>
 
@@ -78,7 +80,7 @@ We'll come back to methods in Chapter 3, so don't worry too much about them for 
 <br>
 <h3>Quick Task</h3>
 <blockquote>
-Change the code, so that the size command uses 640 as the width, and 440 as the height. When you run the program, the canvas should be a fair bit bigger.
+Change the code so that the size command uses 640 as the width and 440 as the height. When you run the program, the canvas should be a fair bit bigger.
 </blockquote>
 
 <br>
@@ -100,7 +102,7 @@ The official Processing reference goes into much more detail on the methods buil
 <br>
 <h2><a href="../Extras/Brackets">( New Bracket Unlocked! )</a></h2>
 <blockquote>
-There are a lot of brackets used in programming, so each time we cover a new type, we'll make sure to understand what they actually mean. Our first bracket type is the round bracket. When you need to `pass information` into something, this is when you'll need round brackets (like this!). That's why when we wrote methods for setting the size and colour of the canvas in the previous example, we passed information into those methods, using round brackets!
+There are a lot of brackets used in programming, so each time we cover a new type, we'll make sure to understand what they actually mean. Our first bracket type is the round bracket. When you need to 'pass information' into something, this is when you'll need round brackets (like this!). That's why when we wrote methods for setting the size and colour of the canvas in the previous example, we passed information into those methods, using round brackets!
 </blockquote>
 
 <br>
@@ -174,9 +176,10 @@ fill(0, 255,0);
 rect(200,200,30,30);
 {% endhighlight %}
 
-The `fill` method takes three values, these are the `red`, `green` and `blue` values, or `RGB` values.
+The `fill` method takes three values. These are the `red`, `green` and `blue` values, or `RGB` values.
 
-Just like before, each colour value can be between 0 and 255, representing how strong each colour channel is. This means that when we enter 0 for red, 255 for green, and 0 for blue, we're telling the system that the fill colour should be all green, with no other colour.
+Just like before, each colour value can be between 0 and 255, representing how strong each colour channel is. This 
+means that when we enter 0 for red, 255 for green, and 0 for blue, we're telling the system that the fill colour should be all green, with no other colours.
 
 Have a play about with the colour picker at the link below to see how to create some different colours using RGB, or choose a new colour for your snake.
 <br>
@@ -247,7 +250,7 @@ Before you move on, let's have a quick check that you've got everything so far!
     <form id="quizForm">
         <input type="radio" id="option1" name="answer" value="A" data-feedback="That's not quite right, this line of code has got the width and height the wrong way round!">
         <label for="option1">size(300,500);</label><br>
-        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, this line of code doesn't only passes in one value!">
+        <input type="radio" id="option2" name="answer" value="B" data-feedback="That's not quite right, this line of code only passes in one value!">
         <label for="option2">size(300);</label><br>
         <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, this isn't how we tell a method to run.">
         <label for="option3">size = (500,300);</label><br>
@@ -278,7 +281,7 @@ Before you move on, let's have a quick check that you've got everything so far!
         <label for="option21">Referencing the author</label><br>
         <input type="radio" id="option22" name="answer" value="B" data-feedback="That's correct! Round brackets are generally used to pass information into a method (or similar!).">
         <label for="option22">Passing information</label><br>
-        <input type="radio" id="option23" name="answer" value="C" data-feedback="That's not quite right, whilst we did use the size method, which did have round brackets, theyre used in many more places than that!">
+        <input type="radio" id="option23" name="answer" value="C" data-feedback="That's not quite right, whilst we did use the size method, which did have round brackets, they're used in many more places than that!">
         <label for="option23">Setting the size of the canvas</label><br>
         <input type="radio" id="option24" name="answer" value="D" data-feedback="That's not quite right, we've not covered getting information from elsewhere yet!">
         <label for="option24">Getting information</label><br><br>

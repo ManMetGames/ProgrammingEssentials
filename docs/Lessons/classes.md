@@ -63,15 +63,18 @@ class Snake{
 }
 {% endhighlight %}
 
-This follows a structure of:
+This follows a structure of...
 <blockquote style="font-size:20px">
 class TYPE{<br>
   //class variables and methods here<br>
 }
 </blockquote>
-- where the type is the name of the class.
+... where the type is the name of the class.
 
-Again, we’re seeing the curly brackets be used to bundle code together in scope, in this case, to relate all of the code about our snake together. A class can't be run in the way that a method can, as it is a definition of a structure, rather than a list of instructions, which is why we don't need round brackets to pass in information. We can pass in information when we create an object of our class type, but we'll get to that later!
+Again, we’re seeing the curly brackets being used to bundle code together in a scope. In this case, to relate all 
+the code about our snake together. A class can't be run in the same way that a method can, as it is a definition of a 
+structure, rather than a list of instructions. This is why we don't need round brackets to pass in information. We 
+can pass in information when we create an object of our class type, but we'll get to that later!
 
 <h3>Task</h3>
 <blockquote>
@@ -236,7 +239,7 @@ You should then be able to adapt your code, to assign the values in startX and s
 
 When we create parameters for a method, they can be of any datatype, even other classes!
 
-All together, the Apple constructor should look like this:<br>
+Altogether, the Apple constructor should look like this:<br>
 {% highlight java %}
 Apple(int startX, int startY){
 	x = startX;
@@ -244,7 +247,9 @@ Apple(int startX, int startY){
 }
 {% endhighlight %}
 
-Creating the apple variable back in the main tab will now need you to enter values inside the round brackets, just like we did for background, size and rect. As we’re just passing in information, we don’t need to declare the variable’s type or name, just pass in the value to be used on the other side. At this point, let’s put the apple back where it was originally, this should look like this:<br>
+Creating the apple variable back in the main tab will now need you to enter values inside the round brackets, just 
+like we did for background, size and rect. As we’re just passing in information, we don’t need to declare the 
+variable’s type or name, just pass in the value to be used on the other side. At this point, let’s put the apple back where it was originally. This should look like this:<br>
 {% highlight java %}
 Apple apple = new Apple(400,200);
 {% endhighlight %}
@@ -285,7 +290,11 @@ Running your code multiple times should put different numbers between 0 and 100 
 
 <br>
 <h3>Casting</h3>
-You may have noticed that the numbers returned by the random function aren't whole numbers. This is a problem, as if we want to pass random numbers into the constructor for the apple, they need to be integers to match the constructor parameters. Thankfully, we can convert numbers with decimal numbers into integers, using a technique called "casting". To cast a number to an integer, we just need to put "(int)" in-front of it.
+You may have noticed that the numbers returned by the random function aren't whole numbers. This is a problem, as if 
+we want to pass random numbers into the constructor for the apple, they need to be of the integer data type to match 
+the constructor parameters. Thankfully, we can (try to) convert one data type into another using a technique called 
+"casting". To cast a number of another type to an integer, we just need to put "(int)" in-front of it. Because integers 
+are whole numbers, when we cast a number with decimals into an integer, the additional data is lost.
 
 As a test, change the previous test code in your setup method to include the (int) like this:
 {% highlight java %}
@@ -313,7 +322,6 @@ void RespawnApple(){
   apple = new Apple(400,200);
 }
 {% endhighlight %}
-<br>
 
 Note how we're not declaring a new type for the apple variable, because we aren't creating it at this point, we're only assigning a new value into it. This is exactly the same as saying x = 3, instead of int x = 3, when just wanting to update the value.
 
@@ -359,7 +367,7 @@ Before you move on, let's have a quick check that you've got everything so far!
         <input type="radio" id="option3" name="answer" value="C" data-feedback="That's not quite right, classes are useful for grouping together variables and methods, but this shouldn't just be so that they're out of the way.">
         <label for="option3">Grouping variables and methods together so that they're out of the way.</label><br>
         <input type="radio" id="option4" name="answer" value="D" data-feedback="That's not quite right, methods group together lines of code we want to run, whereas classes group together variables and methods to define objects.">
-        <label for="option4">The same as methods.</label><br><br>
+        <label for="option4">They're the same as methods.</label><br><br>
         <button type="button" onclick="checkAnswer('.question1container')">Submit</button><p id="result" class="result"></p>
     </form>
 </div>

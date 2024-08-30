@@ -8,7 +8,8 @@ In this chapter, we'll be covering how to create and use variables.
 <br>
 For a quick reference, <a href="../QuickReference/variables">click here</a>.
 <br>
-Or if you're already comfortable using variables, <a href="#snake_video">click here</a> to skip straight to the video covering the next steps with the Snake Game!
+Or, if you're already comfortable using variables, <a href="#snake_video">click here</a> to skip straight to the 
+video covering the next steps with the Snake Game!
 <br></p>
 
 
@@ -50,7 +51,7 @@ Variables can hold numbers, letters, words, and much more, so when we create a v
 The main two `data types` that we'll be working with for now are `int` and `boolean`.
 <ul>
 <li><b>int</b> variables can hold whole numbers (integers), like 7, 413, 0 or -22.</li>
-<li><b>boolean</b> variables can `true` or `false` values.</li>
+<li><b>boolean</b> variables can hold `true` or `false` values.</li>
 </ul>
 To tell the system what type we want to use, we `declare` the variable, using the format of:
 <blockquote style="font-size:20px">TYPE NAME;</blockquote><br>
@@ -140,7 +141,8 @@ rect(400, 200, size, size);
 We've seen that we can set a variable using the `NAME = VALUE;` pattern, but we don't have to just pass in fixed numbers.
 It's often useful to increase or decrease a value, which we can do using the same pattern.
 
-If we do a calculation to figure out the `value`, it will be calculated before it is assigned to the variable, so if we wanted to increase our size variable by 5, after drawing one of the rectangles, we could use this line of code:
+If we do a calculation to figure out the `value`, it will be calculated before it is assigned to the variable. If 
+we wanted to increase our size variable by 5, after drawing one of the rectangles, we could use this line of code:
 {% highlight java %}
 size = size+5;
 //Takes the value from size, adds 5,
@@ -169,7 +171,7 @@ size = size/5;
     Your browser does not support the video tag.
   </video>
 </div>
-
+<br>
 Values for different datatypes are written out slightly differently, which you can learn more about <a href="../Extras/Data_Types" target="_blank">here</a>!
 
 <br>

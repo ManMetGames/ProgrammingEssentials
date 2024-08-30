@@ -26,7 +26,7 @@ Down in the Snake class’s Move method, we can then base the movement off of th
 
 If you're unsure how to get going with this, make sure to watch through the video below!
 </blockquote>
-
+<br>
 Running the code should still result in the snake moving right across the canvas, but we can now change the variables to control this movement! 
 
 To test this out, change the starting value of the movementX variable to 0, and the movementY variable to 1.
@@ -44,7 +44,7 @@ When we run the program, we should now see that the snake moves down, without us
 
 
 <br>
-<h2  id="if_statements">If Statements</h2>
+<h2 id="if_statements">If Statements</h2>
 But we want to change these values on the fly! So back in the draw method in the main tab, copy and paste in the code below:
 
 {% highlight java %}
@@ -54,8 +54,6 @@ if(false){
 }
 {% endhighlight %}
 <br>
-
-
 This block of code makes use of a few things we’ve seen before, and a new element called the `if statement`!
 <li>If statements will run code based on whether a condition returns true.</li>
 
@@ -66,7 +64,7 @@ Inside the round brackets, the information we pass in needs to be equal to `true
 When we run the code, we should see that the snake moves as it did before, because the code bundled together isn’t being run, as the condition (the value inside the round brackets) is never equal to true.
 
 <li>Change the “false” to “true” and run the code again.</li>
-
+<br>
 This time you should see that the snake immediately begins to move up the screen. In this case, the information we passed in was evaluated as `true`, so the code inside the curly brackets setting the movementY to move the snake upwards was run.
 
 
@@ -77,7 +75,7 @@ keyPressed is a boolean (`true`/`false`) variable that is built-in to Processing
 
 
 <li>Processing controls the value in <b><i>keyPressed</i></b> for us, and will set it to true when the player is pressing any key, and false when they aren’t.</li>
-
+<br>
 If we run the program, we should now see that the snake moves as normal, and then moves up as soon as a key is pressed (you may have to click into the canvas window before keyboard controls work).
 
 
