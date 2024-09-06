@@ -250,7 +250,7 @@ Before you move on, let's have a quick check that you've got everything so far!
 </div>
 
 <div class="question3container" data-correct-answer="C">
-    <h3>What would the value of the variable sum be after the following code has run?<br>
+    <h3>What would the value of the variable 'sum' be after the following code has run?<br>
 Feel free to use Processing to figure this out!</h3>
 <blockquote>
 int sum = 0;<br>

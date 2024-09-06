@@ -248,13 +248,13 @@ Before you move on, let's have a quick check that you've got everything so far!
     <h3>A program has a class called Ball. Three ball objects are stored in an array called ballList. Each ball has an x and y variable. Which of the following lines of code would not give an error?</h3>
     <form id="quizForm">
         <input type="radio" id="option31" name="answer" value="A" data-feedback="That's not quite right, ballList only has three elements and ballList[3] would be the fourth element!">
-        <label for="option31">ball[3].x = 100;</label><br>
+        <label for="option31">ballList[3].x = 100;</label><br>
         <input type="radio" id="option32" name="answer" value="B" data-feedback="That's not quite right, when accessing an array we use square brackets!">
-        <label for="option32">ball(2).x = 50;</label><br>
+        <label for="option32">ballList(2).x = 50;</label><br>
         <input type="radio" id="option33" name="answer" value="C" data-feedback="That's not quite right, the x variable is part of the Ball class, so to access it we need to use the . accessor!">
-        <label for="option33">ball[2] = x;</label><br>
+        <label for="option33">ballList[2] = x;</label><br>
         <input type="radio" id="option34" name="answer" value="D" data-feedback="That's correct! This line accesses a reasonable point in the array and accesses the x variable correctly!">
-        <label for="option34">ball[2].x = 100;</label><br><br>
+        <label for="option34">ballList[2].x = 100;</label><br><br>
         <button type="button" onclick="checkAnswer('.question3container')">Submit</button><p id="result" class="result">  </p>
     </form>
 </div>

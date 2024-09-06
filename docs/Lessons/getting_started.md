@@ -294,8 +294,8 @@ Before you move on, let's have a quick check that you've got everything so far!
     <form id="quizForm">
         <input type="radio" id="option31" name="answer" value="A" data-feedback="That's correct! We've wrapped the word in quotation marks and printed it using the println method call correctly!">
         <label for="option31">println("apple");</label><br>
-        <input type="radio" id="option32" name="answer" value="B" data-feedback="That's not quite right, this line of code has misspelled the println command, swapping the L for an I!">
-        <label for="option32">printIn("apple");</label><br>
+        <input type="radio" id="option32" name="answer" value="B" data-feedback="This is technically correct, although the print command on its own won't move the console to the next line for the next print command!">
+        <label for="option32">print("apple");</label><br>
         <input type="radio" id="option33" name="answer" value="C" data-feedback="That's not quite right, this line of code has wrapped the word apple inside apostrophes!">
         <label for="option33">println('apple');</label><br>
         <input type="radio" id="option34" name="answer" value="D" data-feedback="That's not quite right, this line of code has misspelled the println command, swapping the L for the number 1!">
