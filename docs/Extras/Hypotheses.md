@@ -1,6 +1,6 @@
 <h1>Hypotheses</h1>
 
-Depending on what your findings are when you conduct an experiment, you will be able to accept or reject the null hypothesis. You will ultimately therefore be able to select on of your hypotheses as the most likely to align with reality.
+Depending on what your findings are when you conduct an experiment, you will be able to select one of your hypotheses as the most likely to align with reality, and accept or reject the null hypothesis (H0).
 
 
 
